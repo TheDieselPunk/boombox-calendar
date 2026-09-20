@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "club-space",
+    "name": "Club Space",
+    "match": ["club space"]
+  },
+  {
+    "slug": "the-ground",
+    "name": "The Ground at Space",
+    "match": ["the ground"]
+  },
+  {
+    "slug": "floyd",
+    "name": "Floyd",
+    "match": ["floyd"]
+  },
+  {
+    "slug": "domicile",
+    "name": "Domicile",
+    "match": ["domicile"]
+  },
+  {
+    "slug": "factory-town",
+    "name": "Factory Town",
+    "match": ["factory town"]
+  },
+  {
+    "slug": "kemistry",
+    "name": "Kemistry",
+    "match": ["kemistry"]
+  },
+  {
+    "slug": "boombox",
+    "name": "The Boombox Miami",
+    "match": ["boombox"],
+    "address": "4447 southwest 75th",
+    "shotgun_page": "the-boombox-miami"
+  },
+  {
+    "slug": "zeyzey",
+    "name": "ZeyZey Miami",
+    "match": ["zeyzey", "zey zey"]
+  },
+  {
+    "slug": "mad-radio",
+    "name": "Mad Radio Miami",
+    "match": ["mad radio"]
+  }
+]

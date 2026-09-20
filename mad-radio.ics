@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TheDieselPunk//miami-calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Mad Radio Miami
+X-WR-TIMEZONE:America/New_York
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:edmtrain-538136@edmtrain.com
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Binh
+LOCATION:Mad Radio Miami\, 7700 Biscayne Blvd\, Miami\, FL 33138\, USA
+DESCRIPTION:Lineup: Binh\nTags (guess): deep house\, house\nStart time not 
+ listed - check the link.\nhttps://edmtrain.com/miami-fl/binh-538136
+URL:https://edmtrain.com/miami-fl/binh-538136
+STATUS:CONFIRMED
+CATEGORIES:deep house,house
+END:VEVENT
+BEGIN:VEVENT
+UID:madradiomiami092326@shotgun.live
+DTSTAMP:20260825T132016Z
+DTSTART:20260924T010000Z
+DTEND:20260924T070000Z
+SUMMARY:Frecuencia: Volen / Milagros Espada / Larissa
+LOCATION:Mad Radio Miami\, 7700 Biscayne Boulevard\, Miami\, FL 33138\, USA
+DESCRIPTION:"The river venue sets the stage for a stylish yet chill night o
+ ut. Whether you´re a party pro or just vibing\, this is the spot. Tune in
+  our slick radio show serving up the latest tracks. Save the date and cath
+  the urban-chic experience at Mad Radio Miami. See you on the dance floor!
+  Come early\, stay late\, and let the night unfold FREE ENTRY HAPPY HOUR 5
+  PM - 9 PM"\nLineup: Milagros Espada\nTags: house\nTickets: RSVP Free\nhtt
+ ps://shotgun.live/en/events/madradiomiami092326\nhttps://edmtrain.com/miam
+ i-fl/frecuencia-milagros-espada-531844
+URL:https://shotgun.live/en/events/madradiomiami092326
+STATUS:CONFIRMED
+CATEGORIES:house
+GEO:25.8462027;-80.1851332
+END:VEVENT
+BEGIN:VEVENT
+UID:madradiomiami092426@shotgun.live
+DTSTAMP:20260825T132214Z
+DTSTART:20260925T010000Z
+DTEND:20260925T070000Z
+SUMMARY:Frameless: Francesco / Auphoria / Anabelen
+LOCATION:Mad Radio Miami\, 7700 Biscayne Boulevard\, Miami\, FL 33138\, USA
+DESCRIPTION:"The river venue sets the stage for a stylish yet chill night o
+ ut. Whether you´re a party pro or just vibing\, this is the spot. Tune in
+  our slick radio show serving up the latest tracks. Save the date and cath
+  the urban-chic experience at Mad Radio Miami. See you on the dance floor!
+  Come early\, stay late\, and let the night unfold FREE ENTRY HAPPY HOUR 5
+  PM - 9 PM"\nLineup: Anabelen\nTags: house\nTickets: RSVP Free\nhttps://sh
+ otgun.live/en/events/madradiomiami092426\nhttps://edmtrain.com/miami-fl/fr
+ ameless-anabelen-531845
+URL:https://shotgun.live/en/events/madradiomiami092426
+STATUS:CONFIRMED
+CATEGORIES:house
+GEO:25.8462027;-80.1851332
+END:VEVENT
+BEGIN:VEVENT
+UID:madradiomiami092526@shotgun.live
+DTSTAMP:20260918T224824Z
+DTSTART:20260926T010000Z
+DTEND:20260926T070000Z
+SUMMARY:Mary Zander / Thomas Sahs / Israel Sunshine
+LOCATION:Mad Radio Miami\, 7700 Biscayne Boulevard\, Miami\, FL 33138\, USA
+DESCRIPTION:"The river venue sets the stage for a stylish yet chill night o
+ ut. Whether you´re a party pro or just vibing\, this is the spot. Tune in
+  our slick radio show serving up the latest tracks. Save the date and cath
+  the urban-chic experience at Mad Radio Miami. See you on the dance floor!
+  Come early\, stay late\, and let the night unfold FREE ENTRY BEFORE 10 PM
+  / FREE ENTRY LADIES UNTIL MIDNIGHT HAPPY HOUR 5 PM - 9 PM"\nLineup: Israe
+ l Sunshine ARTISANO\nTags: house\nTickets: AFTER 10 PM $20\, FREE LADIES R
+ SVP BEFORE 12 AM Free\nhttps://shotgun.live/en/events/madradiomiami092526
+ \nhttps://edmtrain.com/miami-fl/israel-sunshine-538221
+URL:https://shotgun.live/en/events/madradiomiami092526
+STATUS:CONFIRMED
+CATEGORIES:house
+GEO:25.8462027;-80.1851332
+END:VEVENT
+BEGIN:VEVENT
+UID:madradiomiami092626@shotgun.live
+DTSTAMP:20260825T132543Z
+DTSTART:20260927T010000Z
+DTEND:20260927T070000Z
+SUMMARY:Dj Ray & Ez Dee
+LOCATION:Mad Radio Miami\, 7700 Biscayne Boulevard\, Miami\, FL 33138\, USA
+DESCRIPTION:"The river venue sets the stage for a stylish yet chill night o
+ ut. Whether you´re a party pro or just vibing\, this is the spot. Tune in
+  our slick radio show serving up the latest tracks. Save the date and cath
+  the urban-chic experience at Mad Radio Miami. See you on the dance floor!
+  Come early\, stay late\, and let the night unfold FREE ENTRY BEFORE 10 PM
+  / FREE ENTRY LADIES UNTIL MIDNIGHT HAPPY HOUR 5 PM - 9 PM"\nLineup: DJ ra
+ y\, EZ Dee\nTags: house\nTickets: AFTER 10 PM $20\, FREE LADIES RSVP BEFOR
+ E 12 AM Free\nhttps://shotgun.live/en/events/madradiomiami092626\nhttps://
+ edmtrain.com/miami-fl/dj-ray-ez-dee-531846
+URL:https://shotgun.live/en/events/madradiomiami092626
+STATUS:CONFIRMED
+CATEGORIES:house
+GEO:25.8462027;-80.1851332
+END:VEVENT
+BEGIN:VEVENT
+UID:madradiomiami093026@shotgun.live
+DTSTAMP:20260825T132837Z
+DTSTART:20261001T010000Z
+DTEND:20261001T070000Z
+SUMMARY:Undertone: Joaquin Bohmer
+LOCATION:Mad Radio Miami\, 7700 Biscayne Boulevard\, Miami\, FL 33138\, USA
+DESCRIPTION:"The river venue sets the stage for a stylish yet chill night o
+ ut. Whether you´re a party pro or just vibing\, this is the spot. Tune in
+  our slick radio show serving up the latest tracks. Save the date and cath
+  the urban-chic experience at Mad Radio Miami. See you on the dance floor!
+  Come early\, stay late\, and let the night unfold FREE ENTRY HAPPY HOUR 5
+  PM - 9 PM"\nLineup: Joaquin Bohmer\nTags: house\nTickets: RSVP Free\nhttp
+ s://shotgun.live/en/events/madradiomiami093026\nhttps://edmtrain.com/miami
+ -fl/undertone-joaquin-bohmer-531847
+URL:https://shotgun.live/en/events/madradiomiami093026
+STATUS:CONFIRMED
+CATEGORIES:house
+GEO:25.8462027;-80.1851332
+END:VEVENT
+END:VCALENDAR

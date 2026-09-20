@@ -1,0 +1,95 @@
+[
+ {
+  "slug": "club-space",
+  "name": "Club Space",
+  "file": "club-space.ics",
+  "events": 23,
+  "next": "2026-09-25",
+  "sources": [
+   "edmtrain"
+  ]
+ },
+ {
+  "slug": "the-ground",
+  "name": "The Ground at Space",
+  "file": "the-ground.ics",
+  "events": 11,
+  "next": "2026-09-25",
+  "sources": [
+   "edmtrain"
+  ]
+ },
+ {
+  "slug": "floyd",
+  "name": "Floyd",
+  "file": "floyd.ics",
+  "events": 20,
+  "next": "2026-09-20",
+  "sources": [
+   "edmtrain"
+  ]
+ },
+ {
+  "slug": "domicile",
+  "name": "Domicile",
+  "file": "domicile.ics",
+  "events": 3,
+  "next": "2026-09-26",
+  "sources": [
+   "edmtrain"
+  ]
+ },
+ {
+  "slug": "factory-town",
+  "name": "Factory Town",
+  "file": "factory-town.ics",
+  "events": 6,
+  "next": "2026-09-25",
+  "sources": [
+   "edmtrain"
+  ]
+ },
+ {
+  "slug": "kemistry",
+  "name": "Kemistry",
+  "file": "kemistry.ics",
+  "events": 19,
+  "next": "2026-09-25",
+  "sources": [
+   "edmtrain"
+  ]
+ },
+ {
+  "slug": "boombox",
+  "name": "The Boombox Miami",
+  "file": "boombox.ics",
+  "events": 7,
+  "next": "2026-09-25",
+  "sources": [
+   "edmtrain",
+   "shotgun"
+  ]
+ },
+ {
+  "slug": "zeyzey",
+  "name": "ZeyZey Miami",
+  "file": "zeyzey.ics",
+  "events": 22,
+  "next": "2026-09-24",
+  "sources": [
+   "edmtrain",
+   "shotgun"
+  ]
+ },
+ {
+  "slug": "mad-radio",
+  "name": "Mad Radio Miami",
+  "file": "mad-radio.ics",
+  "events": 6,
+  "next": "2026-09-20",
+  "sources": [
+   "edmtrain",
+   "shotgun"
+  ]
+ }
+]

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Boombox Calendar</title>
+<title>Miami Calendars</title>
 <style>
   :root { --bg:#fafafa; --fg:#1a1a1a; --muted:#666; --card:#fff; --line:#e3e3e3; --accent:#c8102e; }
   @media (prefers-color-scheme: dark) {
@@ -11,57 +11,67 @@
   }
   body { margin:0; padding:48px 16px; background:var(--bg); color:var(--fg);
          font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
-  main { max-width:560px; margin:0 auto; }
+  main { max-width:640px; margin:0 auto; }
   h1 { font-size:1.6rem; margin:0 0 4px; }
   p.sub { color:var(--muted); margin:0 0 28px; }
-  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; margin-bottom:16px; }
-  code { display:block; padding:10px 12px; background:var(--bg); border:1px solid var(--line);
-         border-radius:8px; word-break:break-all; font-size:.9rem; }
-  a.btn { display:inline-block; margin-top:12px; padding:10px 16px; background:var(--accent);
-          color:#fff; text-decoration:none; border-radius:8px; font-weight:600; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px 20px; margin-bottom:12px; }
+  .row { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+  .name { font-weight:600; }
+  .meta { color:var(--muted); font-size:.9rem; }
+  code { display:block; margin-top:10px; padding:8px 12px; background:var(--bg); border:1px solid var(--line);
+         border-radius:8px; word-break:break-all; font-size:.85rem; cursor:copy; }
+  button, a.btn { padding:8px 14px; border-radius:8px; font-weight:600; font-size:.9rem; cursor:pointer;
+                  border:1px solid var(--line); background:var(--card); color:var(--fg); text-decoration:none; }
+  a.btn.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+  .hint { color:var(--muted); font-size:.85rem; margin-top:8px; min-height:1.2em; }
   ol { padding-left:20px; color:var(--muted); }
   small { color:var(--muted); }
-  .hint { display:block; margin-top:10px; color:var(--muted); font-size:.9rem; }
-  code { cursor:copy; }
 </style>
 </head>
 <body>
 <main>
-  <h1>The Boombox Miami — calendar feed</h1>
-  <p class="sub">Upcoming events, pulled from Shotgun every 6 hours.</p>
+  <h1>Miami venue calendars</h1>
+  <p class="sub">One subscribable feed per venue, rebuilt from Shotgun and Edmtrain every 6 hours.</p>
+
+  <div id="feeds"></div>
 
   <div class="card">
-    <strong>Feed URL</strong>
-    <code id="url"></code>
-    <a class="btn" id="gcal" href="https://calendar.google.com/calendar/r/settings/addbyurl"
-       target="_blank" rel="noopener">Copy URL &amp; open Google Calendar</a>
-    <span id="copied" class="hint" hidden>URL copied — paste it into the form that opens.</span>
-  </div>
-
-  <div class="card">
-    <strong>Or add it by hand</strong>
+    <strong>How to subscribe</strong>
     <ol>
-      <li>On a desktop browser: Google Calendar → <em>Other calendars</em> → <strong>+</strong> → <em>From URL</em></li>
-      <li>Paste the feed URL above → <em>Add calendar</em></li>
+      <li>Click <em>Copy &amp; open Google Calendar</em> on a venue (desktop browser — the phone app can't add calendars by URL).</li>
+      <li>Google's <em>From URL</em> form opens in a new tab: paste, then <em>Add calendar</em>.</li>
     </ol>
-    <small>Google's one-click <code style="display:inline;padding:0 4px">cid=</code> subscribe link is
-    currently broken on Google's side, hence the copy-and-paste. Google refreshes subscribed feeds on
-    its own schedule (typically 12–24 h); the phone app can't add calendars by URL.</small>
+    <small>Google refreshes subscribed feeds on its own schedule (typically 12–24 h). Shotgun-listed events carry
+    real start/end times; Edmtrain-only events are all-day entries because Edmtrain publishes no start time.
+    Google's one-click <em>cid=</em> subscribe link is currently broken on their side, hence the copy-and-paste.</small>
   </div>
 </main>
 <script>
-  const feed = new URL("boombox.ics", location.href).href;
-  document.getElementById("url").textContent = feed;
-  // Copy the URL as the link opens Google's "From URL" page in a new tab.
-  // (The cid=webcal:// one-click route currently fails on Google's side.)
-  document.getElementById("gcal").addEventListener("click", () => {
-    navigator.clipboard?.writeText(feed).then(() => {
-      document.getElementById("copied").hidden = false;
-    }).catch(() => {});
-  });
-  document.getElementById("url").addEventListener("click", () => {
-    navigator.clipboard?.writeText(feed).catch(() => {});
-  });
+  const GCAL = "https://calendar.google.com/calendar/r/settings/addbyurl";
+  const root = document.getElementById("feeds");
+  fetch("feeds.json", {cache: "no-store"}).then(r => r.json()).then(feeds => {
+    for (const f of feeds) {
+      const url = new URL(f.file, location.href).href;
+      const card = document.createElement("div");
+      card.className = "card";
+      const srcs = (f.sources || []).join(" + ") || "no upcoming events";
+      const next = f.next ? ` · next ${f.next}` : "";
+      card.innerHTML = `
+        <div class="row">
+          <div><span class="name">${f.name}</span><div class="meta">${f.events} upcoming · ${srcs}${next}</div></div>
+          <div><a class="btn primary" href="${GCAL}" target="_blank" rel="noopener">Copy &amp; open Google Calendar</a></div>
+        </div>
+        <code title="Click to copy">${url}</code>
+        <div class="hint"></div>`;
+      const hint = card.querySelector(".hint");
+      const copy = () => navigator.clipboard?.writeText(url)
+        .then(() => { hint.textContent = "Copied — paste it into Google's form."; })
+        .catch(() => { hint.textContent = "Select the URL above and copy it."; });
+      card.querySelector("a.btn").addEventListener("click", copy);
+      card.querySelector("code").addEventListener("click", copy);
+      root.appendChild(card);
+    }
+  }).catch(() => { root.innerHTML = '<div class="card">Could not load feeds.json.</div>'; });
 </script>
 </body>
 </html>

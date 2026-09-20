@@ -1,0 +1,351 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TheDieselPunk//miami-calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Club Space
+X-WR-TIMEZONE:America/New_York
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:edmtrain-521553@edmtrain.com
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Blond:ish\, Yamagucci\, Chinonegro\, Danyelino\, Nii Tei
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Blond:ish\, Yamagucci\, Chinonegro\, Danyelino\, Nii Te
+ i\nTags (guess): house\, techno\nStart time not listed - check the link.\n
+ https://edmtrain.com/miami-fl/blond-ish-yamagucci-521553
+URL:https://edmtrain.com/miami-fl/blond-ish-yamagucci-521553
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-526179@edmtrain.com
+DTSTAMP:20260926T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Franky Rizardo\, Toman\, Chelina Manuhutu\, Ms. Mada\, Grace Arriba
+ s
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Franky Rizardo\, Toman\, Chelina Manuhutu\, Ms. Mada\, 
+ Grace Arribas\nTags (guess): house\, techno\nStart time not listed - check
+  the link.\nhttps://edmtrain.com/miami-fl/franky-rizardo-toman-526179
+URL:https://edmtrain.com/miami-fl/franky-rizardo-toman-526179
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-533024@edmtrain.com
+DTSTAMP:20261002T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Dombresky (Disco Dom Set)\, The Brothers Macklovitch (A-Trak & Dave
+  1 of Chromeo)\, A-Trak\, Dave 1 (of Chromeo)\, Danyelino\, Bakke
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Dombresky (Disco Dom Set)\, The Brothers Macklovitch (A
+ -Trak & Dave 1 of Chromeo)\, A-Trak\, Dave 1 (of Chromeo)\, Danyelino\, Ba
+ kke\nTags (guess): house\, techno\nStart time not listed - check the link.
+ \nhttps://edmtrain.com/miami-fl/dombresky-disco-dom-set-the-brothers-mackl
+ ovitch-a-trak-and-dave-1-of-chromeo-533024
+URL:https://edmtrain.com/miami-fl/dombresky-disco-dom-set-the-brothers-mack
+ lovitch-a-trak-and-dave-1-of-chromeo-533024
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-533025@edmtrain.com
+DTSTAMP:20261003T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Âme\, Hardt Antoine
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Âme\, Hardt Antoine\nTags (guess): house\, techno\nSta
+ rt time not listed - check the link.\nhttps://edmtrain.com/miami-fl/ame-ha
+ rdt-antoine-533025
+URL:https://edmtrain.com/miami-fl/ame-hardt-antoine-533025
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-533026@edmtrain.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Mind Against\, Meraki\, Luch\, Maxi Meraki\, Bakke\, Danyelino\, DI
+ FFER
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Mind Against\, Meraki\, Luch\, Maxi Meraki\, Bakke\, Da
+ nyelino\, DIFFER\nTags (guess): house\, techno\nStart time not listed - ch
+ eck the link.\nhttps://edmtrain.com/miami-fl/mind-against-meraki-533026
+URL:https://edmtrain.com/miami-fl/mind-against-meraki-533026
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-526382@edmtrain.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Mason Collective
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Mason Collective\nTags (guess): house\, techno\nStart t
+ ime not listed - check the link.\nhttps://edmtrain.com/miami-fl/mason-coll
+ ective-526382
+URL:https://edmtrain.com/miami-fl/mason-collective-526382
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-531431@edmtrain.com
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Cloonee\, Vintage Culture\, Omar+\, Miluhska
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Cloonee\, Vintage Culture\, Omar+\, Miluhska\nTags (gue
+ ss): house\, techno\nStart time not listed - check the link.\nhttps://edmt
+ rain.com/miami-fl/cloonee-vintage-culture-531431
+URL:https://edmtrain.com/miami-fl/cloonee-vintage-culture-531431
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-530703@edmtrain.com
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:999999999\, KI/KI\, Roman Flügel\, Danny Daze\, ¥ØU$UK€ ¥UK1M
+ AT$U\, Ashley Venom\, Cole Knight\, Natalia Roth\, Heidi Lawden\, Terence 
+ Tabeau\, DJ Three\, oma totem\, Priori
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: 999999999\, KI/KI\, Roman Flügel\, Danny Daze\, ¥ØU$
+ UK€ ¥UK1MAT$U\, Ashley Venom\, Cole Knight\, Natalia Roth\, Heidi Lawde
+ n\, Terence Tabeau\, DJ Three\, oma totem\, Priori\nTags (guess): house\, 
+ techno\nStart time not listed - check the link.\nhttps://edmtrain.com/miam
+ i-fl/999999999-ki-ki-530703
+URL:https://edmtrain.com/miami-fl/999999999-ki-ki-530703
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-530704@edmtrain.com
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Disco Lines\, Four Tet\, Floating Points\, Daphni\, horsegiirL\, KE
+ TTAMA\, MARTE\, MPH\, Roddy Lima\, VTSS
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Disco Lines\, Four Tet\, Floating Points\, Daphni\, hor
+ segiirL\, KETTAMA\, MARTE\, MPH\, Roddy Lima\, VTSS\nTags (guess): house\,
+  techno\nStart time not listed - check the link.\nhttps://edmtrain.com/mia
+ mi-fl/disco-lines-four-tet-530704
+URL:https://edmtrain.com/miami-fl/disco-lines-four-tet-530704
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-529492@edmtrain.com
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Satellite - 33+ Hour III Points Closing Party: Coffintexts\, Honey 
+ Dijon\, Adam Ten b2b Mita Gami\, Marco Carola\, Max Dean + Luke Dean + Jos
+ s Dean\, Brunello b2b Rony Seikaly\, Ben Sterling b2b Tiga\, Beltran b2b R
+ ed Axes\, Seth Troxler b2b Maher Daniel\, Max Styler b2b OMRI.\, SOSA\, Mi
+ guelle & Tons\, Ms. Mada b2b Slugg
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Coffintexts\, Honey Dijon\, Adam Ten\, Mita Gami\, Marc
+ o Carola\, Max Dean + Luke Dean + Joss Dean\, Brunello\, Rony Seikaly\, Be
+ n Sterling\, Tiga\, Beltran\, Red Axes\, Seth Troxler\, Maher Daniel\, Max
+  Styler\, OMRI.\, SOSA\, Miguelle & Tons\, Ms. Mada\, Slugg\nTags (guess):
+  house\, techno\nStart time not listed - check the link.\nhttps://edmtrain
+ .com/miami-fl/satellite-33-hour-iii-points-closing-party-coffintexts-52949
+ 2
+URL:https://edmtrain.com/miami-fl/satellite-33-hour-iii-points-closing-part
+ y-coffintexts-529492
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-533027@edmtrain.com
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Nicole Moudaber
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Nicole Moudaber\nTags (guess): house\, techno\nStart ti
+ me not listed - check the link.\nhttps://edmtrain.com/miami-fl/nicole-moud
+ aber-533027
+URL:https://edmtrain.com/miami-fl/nicole-moudaber-533027
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-533028@edmtrain.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Riordan\, Luuk Van Dijk\, Julian Fijma\, James Poole\, Mai Iachetti
+ \, Ms. Mada
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Riordan\, Luuk Van Dijk\, Julian Fijma\, James Poole\, 
+ Mai Iachetti\, Ms. Mada\nTags (guess): house\, techno\nStart time not list
+ ed - check the link.\nhttps://edmtrain.com/miami-fl/riordan-luuk-van-dijk-
+ 533028
+URL:https://edmtrain.com/miami-fl/riordan-luuk-van-dijk-533028
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-531559@edmtrain.com
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Halloweek: CamelPhat\, Volkoder\, Danyelino\, Thunderpony\, Will Bu
+ ck
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: CamelPhat\, Volkoder\, Danyelino\, Thunderpony\, Will B
+ uck\nTags (guess): house\, techno\nStart time not listed - check the link.
+ \nhttps://edmtrain.com/miami-fl/halloweek-camelphat-531559
+URL:https://edmtrain.com/miami-fl/halloweek-camelphat-531559
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-531560@edmtrain.com
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Halloweek
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Tags (guess): house\, techno\nStart time not listed - check the
+  link.\nhttps://edmtrain.com/miami-fl/halloweek-531560
+URL:https://edmtrain.com/miami-fl/halloweek-531560
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-531562@edmtrain.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Halloweek: Dixon\, Jimi Jules\, WhoMadeWho\, Max Stern\, Siegel
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Dixon\, Jimi Jules\, WhoMadeWho\, Max Stern\, Siegel\nT
+ ags (guess): house\, techno\nStart time not listed - check the link.\nhttp
+ s://edmtrain.com/miami-fl/halloweek-dixon-531562
+URL:https://edmtrain.com/miami-fl/halloweek-dixon-531562
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-537844@edmtrain.com
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Carl Cox\, Carlita\, Ms. Mada\, Sister System
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Carl Cox\, Carlita\, Ms. Mada\, Sister System\nTags (gu
+ ess): house\, techno\nStart time not listed - check the link.\nhttps://edm
+ train.com/miami-fl/carl-cox-carlita-537844
+URL:https://edmtrain.com/miami-fl/carl-cox-carlita-537844
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-538068@edmtrain.com
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Carl Cox\, Carlita\, Ms. Mada\, Sister System
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Carl Cox\, Carlita\, Ms. Mada\, Sister System\nTags (gu
+ ess): house\, techno\nStart time not listed - check the link.\nhttps://edm
+ train.com/miami-fl/carl-cox-carlita-538068
+URL:https://edmtrain.com/miami-fl/carl-cox-carlita-538068
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-532615@edmtrain.com
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Miguelle & Tons
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Miguelle & Tons\nTags (guess): house\, techno\nStart ti
+ me not listed - check the link.\nhttps://edmtrain.com/miami-fl/miguelle-an
+ d-tons-532615
+URL:https://edmtrain.com/miami-fl/miguelle-and-tons-532615
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-533360@edmtrain.com
+DTSTAMP:20261201T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:MËSTIZA
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: MËSTIZA\nTags (guess): house\, techno\nStart time not 
+ listed - check the link.\nhttps://edmtrain.com/miami-fl/mestiza-533360
+URL:https://edmtrain.com/miami-fl/mestiza-533360
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-534644@edmtrain.com
+DTSTAMP:20261201T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Prospa
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Prospa\nTags (guess): house\, techno\nStart time not li
+ sted - check the link.\nhttps://edmtrain.com/miami-fl/prospa-534644
+URL:https://edmtrain.com/miami-fl/prospa-534644
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-534719@edmtrain.com
+DTSTAMP:20261202T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Beltools (Space Basel 2026)
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Tags (guess): house\, techno\nStart time not listed - check the
+  link.\nhttps://edmtrain.com/miami-fl/beltools-space-basel-2026-534719
+URL:https://edmtrain.com/miami-fl/beltools-space-basel-2026-534719
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-535407@edmtrain.com
+DTSTAMP:20261203T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Paradise (Space Basel 2026)
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Tags (guess): house\, techno\nStart time not listed - check the
+  link.\nhttps://edmtrain.com/miami-fl/paradise-space-basel-2026-535407
+URL:https://edmtrain.com/miami-fl/paradise-space-basel-2026-535407
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-535868@edmtrain.com
+DTSTAMP:20261204T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Marco Carola
+LOCATION:Club Space\, Heart\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Marco Carola\nTags (guess): house\, techno\nStart time 
+ not listed - check the link.\nhttps://edmtrain.com/miami-fl/marco-carola-5
+ 35868
+URL:https://edmtrain.com/miami-fl/marco-carola-535868
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+END:VCALENDAR

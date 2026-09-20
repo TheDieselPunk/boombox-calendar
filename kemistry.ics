@@ -1,0 +1,276 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TheDieselPunk//miami-calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kemistry
+X-WR-TIMEZONE:America/New_York
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:edmtrain-517397@edmtrain.com
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:GRAVEDGR
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: GRAVEDGR\nTags (guess): bass\, dubstep\nStart time not 
+ listed - check the link.\nhttps://edmtrain.com/fort-lauderdale-fl/gravedgr
+ -517397
+URL:https://edmtrain.com/fort-lauderdale-fl/gravedgr-517397
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-537514@edmtrain.com
+DTSTAMP:20260926T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Rewind - 2000's Rave
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Tags (guess): bass\, dubstep\nStart time not listed - check the
+  link.\nhttps://edmtrain.com/fort-lauderdale-fl/rewind-2000s-rave-537514
+URL:https://edmtrain.com/fort-lauderdale-fl/rewind-2000s-rave-537514
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-532686@edmtrain.com
+DTSTAMP:20261002T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Dieselboy\, AK1200\, MC Messinian\, Dara
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: Dieselboy\, AK1200\, MC Messinian\, Dara\nTags (guess):
+  bass\, dubstep\nStart time not listed - check the link.\nhttps://edmtrain
+ .com/fort-lauderdale-fl/dieselboy-ak1200-532686
+URL:https://edmtrain.com/fort-lauderdale-fl/dieselboy-ak1200-532686
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-532129@edmtrain.com
+DTSTAMP:20261003T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Lumasi\, Entangled Mind\, fika
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: Lumasi\, Entangled Mind\, fika\nTags (guess): bass\, du
+ bstep\nStart time not listed - check the link.\nhttps://edmtrain.com/fort-
+ lauderdale-fl/lumasi-entangled-mind-532129
+URL:https://edmtrain.com/fort-lauderdale-fl/lumasi-entangled-mind-532129
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-512211@edmtrain.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Nifra
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: Nifra\nTags (guess): bass\, dubstep\nStart time not lis
+ ted - check the link.\nhttps://edmtrain.com/fort-lauderdale-fl/nifra-51221
+ 1
+URL:https://edmtrain.com/fort-lauderdale-fl/nifra-512211
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-530762@edmtrain.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:SoDown\, Oddly Eazy
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: SoDown\, Oddly Eazy\nTags (guess): bass\, dubstep\nStar
+ t time not listed - check the link.\nhttps://edmtrain.com/fort-lauderdale-
+ fl/sodown-oddly-eazy-530762
+URL:https://edmtrain.com/fort-lauderdale-fl/sodown-oddly-eazy-530762
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-525557@edmtrain.com
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Codd Dubz\, HE$H
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: Codd Dubz\, HE$H\nTags (guess): bass\, dubstep\nStart t
+ ime not listed - check the link.\nhttps://edmtrain.com/fort-lauderdale-fl/
+ codd-dubz-he-h-525557
+URL:https://edmtrain.com/fort-lauderdale-fl/codd-dubz-he-h-525557
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-495852@edmtrain.com
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Boneyard Tour 26': REAPER
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: REAPER\nTags (guess): bass\, dubstep\nStart time not li
+ sted - check the link.\nhttps://edmtrain.com/fort-lauderdale-fl/boneyard-t
+ our-26-reaper-495852
+URL:https://edmtrain.com/fort-lauderdale-fl/boneyard-tour-26-reaper-495852
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-535154@edmtrain.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Kasia
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: Kasia\nTags (guess): bass\, dubstep\nStart time not lis
+ ted - check the link.\nhttps://edmtrain.com/fort-lauderdale-fl/kasia-53515
+ 4
+URL:https://edmtrain.com/fort-lauderdale-fl/kasia-535154
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-515130@edmtrain.com
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Jessica Audiffred
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: Jessica Audiffred\nTags (guess): bass\, dubstep\nStart 
+ time not listed - check the link.\nhttps://edmtrain.com/fort-lauderdale-fl
+ /jessica-audiffred-515130
+URL:https://edmtrain.com/fort-lauderdale-fl/jessica-audiffred-515130
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-534312@edmtrain.com
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Roni Size
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: Roni Size\nTags (guess): bass\, dubstep\nStart time not
+  listed - check the link.\nhttps://edmtrain.com/fort-lauderdale-fl/roni-si
+ ze-534312
+URL:https://edmtrain.com/fort-lauderdale-fl/roni-size-534312
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-526019@edmtrain.com
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Star Monster
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: Star Monster\nTags (guess): bass\, dubstep\nStart time 
+ not listed - check the link.\nhttps://edmtrain.com/fort-lauderdale-fl/star
+ -monster-526019
+URL:https://edmtrain.com/fort-lauderdale-fl/star-monster-526019
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-538122@edmtrain.com
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Space 92
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: Space 92\nTags (guess): bass\, dubstep\nStart time not 
+ listed - check the link.\nhttps://edmtrain.com/fort-lauderdale-fl/space-92
+ -538122
+URL:https://edmtrain.com/fort-lauderdale-fl/space-92-538122
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-526433@edmtrain.com
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Space Wizard\, XaeboR
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: Space Wizard\, XaeboR\nTags (guess): bass\, dubstep\nSt
+ art time not listed - check the link.\nhttps://edmtrain.com/fort-lauderdal
+ e-fl/space-wizard-xaebor-526433
+URL:https://edmtrain.com/fort-lauderdale-fl/space-wizard-xaebor-526433
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-525244@edmtrain.com
+DTSTAMP:20261203T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Cyclops Cove Pre-Party: LEVEL UP\, Vicky B
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: LEVEL UP\, Vicky B\nTags (guess): bass\, dubstep\nStart
+  time not listed - check the link.\nhttps://edmtrain.com/fort-lauderdale-f
+ l/cyclops-cove-pre-party-level-up-525244
+URL:https://edmtrain.com/fort-lauderdale-fl/cyclops-cove-pre-party-level-up
+ -525244
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-524125@edmtrain.com
+DTSTAMP:20261218T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Automhate
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: Automhate\nTags (guess): bass\, dubstep\nStart time not
+  listed - check the link.\nhttps://edmtrain.com/fort-lauderdale-fl/automha
+ te-524125
+URL:https://edmtrain.com/fort-lauderdale-fl/automhate-524125
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-524557@edmtrain.com
+DTSTAMP:20261226T000000Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:AVELLO
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: AVELLO\nTags (guess): bass\, dubstep\nStart time not li
+ sted - check the link.\nhttps://edmtrain.com/fort-lauderdale-fl/avello-524
+ 557
+URL:https://edmtrain.com/fort-lauderdale-fl/avello-524557
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-511448@edmtrain.com
+DTSTAMP:20270116T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Infected Mushroom
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: Infected Mushroom\nTags (guess): bass\, dubstep\nStart 
+ time not listed - check the link.\nhttps://edmtrain.com/fort-lauderdale-fl
+ /infected-mushroom-511448
+URL:https://edmtrain.com/fort-lauderdale-fl/infected-mushroom-511448
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-534522@edmtrain.com
+DTSTAMP:20270122T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:HAMRO\, SQISHI
+LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
+DESCRIPTION:Lineup: HAMRO\, SQISHI\nTags (guess): bass\, dubstep\nStart tim
+ e not listed - check the link.\nhttps://edmtrain.com/fort-lauderdale-fl/ha
+ mro-sqishi-534522
+URL:https://edmtrain.com/fort-lauderdale-fl/hamro-sqishi-534522
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+END:VCALENDAR

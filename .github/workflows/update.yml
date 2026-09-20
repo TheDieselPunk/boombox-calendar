@@ -25,17 +25,17 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Build boombox.ics
-        run: python boombox_ics.py
+      - name: Build feeds
+        run: python build_feeds.py
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add boombox.ics
+          git add *.ics events.json feeds.json
           if git diff --cached --quiet; then
-            echo "Feed unchanged"
+            echo "Feeds unchanged"
           else
-            git commit -m "Update feed $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "Update feeds $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi

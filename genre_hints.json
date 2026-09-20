@@ -1,0 +1,27 @@
+{
+  "_comment": "Applied to events that arrive without genre tags (Edmtrain ships none). Keys are lowercased substrings matched against artist names and the event title; 'venues' are used only when nothing else matched and are marked as guesses. Extend freely.",
+  "artists": {
+    "boris brejcha": ["minimal techno", "high-tech minimal"],
+    "patrice scott": ["deep house", "detroit house"],
+    "padraic carey": ["house", "nu-disco"],
+    "wheats": ["tech house"],
+    "adam nazar": ["deep house", "soulful house"],
+    "sanzu": ["riddim", "dubstep"],
+    "riddimnyc": ["riddim", "dubstep"],
+    "layla benitez": ["techno", "tech house"],
+    "techno rodeo": ["techno"],
+    "trance": ["trance"]
+  },
+  "venues": {
+    "club space": ["techno", "house"],
+    "the ground": ["techno", "house"],
+    "do not sit on the furniture": ["deep house"],
+    "jolene sound room": ["house", "tech house"],
+    "domicile": ["techno"],
+    "kemistry": ["bass", "dubstep"],
+    "m2 nightclub": ["open-format"],
+    "floyd": ["house", "techno"],
+    "mad radio": ["house", "deep house"],
+    "factory town": ["techno", "house"]
+  }
+}
