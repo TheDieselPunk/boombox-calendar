@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boombox Calendar</title>
+<style>
+  :root { --bg:#fafafa; --fg:#1a1a1a; --muted:#666; --card:#fff; --line:#e3e3e3; --accent:#c8102e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111; --fg:#eee; --muted:#9a9a9a; --card:#1b1b1b; --line:#2c2c2c; --accent:#ff4d6d; }
+  }
+  body { margin:0; padding:48px 16px; background:var(--bg); color:var(--fg);
+         font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  main { max-width:560px; margin:0 auto; }
+  h1 { font-size:1.6rem; margin:0 0 4px; }
+  p.sub { color:var(--muted); margin:0 0 28px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; margin-bottom:16px; }
+  code { display:block; padding:10px 12px; background:var(--bg); border:1px solid var(--line);
+         border-radius:8px; word-break:break-all; font-size:.9rem; }
+  a.btn { display:inline-block; margin-top:12px; padding:10px 16px; background:var(--accent);
+          color:#fff; text-decoration:none; border-radius:8px; font-weight:600; }
+  ol { padding-left:20px; color:var(--muted); }
+  small { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>The Boombox Miami — calendar feed</h1>
+  <p class="sub">Upcoming events, pulled from Shotgun every 6 hours.</p>
+
+  <div class="card">
+    <strong>Feed URL</strong>
+    <code id="url"></code>
+    <a class="btn" id="gcal" href="#">Add to Google Calendar</a>
+  </div>
+
+  <div class="card">
+    <strong>Or add it by hand</strong>
+    <ol>
+      <li>Google Calendar → <em>Other calendars</em> → <strong>+</strong> → <em>From URL</em></li>
+      <li>Paste the feed URL above → <em>Add calendar</em></li>
+    </ol>
+    <small>Google refreshes subscribed feeds on its own schedule (typically 12–24 h).</small>
+  </div>
+</main>
+<script>
+  const feed = new URL("boombox.ics", location.href).href;
+  document.getElementById("url").textContent = feed;
+  document.getElementById("gcal").href =
+    "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(feed);
+</script>
+</body>
+</html>

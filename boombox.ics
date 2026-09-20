@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TheDieselPunk//boombox-calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Boombox Miami
+X-WR-TIMEZONE:America/New_York
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:new-blood-transfusion@shotgun.live
+DTSTAMP:20260831T200600Z
+DTSTART:20260926T020000Z
+DTEND:20260926T080000Z
+SUMMARY:New Blood · Transfusion
+LOCATION:The Boombox Miami\, 4447 Southwest 75th Avenue\, Miami\, FL 33155
+ \, USA
+DESCRIPTION:COUNTERCULTURE Miami presents... 🩸NEW BLOOD: TRANSFUSION🩸
+  🩸BLOOD RAVE🩸 2 STAGES 9.25.26 10 PM - 4 AM 18+ Genres: Hard | Dark 
+ | Acid | Industrial Techno Hard | Dark Wave Trance IDM Midtempo Schranz\nT
+ ags: idm\, hard techno\, industrial\nTickets: Early Bird $15 (sold out)\, 
+ T1 $20\nhttps://shotgun.live/en/events/new-blood-transfusion
+URL:https://shotgun.live/en/events/new-blood-transfusion
+STATUS:CONFIRMED
+CATEGORIES:idm,hard techno,industrial
+GEO:25.7287781;-80.3169309
+END:VEVENT
+BEGIN:VEVENT
+UID:joey-cash-the-boombox@shotgun.live
+DTSTAMP:20260826T145256Z
+DTSTART:20261003T020000Z
+DTEND:20261003T080000Z
+SUMMARY:Joey Cash @Theboombox
+LOCATION:The Boombox Miami\, 4447 Southwest 75th Avenue\, Miami\, FL 33155
+ \, USA
+DESCRIPTION:Joey Cash live\nLineup: Joey Cash\nTags: edm\nTickets: Early Bi
+ rd $15 (sold out)\, T1 $20 (sold out)\, T2 $25 (sold out)\, T3 $30\nhttps:
+ //shotgun.live/en/events/joey-cash-the-boombox
+URL:https://shotgun.live/en/events/joey-cash-the-boombox
+STATUS:CONFIRMED
+CATEGORIES:edm
+GEO:25.7287781;-80.3169309
+END:VEVENT
+END:VCALENDAR
