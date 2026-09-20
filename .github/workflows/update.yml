@@ -1,14 +1,12 @@
-name: Update calendar feed
+# NOTE: Shotgun returns 429 instantly to GitHub's runner IPs (datacenter block),
+# so this cannot run on a schedule here. The feed is rebuilt by update.sh via
+# cron on a residential-IP host, which pushes boombox.ics; Pages serves it.
+# This workflow is kept for manual runs only, in case the block is ever lifted.
+
+name: Update calendar feed (manual)
 
 on:
-  schedule:
-    - cron: "17 */6 * * *"   # every 6h (UTC); odd minute avoids the top-of-hour rush
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - boombox_ics.py
-      - .github/workflows/update.yml
 
 permissions:
   contents: write
