@@ -8,9 +8,13 @@ rebuilt from Shotgun every 6 hours by a Windows scheduled task and served from G
 
 ## How it works
 
-1. `boombox_ics.py` loads the venue page to find upcoming event slugs (and the promoter's genre chips).
-2. Each event page embeds a `schema.org/MusicEvent` JSON-LD block with real start/end times, address,
-   lineup and ticket tiers — that's what goes into each `VEVENT`.
+1. `boombox_ics.py` crawls the paginated Miami city listing (`/en/cities/miami?page=N`) and keeps the
+   cards whose venue reads "Boombox". Shotgun's `/en/venues/the-boombox-miami` page is only the venue's
+   *own organizer profile* — promoters who rent the room publish under their own profile, so their shows
+   never appear there. That page is still unioned in as a backstop. Genre chips come from the cards.
+2. Each candidate's event page embeds a `schema.org/MusicEvent` JSON-LD block; the location name/street
+   address is checked there before the event is accepted, and it supplies the real start/end times,
+   lineup, organizer and ticket tiers that go into each `VEVENT`.
 3. `UID` is the Shotgun slug, so a re-run updates or removes events rather than duplicating them.
 4. `update.cmd` (Task Scheduler, every 6 h) commits `boombox.ics` only when it changed. If any fetch fails
    the script exits non-zero and the previous feed stays published (a partial feed would make Google
@@ -56,8 +60,13 @@ push auth — a write-enabled deploy key scoped to this repo is the cleanest
 
 ```bash
 python boombox_ics.py                       # -> boombox.ics
-python boombox_ics.py --venue <slug> --name "Some Venue" --out other.ics
+python boombox_ics.py --city miami --match "club space" --address "34 ne 11th" \
+                      --venue-slug club-space --name "Club Space" --out space.ics
 ```
+
+`--match` is a case-insensitive substring of the venue name as shown on listing cards and in the
+event's JSON-LD; `--address` is a backup match on the street address. About 15 requests per run,
+one second apart.
 
 No dependencies beyond the standard library.
 

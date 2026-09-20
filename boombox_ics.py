@@ -1,14 +1,20 @@
 """Build an iCalendar (.ics) feed of upcoming events at a Shotgun venue.
 
-Google Calendar (and anything else) can subscribe to the published file. Event
-details come from the schema.org MusicEvent JSON-LD that Shotgun embeds on each
-event page, which carries real start/end times, the address, performers and
-ticket tiers. The venue page is only used to discover which events are upcoming
-and to pick up the promoter's genre chips (JSON-LD has no genre field).
+Google Calendar (and anything else) can subscribe to the published file.
+
+Discovery: Shotgun's /en/venues/<slug> page is really the venue's *own organizer
+profile* - promoters who rent the room publish under their own profile and only
+set the location to the venue, so those shows never appear there. The city
+listing (/en/cities/<city>?page=N) does list everything, with the venue name on
+each card, so that is the primary source; the venue page is unioned in as a
+backstop. Every candidate is then confirmed against the schema.org MusicEvent
+JSON-LD on its event page (location name / street address), which also supplies
+the real start/end times, lineup and ticket tiers. Genre chips only exist on the
+listing cards, so they are picked up there.
 
 Usage:
     python boombox_ics.py                                  # -> boombox.ics
-    python boombox_ics.py --venue some-other-slug --out other.ics
+    python boombox_ics.py --city miami --match "club space" --venue-slug club-space --out space.ics
 
 Exit status is non-zero if anything fails to fetch, so a scheduled run leaves
 the previous feed in place rather than publishing a partial one (a subscribed
@@ -25,11 +31,16 @@ import time
 import urllib.error
 import urllib.request
 
-VENUE_SLUG = "the-boombox-miami"
+CITY_SLUG = "miami"
+VENUE_SLUG = "the-boombox-miami"        # the venue's own organizer page
+VENUE_MATCH = "boombox"                 # case-insensitive substring on venue name
+VENUE_ADDRESS = "4447 southwest 75th"   # second confirmation signal
 OUT_FILE = "boombox.ics"
 FEED_NAME = "The Boombox Miami"
 TIMEZONE_ID = "America/New_York"
 PRODID = "-//TheDieselPunk//boombox-calendar//EN"
+MAX_CITY_PAGES = 25
+POLITE_DELAY = 1.0
 
 # Shotgun 429s bare clients; this header set has been reliable.
 BROWSER_HEADERS = {
@@ -47,10 +58,10 @@ BROWSER_HEADERS = {
 }
 
 CARD_RE = re.compile(r'<a data-slot="tracked-link" href="(/en/events/[^"?#]+)"[^>]*>(.*?)</a>', re.S)
+VENUE_RE = re.compile(r'<div class="text-muted-foreground[^"]*whitespace-nowrap">([^<]*)</div>')
 BADGE_RE = re.compile(r'rounded-full border[^"]*"[^>]*>([^<]{2,40})</div>')
 JSONLD_RE = re.compile(r'<script type="application/ld\+json">(.*?)</script>', re.S)
 PAST_RE = re.compile(r"PAST EVENTS|Past events")
-
 
 if hasattr(sys.stderr, "reconfigure"):  # Windows consoles default to cp1252
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
@@ -80,28 +91,46 @@ def clean(text):
 
 
 # --------------------------------------------------------------------------- #
-# Shotgun
+# Shotgun discovery
 # --------------------------------------------------------------------------- #
 
-def upcoming_events(venue_slug):
-    """Return [(event_path, [genre, ...]), ...] for the venue's upcoming events."""
+def card_info(block):
+    """(venue text, [genre, ...]) from one listing card."""
+    venue = VENUE_RE.search(block)
+    # Chips include the date/price; genre chips are the rest (skip '+N' overflow chips).
+    badges = [clean(b) for b in BADGE_RE.findall(block)]
+    genres = [b.lower() for b in badges if b and not b.startswith("+") and not re.search(r"\d", b)]
+    return (clean(venue.group(1)) if venue else "", genres)
+
+
+def city_cards(city_slug):
+    """Crawl the paginated city listing -> {event_path: (venue_text, genres)}."""
+    out = {}
+    for page in range(MAX_CITY_PAGES):
+        url = f"https://shotgun.live/en/cities/{city_slug}" + (f"?page={page}" if page else "")
+        found = CARD_RE.findall(fetch(url))
+        if page == 0 and not found:
+            raise RuntimeError("city listing has no event cards - page layout changed?")
+        new = 0
+        for href, block in found:
+            if href not in out:
+                out[href] = card_info(block)
+                new += 1
+        if not new:
+            break
+        time.sleep(POLITE_DELAY)
+    return out
+
+
+def venue_cards(venue_slug):
+    """The venue's own organizer page (self-published events only) -> same shape."""
     markup = fetch(f"https://shotgun.live/en/venues/{venue_slug}")
     cut = PAST_RE.search(markup)
     if cut:
         markup = markup[: cut.start()]
     else:
         log("  warning: no 'Past events' marker on venue page; relying on end-date filter")
-
-    out, seen = [], set()
-    for href, block in CARD_RE.findall(markup):
-        if href in seen:
-            continue
-        seen.add(href)
-        # Chips include the date/price; genre chips are the rest (skip '+N' overflow chips).
-        badges = [clean(b) for b in BADGE_RE.findall(block)]
-        genres = [b.lower() for b in badges if b and not b.startswith("+") and not re.search(r"\d", b)]
-        out.append((href, genres))
-    return out
+    return {href: card_info(block) for href, block in CARD_RE.findall(markup)}
 
 
 def event_details(path):
@@ -115,6 +144,12 @@ def event_details(path):
         if data.get("@type") in ("MusicEvent", "Event"):
             return data
     raise RuntimeError(f"no Event JSON-LD on {path}")
+
+
+def at_venue(data, match, address):
+    loc = data.get("location") or {}
+    where = " ".join([loc.get("name", ""), (loc.get("address") or {}).get("streetAddress", "")]).lower()
+    return match in where or address in where
 
 
 # --------------------------------------------------------------------------- #
@@ -191,6 +226,7 @@ def build_vevent(path, genres, data):
     location = ", ".join(x for x in [loc.get("name", ""), addr] if x)
 
     performers = [p.get("name") for p in data.get("performer") or [] if p.get("name")]
+    organizer = (data.get("organizer") or {}).get("name", "")
     desc_lines = []
     if data.get("description"):
         desc_lines.append(clean(data["description"]))
@@ -198,6 +234,8 @@ def build_vevent(path, genres, data):
         desc_lines.append("Lineup: " + ", ".join(performers))
     if genres:
         desc_lines.append("Tags: " + ", ".join(genres))
+    if organizer and VENUE_MATCH not in organizer.lower():
+        desc_lines.append("Presented by: " + organizer)
     tickets = describe_offers(data.get("offers"))
     if tickets:
         desc_lines.append("Tickets: " + tickets)
@@ -251,31 +289,48 @@ def build_calendar(feed_name, vevents):
 
 def main():
     ap = argparse.ArgumentParser(description="Shotgun venue -> .ics feed")
-    ap.add_argument("--venue", default=VENUE_SLUG, help="shotgun.live/en/venues/<slug>")
+    ap.add_argument("--city", default=CITY_SLUG, help="shotgun.live/en/cities/<slug>")
+    ap.add_argument("--match", default=VENUE_MATCH, help="substring of the venue name (case-insensitive)")
+    ap.add_argument("--address", default=VENUE_ADDRESS, help="substring of the street address (backup match)")
+    ap.add_argument("--venue-slug", default=VENUE_SLUG, help="shotgun.live/en/venues/<slug>, unioned in")
     ap.add_argument("--name", default=FEED_NAME, help="calendar display name")
     ap.add_argument("--out", default=OUT_FILE)
     args = ap.parse_args()
+    match, address = args.match.lower(), args.address.lower()
 
-    log(f"Fetching venue page for {args.venue}")
-    cards = upcoming_events(args.venue)
-    log(f"  {len(cards)} upcoming event(s) listed")
+    log(f"Crawling city listing for {args.city}")
+    city = city_cards(args.city)
+    candidates = {p: info for p, info in city.items() if match in info[0].lower()}
+    log(f"  {len(city)} events listed, {len(candidates)} at venue")
+
+    log(f"Fetching venue page for {args.venue_slug}")
+    own = venue_cards(args.venue_slug)
+    extra = [p for p in own if p not in candidates]
+    for p in extra:
+        candidates[p] = own[p]
+    log(f"  {len(own)} upcoming on venue page, {len(extra)} not in city listing")
 
     now = dt.datetime.now(dt.timezone.utc)
-    vevents = []
-    for path, genres in cards:
-        time.sleep(1)  # be polite
+    built = []
+    for path, (_venue_text, genres) in candidates.items():
+        time.sleep(POLITE_DELAY)
         data = event_details(path)
+        if not at_venue(data, match, address):
+            loc = (data.get("location") or {}).get("name", "?")
+            log(f"  skip (location is {loc!r}): {path}")
+            continue
         ev, start, end = build_vevent(path, genres, data)
         if end < now - dt.timedelta(days=1):
             log(f"  skip (already ended): {path}")
             continue
         log(f"  {start.astimezone().strftime('%a %b %d %I:%M %p')}  {clean(data.get('name'))}")
-        vevents.append(ev)
+        built.append((start, path, ev))
 
-    text = build_calendar(args.name, vevents)
+    built.sort(key=lambda t: (t[0], t[1]))  # deterministic order -> byte-identical reruns
+    text = build_calendar(args.name, [ev for _, _, ev in built])
     with open(args.out, "w", encoding="utf-8", newline="") as fh:
         fh.write(text)
-    log(f"Wrote {len(vevents)} event(s) to {args.out}")
+    log(f"Wrote {len(built)} event(s) to {args.out}")
     return 0
 
 
