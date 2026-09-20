@@ -21,6 +21,8 @@
           color:#fff; text-decoration:none; border-radius:8px; font-weight:600; }
   ol { padding-left:20px; color:var(--muted); }
   small { color:var(--muted); }
+  .hint { display:block; margin-top:10px; color:var(--muted); font-size:.9rem; }
+  code { cursor:copy; }
 </style>
 </head>
 <body>
@@ -31,24 +33,35 @@
   <div class="card">
     <strong>Feed URL</strong>
     <code id="url"></code>
-    <a class="btn" id="gcal" href="#">Add to Google Calendar</a>
+    <a class="btn" id="gcal" href="https://calendar.google.com/calendar/r/settings/addbyurl"
+       target="_blank" rel="noopener">Copy URL &amp; open Google Calendar</a>
+    <span id="copied" class="hint" hidden>URL copied — paste it into the form that opens.</span>
   </div>
 
   <div class="card">
     <strong>Or add it by hand</strong>
     <ol>
-      <li>Google Calendar → <em>Other calendars</em> → <strong>+</strong> → <em>From URL</em></li>
+      <li>On a desktop browser: Google Calendar → <em>Other calendars</em> → <strong>+</strong> → <em>From URL</em></li>
       <li>Paste the feed URL above → <em>Add calendar</em></li>
     </ol>
-    <small>Google refreshes subscribed feeds on its own schedule (typically 12–24 h).</small>
+    <small>Google's one-click <code style="display:inline;padding:0 4px">cid=</code> subscribe link is
+    currently broken on Google's side, hence the copy-and-paste. Google refreshes subscribed feeds on
+    its own schedule (typically 12–24 h); the phone app can't add calendars by URL.</small>
   </div>
 </main>
 <script>
   const feed = new URL("boombox.ics", location.href).href;
   document.getElementById("url").textContent = feed;
-  // Google's subscribe deep link wants a webcal:// URL, un-encoded.
-  document.getElementById("gcal").href =
-    "https://www.google.com/calendar/render?cid=" + feed.replace(/^https?:\/\//, "webcal://");
+  // Copy the URL as the link opens Google's "From URL" page in a new tab.
+  // (The cid=webcal:// one-click route currently fails on Google's side.)
+  document.getElementById("gcal").addEventListener("click", () => {
+    navigator.clipboard?.writeText(feed).then(() => {
+      document.getElementById("copied").hidden = false;
+    }).catch(() => {});
+  });
+  document.getElementById("url").addEventListener("click", () => {
+    navigator.clipboard?.writeText(feed).catch(() => {});
+  });
 </script>
 </body>
 </html>
