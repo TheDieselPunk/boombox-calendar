@@ -8,7 +8,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 echo "== $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-git pull --rebase --quiet
+git pull --rebase --autostash --quiet
 python3 boombox_ics.py          # non-zero exit leaves the previous feed in place
 git add boombox.ics
 if git diff --cached --quiet; then
