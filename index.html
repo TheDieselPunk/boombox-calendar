@@ -42,8 +42,9 @@
       <li>Google's <em>From URL</em> form opens in a new tab: paste, then <em>Add calendar</em>.</li>
     </ol>
     <small>Google refreshes subscribed feeds on its own schedule (typically 12–24 h). Shotgun-listed events carry
-    real start/end times; Edmtrain-only events are all-day entries because Edmtrain publishes no start time.
-    Google's one-click <em>cid=</em> subscribe link is currently broken on their side, hence the copy-and-paste.</small>
+    real start/end times; where a listing has no time yet (Edmtrain), the event uses the venue's usual hours
+    and says so in its description. Google's one-click <em>cid=</em> subscribe link is currently broken on
+    their side, hence the copy-and-paste.</small>
   </div>
 </main>
 <script>
@@ -56,9 +57,11 @@
       card.className = "card";
       const srcs = (f.sources || []).join(" + ") || "no upcoming events";
       const next = f.next ? ` · next ${f.next}` : "";
+      const est = f.estimated_times ? ` · ${f.estimated_times} with estimated times` : "";
+      const note = f.hours_note ? `<div class="meta">${f.hours_note}</div>` : "";
       card.innerHTML = `
         <div class="row">
-          <div><span class="name">${f.name}</span><div class="meta">${f.events} upcoming · ${srcs}${next}</div></div>
+          <div><span class="name">${f.name}</span><div class="meta">${f.events} upcoming · ${srcs}${est}${next}</div>${note}</div>
           <div><a class="btn primary" href="${GCAL}" target="_blank" rel="noopener">Copy &amp; open Google Calendar</a></div>
         </div>
         <code title="Click to copy">${url}</code>

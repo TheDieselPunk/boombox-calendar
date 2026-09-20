@@ -10,13 +10,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:edmtrain-527082@edmtrain.com
 DTSTAMP:20260920T000000Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
+DTSTART:20260921T030000Z
+DTEND:20260921T090000Z
 SUMMARY:Robbie Doherty\, Ms. Mada\, LO-G
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Robbie Doherty\, Ms. Mada\, LO-G\nTags (guess): house\,
-  techno\nStart time not listed - check the link.\nhttps://edmtrain.com/mia
- mi-fl/robbie-doherty-ms-mada-527082
+  techno\nTimes are an estimate from Floyd's usual hours - the listing has 
+ no start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/robbie-d
+ oherty-ms-mada-527082
 URL:https://edmtrain.com/miami-fl/robbie-doherty-ms-mada-527082
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -24,12 +25,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-538086@edmtrain.com
 DTSTAMP:20260924T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
+DTSTART:20260925T030000Z
+DTEND:20260925T090000Z
 SUMMARY:Beltran
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Beltran\nTags (guess): house\, techno\nStart time not l
- isted - check the link.\nhttps://edmtrain.com/miami-fl/beltran-538086
+DESCRIPTION:Lineup: Beltran\nTags (guess): house\, techno\nTimes are an est
+ imate from Floyd's usual hours - the listing has no start time yet. Check 
+ the link.\nhttps://edmtrain.com/miami-fl/beltran-538086
 URL:https://edmtrain.com/miami-fl/beltran-538086
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -37,13 +39,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-523290@edmtrain.com
 DTSTAMP:20260925T000000Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
+DTSTART:20260926T030000Z
+DTEND:20260926T090000Z
 SUMMARY:Shonky\, Jennifer Loveless\, Bort\, Gio Elia
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Shonky\, Jennifer Loveless\, Bort\, Gio Elia\nTags (gue
- ss): house\, techno\nStart time not listed - check the link.\nhttps://edmt
- rain.com/miami-fl/shonky-jennifer-loveless-523290
+ ss): house\, techno\nTimes are an estimate from Floyd's usual hours - the 
+ listing has no start time yet. Check the link.\nhttps://edmtrain.com/miami
+ -fl/shonky-jennifer-loveless-523290
 URL:https://edmtrain.com/miami-fl/shonky-jennifer-loveless-523290
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -51,12 +54,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-533522@edmtrain.com
 DTSTAMP:20260926T000000Z
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
+DTSTART:20260927T030000Z
+DTEND:20260927T090000Z
 SUMMARY:My Friend Misty
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Tags (guess): house\, techno\nStart time not listed - check the
-  link.\nhttps://edmtrain.com/miami-fl/my-friend-misty-533522
+DESCRIPTION:Tags (guess): house\, techno\nTimes are an estimate from Floyd'
+ s usual hours - the listing has no start time yet. Check the link.\nhttps:
+ //edmtrain.com/miami-fl/my-friend-misty-533522
 URL:https://edmtrain.com/miami-fl/my-friend-misty-533522
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -64,12 +68,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-524863@edmtrain.com
 DTSTAMP:20260927T000000Z
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20260928
+DTSTART:20260928T030000Z
+DTEND:20260928T090000Z
 SUMMARY:Knight Club
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Tags (guess): house\, techno\nStart time not listed - check the
-  link.\nhttps://edmtrain.com/miami-fl/knight-club-524863
+DESCRIPTION:Tags (guess): house\, techno\nTimes are an estimate from Floyd'
+ s usual hours - the listing has no start time yet. Check the link.\nhttps:
+ //edmtrain.com/miami-fl/knight-club-524863
 URL:https://edmtrain.com/miami-fl/knight-club-524863
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -77,13 +82,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-532658@edmtrain.com
 DTSTAMP:20261002T000000Z
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
+DTSTART:20261003T030000Z
+DTEND:20261003T090000Z
 SUMMARY:LuSiD\, Samantha Loveridge\, Jake Mercer\, Siegel
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: LuSiD\, Samantha Loveridge\, Jake Mercer\, Siegel\nTags
-  (guess): house\, techno\nStart time not listed - check the link.\nhttps:/
- /edmtrain.com/miami-fl/lusid-samantha-loveridge-532658
+  (guess): house\, techno\nTimes are an estimate from Floyd's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ miami-fl/lusid-samantha-loveridge-532658
 URL:https://edmtrain.com/miami-fl/lusid-samantha-loveridge-532658
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -91,13 +97,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-506951@edmtrain.com
 DTSTAMP:20261003T000000Z
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261004
+DTSTART:20261004T030000Z
+DTEND:20261004T090000Z
 SUMMARY:dublon\, Tiffy Vera\, Will Buck
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: dublon\, Tiffy Vera\, Will Buck\nTags (guess): house\, 
- techno\nStart time not listed - check the link.\nhttps://edmtrain.com/miam
- i-fl/dublon-tiffy-vera-506951
+ techno\nTimes are an estimate from Floyd's usual hours - the listing has n
+ o start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/dublon-ti
+ ffy-vera-506951
 URL:https://edmtrain.com/miami-fl/dublon-tiffy-vera-506951
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -105,13 +112,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-532659@edmtrain.com
 DTSTAMP:20261004T000000Z
-DTSTART;VALUE=DATE:20261004
-DTEND;VALUE=DATE:20261005
+DTSTART:20261005T030000Z
+DTEND:20261005T090000Z
 SUMMARY:Jay de Lys\, Ms. Mada\, Alezsandro
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Jay de Lys\, Ms. Mada\, Alezsandro\nTags (guess): house
- \, techno\nStart time not listed - check the link.\nhttps://edmtrain.com/m
- iami-fl/jay-de-lys-ms-mada-532659
+ \, techno\nTimes are an estimate from Floyd's usual hours - the listing ha
+ s no start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/jay-de
+ -lys-ms-mada-532659
 URL:https://edmtrain.com/miami-fl/jay-de-lys-ms-mada-532659
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -119,13 +127,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-532661@edmtrain.com
 DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261010
+DTSTART:20261010T030000Z
+DTEND:20261010T090000Z
 SUMMARY:Laolu\, KARABA\, Nii Tei
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Laolu\, KARABA\, Nii Tei\nTags (guess): house\, techno
- \nStart time not listed - check the link.\nhttps://edmtrain.com/miami-fl/l
- aolu-karaba-532661
+ \nTimes are an estimate from Floyd's usual hours - the listing has no star
+ t time yet. Check the link.\nhttps://edmtrain.com/miami-fl/laolu-karaba-53
+ 2661
 URL:https://edmtrain.com/miami-fl/laolu-karaba-532661
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -133,13 +142,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-532662@edmtrain.com
 DTSTAMP:20261010T000000Z
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261011
+DTSTART:20261011T030000Z
+DTEND:20261011T090000Z
 SUMMARY:Jackie Hollander\, Lupe Fuentes\, Monoky
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Jackie Hollander\, Lupe Fuentes\, Monoky\nTags (guess):
-  house\, techno\nStart time not listed - check the link.\nhttps://edmtrain
- .com/miami-fl/jackie-hollander-lupe-fuentes-532662
+  house\, techno\nTimes are an estimate from Floyd's usual hours - the list
+ ing has no start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/
+ jackie-hollander-lupe-fuentes-532662
 URL:https://edmtrain.com/miami-fl/jackie-hollander-lupe-fuentes-532662
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -147,13 +157,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-529530@edmtrain.com
 DTSTAMP:20261015T000000Z
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
+DTSTART:20261016T030000Z
+DTEND:20261016T090000Z
 SUMMARY:Moscoman\, Red Axes\, Whitesquare\, Eveava
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Moscoman\, Red Axes\, Whitesquare\, Eveava\nTags (guess
- ): house\, techno\nStart time not listed - check the link.\nhttps://edmtra
- in.com/miami-fl/moscoman-red-axes-529530
+ ): house\, techno\nTimes are an estimate from Floyd's usual hours - the li
+ sting has no start time yet. Check the link.\nhttps://edmtrain.com/miami-f
+ l/moscoman-red-axes-529530
 URL:https://edmtrain.com/miami-fl/moscoman-red-axes-529530
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -161,13 +172,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-529531@edmtrain.com
 DTSTAMP:20261016T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART:20261017T030000Z
+DTEND:20261017T090000Z
 SUMMARY:Odd Mob\, Cut & Sew\, Nat Siriani
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Odd Mob\, Cut & Sew\, Nat Siriani\nTags (guess): house
- \, techno\nStart time not listed - check the link.\nhttps://edmtrain.com/m
- iami-fl/odd-mob-cut-and-sew-529531
+ \, techno\nTimes are an estimate from Floyd's usual hours - the listing ha
+ s no start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/odd-mo
+ b-cut-and-sew-529531
 URL:https://edmtrain.com/miami-fl/odd-mob-cut-and-sew-529531
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -175,13 +187,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-529532@edmtrain.com
 DTSTAMP:20261017T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART:20261018T030000Z
+DTEND:20261018T090000Z
 SUMMARY:Marsolo\, Silvie Loto\, Mick Jerome
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Marsolo\, Silvie Loto\, Mick Jerome\nTags (guess): hous
- e\, techno\nStart time not listed - check the link.\nhttps://edmtrain.com/
- miami-fl/marsolo-silvie-loto-529532
+ e\, techno\nTimes are an estimate from Floyd's usual hours - the listing h
+ as no start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/marso
+ lo-silvie-loto-529532
 URL:https://edmtrain.com/miami-fl/marsolo-silvie-loto-529532
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -189,12 +202,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-529533@edmtrain.com
 DTSTAMP:20261018T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
+DTSTART:20261019T030000Z
+DTEND:20261019T090000Z
 SUMMARY:Saraga
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Saraga\nTags (guess): house\, techno\nStart time not li
- sted - check the link.\nhttps://edmtrain.com/miami-fl/saraga-529533
+DESCRIPTION:Lineup: Saraga\nTags (guess): house\, techno\nTimes are an esti
+ mate from Floyd's usual hours - the listing has no start time yet. Check t
+ he link.\nhttps://edmtrain.com/miami-fl/saraga-529533
 URL:https://edmtrain.com/miami-fl/saraga-529533
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -202,13 +216,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-533959@edmtrain.com
 DTSTAMP:20261023T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART:20261024T030000Z
+DTEND:20261024T090000Z
 SUMMARY:Jack Marlow\, Snooko
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Jack Marlow\, Snooko\nTags (guess): house\, techno\nSta
- rt time not listed - check the link.\nhttps://edmtrain.com/miami-fl/jack-m
- arlow-snooko-533959
+DESCRIPTION:Lineup: Jack Marlow\, Snooko\nTags (guess): house\, techno\nTim
+ es are an estimate from Floyd's usual hours - the listing has no start tim
+ e yet. Check the link.\nhttps://edmtrain.com/miami-fl/jack-marlow-snooko-5
+ 33959
 URL:https://edmtrain.com/miami-fl/jack-marlow-snooko-533959
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -216,13 +231,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-532663@edmtrain.com
 DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART:20261025T030000Z
+DTEND:20261025T090000Z
 SUMMARY:Aluna (of AlunaGeorge)\, Nikita Green
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Aluna (of AlunaGeorge)\, Nikita Green\nTags (guess): ho
- use\, techno\nStart time not listed - check the link.\nhttps://edmtrain.co
- m/miami-fl/aluna-of-alunageorge-nikita-green-532663
+ use\, techno\nTimes are an estimate from Floyd's usual hours - the listing
+  has no start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/alu
+ na-of-alunageorge-nikita-green-532663
 URL:https://edmtrain.com/miami-fl/aluna-of-alunageorge-nikita-green-532663
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -230,13 +246,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-536867@edmtrain.com
 DTSTAMP:20261030T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
+DTSTART:20261031T030000Z
+DTEND:20261031T090000Z
 SUMMARY:Halloweek: L.P. Rhythm\, Salomé le Chat\, Alezsandro
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: L.P. Rhythm\, Salomé le Chat\, Alezsandro\nTags (guess
- ): house\, techno\nStart time not listed - check the link.\nhttps://edmtra
- in.com/miami-fl/halloweek-l-p-rhythm-536867
+ ): house\, techno\nTimes are an estimate from Floyd's usual hours - the li
+ sting has no start time yet. Check the link.\nhttps://edmtrain.com/miami-f
+ l/halloweek-l-p-rhythm-536867
 URL:https://edmtrain.com/miami-fl/halloweek-l-p-rhythm-536867
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -244,13 +261,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-532664@edmtrain.com
 DTSTAMP:20261128T000000Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
+DTSTART:20261129T040000Z
+DTEND:20261129T100000Z
 SUMMARY:Bag Raiders\, Katie Ox\, Jovigibs
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Bag Raiders\, Katie Ox\, Jovigibs\nTags (guess): house
- \, techno\nStart time not listed - check the link.\nhttps://edmtrain.com/m
- iami-fl/bag-raiders-katie-ox-532664
+ \, techno\nTimes are an estimate from Floyd's usual hours - the listing ha
+ s no start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/bag-ra
+ iders-katie-ox-532664
 URL:https://edmtrain.com/miami-fl/bag-raiders-katie-ox-532664
 STATUS:CONFIRMED
 CATEGORIES:house,techno
@@ -258,13 +276,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-535519@edmtrain.com
 DTSTAMP:20261204T000000Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
+DTSTART:20261205T040000Z
+DTEND:20261205T100000Z
 SUMMARY:Ciao Dany! x Melódie (Floyd Basel 2026)
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Tags (guess): house\, techno\nStart time not listed - check the
-  link.\nhttps://edmtrain.com/miami-fl/ciao-dany-x-melodie-floyd-basel-2026
- -535519
+DESCRIPTION:Tags (guess): house\, techno\nTimes are an estimate from Floyd'
+ s usual hours - the listing has no start time yet. Check the link.\nhttps:
+ //edmtrain.com/miami-fl/ciao-dany-x-melodie-floyd-basel-2026-535519
 URL:https://edmtrain.com/miami-fl/ciao-dany-x-melodie-floyd-basel-2026-5355
  19
 STATUS:CONFIRMED
@@ -273,12 +291,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-535431@edmtrain.com
 DTSTAMP:20261205T000000Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
+DTSTART:20261206T040000Z
+DTEND:20261206T100000Z
 SUMMARY:Obskür
 LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Obskür\nTags (guess): house\, techno\nStart time not l
- isted - check the link.\nhttps://edmtrain.com/miami-fl/obskur-535431
+DESCRIPTION:Lineup: Obskür\nTags (guess): house\, techno\nTimes are an est
+ imate from Floyd's usual hours - the listing has no start time yet. Check 
+ the link.\nhttps://edmtrain.com/miami-fl/obskur-535431
 URL:https://edmtrain.com/miami-fl/obskur-535431
 STATUS:CONFIRMED
 CATEGORIES:house,techno

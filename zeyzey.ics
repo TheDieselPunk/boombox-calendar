@@ -10,25 +10,26 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:edmtrain-535660@edmtrain.com
 DTSTAMP:20260924T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
+DTSTART:20260924T230000Z
+DTEND:20260925T050000Z
 SUMMARY:RAE SADA\, Ape Drums
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: RAE SADA\, Ape Drums\nStart time not listed - check the
-  link.\nhttps://edmtrain.com/miami-fl/rae-sada-ape-drums-535660
+DESCRIPTION:Lineup: RAE SADA\, Ape Drums\nTimes are an estimate from ZeyZey
+  Miami's usual hours - the listing has no start time yet. Check the link.
+ \nhttps://edmtrain.com/miami-fl/rae-sada-ape-drums-535660
 URL:https://edmtrain.com/miami-fl/rae-sada-ape-drums-535660
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-518461@edmtrain.com
 DTSTAMP:20260926T000000Z
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
+DTSTART:20260926T230000Z
+DTEND:20260927T050000Z
 SUMMARY:Nervous Records: Riva Starr\, Seamus Haji
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Riva Starr\, Seamus Haji\nStart time not listed - check
-  the link.\nhttps://edmtrain.com/miami-fl/nervous-records-riva-starr-51846
- 1
+DESCRIPTION:Lineup: Riva Starr\, Seamus Haji\nTimes are an estimate from Ze
+ yZey Miami's usual hours - the listing has no start time yet. Check the li
+ nk.\nhttps://edmtrain.com/miami-fl/nervous-records-riva-starr-518461
 URL:https://edmtrain.com/miami-fl/nervous-records-riva-starr-518461
 STATUS:CONFIRMED
 END:VEVENT
@@ -51,24 +52,26 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-514144@edmtrain.com
 DTSTAMP:20261002T000000Z
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
+DTSTART:20261003T020000Z
+DTEND:20261003T070000Z
 SUMMARY:Flamingosis
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Flamingosis\nStart time not listed - check the link.\nh
- ttps://edmtrain.com/miami-fl/flamingosis-514144
+DESCRIPTION:Lineup: Flamingosis\nTimes are an estimate from ZeyZey Miami's 
+ usual hours - the listing has no start time yet. Check the link.\nhttps://
+ edmtrain.com/miami-fl/flamingosis-514144
 URL:https://edmtrain.com/miami-fl/flamingosis-514144
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-509115@edmtrain.com
 DTSTAMP:20261003T000000Z
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261004
+DTSTART:20261003T230000Z
+DTEND:20261004T050000Z
 SUMMARY:WHIPPED CREAM
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: WHIPPED CREAM\nStart time not listed - check the link.
- \nhttps://edmtrain.com/miami-fl/whipped-cream-509115
+DESCRIPTION:Lineup: WHIPPED CREAM\nTimes are an estimate from ZeyZey Miami'
+ s usual hours - the listing has no start time yet. Check the link.\nhttps:
+ //edmtrain.com/miami-fl/whipped-cream-509115
 URL:https://edmtrain.com/miami-fl/whipped-cream-509115
 STATUS:CONFIRMED
 END:VEVENT
@@ -121,134 +124,145 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-536639@edmtrain.com
 DTSTAMP:20261011T000000Z
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
+DTSTART:20261011T230000Z
+DTEND:20261012T050000Z
 SUMMARY:Lukas & Frank
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Lukas & Frank\nStart time not listed - check the link.
- \nhttps://edmtrain.com/miami-fl/lukas-and-frank-536639
+DESCRIPTION:Lineup: Lukas & Frank\nTimes are an estimate from ZeyZey Miami'
+ s usual hours - the listing has no start time yet. Check the link.\nhttps:
+ //edmtrain.com/miami-fl/lukas-and-frank-536639
 URL:https://edmtrain.com/miami-fl/lukas-and-frank-536639
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-532196@edmtrain.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
+DTSTART:20261014T230000Z
+DTEND:20261015T050000Z
 SUMMARY:Neon Indian
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Neon Indian\nStart time not listed - check the link.\nh
- ttps://edmtrain.com/miami-fl/neon-indian-532196
+DESCRIPTION:Lineup: Neon Indian\nTimes are an estimate from ZeyZey Miami's 
+ usual hours - the listing has no start time yet. Check the link.\nhttps://
+ edmtrain.com/miami-fl/neon-indian-532196
 URL:https://edmtrain.com/miami-fl/neon-indian-532196
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-532846@edmtrain.com
 DTSTAMP:20261015T000000Z
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
+DTSTART:20261015T230000Z
+DTEND:20261016T050000Z
 SUMMARY:ChaseWest\, Discip\, Ragie Ban\, Dan Molinari\, Stixx
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
 DESCRIPTION:Lineup: ChaseWest\, Discip\, Ragie Ban\, Dan Molinari\, Stixx\n
- Start time not listed - check the link.\nhttps://edmtrain.com/miami-fl/cha
- sewest-discip-532846
+ Times are an estimate from ZeyZey Miami's usual hours - the listing has no
+  start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/chasewest-
+ discip-532846
 URL:https://edmtrain.com/miami-fl/chasewest-discip-532846
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-529175@edmtrain.com
 DTSTAMP:20261016T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART:20261017T020000Z
+DTEND:20261017T070000Z
 SUMMARY:Party Pupils
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Party Pupils\nStart time not listed - check the link.\n
- https://edmtrain.com/miami-fl/party-pupils-529175
+DESCRIPTION:Lineup: Party Pupils\nTimes are an estimate from ZeyZey Miami's
+  usual hours - the listing has no start time yet. Check the link.\nhttps:/
+ /edmtrain.com/miami-fl/party-pupils-529175
 URL:https://edmtrain.com/miami-fl/party-pupils-529175
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-532000@edmtrain.com
 DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
+DTSTART:20261022T230000Z
+DTEND:20261023T050000Z
 SUMMARY:MashBit
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: MashBit\nStart time not listed - check the link.\nhttps
- ://edmtrain.com/miami-fl/mashbit-532000
+DESCRIPTION:Lineup: MashBit\nTimes are an estimate from ZeyZey Miami's usua
+ l hours - the listing has no start time yet. Check the link.\nhttps://edmt
+ rain.com/miami-fl/mashbit-532000
 URL:https://edmtrain.com/miami-fl/mashbit-532000
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-535661@edmtrain.com
 DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART:20261024T230000Z
+DTEND:20261025T050000Z
 SUMMARY:Lewis OfMan
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Lewis OfMan\nStart time not listed - check the link.\nh
- ttps://edmtrain.com/miami-fl/lewis-ofman-535661
+DESCRIPTION:Lineup: Lewis OfMan\nTimes are an estimate from ZeyZey Miami's 
+ usual hours - the listing has no start time yet. Check the link.\nhttps://
+ edmtrain.com/miami-fl/lewis-ofman-535661
 URL:https://edmtrain.com/miami-fl/lewis-ofman-535661
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-524856@edmtrain.com
 DTSTAMP:20261030T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
+DTSTART:20261031T020000Z
+DTEND:20261031T070000Z
 SUMMARY:Fleetmac Wood\, Roxanne Roll\, Alex Oxley
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Fleetmac Wood\, Roxanne Roll\, Alex Oxley\nStart time n
- ot listed - check the link.\nhttps://edmtrain.com/miami-fl/fleetmac-wood-r
- oxanne-roll-524856
+DESCRIPTION:Lineup: Fleetmac Wood\, Roxanne Roll\, Alex Oxley\nTimes are an
+  estimate from ZeyZey Miami's usual hours - the listing has no start time 
+ yet. Check the link.\nhttps://edmtrain.com/miami-fl/fleetmac-wood-roxanne-
+ roll-524856
 URL:https://edmtrain.com/miami-fl/fleetmac-wood-roxanne-roll-524856
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-524906@edmtrain.com
 DTSTAMP:20261031T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART:20261031T230000Z
+DTEND:20261101T050000Z
 SUMMARY:Mark Farina\, Nutritious
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Mark Farina\, Nutritious\nStart time not listed - check
-  the link.\nhttps://edmtrain.com/miami-fl/mark-farina-nutritious-524906
+DESCRIPTION:Lineup: Mark Farina\, Nutritious\nTimes are an estimate from Ze
+ yZey Miami's usual hours - the listing has no start time yet. Check the li
+ nk.\nhttps://edmtrain.com/miami-fl/mark-farina-nutritious-524906
 URL:https://edmtrain.com/miami-fl/mark-farina-nutritious-524906
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-529732@edmtrain.com
 DTSTAMP:20261105T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART:20261106T000000Z
+DTEND:20261106T060000Z
 SUMMARY:The Floozies
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: The Floozies\nStart time not listed - check the link.\n
- https://edmtrain.com/miami-fl/the-floozies-529732
+DESCRIPTION:Lineup: The Floozies\nTimes are an estimate from ZeyZey Miami's
+  usual hours - the listing has no start time yet. Check the link.\nhttps:/
+ /edmtrain.com/miami-fl/the-floozies-529732
 URL:https://edmtrain.com/miami-fl/the-floozies-529732
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-531010@edmtrain.com
 DTSTAMP:20261106T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART:20261107T030000Z
+DTEND:20261107T080000Z
 SUMMARY:Amtrac
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Amtrac\nStart time not listed - check the link.\nhttps:
- //edmtrain.com/miami-fl/amtrac-531010
+DESCRIPTION:Lineup: Amtrac\nTimes are an estimate from ZeyZey Miami's usual
+  hours - the listing has no start time yet. Check the link.\nhttps://edmtr
+ ain.com/miami-fl/amtrac-531010
 URL:https://edmtrain.com/miami-fl/amtrac-531010
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-536978@edmtrain.com
 DTSTAMP:20261106T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART:20261107T030000Z
+DTEND:20261107T080000Z
 SUMMARY:Com Truise
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Com Truise\nStart time not listed - check the link.\nht
- tps://edmtrain.com/miami-fl/com-truise-536978
+DESCRIPTION:Lineup: Com Truise\nTimes are an estimate from ZeyZey Miami's u
+ sual hours - the listing has no start time yet. Check the link.\nhttps://e
+ dmtrain.com/miami-fl/com-truise-536978
 URL:https://edmtrain.com/miami-fl/com-truise-536978
 STATUS:CONFIRMED
 END:VEVENT
@@ -272,13 +286,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-517966@edmtrain.com
 DTSTAMP:20261115T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART:20261116T000000Z
+DTEND:20261116T060000Z
 SUMMARY:Club 1BD\, DJ Hunny Bee\, Pressure Point\, Spinelli
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Club 1BD\, DJ Hunny Bee\, Pressure Point\, Spinelli\nSt
- art time not listed - check the link.\nhttps://edmtrain.com/miami-fl/club-
- 1bd-dj-hunny-bee-517966
+DESCRIPTION:Lineup: Club 1BD\, DJ Hunny Bee\, Pressure Point\, Spinelli\nTi
+ mes are an estimate from ZeyZey Miami's usual hours - the listing has no s
+ tart time yet. Check the link.\nhttps://edmtrain.com/miami-fl/club-1bd-dj-
+ hunny-bee-517966
 URL:https://edmtrain.com/miami-fl/club-1bd-dj-hunny-bee-517966
 STATUS:CONFIRMED
 END:VEVENT
@@ -302,12 +317,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-536457@edmtrain.com
 DTSTAMP:20261212T000000Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
+DTSTART:20261213T000000Z
+DTEND:20261213T060000Z
 SUMMARY:wev
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: wev\nStart time not listed - check the link.\nhttps://e
- dmtrain.com/miami-fl/wev-536457
+DESCRIPTION:Lineup: wev\nTimes are an estimate from ZeyZey Miami's usual ho
+ urs - the listing has no start time yet. Check the link.\nhttps://edmtrain
+ .com/miami-fl/wev-536457
 URL:https://edmtrain.com/miami-fl/wev-536457
 STATUS:CONFIRMED
 END:VEVENT

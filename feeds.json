@@ -4,92 +4,110 @@
   "name": "Club Space",
   "file": "club-space.ics",
   "events": 23,
+  "estimated_times": 23,
   "next": "2026-09-25",
   "sources": [
    "edmtrain"
-  ]
+  ],
+  "hours_note": "Doors 11 PM; main room to ~5 AM, Terrace after-hours to noon+ on weekends."
  },
  {
   "slug": "the-ground",
   "name": "The Ground at Space",
   "file": "the-ground.ics",
   "events": 11,
+  "estimated_times": 11,
   "next": "2026-09-25",
   "sources": [
    "edmtrain"
-  ]
+  ],
+  "hours_note": "Venue hours: Thu 9 PM-2 AM, Fri/Sat 11 PM-4 AM. Live shows may open earlier."
  },
  {
   "slug": "floyd",
   "name": "Floyd",
   "file": "floyd.ics",
   "events": 20,
+  "estimated_times": 20,
   "next": "2026-09-20",
   "sources": [
    "edmtrain"
-  ]
+  ],
+  "hours_note": "Fri-Sun 11 PM-5 AM."
  },
  {
   "slug": "domicile",
   "name": "Domicile",
   "file": "domicile.ics",
   "events": 3,
+  "estimated_times": 3,
   "next": "2026-09-26",
   "sources": [
    "edmtrain"
-  ]
+  ],
+  "hours_note": "Parties typically 10 PM-5 AM, sometimes 6 AM."
  },
  {
   "slug": "factory-town",
   "name": "Factory Town",
   "file": "factory-town.ics",
   "events": 6,
+  "estimated_times": 6,
   "next": "2026-09-25",
   "sources": [
    "edmtrain"
-  ]
+  ],
+  "hours_note": "Varies a lot by event (7 PM-7 AM happens); 9 PM-5 AM is the common shape."
  },
  {
   "slug": "kemistry",
-  "name": "Kemistry",
+  "name": "Kemistry (Fort Lauderdale)",
   "file": "kemistry.ics",
   "events": 19,
+  "estimated_times": 19,
   "next": "2026-09-25",
   "sources": [
    "edmtrain"
-  ]
+  ],
+  "hours_note": "Thu 9 PM-4 AM, Fri/Sat 10 PM-4 AM. Note: Fort Lauderdale, ~30 mi north."
  },
  {
   "slug": "boombox",
   "name": "The Boombox Miami",
   "file": "boombox.ics",
   "events": 7,
+  "estimated_times": 0,
   "next": "2026-09-25",
   "sources": [
    "edmtrain",
    "shotgun"
-  ]
+  ],
+  "hours_note": "Observed on Shotgun: club nights 10 PM-4 AM; live/hardcore shows 6-11 PM."
  },
  {
   "slug": "zeyzey",
   "name": "ZeyZey Miami",
   "file": "zeyzey.ics",
   "events": 22,
+  "estimated_times": 17,
   "next": "2026-09-24",
   "sources": [
    "edmtrain",
    "shotgun"
-  ]
+  ],
+  "hours_note": "Observed on Shotgun: shows 7 PM-1 AM; Friday DJ nights 10 PM-3 AM."
  },
  {
   "slug": "mad-radio",
   "name": "Mad Radio Miami",
   "file": "mad-radio.ics",
   "events": 6,
+  "estimated_times": 1,
   "next": "2026-09-20",
   "sources": [
    "edmtrain",
    "shotgun"
-  ]
+  ],
+  "hours_note": "Observed on Shotgun: 9 PM-3 AM every night."
  }
 ]

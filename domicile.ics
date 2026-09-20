@@ -10,13 +10,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:edmtrain-529511@edmtrain.com
 DTSTAMP:20260926T000000Z
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
+DTSTART:20260927T020000Z
+DTEND:20260927T090000Z
 SUMMARY:Vladimir Dubyshkin\, Grace Dahl\, Ultrathem\, Mila Gama
 LOCATION:Domicile Miami\, 2900 NW 7th Ave\, Miami\, FL 33127\, USA
 DESCRIPTION:Lineup: Vladimir Dubyshkin\, Grace Dahl\, Ultrathem\, Mila Gama
- \nTags (guess): techno\nStart time not listed - check the link.\nhttps://e
- dmtrain.com/miami-fl/vladimir-dubyshkin-grace-dahl-529511
+ \nTags (guess): techno\nTimes are an estimate from Domicile's usual hours 
+ - the listing has no start time yet. Check the link.\nhttps://edmtrain.com
+ /miami-fl/vladimir-dubyshkin-grace-dahl-529511
 URL:https://edmtrain.com/miami-fl/vladimir-dubyshkin-grace-dahl-529511
 STATUS:CONFIRMED
 CATEGORIES:techno
@@ -24,12 +25,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-533939@edmtrain.com
 DTSTAMP:20261002T000000Z
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
+DTSTART:20261003T020000Z
+DTEND:20261003T090000Z
 SUMMARY:Noise Mafia
 LOCATION:Domicile Miami\, 2900 NW 7th Ave\, Miami\, FL 33127\, USA
-DESCRIPTION:Lineup: Noise Mafia\nTags (guess): techno\nStart time not liste
- d - check the link.\nhttps://edmtrain.com/miami-fl/noise-mafia-533939
+DESCRIPTION:Lineup: Noise Mafia\nTags (guess): techno\nTimes are an estimat
+ e from Domicile's usual hours - the listing has no start time yet. Check t
+ he link.\nhttps://edmtrain.com/miami-fl/noise-mafia-533939
 URL:https://edmtrain.com/miami-fl/noise-mafia-533939
 STATUS:CONFIRMED
 CATEGORIES:techno
@@ -37,13 +39,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-532116@edmtrain.com
 DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261010
+DTSTART:20261010T020000Z
+DTEND:20261010T090000Z
 SUMMARY:DVS1\, Elias Garcia\, Nikita Green
 LOCATION:Domicile Miami\, 2900 NW 7th Ave\, Miami\, FL 33127\, USA
 DESCRIPTION:Lineup: DVS1\, Elias Garcia\, Nikita Green\nTags (guess): techn
- o\nStart time not listed - check the link.\nhttps://edmtrain.com/miami-fl/
- dvs1-elias-garcia-532116
+ o\nTimes are an estimate from Domicile's usual hours - the listing has no 
+ start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/dvs1-elias-
+ garcia-532116
 URL:https://edmtrain.com/miami-fl/dvs1-elias-garcia-532116
 STATUS:CONFIRMED
 CATEGORIES:techno

@@ -99,7 +99,7 @@ def main():
             print(f"\n=== {dt.date.fromisoformat(current).strftime('%a %b %d')} ===")
         bits = [e["venue"] or "?"]
         if e["start"]:
-            bits.append(local_time(e["start"]))
+            bits.append(("~" if e.get("time_estimated") else "") + local_time(e["start"]))
         if e.get("price"):
             bits.append(e["price"])
         if e["ages"]:
@@ -110,7 +110,8 @@ def main():
         star = "*" if e["venue_slug"] else " "
         print(f" {star}{e['title'][:60]}")
         print(f"    {' | '.join(bits)}{tags}  ({e['source']})")
-    print("\n'*' = venue has a calendar feed. '?' on a genre = inferred from the venue, not confirmed.")
+    print("\n'*' = venue has a calendar feed. '~' before a time = estimated from the venue's usual hours. "
+          "'?' on a genre = inferred from the venue, not confirmed.")
     return 0
 
 

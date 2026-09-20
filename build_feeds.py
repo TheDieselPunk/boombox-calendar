@@ -141,11 +141,75 @@ def venue_for(venues, text):
 def new_event(**kw):
     ev = {
         "id": "", "source": "", "title": "", "artists": [], "venue": "", "venue_slug": None,
-        "date": "", "start": None, "end": None, "address": "", "ages": "", "price": "",
-        "genres": [], "genres_inferred": False, "organizer": "", "description": "", "url": "",
+        "date": "", "start": None, "end": None, "time_estimated": False, "address": "", "ages": "",
+        "price": "", "genres": [], "genres_inferred": False, "organizer": "", "description": "", "url": "",
     }
     ev.update(kw)
     return ev
+
+
+# --------------------------------------------------------------------------- #
+# Typical hours (used until a source publishes the real time)
+# --------------------------------------------------------------------------- #
+
+DAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
+
+
+def learn_hours(events):
+    """Median start clock time and duration per venue slug, from timed Shotgun events.
+
+    A fallback for venues without an explicit "hours" entry in venues.json.
+    """
+    samples = {}
+    for ev in events:
+        if ev["venue_slug"] and ev["start"] and ev["end"] and not ev["time_estimated"]:
+            s = parse_iso(ev["start"]).astimezone(EASTERN)
+            e = parse_iso(ev["end"])
+            samples.setdefault(ev["venue_slug"], []).append((s.hour * 60 + s.minute, (e - parse_iso(ev["start"])).seconds // 60))
+    learned = {}
+    for slug, rows in samples.items():
+        if len(rows) < 2:
+            continue
+        starts = sorted(r[0] for r in rows)
+        durs = sorted(r[1] for r in rows)
+        start, dur = starts[len(starts) // 2], durs[len(durs) // 2]
+        learned[slug] = {"default": [f"{start // 60:02d}:{start % 60:02d}", None], "_duration_min": dur}
+    return learned
+
+
+def typical_window(venue, learned, date_iso):
+    """(start, end) UTC for an event on date_iso with no published time, or None."""
+    day = dt.date.fromisoformat(date_iso)
+    hours = venue.get("hours") or learned.get(venue["slug"])
+    if not hours:
+        return None
+    spec = hours.get(DAYS[day.weekday()]) or hours.get("default")
+    if not spec:
+        return None
+    sh, sm = (int(x) for x in spec[0].split(":"))
+    start = dt.datetime(day.year, day.month, day.day, sh, sm, tzinfo=EASTERN)
+    if spec[1]:
+        eh, em = (int(x) for x in spec[1].split(":"))
+        end = dt.datetime(day.year, day.month, day.day, eh, em, tzinfo=EASTERN)
+        if end <= start:
+            end += dt.timedelta(days=1)
+    else:
+        end = start + dt.timedelta(minutes=hours.get("_duration_min", 300))
+    return start.astimezone(UTC), end.astimezone(UTC)
+
+
+def fill_typical_hours(events, venues, learned):
+    by_slug = {v["slug"]: v for v in venues}
+    n = 0
+    for ev in events:
+        if ev["start"] or not ev["venue_slug"]:
+            continue
+        window = typical_window(by_slug[ev["venue_slug"]], learned, ev["date"])
+        if window:
+            ev["start"], ev["end"] = window[0].isoformat(), window[1].isoformat()
+            ev["time_estimated"] = True
+            n += 1
+    return n
 
 
 # --------------------------------------------------------------------------- #
@@ -467,7 +531,12 @@ def vevent(ev, venue):
         start = parse_iso(ev["start"])
         end = parse_iso(ev["end"]) if ev["end"] else start + DEFAULT_DURATION
         # Stable DTSTAMP so unchanged events produce byte-identical output between runs.
-        stamp = parse_iso(ev["created"]) if ev.get("created") else start
+        if ev.get("created"):
+            stamp = parse_iso(ev["created"])
+        elif ev["time_estimated"]:
+            stamp = dt.datetime.combine(dt.date.fromisoformat(ev["date"]), dt.time(), UTC)
+        else:
+            stamp = start
         lines += [f"DTSTAMP:{ics_dt(stamp)}", f"DTSTART:{ics_dt(start)}", f"DTEND:{ics_dt(end)}"]
     else:
         day = dt.date.fromisoformat(ev["date"])
@@ -491,7 +560,10 @@ def vevent(ev, venue):
         desc.append("Tickets: " + ev["tickets"])
     if ev["ages"]:
         desc.append("Ages: " + ev["ages"])
-    if not ev["start"]:
+    if ev["time_estimated"]:
+        desc.append(f"Times are an estimate from {venue['name']}'s usual hours - the listing has no "
+                    "start time yet. Check the link.")
+    elif not ev["start"]:
         desc.append("Start time not listed - check the link.")
     desc.append(ev["url"])
     if ev.get("edmtrain_url") and ev["edmtrain_url"] != ev["url"]:
@@ -547,6 +619,8 @@ def main():
 
     events = merge(shotgun_events(venues), edmtrain_events(venues))
     events = apply_genre_hints(events, hints)
+    estimated = fill_typical_hours(events, venues, learn_hours(events))
+    log(f"  {estimated} event(s) given the venue's typical hours (no published time)")
     events.sort(key=lambda e: (e["date"], e["start"] or "~", e["venue"], e["title"]))
 
     today = dt.date.today()
@@ -556,9 +630,11 @@ def main():
         mine = [e for e in events if e["venue_slug"] == v["slug"] and e["date"] >= cutoff]
         write(f"{v['slug']}.ics", calendar_text(v["name"], [vevent(e, v) for e in mine]))
         srcs = sorted({s for e in mine for s in e["source"].split("+")})
+        est = sum(1 for e in mine if e["time_estimated"])
         feeds.append({"slug": v["slug"], "name": v["name"], "file": f"{v['slug']}.ics",
-                      "events": len(mine), "next": mine[0]["date"] if mine else None, "sources": srcs})
-        log(f"  {v['slug']:14s} {len(mine):3d} events  ({'+'.join(srcs) or 'none'})")
+                      "events": len(mine), "estimated_times": est, "next": mine[0]["date"] if mine else None,
+                      "sources": srcs, "hours_note": v.get("hours_note", "")})
+        log(f"  {v['slug']:14s} {len(mine):3d} events  ({'+'.join(srcs) or 'none'}; {est} with estimated times)")
 
     if not args.only:
         keep = [e for e in events if e["date"] >= cutoff]
