@@ -284,6 +284,19 @@ CATEGORIES:melodic house & techno,deep house,electronica
 GEO:25.8327924;-80.1891253
 END:VEVENT
 BEGIN:VEVENT
+UID:edmtrain-538533@edmtrain.com
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T030000Z
+DTEND:20261114T080000Z
+SUMMARY:Christian Löffler
+LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
+DESCRIPTION:Lineup: Christian Löffler\nTimes are an estimate from ZeyZey M
+ iami's usual hours - the listing has no start time yet. Check the link.\nh
+ ttps://edmtrain.com/miami-fl/christian-loffler-538533
+URL:https://edmtrain.com/miami-fl/christian-loffler-538533
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:edmtrain-517966@edmtrain.com
 DTSTAMP:20261115T000000Z
 DTSTART:20261116T000000Z

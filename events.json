@@ -1,30 +1,6 @@
 {
  "events": [
   {
-   "id": "shotgun:rock-n-shop",
-   "source": "shotgun",
-   "title": "Rock N' Shop",
-   "artists": [],
-   "venue": "Churchill's Pub",
-   "venue_slug": null,
-   "date": "2026-09-20",
-   "start": "2026-09-20T22:00:00+00:00",
-   "end": null,
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "Free",
-   "genres": [
-    "hard rock",
-    "post-punk",
-    "alternative"
-   ],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/en/events/rock-n-shop"
-  },
-  {
    "id": "shotgun:lacocina",
    "source": "shotgun",
    "title": "La Cocina: Latin House Sundays",
@@ -43,26 +19,6 @@
    "organizer": "",
    "description": "",
    "url": "https://shotgun.live/en/events/lacocina"
-  },
-  {
-   "id": "shotgun:kinoplex-mauvais-sang",
-   "source": "shotgun",
-   "title": "Kinoplex Movie Night : Mauvais Sang (1986) Dir. Leos Carax",
-   "artists": [],
-   "venue": "Churchill's Pub",
-   "venue_slug": null,
-   "date": "2026-09-20",
-   "start": "2026-09-21T01:00:00+00:00",
-   "end": null,
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "Free",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/en/events/kinoplex-mauvais-sang"
   },
   {
    "id": "edmtrain:538136",
@@ -270,6 +226,26 @@
    "url": "https://edmtrain.com/miami-fl/andy-martinez-538487"
   },
   {
+   "id": "shotgun:stage777-20",
+   "source": "shotgun",
+   "title": "Stage 777: Miami Underground Showcase",
+   "artists": [],
+   "venue": "Miami",
+   "venue_slug": null,
+   "date": "2026-09-23",
+   "start": "2026-09-24T00:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "Free",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/stage777-20"
+  },
+  {
    "id": "shotgun:madradiomiami092326",
    "source": "shotgun+edmtrain",
    "title": "Frecuencia: Volen / Milagros Espada / Larissa",
@@ -349,7 +325,7 @@
   {
    "id": "edmtrain:537840",
    "source": "edmtrain",
-   "title": "Dubplates & Dragons Wednesdayz: Monoky, J-SIN, Relevent, Eleric, Spookie, ASPYR, Seraph The Traveler, Jack Rippa",
+   "title": "Dubplates & Dragons Wednesdayz: Monoky, J-SIN, Relevent, Eleric, Spookie, ASPYR, Seraph The Traveler, Jack Rippa, Wolfee Wolfenstein, Empress Galaxy Sword, Luna Thunderstorm, Avalon Hechisarah Pendragon",
    "artists": [
     "Monoky",
     "J-SIN",
@@ -358,7 +334,11 @@
     "Spookie",
     "ASPYR",
     "Seraph The Traveler",
-    "Jack Rippa"
+    "Jack Rippa",
+    "Wolfee Wolfenstein",
+    "Empress Galaxy Sword",
+    "Luna Thunderstorm",
+    "Avalon Hechisarah Pendragon"
    ],
    "venue": "Hollywood Live",
    "venue_slug": null,
@@ -652,6 +632,26 @@
    "url": "https://edmtrain.com/miami-fl/treehouse-freeka-531200"
   },
   {
+   "id": "shotgun:expansion",
+   "source": "shotgun",
+   "title": "Expansion: Ecstatic Dance Miami",
+   "artists": [],
+   "venue": "Miami",
+   "venue_slug": null,
+   "date": "2026-09-25",
+   "start": "2026-09-25T23:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$11.35",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/expansion"
+  },
+  {
    "id": "edmtrain:527883",
    "source": "edmtrain",
    "title": "Eli Brown, Massano, Marie Vaunt, Daizy",
@@ -825,7 +825,7 @@
    ],
    "genres_inferred": false,
    "organizer": "The Boombox Miami",
-   "description": "COUNTERCULTURE Miami presents... 🩸NEW BLOOD: TRANSFUSION🩸 🩸BLOOD RAVE🩸 2 STAGES 9.25.26 10 PM - 4 AM 18+ Genres: Hard | Dark | Acid | Industrial Techno Hard | Dark Wave Trance IDM Midtempo Schranz",
+   "description": "COUNTERCULTURE Miami presents... 🩸NEW BLOOD: TRANSFUSION🩸 🩸BLOOD RAVE🩸 2 STAGES 9.25.26 10 PM - 4 AM THIS IS AN 18+ EVENT Physical ID’s only, Photo ID’s will not be accepted RSVP prioritizes entry, but does not guarantee it Rain or Shine Genres: Hard | Dark | Acid | Industrial Techno Hard | Dark Wave Trance IDM Midtempo Schranz",
    "url": "https://shotgun.live/en/events/new-blood-transfusion",
    "tickets": "Early Bird $15 (sold out), T1 $20",
    "cancelled": false,
@@ -920,26 +920,6 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/miami-fl/sherelle-bok-bok-526702"
-  },
-  {
-   "id": "edmtrain:535126",
-   "source": "edmtrain",
-   "title": "Spin Cycle",
-   "artists": [],
-   "venue": "777 NE 79th St",
-   "venue_slug": null,
-   "date": "2026-09-25",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "777 NE 79th St, Miami, FL 33138, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://edmtrain.com/miami-fl/spin-cycle-535126"
   },
   {
    "id": "edmtrain:536467",
@@ -1340,7 +1320,7 @@
    ],
    "genres_inferred": false,
    "organizer": "Antiheroine Productions",
-   "description": "AGE RESTRICTION 18+ Must bring physical form of ID for entry ALL sales are final TICKETS GET YOU INTO BOTH EVENTS! INDOORS: GothStar Tour Johnny Based special guest Kwasi Kao with local support Laboratory His Panic OUTDOORS: Gothic Cosplay Cabaret PERFORMERS: Van De Lies Sofia Luna Damien Lenore Adair Yandere Ground Zero Destinee Dominick Trixx Joshira Variety show of cirque, fire, burlesque, drag, and more. Costume Contest! $100 CASH PRIZE Bring your favorite gothic lore to life, or put a gothic twist on your favorite characters to take home the cash prize.",
+   "description": "MIAMI, GET READY FOR A NIGHT OF GOTHIC CHAOS. 🖤 GOTHIC COSPLAY CABARET x GOTHSTAR TOUR A dark night of live music, gothic cosplay, burlesque, drag, and theatrical performances - all in one place. 🖤 GothStar Tour (Johnny Based & Kwasi Kao) 🖤 Local support Laboratory & His Panic 🖤 Burlesque + drag + fire + cirque 🖤 Gothic Cosplay 🖤 $100 Costume Contest 📅 September 26 📍 Miami 🎟️ $20 Last week to grab your ticket before the night arrives. *Costume Contest $100 CASH PRIZE + 2 Tickets to next Black Moon Theater event Bring your favorite gothic lore to life, or put a gothic twist on your favorite characters to take home the cash prize.",
    "url": "https://shotgun.live/en/events/gothstarmiami",
    "tickets": "General Admin - Tier 1 $20",
    "cancelled": false,
@@ -3058,6 +3038,26 @@
    "organizer": "",
    "description": "",
    "url": "https://shotgun.live/en/events/caro-s-monster-mash-birthday-bash"
+  },
+  {
+   "id": "shotgun:sunday-scaries-a-comedy-show-at-wanderlust",
+   "source": "shotgun",
+   "title": "Sunday Scaries: A Comedy Show At Wanderlust",
+   "artists": [],
+   "venue": "Wanderlust Cafe",
+   "venue_slug": null,
+   "date": "2026-10-04",
+   "start": "2026-10-05T01:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "Free",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/sunday-scaries-a-comedy-show-at-wanderlust"
   },
   {
    "id": "edmtrain:532659",
@@ -6694,6 +6694,28 @@
    "organizer": "",
    "description": "",
    "url": "https://shotgun.live/en/events/nights-in-necropolis-presents-tiffadelic-detroit-blk-goth"
+  },
+  {
+   "id": "edmtrain:538533",
+   "source": "edmtrain",
+   "title": "Christian Löffler",
+   "artists": [
+    "Christian Löffler"
+   ],
+   "venue": "ZeyZey Miami",
+   "venue_slug": "zeyzey",
+   "date": "2026-11-13",
+   "start": "2026-11-14T03:00:00+00:00",
+   "end": "2026-11-14T08:00:00+00:00",
+   "time_estimated": true,
+   "address": "353 NE 61st St, Miami, FL 33137, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://edmtrain.com/miami-fl/christian-loffler-538533"
   },
   {
    "id": "edmtrain:532805",
