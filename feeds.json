@@ -93,10 +93,11 @@
   "slug": "zeyzey",
   "name": "ZeyZey Miami",
   "file": "zeyzey.ics",
-  "events": 23,
-  "estimated_times": 18,
+  "events": 25,
+  "estimated_times": 15,
   "next": "2026-09-24",
   "sources": [
+   "dice",
    "edmtrain",
    "shotgun"
   ],

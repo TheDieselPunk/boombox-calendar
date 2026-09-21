@@ -86,6 +86,19 @@ URL:https://edmtrain.com/miami-fl/whipped-cream-509115
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:dice-6a6b9027ca1d730001823403@zeyzey.miami-calendars
+DTSTAMP:20260921T193924Z
+LAST-MODIFIED:20260921T193924Z
+SEQUENCE:0
+DTSTART:20261004T210000Z
+DTEND:20261005T020000Z
+SUMMARY:PLAYGRND SERIES MIAMI
+LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
+ d States
+DESCRIPTION:
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:solmates-season-opener-ft-fahlberg-orsay-more@shotgun.live
 DTSTAMP:20260921T191357Z
 LAST-MODIFIED:20260921T191357Z
@@ -149,34 +162,31 @@ URL:https://edmtrain.com/miami-fl/lukas-and-frank-536639
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-532196@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:dice-6a85fa1255f47f0001c509a5@zeyzey.miami-calendars
+DTSTAMP:20260921T193924Z
+LAST-MODIFIED:20260921T193924Z
 SEQUENCE:0
 DTSTART:20261014T230000Z
 DTEND:20261015T050000Z
-SUMMARY:Neon Indian
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Neon Indian\nTimes are an estimate from ZeyZey Miami's 
- usual hours - the listing has no start time yet. Check the link.\nhttps://
- edmtrain.com/miami-fl/neon-indian-532196
-URL:https://edmtrain.com/miami-fl/neon-indian-532196
+SUMMARY:Satellite: Neon Indian (DJ Set)\, Twin Shadow & Washed Out (DJ Set)
+LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
+ d States
+DESCRIPTION:Lineup: Neon Indian\nhttps://edmtrain.com/miami-fl/neon-indian-
+ 532196
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-532846@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:dice-6a85fa446932660001a56c43@zeyzey.miami-calendars
+DTSTAMP:20260921T193924Z
+LAST-MODIFIED:20260921T193924Z
 SEQUENCE:0
-DTSTART:20261015T230000Z
-DTEND:20261016T050000Z
-SUMMARY:ChaseWest\, Discip\, Ragie Ban\, Dan Molinari\, Stixx
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
+DTSTART:20261015T200000Z
+DTEND:20261016T060000Z
+SUMMARY:Satellite: Chasewest B2B Discip\, Ragie Ban\, Dan Molinari & Stixx
+LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
+ d States
 DESCRIPTION:Lineup: ChaseWest\, Discip\, Ragie Ban\, Dan Molinari\, Stixx\n
- Times are an estimate from ZeyZey Miami's usual hours - the listing has no
-  start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/chasewest-
- discip-532846
-URL:https://edmtrain.com/miami-fl/chasewest-discip-532846
+ https://edmtrain.com/miami-fl/chasewest-discip-532846
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -192,6 +202,19 @@ DESCRIPTION:Lineup: Party Pupils\nTimes are an estimate from ZeyZey Miami's
   usual hours - the listing has no start time yet. Check the link.\nhttps:/
  /edmtrain.com/miami-fl/party-pupils-529175
 URL:https://edmtrain.com/miami-fl/party-pupils-529175
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a85fa6621cf7000019482af@zeyzey.miami-calendars
+DTSTAMP:20260921T193924Z
+LAST-MODIFIED:20260921T193924Z
+SEQUENCE:0
+DTSTART:20261018T180000Z
+DTEND:20261019T040000Z
+SUMMARY:Satellite: Interplanetary Criminal\, Sam Alfred\, Jubilee + More
+LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
+ d States
+DESCRIPTION:
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -335,19 +358,18 @@ URL:https://edmtrain.com/miami-fl/christian-loffler-538533
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-517966@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:dice-6a0eff0b5ffbf40001c9044c@zeyzey.miami-calendars
+DTSTAMP:20260921T193924Z
+LAST-MODIFIED:20260921T193924Z
 SEQUENCE:0
-DTSTART:20261116T000000Z
-DTEND:20261116T060000Z
-SUMMARY:Club 1BD\, DJ Hunny Bee\, Pressure Point\, Spinelli
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Club 1BD\, DJ Hunny Bee\, Pressure Point\, Spinelli\nTi
- mes are an estimate from ZeyZey Miami's usual hours - the listing has no s
- tart time yet. Check the link.\nhttps://edmtrain.com/miami-fl/club-1bd-dj-
- hunny-bee-517966
-URL:https://edmtrain.com/miami-fl/club-1bd-dj-hunny-bee-517966
+DTSTART:20261115T200000Z
+DTEND:20261116T000000Z
+SUMMARY:Club 1BD Miami ft. Chvmeleon\, Hunny Bee\, Pressure Point\, & Spine
+ lli
+LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
+ d States
+DESCRIPTION:Lineup: Club 1BD\, DJ Hunny Bee\, Pressure Point\, Spinelli\nht
+ tps://edmtrain.com/miami-fl/club-1bd-dj-hunny-bee-517966
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

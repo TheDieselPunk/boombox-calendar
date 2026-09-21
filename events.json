@@ -2975,6 +2975,27 @@
    "url": "https://shotgun.live/en/events/once-upon-a-melody-a-disney-classic-piano-performance"
   },
   {
+   "id": "dice:6a6b9027ca1d730001823403",
+   "source": "dice",
+   "title": "PLAYGRND SERIES MIAMI",
+   "artists": [],
+   "venue": "ZeyZey",
+   "venue_slug": "zeyzey",
+   "date": "2026-10-04",
+   "start": "2026-10-04T21:00:00+00:00",
+   "end": "2026-10-05T02:00:00+00:00",
+   "time_estimated": false,
+   "address": "353 Northeast 61st Street, Miami, Florida 33137, United States",
+   "ages": "",
+   "price": "From $44",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "",
+   "cancelled": false
+  },
+  {
    "id": "shotgun:piecesofpeoplemiami",
    "source": "shotgun",
    "title": "Valley In The Sky, Aktas Luna, 47*Bandit, And More.",
@@ -3345,7 +3366,7 @@
   },
   {
    "id": "shotgun:solmates-season-opener-ft-fahlberg-orsay-more",
-   "source": "edmtrain+shotgun",
+   "source": "dice+edmtrain+shotgun",
    "title": "Solmates Season Opener Ft. Fahlberg, Orsay & More",
    "artists": [
     "Fahlberg",
@@ -3378,6 +3399,7 @@
    },
    "created": "2026-09-01T22:00:00.000Z",
    "alt_urls": [
+    "",
     "https://edmtrain.com/miami-fl/solmates-fahlberg-534168"
    ]
   },
@@ -4189,26 +4211,60 @@
    "url": "https://edmtrain.com/miami-fl/iii-points-and-dale-zin-present-trip-magazeen-miami-book-launch-peter-wohelski-531565"
   },
   {
-   "id": "edmtrain:532196",
-   "source": "edmtrain",
-   "title": "Neon Indian",
+   "id": "dice:6a85fa1255f47f0001c509a5",
+   "source": "dice+edmtrain",
+   "title": "Satellite: Neon Indian (DJ Set), Twin Shadow & Washed Out (DJ Set)",
    "artists": [
     "Neon Indian"
    ],
-   "venue": "ZeyZey Miami",
+   "venue": "ZeyZey",
    "venue_slug": "zeyzey",
    "date": "2026-10-14",
    "start": "2026-10-14T23:00:00+00:00",
    "end": "2026-10-15T05:00:00+00:00",
-   "time_estimated": true,
-   "address": "353 NE 61st St, Miami, FL 33137, USA",
+   "time_estimated": false,
+   "address": "353 Northeast 61st Street, Miami, Florida 33137, United States",
    "ages": "",
-   "price": "",
+   "price": "From $30",
    "genres": [],
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/neon-indian-532196"
+   "url": "",
+   "cancelled": false,
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/neon-indian-532196"
+   ]
+  },
+  {
+   "id": "dice:6a85fa446932660001a56c43",
+   "source": "dice+edmtrain",
+   "title": "Satellite: Chasewest B2B Discip, Ragie Ban, Dan Molinari & Stixx",
+   "artists": [
+    "ChaseWest",
+    "Discip",
+    "Ragie Ban",
+    "Dan Molinari",
+    "Stixx"
+   ],
+   "venue": "ZeyZey",
+   "venue_slug": "zeyzey",
+   "date": "2026-10-15",
+   "start": "2026-10-15T20:00:00+00:00",
+   "end": "2026-10-16T06:00:00+00:00",
+   "time_estimated": false,
+   "address": "353 Northeast 61st Street, Miami, Florida 33137, United States",
+   "ages": "",
+   "price": "From $38",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "",
+   "cancelled": false,
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/chasewest-discip-532846"
+   ]
   },
   {
    "id": "shotgun:aszhara-and-companion-of-fools-at-boombox-10-15",
@@ -4240,32 +4296,6 @@
     "longitude": -80.3169309
    },
    "created": "2026-09-09T19:00:01.000Z"
-  },
-  {
-   "id": "edmtrain:532846",
-   "source": "edmtrain",
-   "title": "ChaseWest, Discip, Ragie Ban, Dan Molinari, Stixx",
-   "artists": [
-    "ChaseWest",
-    "Discip",
-    "Ragie Ban",
-    "Dan Molinari",
-    "Stixx"
-   ],
-   "venue": "ZeyZey Miami",
-   "venue_slug": "zeyzey",
-   "date": "2026-10-15",
-   "start": "2026-10-15T23:00:00+00:00",
-   "end": "2026-10-16T05:00:00+00:00",
-   "time_estimated": true,
-   "address": "353 NE 61st St, Miami, FL 33137, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://edmtrain.com/miami-fl/chasewest-discip-532846"
   },
   {
    "id": "shotgun:ag-x-rumble-present-taiki-nulight-sir-spyro",
@@ -5049,6 +5079,27 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/miami-fl/iii-points-434706"
+  },
+  {
+   "id": "dice:6a85fa6621cf7000019482af",
+   "source": "dice",
+   "title": "Satellite: Interplanetary Criminal, Sam Alfred, Jubilee + More",
+   "artists": [],
+   "venue": "ZeyZey",
+   "venue_slug": "zeyzey",
+   "date": "2026-10-18",
+   "start": "2026-10-18T18:00:00+00:00",
+   "end": "2026-10-19T04:00:00+00:00",
+   "time_estimated": false,
+   "address": "353 Northeast 61st Street, Miami, Florida 33137, United States",
+   "ages": "",
+   "price": "From $20",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "",
+   "cancelled": false
   },
   {
    "id": "edmtrain:529492",
@@ -7635,29 +7686,33 @@
    "url": "https://edmtrain.com/fort-lauderdale-fl/sacred-meadows-art-and-music-project-475883"
   },
   {
-   "id": "edmtrain:517966",
-   "source": "edmtrain",
-   "title": "Club 1BD, DJ Hunny Bee, Pressure Point, Spinelli",
+   "id": "dice:6a0eff0b5ffbf40001c9044c",
+   "source": "dice+edmtrain",
+   "title": "Club 1BD Miami ft. Chvmeleon, Hunny Bee, Pressure Point, & Spinelli",
    "artists": [
     "Club 1BD",
     "DJ Hunny Bee",
     "Pressure Point",
     "Spinelli"
    ],
-   "venue": "ZeyZey Miami",
+   "venue": "ZeyZey",
    "venue_slug": "zeyzey",
    "date": "2026-11-15",
-   "start": "2026-11-16T00:00:00+00:00",
-   "end": "2026-11-16T06:00:00+00:00",
-   "time_estimated": true,
-   "address": "353 NE 61st St, Miami, FL 33137, USA",
+   "start": "2026-11-15T20:00:00+00:00",
+   "end": "2026-11-16T00:00:00+00:00",
+   "time_estimated": false,
+   "address": "353 Northeast 61st Street, Miami, Florida 33137, United States",
    "ages": "",
-   "price": "",
+   "price": "From $37",
    "genres": [],
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/club-1bd-dj-hunny-bee-517966"
+   "url": "",
+   "cancelled": false,
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/club-1bd-dj-hunny-bee-517966"
+   ]
   },
   {
    "id": "edmtrain:532635",
@@ -9254,6 +9309,30 @@
    "organizer": "",
    "description": "",
    "url": "https://shotgun.live/en/events/buko-boys-floating-around-tour-at-lincoln-s-beard-miami-fl"
+  },
+  {
+   "id": "shotgun:minotaur-booking-presents-sids-ky-w-shinkaza-more",
+   "source": "shotgun",
+   "title": "Minotaur Booking Presents: Sids (Ky) W/Shinkaza & More",
+   "artists": [],
+   "venue": "Propaganda",
+   "venue_slug": null,
+   "date": "2026-12-12",
+   "start": "2026-12-13T01:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$11.55",
+   "genres": [
+    "hardcore",
+    "metal",
+    "metalcore"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/minotaur-booking-presents-sids-ky-w-shinkaza-more"
   },
   {
    "id": "edmtrain:537637",
