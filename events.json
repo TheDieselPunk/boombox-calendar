@@ -4274,6 +4274,28 @@
    "cancelled": false
   },
   {
+   "id": "shotgun:loofy-sable-october-8th",
+   "source": "shotgun",
+   "title": "Loofy @Sable October 8th",
+   "artists": [],
+   "venue": "Sable",
+   "venue_slug": null,
+   "date": "2026-10-08",
+   "start": "2026-10-09T02:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$16.00",
+   "genres": [
+    "tech house"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/loofy-sable-october-8th"
+  },
+  {
    "id": "hardrock:201835",
    "source": "19hz+edmtrain+venue",
    "title": "Luck Work",
