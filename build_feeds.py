@@ -10,13 +10,16 @@ Sources
   * Dice     - each tracked venue's Dice profile (venues.json "dice"). Space,
                Floyd, The Ground, Factory Town and Kemistry sell here; the page's
                embedded JSON has real start and end times and sold-out status.
+  * Tablelist- a venue's own box office where it has one (venues.json
+               "tablelist", e.g. ZeyZey): house-promoted shows with real times.
   * Edmtrain - metro-wide coverage (location id 87), the backstop for anything
                the other two miss (e.g. Domicile). Date only: no start time, no
                genres. The official API is used automatically when
                EDMTRAIN_CLIENT_KEY is set (free keys at edmtrain.com/developer-api).
 
 Same-night events at a tracked venue are merged with priority Shotgun > Dice >
-Edmtrain; the winner keeps its times, the others contribute lineup and links.
+Tablelist > Edmtrain; the winner keeps its times, the others contribute lineup
+and links.
 
 Outputs (all in the repo root)
   <slug>.ics    one feed per venue in venues.json. Shotgun-detailed events carry
@@ -415,6 +418,47 @@ def dice_events(venues):
 
 
 # --------------------------------------------------------------------------- #
+# Tablelist (a venue's own box office, e.g. ZeyZey)
+# --------------------------------------------------------------------------- #
+
+def tablelist_events(venues):
+    """Upcoming events from a venue's Tablelist page (venues.json "tablelist").
+
+    buy.tablelist.com/v/<slug>/events embeds the list with real start/end
+    times. Only what the house itself promotes shows up here - promoter-run
+    nights live on Shotgun/Dice - so it's a supplement, not a replacement.
+    """
+    events = []
+    for v in venues:
+        slug = v.get("tablelist")
+        if not slug:
+            continue
+        time.sleep(POLITE_DELAY)
+        markup = fetch(f"https://buy.tablelist.com/v/{slug}/events")
+        m = NEXT_DATA_RE.search(markup)
+        if not m:
+            raise RuntimeError(f"Tablelist: no __NEXT_DATA__ on /v/{slug}/events - page layout changed?")
+        rows = json.loads(m.group(1))["props"]["pageProps"].get("events") or []
+        n = 0
+        for e in rows:
+            if e.get("deleted") or not e.get("dateStart"):
+                continue
+            start = parse_iso(e["dateStart"])
+            end = parse_iso(e["dateEnd"]) if e.get("dateEnd") else None
+            events.append(new_event(
+                id=f"tablelist:{e['id']}", source="tablelist", title=clean(e.get("name")),
+                artists=[p.get("name") for p in e.get("performers") or [] if isinstance(p, dict) and p.get("name")],
+                venue=v["name"], venue_slug=v["slug"],
+                date=local_date(start), start=start.isoformat(), end=end.isoformat() if end else None,
+                description=clean(((e.get("details") or {}).get("description")) or ""),
+                url=f"https://buy.tablelist.com/e/{e['id']}",
+            ))
+            n += 1
+        log(f"  tablelist/{slug}: {n} events")
+    return events
+
+
+# --------------------------------------------------------------------------- #
 # Edmtrain
 # --------------------------------------------------------------------------- #
 
@@ -745,6 +789,7 @@ def main():
     events = drop_excluded(shotgun_events(venues), venues)
     log("Dice: venue profiles")
     events = merge(events, drop_excluded(dice_events(venues), venues))
+    events = merge(events, drop_excluded(tablelist_events(venues), venues))
     events = merge(events, drop_excluded(edmtrain_events(venues), venues))
     events = apply_genre_hints(events, hints)
     estimated = fill_typical_hours(events, venues, learn_hours(events))

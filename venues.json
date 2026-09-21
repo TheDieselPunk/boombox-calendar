@@ -61,6 +61,7 @@
     "name": "ZeyZey Miami",
     "match": ["zeyzey", "zey zey"],
     "dice": "zeyzey-lkox",
+    "tablelist": "zeyzey-miami-night",
     "hours": {"default": ["19:00", "01:00"], "fri": ["22:00", "03:00"]},
     "hours_note": "Observed on Shotgun: shows 7 PM-1 AM; Friday DJ nights 10 PM-3 AM."
   },

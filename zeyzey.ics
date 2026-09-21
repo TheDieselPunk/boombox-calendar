@@ -8,6 +8,19 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
+UID:tablelist-6be76e10fb1dbf65@zeyzey.miami-calendars
+DTSTAMP:20260921T194848Z
+LAST-MODIFIED:20260921T194848Z
+SEQUENCE:1
+DTSTART:20260920T220000Z
+DTEND:20260921T040000Z
+SUMMARY:The Muse Market ft. Anycia
+LOCATION:ZeyZey Miami
+DESCRIPTION:https://buy.tablelist.com/e/6be76e10fb1dbf65
+URL:https://buy.tablelist.com/e/6be76e10fb1dbf65
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:edmtrain-535660@zeyzey.miami-calendars
 DTSTAMP:20260921T193056Z
 LAST-MODIFIED:20260921T193056Z
@@ -35,6 +48,19 @@ DESCRIPTION:Lineup: Riva Starr\, Seamus Haji\nTimes are an estimate from Ze
  yZey Miami's usual hours - the listing has no start time yet. Check the li
  nk.\nhttps://edmtrain.com/miami-fl/nervous-records-riva-starr-518461
 URL:https://edmtrain.com/miami-fl/nervous-records-riva-starr-518461
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:tablelist-ff19f2b25fe40779@zeyzey.miami-calendars
+DTSTAMP:20260921T194848Z
+LAST-MODIFIED:20260921T194848Z
+SEQUENCE:1
+DTSTART:20260927T230000Z
+DTEND:20260928T030000Z
+SUMMARY:A.CHAL
+LOCATION:ZeyZey Miami
+DESCRIPTION:https://buy.tablelist.com/e/ff19f2b25fe40779
+URL:https://buy.tablelist.com/e/ff19f2b25fe40779
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

@@ -93,13 +93,14 @@
   "slug": "zeyzey",
   "name": "ZeyZey Miami",
   "file": "zeyzey.ics",
-  "events": 25,
+  "events": 27,
   "estimated_times": 15,
-  "next": "2026-09-24",
+  "next": "2026-09-20",
   "sources": [
    "dice",
    "edmtrain",
-   "shotgun"
+   "shotgun",
+   "tablelist"
   ],
   "hours_note": "Observed on Shotgun: shows 7 PM-1 AM; Friday DJ nights 10 PM-3 AM."
  },

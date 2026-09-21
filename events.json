@@ -1,6 +1,26 @@
 {
  "events": [
   {
+   "id": "tablelist:6be76e10fb1dbf65",
+   "source": "tablelist",
+   "title": "The Muse Market ft. Anycia",
+   "artists": [],
+   "venue": "ZeyZey Miami",
+   "venue_slug": "zeyzey",
+   "date": "2026-09-20",
+   "start": "2026-09-20T22:00:00+00:00",
+   "end": "2026-09-21T04:00:00+00:00",
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://buy.tablelist.com/e/6be76e10fb1dbf65"
+  },
+  {
    "id": "shotgun:comedy-night-at-churchill-s-4",
    "source": "shotgun",
    "title": "Comedy Night At Churchill's",
@@ -1894,6 +1914,26 @@
    "alt_urls": [
     "https://edmtrain.com/fort-lauderdale-fl/aurora-two-538042"
    ]
+  },
+  {
+   "id": "tablelist:ff19f2b25fe40779",
+   "source": "tablelist",
+   "title": "A.CHAL",
+   "artists": [],
+   "venue": "ZeyZey Miami",
+   "venue_slug": "zeyzey",
+   "date": "2026-09-27",
+   "start": "2026-09-27T23:00:00+00:00",
+   "end": "2026-09-28T03:00:00+00:00",
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://buy.tablelist.com/e/ff19f2b25fe40779"
   },
   {
    "id": "dice:6a6122ea7433b5000169d332",

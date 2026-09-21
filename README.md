@@ -1,7 +1,7 @@
 # miami-calendars
 
-One subscribable iCalendar feed per Miami venue, rebuilt from Shotgun, Dice and Edmtrain every 6 hours
-by a Windows scheduled task and served from GitHub Pages.
+One subscribable iCalendar feed per Miami venue, rebuilt from Shotgun, Dice, Tablelist and Edmtrain
+every 6 hours by a Windows scheduled task and served from GitHub Pages.
 
 **Landing page (all feeds, copy buttons):** https://thedieselpunk.github.io/miami-calendars/
 **Feed URLs:** `https://thedieselpunk.github.io/miami-calendars/<slug>.ics` — slugs are in
@@ -20,14 +20,18 @@ by a Windows scheduled task and served from GitHub Pages.
 2. **Dice** — each tracked venue's Dice profile (`dice` in `venues.json`). Space, Floyd, The Ground,
    Factory Town and Kemistry sell here; the page's embedded JSON carries real start *and* end times,
    price-from and sold-out status. Multi-day "pass"/donation items are skipped.
-3. **Edmtrain** — metro-wide (location id 87, ~300 events), the backstop for anything the other two
+3. **Tablelist** — a venue's own box office where it has one (`tablelist` in `venues.json`; ZeyZey
+   so far). Real start/end times, but only for house-promoted shows — promoter nights are on
+   Shotgun/Dice.
+4. **Edmtrain** — metro-wide (location id 87, ~300 events), the backstop for anything the other two
    miss (Domicile, for one). Date only: no start time, no genres. If `EDMTRAIN_CLIENT_KEY` is set the
    official API is used instead (free personal keys at https://edmtrain.com/developer-api).
-4. Same-night events at a tracked venue are merged with priority **Shotgun > Dice > Edmtrain**: the
+5. Same-night events at a tracked venue are merged with priority **Shotgun > Dice > Tablelist >
+   Edmtrain**: the
    winner keeps its times, the others contribute lineup, ages and links. Artist/title matching is
    spelling-insensitive ("SO DOWN" = "SoDown"). `genre_hints.json` tags untagged events by artist, or
    by venue as a marked guess.
-5. Per venue: `<slug>.ics`. Shotgun-detailed events carry their real times. Date-only events
+6. Per venue: `<slug>.ics`. Shotgun-detailed events carry their real times. Date-only events
    (Edmtrain) get the venue's **typical hours** from `venues.json` (`hours`, with optional per-weekday
    overrides such as Club Space's Saturday-into-Sunday-afternoon) and are flagged as estimates in the
    description; the real time replaces the estimate as soon as a source publishes one. Venues
@@ -37,7 +41,7 @@ by a Windows scheduled task and served from GitHub Pages.
    `SEQUENCE` increments **only when an event actually changes** — that's what calendar clients
    (Google included) use to decide whether to apply an update to an event they already hold —
    while a run that changes nothing produces byte-identical files and no commit.
-6. Also written: `events.json` (every event from both sources, tracked or not — what `whats_on.py`
+7. Also written: `events.json` (every event from both sources, tracked or not — what `whats_on.py`
    reads) and `feeds.json` (manifest the landing page renders).
 
 If a source fails the script exits non-zero and nothing is committed: a partial feed would make
@@ -54,6 +58,7 @@ Add an entry to `venues.json` and push:
 `match` is a list of case-insensitive substrings tested against the venue name as each source
 reports it (and, for Shotgun, the event page's location name). Optional: `dice` — the venue's Dice
 profile slug (from a `dice.fm/venue/<slug>` URL; gives real times for venues that sell there);
+`tablelist` — the venue's slug from a `buy.tablelist.com/v/<slug>` URL, if its own site sells there;
 `exclude` — title substrings to drop, e.g. `["the comedy bar"]` for a venue whose profile mixes in a
 comedy room; `hours` — typical local
 start/end as `{"default": ["23:00", "05:00"], "sat": ["23:00", "13:00"]}`, used for events whose
