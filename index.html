@@ -135,8 +135,10 @@
 
       <div class="group">
         <h3>Genres <button data-clear="genres">clear</button></h3>
+        <div class="chips" style="margin-bottom:8px"><button class="chip small" id="skipHouse" type="button">Skip all house scenes</button></div>
         <div id="genres"></div>
-        <div class="hint">Click once to require, twice to hide, again to reset. A family applies to all its subgenres; ▸ opens them.</div>
+        <div class="hint">Click once to require, twice to hide, again to reset. A scene applies to all its subgenres; ▸ opens them.
+          Scenes follow <a href="https://music.ishkur.com/" target="_blank" rel="noopener">Ishkur's Guide to Electronic Music</a>; hover a scene for its genres.</div>
       </div>
 
       <div class="group">
@@ -201,6 +203,7 @@
 <script>
 (() => {
   const TZ = "America/New_York";
+  const HOUSE_SCENES = ["House", "Tech House", "Progressive", "Garage/Deep House"];
   const SOURCE_LABEL = { shotgun:"Shotgun", dice:"Dice", tablelist:"Tablelist", venue:"Venue site", "19hz":"19hz", edmtrain:"Edmtrain" };
   const GCAL = "https://calendar.google.com/calendar/r/settings/addbyurl";
   const $ = s => document.querySelector(s);
@@ -325,6 +328,7 @@
       const wrap = document.createElement("div"); wrap.className = "fam";
       const row = document.createElement("div"); row.className = "famrow";
       const c = chip(fam.name, { family: fam.name }, st);
+      if (fam.ishkur_genres && fam.ishkur_genres.length) c.title = fam.ishkur_genres.join(" · ");
       const n = document.createElement("span"); n.className = "n"; n.textContent = total; c.appendChild(n);
       row.appendChild(c);
       if (tags.length > 1 || tags[0] !== fam.name.toLowerCase()) {
@@ -344,6 +348,8 @@
       }
       gbox.appendChild(wrap);
     }
+    const houseTags = families.filter(f => HOUSE_SCENES.includes(f.name)).flatMap(f => f.tags).filter(t => genreCounts.has(t));
+    $("#skipHouse").dataset.state = houseTags.length && houseTags.every(t => state.gOut.has(t)) ? "off" : "";
     for (const k of ["freeOnly", "over18", "confirmedTimes", "hideTba", "taggedOnly"]) $("#" + k).checked = state[k];
     for (const b of document.querySelectorAll("#tod .chip")) b.dataset.state = state.tod === b.dataset.tod ? "on" : "";
     const sbox = $("#sources"); sbox.innerHTML = "";
@@ -481,6 +487,12 @@
     $("#venues").onclick = e => { const b = e.target.closest(".chip"); if (!b) return; const v = b.dataset.venue; state.venues.has(v) ? state.venues.delete(v) : state.venues.add(v); render(); };
     $("#trackedOnly").onchange = e => { state.trackedOnly = e.target.checked; if (state.trackedOnly) state.otherVenue = ""; render(); };
     $("#otherVenue").onchange = e => { state.otherVenue = e.target.value; render(); };
+    $("#skipHouse").onclick = () => {
+      const tags = families.filter(f => HOUSE_SCENES.includes(f.name)).flatMap(f => f.tags).filter(t => genreCounts.has(t));
+      const on = tags.every(t => state.gOut.has(t));
+      for (const t of tags) { state.gIn.delete(t); if (on) state.gOut.delete(t); else state.gOut.add(t); }
+      render();
+    };
     $("#genres").onclick = e => {
       const caret = e.target.closest(".caret");
       if (caret) { const f = caret.dataset.expand; state.expanded.has(f) ? state.expanded.delete(f) : state.expanded.add(f); render(); return; }
@@ -515,7 +527,7 @@
     const lm = ej.headers.get("last-modified");
     events = (await ej.json()).events;
     feeds = await fj.json();
-    families = (await gj.json()).families.map(f => ({ name: f.name, tags: [...f.tags] }));
+    families = (await gj.json()).families.map(f => ({ name: f.name, tags: [...f.tags], ishkur_genres: f.ishkur_genres || [] }));
     events.sort((a, b) => a.date.localeCompare(b.date) || (a.start || "~").localeCompare(b.start || "~") || a.venue.localeCompare(b.venue));
     for (const e of events) if (!e.genres_inferred) for (const g of e.genres || []) genreCounts.set(g, (genreCounts.get(g) || 0) + 1);
     const known = new Set(families.flatMap(f => f.tags));
