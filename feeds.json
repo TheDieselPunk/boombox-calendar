@@ -140,5 +140,47 @@
    "venue"
   ],
   "hours_note": "Nightclub 10 PM-4 AM; Dayclub pool parties noon-6 PM. Seminole Hard Rock, Hollywood FL (~25 mi north)."
+ },
+ {
+  "slug": "jolene",
+  "name": "Jolene Sound Room",
+  "file": "jolene.ics",
+  "events": 19,
+  "estimated_times": 0,
+  "next": "2026-09-24",
+  "sources": [
+   "19hz",
+   "dice",
+   "edmtrain"
+  ],
+  "hours_note": "10 PM-4 AM. Downtown, 200 cap."
+ },
+ {
+  "slug": "midline",
+  "name": "Midline",
+  "file": "midline.ics",
+  "events": 10,
+  "estimated_times": 3,
+  "next": "2026-09-26",
+  "sources": [
+   "19hz",
+   "edmtrain"
+  ],
+  "hours_note": "Typically 10 PM-3 AM; some early shows. Little River."
+ },
+ {
+  "slug": "festivals",
+  "name": "Festivals & one-offs",
+  "file": "festivals.ics",
+  "events": 35,
+  "estimated_times": 20,
+  "next": "2026-10-02",
+  "sources": [
+   "19hz",
+   "dice",
+   "edmtrain",
+   "shotgun"
+  ],
+  "hours_note": "Anything not at a club: parks, amphitheaters, convention halls, pop-ups, plus festival-branded nights wherever they are."
  }
 ]

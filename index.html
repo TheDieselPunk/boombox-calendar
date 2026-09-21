@@ -11,7 +11,8 @@
     --chip:#ececf0; --chip-on:#17171a; --chip-on-fg:#fff; --chip-off:#fbe9ec; --chip-off-fg:#a30d25;
     --today:#fff5f6; --shadow:0 1px 2px rgba(0,0,0,.06);
     --v-club-space:#d64545; --v-the-ground:#e08a2a; --v-floyd:#c9a227; --v-domicile:#7a3bd0; --v-factory-town:#2f9e6d;
-    --v-kemistry:#1f8bd6; --v-boombox:#d6409f; --v-zeyzey:#3ea6a0; --v-mad-radio:#8a6d3b; --v-daer:#5468e0; --v-other:#9a9aa3;
+    --v-kemistry:#1f8bd6; --v-boombox:#d6409f; --v-zeyzey:#3ea6a0; --v-mad-radio:#8a6d3b; --v-daer:#5468e0;
+    --v-jolene:#b8452b; --v-midline:#4f9e3a; --v-festivals:#e0b020; --v-other:#9a9aa3;
   }
   @media (prefers-color-scheme: dark) {
     :root { --bg:#111114; --fg:#ececf0; --muted:#9a9aa3; --card:#1b1b20; --line:#2b2b32; --accent:#ff4d6d;
@@ -267,7 +268,7 @@
   // ---------- filtering ----------
   function matches(e) {
     if (state.trackedOnly && !e.venue_slug) return false;
-    if (state.venues.size && !state.venues.has(e.venue_slug)) return false;
+    if (state.venues.size && !state.venues.has(e.venue_slug) && !(e.also || []).some(x => state.venues.has(x))) return false;
     if (state.otherVenue && e.venue !== state.otherVenue) return false;
     if (state.q) {
       const hay = [e.title, e.venue, ...(e.artists || []), e.organizer || ""].join(" ").toLowerCase();

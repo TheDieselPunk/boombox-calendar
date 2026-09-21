@@ -1,0 +1,169 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TheDieselPunk//miami-calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Midline
+X-WR-TIMEZONE:America/New_York
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:edmtrain-529368@midline.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20260927T020000Z
+DTEND:20260927T070000Z
+SUMMARY:It's A 2000's Party - Miami
+LOCATION:Midline Miami\, 2221 NW Miami Ct\, Miami\, FL 33127\, USA
+DESCRIPTION:Times are an estimate from Midline's usual hours - the listing 
+ has no start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/its-
+ a-2000s-party-miami-529368
+URL:https://edmtrain.com/miami-fl/its-a-2000s-party-miami-529368
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4445268-starjunk95@midline.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261010T010000Z
+DTEND:20261010T053000Z
+SUMMARY:Starjunk 95
+LOCATION:Midline
+DESCRIPTION:Lineup: Starjunk 95\nTags: breaks\, drum and bass\, house\nAges
+ : 21+\nhttps://www.eventbrite.com/e/starjunk-95-midline-miami-tickets-1991
+ 307429125\nhttps://edmtrain.com/miami-fl/starjunk-95-511485
+URL:https://www.eventbrite.com/e/starjunk-95-midline-miami-tickets-19913074
+ 29125
+STATUS:CONFIRMED
+CATEGORIES:breaks,drum and bass,house
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4445368-sidequest@midline.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261011T020000Z
+DTEND:20261011T070000Z
+SUMMARY:Sidequest
+LOCATION:Midline
+DESCRIPTION:Lineup: SIDEQUEST\nTags: house\nAges: 18+\nhttps://wl.eventim.u
+ s/event/sidequest-midline-miami/704346?afflky=Midline\nhttps://edmtrain.co
+ m/miami-fl/sidequest-534375
+URL:https://wl.eventim.us/event/sidequest-midline-miami/704346?afflky=Midli
+ ne
+STATUS:CONFIRMED
+CATEGORIES:house
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4446016-mose@midline.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261017T200000Z
+DTEND:20261018T010000Z
+SUMMARY:Mose
+LOCATION:Midline
+DESCRIPTION:Presented by: BLNK CNVS\nAges: 18+\nhttps://www.eventbrite.com/
+ e/mose-midline-miami-tickets-1990525304770
+URL:https://www.eventbrite.com/e/mose-midline-miami-tickets-1990525304770
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4447384-djhabibeats@midline.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261101T020000Z
+DTEND:20261101T070000Z
+SUMMARY:DJ Habibeats
+LOCATION:Midline
+DESCRIPTION:Lineup: Habibeats\nTags: house\nPresented by: BLNK CNVS\nAges: 
+ 21+\nhttps://www.eventbrite.com/e/dj-habibeats-midline-miami-tickets-19921
+ 70698186\nhttps://edmtrain.com/miami-fl/habibeats-515860
+URL:https://www.eventbrite.com/e/dj-habibeats-midline-miami-tickets-1992170
+ 698186
+STATUS:CONFIRMED
+CATEGORIES:house
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-535253@midline.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261115T030000Z
+DTEND:20261115T080000Z
+SUMMARY:Krewella
+LOCATION:Midline Miami\, 2221 NW Miami Ct\, Miami\, FL 33127\, USA
+DESCRIPTION:Lineup: Krewella\nTimes are an estimate from Midline's usual ho
+ urs - the listing has no start time yet. Check the link.\nhttps://edmtrain
+ .com/miami-fl/krewella-535253
+URL:https://edmtrain.com/miami-fl/krewella-535253
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-536724@midline.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261121T030000Z
+DTEND:20261121T080000Z
+SUMMARY:KAPO
+LOCATION:Midline Miami\, 2221 NW Miami Ct\, Miami\, FL 33127\, USA
+DESCRIPTION:Lineup: KAPO\nTimes are an estimate from Midline's usual hours 
+ - the listing has no start time yet. Check the link.\nhttps://edmtrain.com
+ /miami-fl/kapo-536724
+URL:https://edmtrain.com/miami-fl/kapo-536724
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4450072-wonkywilla@midline.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261129T030000Z
+DTEND:20261129T080000Z
+SUMMARY:Wonkywilla
+LOCATION:Midline
+DESCRIPTION:Lineup: WonkyWilla\nTags: bass music\, dubstep\nAges: 18+\nhttp
+ s://www.eventbrite.com/e/wonkywilla-midline-miami-tickets-1991488953068\nh
+ ttps://edmtrain.com/miami-fl/wonkywilla-512230
+URL:https://www.eventbrite.com/e/wonkywilla-midline-miami-tickets-199148895
+ 3068
+STATUS:CONFIRMED
+CATEGORIES:bass music,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4453236-dreamland2026mai@midline.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20270101T020000Z
+DTEND:20270101T080000Z
+SUMMARY:Dreamland 2026 Main Event
+LOCATION:Midline
+DESCRIPTION:Tags: edm\, house\nhttps://www.tixr.com/groups/dreamlandnye/eve
+ nts/dreamland-new-years-festival-170476
+URL:https://www.tixr.com/groups/dreamlandnye/events/dreamland-new-years-fes
+ tival-170476
+STATUS:CONFIRMED
+CATEGORIES:edm,house
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4456024-heyz@midline.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20270130T030000Z
+DTEND:20270130T080000Z
+SUMMARY:Heyz
+LOCATION:Midline
+DESCRIPTION:Lineup: HEYZ\nTags: bass music\, dubstep\, trap\nAges: 18+\nhtt
+ ps://wl.eventim.us/event/heyz-midline-miami/704806?afflky=Midline\nhttps:/
+ /edmtrain.com/miami-fl/heyz-535699
+URL:https://wl.eventim.us/event/heyz-midline-miami/704806?afflky=Midline
+STATUS:CONFIRMED
+CATEGORIES:bass music,dubstep,trap
+END:VEVENT
+END:VCALENDAR

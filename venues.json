@@ -81,5 +81,31 @@
     "hardrock_calendar": {"url": "https://www.hardrocknightlife.com/calendar", "rooms": ["daer"]},
     "hours": {"default": ["22:00", "04:00"], "day": ["12:00", "18:00"]},
     "hours_note": "Nightclub 10 PM-4 AM; Dayclub pool parties noon-6 PM. Seminole Hard Rock, Hollywood FL (~25 mi north)."
+  },
+  {
+    "slug": "jolene",
+    "name": "Jolene Sound Room",
+    "match": ["jolene"],
+    "dice": "jolene-sound-room-miami-97a6",
+    "hours": {"default": ["22:00", "04:00"]},
+    "hours_note": "10 PM-4 AM. Downtown, 200 cap."
+  },
+  {
+    "slug": "midline",
+    "name": "Midline",
+    "match": ["midline"],
+    "hours": {"default": ["22:00", "03:00"]},
+    "hours_note": "Typically 10 PM-3 AM; some early shows. Little River."
+  },
+  {
+    "slug": "festivals",
+    "name": "Festivals & one-offs",
+    "rules": {
+      "venue": "\\b(park|amphitheat\\w*|bandshell|bayfront|mana wynwood|convention|island|arena|stadium|fairground|racetrack|casino|warehouse|casa nube|marina|pier)\\b",
+      "loose_venue": "^(miami|miami beach|tba|secret location|location tba|undisclosed( location)?)$",
+      "title": "festival|iii points|ultra miami|ultra music|art basel|basel edition|basel week|music week|\\bmmw\\b|rolling loud|\\bedc\\b|nocturnal wonderland|circoloco|open air|block party|boat party|yacht party|groove cruise"
+    },
+    "hours": {"default": ["15:00", "02:00"]},
+    "hours_note": "Anything not at a club: parks, amphitheaters, convention halls, pop-ups, plus festival-branded nights wherever they are."
   }
 ]

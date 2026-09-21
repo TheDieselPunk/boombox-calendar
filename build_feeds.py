@@ -147,7 +147,7 @@ def venue_for(venues, text):
     """Tracked venue config whose match list hits this venue name, else None."""
     low = (text or "").lower()
     for v in venues:
-        if any(m in low for m in v["match"]):
+        if any(m in low for m in v.get("match", [])):
             return v
     return None
 
@@ -880,6 +880,45 @@ def merge(primary, secondary):
     return merged
 
 
+ELECTRONIC_TAGS = {"techno", "house", "tech house", "deep house", "progressive house", "afro house", "minimal", "trance",
+                   "psytrance", "dubstep", "bass", "bass music", "riddim", "drum and bass", "breaks", "electro", "idm",
+                   "hard techno", "industrial", "acid", "edm", "pop edm", "trap", "hardstyle", "melodic techno", "electronica",
+                   "downtempo", "multigenre edm", "dance/electronic", "big room", "big room house", "electro house", "garage",
+                   "uk garage", "jungle", "footwork", "hard dance", "hardcore", "gabber", "dance", "disco", "nu-disco", "indie dance"}
+
+
+def apply_rules(events, venues):
+    """Rule-based feeds (venues.json entries with "rules" instead of "match").
+
+    An event at no tracked venue that matches becomes native to the rule feed;
+    an event already at a tracked venue that matches (III Points' closing at
+    Space, Circoloco at Factory Town) stays where it is and is *also* listed in
+    the rule feed via ev["also"].
+    """
+    for v in venues:
+        rules = v.get("rules")
+        if not rules:
+            continue
+        venue_re = re.compile(rules["venue"], re.I) if rules.get("venue") else None
+        loose_re = re.compile(rules["loose_venue"], re.I) if rules.get("loose_venue") else None
+        title_re = re.compile(rules["title"], re.I) if rules.get("title") else None
+        n = 0
+        for ev in events:
+            hit = bool(title_re and title_re.search(ev["title"])) or bool(venue_re and venue_re.search(ev["venue"] or ""))
+            if not hit and loose_re and loose_re.search((ev["venue"] or "").strip()):
+                hit = bool(set(ev["genres"]) & ELECTRONIC_TAGS) and not ev["genres_inferred"]
+            if not hit:
+                continue
+            if ev["venue_slug"] and ev["venue_slug"] != v["slug"]:
+                if v["slug"] not in ev.setdefault("also", []):
+                    ev["also"].append(v["slug"])
+            else:
+                ev["venue_slug"] = v["slug"]
+            n += 1
+        log(f"  rule feed {v['slug']}: {n} events")
+    return events
+
+
 def apply_genre_hints(events, hints):
     artists, venues = hints.get("artists", {}), hints.get("venues", {})
     for ev in events:
@@ -969,7 +1008,7 @@ def vevent(ev, venue):
         desc.append("Lineup: " + ", ".join(ev["artists"]))
     if ev["genres"]:
         desc.append(("Tags (guess): " if ev["genres_inferred"] else "Tags: ") + ", ".join(ev["genres"]))
-    if ev["organizer"] and not any(m in ev["organizer"].lower() for m in venue["match"]):
+    if ev["organizer"] and not any(m in ev["organizer"].lower() for m in venue.get("match", [])):
         desc.append("Presented by: " + ev["organizer"])
     if ev.get("tickets"):
         desc.append("Tickets: " + ev["tickets"])
@@ -1071,6 +1110,7 @@ def main():
     events = merge(events, drop_excluded(hz19_events(venues), venues))
     events = merge(events, drop_excluded(edmtrain_events(venues), venues))
     events = apply_genre_hints(events, hints)
+    events = apply_rules(events, venues)
     estimated = fill_typical_hours(events, venues, learn_hours(events))
     log(f"  {estimated} event(s) given the venue's typical hours (no published time)")
     events.sort(key=lambda e: (e["date"], e["start"] or "~", e["venue"], e["title"]))
@@ -1083,7 +1123,7 @@ def main():
     seen = set()
     feeds = []
     for v in venues:
-        mine = [e for e in events if e["venue_slug"] == v["slug"] and e["date"] >= cutoff]
+        mine = [e for e in events if (e["venue_slug"] == v["slug"] or v["slug"] in e.get("also", [])) and e["date"] >= cutoff]
         built = [vevent(e, v) for e in mine]
         seen.update(uid for uid, _ in built)
         write(f"{v['slug']}.ics", calendar_text(v["name"], stamp_vevents(built, state, now)))

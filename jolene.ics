@@ -1,0 +1,313 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TheDieselPunk//miami-calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jolene Sound Room
+X-WR-TIMEZONE:America/New_York
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:dice-6a8b490e7b6a8a000143f719@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20260925T020000Z
+DTEND:20260925T080000Z
+SUMMARY:Lisa's Kickback
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Tags: minimal\, tech house\nAges: 21+\nhttps://dice.fm/event/6a
+ 8b490e7b6a8a000143f719
+STATUS:CONFIRMED
+CATEGORIES:minimal,tech house
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-69ea11f11065f800016615b6@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20260926T020000Z
+DTEND:20260926T080000Z
+SUMMARY:Yoyaku: Satoshi Tomiie
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Lineup: Satoshi Tomiie\, Mari.te\, Lis Sarroca\nTags: deep hous
+ e\, techno\nAges: 21+\nhttps://dice.fm/event/927gy9-yoyaku-satoshi-tomiie-
+ 25th-sep-jolene-sound-room-miami-miami-tickets\nhttps://edmtrain.com/miami
+ -fl/satoshi-tomiie-mari-te-529998
+STATUS:CONFIRMED
+CATEGORIES:deep house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a3c39e5f0933d00010b0805@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20260927T020000Z
+DTEND:20260927T080000Z
+SUMMARY:Nick Warren
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Lineup: Nick Warren\nTags: deep house\, tech house\, techno\nAg
+ es: 21+\nhttps://dice.fm/event/v32736-nick-warren-26th-sep-jolene-sound-ro
+ om-miami-miami-tickets\nhttps://edmtrain.com/miami-fl/nick-warren-516319
+STATUS:CONFIRMED
+CATEGORIES:deep house,tech house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4444504-generousb@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261002T020000Z
+DTEND:20261002T080000Z
+SUMMARY:Generous B
+LOCATION:Jolene Downtown
+DESCRIPTION:Tags: house\nAges: 21+\nhttps://dice.fm/event/6a8b4c2bfec448000
+ 18bccb4
+URL:https://dice.fm/event/6a8b4c2bfec44800018bccb4
+STATUS:CONFIRMED
+CATEGORIES:house
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a8b4c2bfec44800018bccb4@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261003T020000Z
+DTEND:20261003T080000Z
+SUMMARY:Generous B Presents
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Tags (guess): house\, tech house\nhttps://edmtrain.com/miami-fl
+ /generous-b-presents-538119
+STATUS:CONFIRMED
+CATEGORIES:house,tech house
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a6cf7d798cdba0001582d19@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261004T020000Z
+DTEND:20261004T080000Z
+SUMMARY:Wata Igarashi
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Lineup: Wata Igarashi\nTags: techno\nAges: 21+\nhttps://dice.fm
+ /event/xe3pkk-wata-igarashi-3rd-oct-jolene-sound-room-miami-miami-tickets
+ \nhttps://edmtrain.com/miami-fl/wata-igarashi-525619
+STATUS:CONFIRMED
+CATEGORIES:techno
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6aad6a7f4e3af20001d7ad92@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261009T020000Z
+DTEND:20261009T080000Z
+SUMMARY:Thursday\, October 8
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Tags (guess): house\, tech house
+STATUS:CONFIRMED
+CATEGORIES:house,tech house
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6aa83c59ff46e90001677da0@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261010T020000Z
+DTEND:20261010T080000Z
+SUMMARY:Chippy Nonstop & Pressure Point
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Lineup: Chippy Nonstop\, Pressure Point\nTags: hard house\, tec
+ hno\, trance\nAges: 21+\nhttps://dice.fm/event/6aa83c59ff46e90001677da0\nh
+ ttps://edmtrain.com/miami-fl/chippy-nonstop-pressure-point-536890
+STATUS:CONFIRMED
+CATEGORIES:hard house,techno,trance
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a6cfc4a52840d0001729eef@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261011T020000Z
+DTEND:20261011T080000Z
+SUMMARY:Enamour
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Lineup: Enamour\nTags: progressive house\, tech house\nAges: 21
+ +\nhttps://dice.fm/event/eo6ewy-enamour-10th-oct-jolene-sound-room-miami-m
+ iami-tickets\nhttps://edmtrain.com/miami-fl/enamour-525620
+STATUS:CONFIRMED
+CATEGORIES:progressive house,tech house
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a822809b96d4a0001d646bb@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261016T020000Z
+DTEND:20261016T080000Z
+SUMMARY:Satellite: Shanti Celeste b2b Peach
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Lineup: Shanti Celeste\, Sister System\, Gio Elia\nTags: deep h
+ ouse\, tech house\, techno\nAges: 21+\nhttps://dice.fm/event/k65y9l-satell
+ ite-shanti-celeste-b2b-peach-15th-oct-jolene-sound-room-miami-miami-ticket
+ s\nhttps://edmtrain.com/miami-fl/shanti-celeste-sister-system-529556
+STATUS:CONFIRMED
+CATEGORIES:deep house,tech house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a823197b96d4a000112d8fb@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261017T020000Z
+DTEND:20261017T080000Z
+SUMMARY:Satellite: OMRI.
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Tags: tbd\nAges: 21+\nhttps://dice.fm/event/6a823197b96d4a00011
+ 2d8fb
+STATUS:CONFIRMED
+CATEGORIES:tbd
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a823726dd1b160001c44659@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261018T020000Z
+DTEND:20261018T080000Z
+SUMMARY:Satellite: Beltran
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Lineup: Beltran\, Marc Houle\, Idriss D\nTags: tech house\nAges
+ : 21+\nhttps://dice.fm/event/923k5d-satellite-beltran-more-17th-oct-jolene
+ -sound-room-miami-miami-tickets\nhttps://edmtrain.com/miami-fl/beltran-mar
+ c-houle-529273
+STATUS:CONFIRMED
+CATEGORIES:tech house
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a823d83c386c20001767026@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261019T020000Z
+DTEND:20261019T080000Z
+SUMMARY:Satellite: Dean Turnley\, KinAhau\, & Dalva
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Lineup: Dean Turnley\, KinAhau\, Dalva\nTags: funk\, hip-hop\, 
+ house\nAges: 21+\nhttps://dice.fm/event/dkdpm6-satellite-dean-turnley-kina
+ hau-dalva-18th-oct-jolene-sound-room-miami-miami-tickets\nhttps://edmtrain
+ .com/miami-fl/dean-turnley-kinahau-529274
+STATUS:CONFIRMED
+CATEGORIES:funk,hip-hop,house
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6aa9c6d3a46904000108e080@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261025T020000Z
+DTEND:20261025T080000Z
+SUMMARY:Ida Engberg b2b ONYVAA
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Lineup: Ida Engberg\, ONYVAA\, Kujo\nTags: techno\nAges: 21+\nh
+ ttps://dice.fm/event/l8m97w-ida-engberg-b2b-onyvaa-24th-oct-jolene-sound-r
+ oom-miami-miami-tickets\nhttps://edmtrain.com/miami-fl/ida-engberg-onyvaa-
+ 537225
+STATUS:CONFIRMED
+CATEGORIES:techno
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a86066921cf70000141b5a6@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261030T020000Z
+DTEND:20261030T080000Z
+SUMMARY:Hercules & Love Affair
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Lineup: Hercules & Love Affair\nTags: deep house\, disco\, tech
+  house\, techno\nAges: 21+\nhttps://dice.fm/event/6a86066921cf70000141b5a6
+ \nhttps://edmtrain.com/miami-fl/hercules-and-love-affair-530459
+STATUS:CONFIRMED
+CATEGORIES:deep house,disco,tech house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6aa2fa7b8fd8d8000155bbf4@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261031T020000Z
+DTEND:20261031T080000Z
+SUMMARY:Aline Umber b2b Krol (All Night Long)
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Tags: funk\, house\, live electronic\nAges: 21+\nhttps://dice.f
+ m/event/6aa2fa7b8fd8d8000155bbf4
+STATUS:CONFIRMED
+CATEGORIES:funk,house,live electronic
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a85fc0f21cf70000116039a@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261114T030000Z
+DTEND:20261114T090000Z
+SUMMARY:Adiel & Yu Su
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Lineup: Adiel\, Yu Su\nTags: house\nAges: 21+\nhttps://dice.fm/
+ event/6a85fc0f21cf70000116039a\nhttps://edmtrain.com/miami-fl/adiel-yu-su-
+ 530460
+STATUS:CONFIRMED
+CATEGORIES:house
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a8b4d68fec4480001a68ffe@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261126T030000Z
+DTEND:20261126T090000Z
+SUMMARY:Helena Hauff
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Lineup: Helena Hauff\nTags (guess): house\, tech house\nhttps:/
+ /edmtrain.com/miami-fl/helena-hauff-537226
+STATUS:CONFIRMED
+CATEGORIES:house,tech house
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a6bc6a9f6f43900015dbfd4@jolene.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261129T030000Z
+DTEND:20261129T090000Z
+SUMMARY:Ryan Elliot & Danny Daze
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Lineup: Danny Daze\, Ryan Elliott\nTags: electro\, house\, tech
+ no\nAges: 21+\nhttps://dice.fm/event/6do6o7-ryan-elliot-danny-daze-28th-no
+ v-jolene-sound-room-miami-miami-tickets\nhttps://dice.fm/event/l87pxx-hele
+ na-hauff-28th-nov-jolene-sound-room-miami-miami-tickets\nhttps://edmtrain.
+ com/miami-fl/danny-daze-ryan-elliott-537621
+STATUS:CONFIRMED
+CATEGORIES:electro,house,techno
+END:VEVENT
+END:VCALENDAR

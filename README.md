@@ -11,7 +11,9 @@ sources and text search; filter state lives in the URL hash so a view can be sha
 subscribe cards are at the bottom of the same page.
 **Feed URLs:** `https://thedieselpunk.github.io/miami-calendars/<slug>.ics` — slugs are in
 [`venues.json`](venues.json): `club-space`, `the-ground`, `floyd`, `domicile`, `factory-town`, `kemistry`,
-`boombox`, `zeyzey`, `mad-radio`, `daer`.
+`boombox`, `zeyzey`, `mad-radio`, `daer`, `jolene`, `midline`, and `festivals` — a rule-based feed of
+everything *not* at a club (parks, amphitheaters, convention halls, pop-ups) plus festival-branded nights
+wherever they are (III Points, Ultra, Art Basel week, Circoloco…).
 
 ## How it works
 
@@ -62,7 +64,9 @@ Google delete the missing events.
 
 ## Adding a venue
 
-Add an entry to `venues.json` and push:
+Add an entry to `venues.json` and push (a `rules` entry — regexes on `venue`, `loose_venue` and `title`
+— makes a feed by pattern instead; see `festivals`, which also lists matching events that live in another
+venue's feed):
 
 ```json
 { "slug": "kemistry", "name": "Kemistry", "match": ["kemistry"] }

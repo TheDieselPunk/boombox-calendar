@@ -1,0 +1,617 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TheDieselPunk//miami-calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Festivals & one-offs
+X-WR-TIMEZONE:America/New_York
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:19hz-4444588-bloodfeastvseven@festivals.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261002T230000Z
+DTEND:20261003T070000Z
+SUMMARY:Blood Feast: V.Seven B2B Proletar\, Hunter Steel B2B Icky\, Dadrev
+ \, Domnrob\, Cobb Douglas B2B Joey\, Franky De Rey\, Stinny Stone
+LOCATION:Casa Nube Wynwood
+DESCRIPTION:Lineup: PROLETAR\, HUNTER STEEL\, Icky\, Dadrev\, DomnRob\, COB
+ B DOUGLAS\, Franky De Rey\, Stinny Stone\nTags: hard techno\, trance\nPres
+ ented by: Black Room\nAges: 18+\nhttps://ra.co/events/2529889\nhttps://edm
+ train.com/miami-fl/blood-feast-proletar-535396
+URL:https://ra.co/events/2529889
+STATUS:CONFIRMED
+CATEGORIES:hard techno,trance
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4444596-transcendentxt4t@festivals.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261003T010000Z
+DTEND:20261003T060000Z
+SUMMARY:Trans*cendent x T4TWrestling
+LOCATION:TBA\, Hollywood
+DESCRIPTION:Tags: techno\, trance\nAges: 18+\nhttps://ra.co/events/2534770
+URL:https://ra.co/events/2534770
+STATUS:CONFIRMED
+CATEGORIES:techno,trance
+END:VEVENT
+BEGIN:VEVENT
+UID:soundtuaryoctober3@shotgun.live
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261004T000000Z
+DTEND:20261004T070000Z
+SUMMARY:Soundtuary Present Amémé & Malive - Open Air
+LOCATION:Jungle Island
+DESCRIPTION:Lineup: AMÉMÉ\, Malive\, WAAE\, Ketzal\, PALMA\nTags: afro ho
+ use\, house\, tech house\nAges: 21+\nhttps://shotgun.live/en/events/soundt
+ uaryoctober3\nhttps://edmtrain.com/miami-fl/soundtuary-ameme-536892
+URL:https://shotgun.live/en/events/soundtuaryoctober3
+STATUS:CONFIRMED
+CATEGORIES:afro house,house,tech house
+END:VEVENT
+BEGIN:VEVENT
+UID:roots-of-bass-bear-grillz@shotgun.live
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261010T020000Z
+DTEND:20261010T090000Z
+SUMMARY:Roots Of Bass - Bear Grillz\, Usaybflow + More
+LOCATION:Miami
+DESCRIPTION:Lineup: Bear Grillz\, Usaybflow\nTags: bass\, bass music\, dubs
+ tep\, trap\nAges: 21+\nhttps://shotgun.live/en/events/roots-of-bass-bear-g
+ rillz\nhttps://dice.fm/event/8eqn6w-roots-of-bass-bear-grillz-usaybflow-mo
+ re-9th-oct-mad-live-miami-tickets\nhttps://edmtrain.com/miami-fl/roots-of-
+ bass-bear-grillz-516800
+URL:https://shotgun.live/en/events/roots-of-bass-bear-grillz
+STATUS:CONFIRMED
+CATEGORIES:bass,bass music,dubstep,trap
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4445323-mc4d@festivals.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261010T150000Z
+DTEND:20261011T060000Z
+SUMMARY:MC4D
+LOCATION:The Shorely At Marina Village\, Fort Lauderdale
+DESCRIPTION:Lineup: MC4D\nTags: country\, pop edm\nAges: 21+\nhttps://www.e
+ ventbrite.com/e/mc4d-the-shorely-tickets-2000173734483\nhttps://edmtrain.c
+ om/fort-lauderdale-fl/mc4d-535945
+URL:https://www.eventbrite.com/e/mc4d-the-shorely-tickets-2000173734483
+STATUS:CONFIRMED
+CATEGORIES:country,pop edm
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4445364-slowlifeshowcase@festivals.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261011T010000Z
+DTEND:20261011T070000Z
+SUMMARY:Slow Life Showcase: Cecilio\, Paolo Mosca
+LOCATION:TBA
+DESCRIPTION:Tags: house\nPresented by: Trip Events\, Explorer\nAges: 21+\nh
+ ttps://ra.co/events/2517792
+URL:https://ra.co/events/2517792
+STATUS:CONFIRMED
+CATEGORIES:house
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4445916-iiipoints2026@festivals.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261016T190000Z
+DTEND:20261017T070000Z
+SUMMARY:III Points 2026
+LOCATION:Mana Wynwood
+DESCRIPTION:Tags: multigenre edm\nPresented by: Insomniac\nAges: All ages\n
+ https://iiipoints.frontgatetickets.com/?utm_source=Promoters&utm_medium=19
+ hz&utm_campaign=19hz
+URL:https://iiipoints.frontgatetickets.com/?utm_source=Promoters&utm_medium
+ =19hz&utm_campaign=19hz
+STATUS:CONFIRMED
+CATEGORIES:multigenre edm
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-434705@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20261016T190000Z
+DTEND:20261017T060000Z
+SUMMARY:III Points: Vintage Culture b2b Max Styler\, Cloonee\, Men I Trust
+ \, Parcels\, Lil' Kim\, PAWSA\, Tokischa\, Bone Thugs-N-Harmony\, Connan M
+ ockasin\, Purity Ring\, Disco Lines\, Flying Lotus\, underscores\, Levity 
+ b2b Taiki Nulight\, Hamdi\, Jane Remover\, Odd Mob\, Beltran b2b Ben Sterl
+ ing\, Danny Brown\, Ivy Lab\, Mary Droppinz\, Jacques Greene\, Ahmed Spins
+  b2b OMRI.\, jigitz\, mind enterprises\, Nate Sib\, Brunello b2b Rafael\, 
+ Discip\, Danny Daze b2b DJ Godfather\, Roddy Lima\, Ragie Ban\, Eli Escoba
+ r b2b Jubilee\, INVT
+LOCATION:Mana Wynwood Convention Center\, 318 NW 23rd St\, Miami\, FL 33127
+ \, USA
+DESCRIPTION:Lineup: Vintage Culture\, Max Styler\, Cloonee\, Men I Trust\, 
+ Parcels\, Lil' Kim\, PAWSA\, Tokischa\, Bone Thugs-N-Harmony\, Connan Mock
+ asin\, Purity Ring\, Disco Lines\, Flying Lotus\, underscores\, Levity\, T
+ aiki Nulight\, Hamdi\, Jane Remover\, Odd Mob\, Beltran\, Ben Sterling\, D
+ anny Brown\, Ivy Lab\, Mary Droppinz\, Jacques Greene\, Ahmed Spins\, OMRI
+ .\, jigitz\, mind enterprises\, Nate Sib\, Brunello\, Rafael\, Discip\, Da
+ nny Daze\, DJ Godfather\, Roddy Lima\, Ragie Ban\, Eli Escobar\, Jubilee\,
+  INVT\nTimes are an estimate from Festivals & one-offs's usual hours - the
+  listing has no start time yet. Check the link.\nhttps://edmtrain.com/miam
+ i-fl/iii-points-434705
+URL:https://edmtrain.com/miami-fl/iii-points-434705
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-434706@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20261017T190000Z
+DTEND:20261018T060000Z
+SUMMARY:III Points: Four Tet\, KETTAMA\, Blood Orange\, Fakemink\, Underwor
+ ld\, Kelela\, Marco Carola b2b Franky Rizardo\, Rusowsky\, Adam Port\, Bas
+ svictim\, Max Dean b2b Luke Dean\, horsegiirL\, VTSS\, Interplanetary Crim
+ inal\, ¥ØU$UK€ ¥UK1MAT$U\, 999999999\, KI/KI\, Charlotte de Witte\, T
+ ricky\, SOSA\, Tiga\, Machine Girl\, ChaseWest\, Daphni\, MPH\, HAAi\, Cha
+ nel Beads\, Roman Flügel\, Joss Dean\, Seth Troxler
+LOCATION:Mana Wynwood Convention Center\, 318 NW 23rd St\, Miami\, FL 33127
+ \, USA
+DESCRIPTION:Lineup: Four Tet\, KETTAMA\, Blood Orange\, Fakemink\, Underwor
+ ld\, Kelela\, Marco Carola\, Franky Rizardo\, Rusowsky\, Adam Port\, Bassv
+ ictim\, Max Dean\, Luke Dean\, horsegiirL\, VTSS\, Interplanetary Criminal
+ \, ¥ØU$UK€ ¥UK1MAT$U\, 999999999\, KI/KI\, Charlotte de Witte\, Trick
+ y\, SOSA\, Tiga\, Machine Girl\, ChaseWest\, Daphni\, MPH\, HAAi\, Chanel 
+ Beads\, Roman Flügel\, Joss Dean\, Seth Troxler\nTimes are an estimate fr
+ om Festivals & one-offs's usual hours - the listing has no start time yet.
+  Check the link.\nhttps://edmtrain.com/miami-fl/iii-points-434706
+URL:https://edmtrain.com/miami-fl/iii-points-434706
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4446108-satellitemaccabi@festivals.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261018T190000Z
+DTEND:20261019T030000Z
+SUMMARY:Satellite: Maccabi House at The Garden
+LOCATION:Hialeah Park Casino
+DESCRIPTION:Lineup: Adam Ten\, Mita Gami\, Rafael\, Yamagucci\, Miluhska\nA
+ ges: 21+\nhttps://dice.fm/event/avxq2d-satellite-maccabi-house-at-the-gard
+ en-18th-oct-hialeah-park-casino-hialeah-tickets\nhttps://edmtrain.com/miam
+ i-fl/satellite-maccabi-house-at-the-garden-adam-ten-528764
+URL:https://dice.fm/event/avxq2d-satellite-maccabi-house-at-the-garden-18th
+ -oct-hialeah-park-casino-hialeah-tickets
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4446139-satellite33houri@festivals.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261019T030000Z
+DTEND:20261019T120000Z
+SUMMARY:Satellite: 33+ Hour III Points Closing Party
+LOCATION:Club Space
+DESCRIPTION:Lineup: Coffintexts\, Honey Dijon\, Adam Ten\, Mita Gami\, Marc
+ o Carola\, Max Dean + Luke Dean + Joss Dean\, Brunello\, Rony Seikaly\, Be
+ n Sterling\, Tiga\, Beltran\, Red Axes\, Seth Troxler\, Maher Daniel\, Max
+  Styler\, OMRI.\, SOSA\, Miguelle & Tons\, Ms. Mada\, Slugg\nTags: techno
+ \nPresented by: III Points\nAges: 21+\nhttps://dice.fm/event/k65ygl-satell
+ ite-33-hour-iii-points-closing-party-18th-oct-club-space-miami-miami-ticke
+ ts\nhttps://edmtrain.com/miami-fl/satellite-33-hour-iii-points-closing-par
+ ty-coffintexts-529492
+URL:https://dice.fm/event/k65ygl-satellite-33-hour-iii-points-closing-party
+ -18th-oct-club-space-miami-miami-tickets
+STATUS:CONFIRMED
+CATEGORIES:techno
+END:VEVENT
+BEGIN:VEVENT
+UID:sammy-jackie-clarke-dj-set-with-special-guest-valery-karbia@shotgun.liv
+ e
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261025T010000Z
+DTEND:20261025T060000Z
+SUMMARY:Sammy Jackie-Clarke Dj Set With Special Guest Valery Karbia
+LOCATION:Miami
+DESCRIPTION:Tags: electro house\, hardstyle\, electronica\nhttps://shotgun.
+ live/en/events/sammy-jackie-clarke-dj-set-with-special-guest-valery-karbia
+URL:https://shotgun.live/en/events/sammy-jackie-clarke-dj-set-with-special-
+ guest-valery-karbia
+STATUS:CONFIRMED
+CATEGORIES:electro house,hardstyle,electronica
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4447279-hallorave@festivals.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261031T000000Z
+DTEND:20261031T060000Z
+SUMMARY:Hallorave
+LOCATION:TBA
+DESCRIPTION:Tags: drum and bass\, jungle\, uk bass\, uk garage\nhttps://pos
+ h.vip/e/hallowrave-1\nhttps://edmtrain.com/miami-fl/hallorave-533552
+URL:https://posh.vip/e/hallowrave-1
+STATUS:CONFIRMED
+CATEGORIES:drum and bass,jungle,uk bass,uk garage
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4448695-sacredmeadowsart@festivals.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261114T190000Z
+DTEND:20261115T010000Z
+SUMMARY:Sacred Meadows Art and Music Project
+LOCATION:Sawgrass Recreation Park\, Broward County
+DESCRIPTION:Lineup: Truth\, Hairitage\, Buku\, Esseks\, INAKTIV\, Smith.\, 
+ Raaket\, Bondzeye\, Meadoh\, haven woods.\, Saigga\, American Grime\, Juma
+ nji\, KTRL\, AFTRNOONDLITE\, Don Flock\, Rumble in the Jungle Crew\, Stun
+ \nTags: bass music\, dubstep\nhttps://sacredmeadowsfest.com/\nhttps://edmt
+ rain.com/fort-lauderdale-fl/sacred-meadows-art-and-music-project-475883
+URL:https://sacredmeadowsfest.com/
+STATUS:CONFIRMED
+CATEGORIES:bass music,dubstep
+END:VEVENT
+BEGIN:VEVENT
+UID:guy-j-art-basel-edition-by-apex-x-the-hall@shotgun.live
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261204T030000Z
+DTEND:20261204T080000Z
+SUMMARY:Guy J - Art Basel Edition By Apex X The Hall
+LOCATION:La Otra at Mad Wynwood
+DESCRIPTION:Tags: progressive house\, house\, melodic house & techno\nhttps
+ ://shotgun.live/en/events/guy-j-art-basel-edition-by-apex-x-the-hall
+URL:https://shotgun.live/en/events/guy-j-art-basel-edition-by-apex-x-the-ha
+ ll
+STATUS:CONFIRMED
+CATEGORIES:progressive house,house,melodic house & techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-463360@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20261204T200000Z
+DTEND:20261205T070000Z
+SUMMARY:Cyclops Cove: Subtronics\, A Hundred Drums b2b Zen Selekta\, ALLEYC
+ VT b2b LEVEL UP\, AVELLO\, Blossom\, blurrd vzn\, Costa (DC)\, Daggz\, Doc
+ tor P b2b FuntCase\, Don Jamal\, Galatic Effect\, Gardella\, Getter\, Hede
+ x\, HOL! b2b INFEKT\, HVDES\, Izzy Vadim\, Kompany\, Lizzy Jane\, Lucas La
+ venz\, Lumasi\, Osyris\, MLOTIK\, Mocha\, Modal Nodes\, Nimda b2b PROSECUT
+ E\, PEEKABOO\, Ravenscoon\, REAPER\, RL Grime\, RZRKT b2b Vastive\, Seeing
+  Dubble\, Seven Lions\, sfam\, SHOSH\, SISTO (San Jose)\, Slang Dogs\, Smo
+ akland\, Steller\, Subtronics b2b Crankdat\, sumthin sumthin\, Taiki Nulig
+ ht\, TroyBoi\, TYNAN\, Vicky B\, Uyhara\, Warlord\, Witching Hour (VAMPA &
+  JEANIE)\, Z3LLA
+LOCATION:Sunset Cove Amphitheater\, 20405 Amphitheater Cir\, Boca Raton\, F
+ L 33498\, USA
+DESCRIPTION:Lineup: Subtronics\, A Hundred Drums\, Zen Selekta\, ALLEYCVT\,
+  LEVEL UP\, AVELLO\, Blossom\, blurrd vzn\, Costa (DC)\, Daggz\, Doctor P
+ \, FuntCase\, Don Jamal\, Galatic Effect\, Gardella\, Getter\, Hedex\, HOL
+ !\, INFEKT\, HVDES\, Izzy Vadim\, Kompany\, Lizzy Jane\, Lucas Lavenz\, Lu
+ masi\, Osyris\, MLOTIK\, Mocha\, Modal Nodes\, Nimda\, PROSECUTE\, PEEKABO
+ O\, Ravenscoon\, REAPER\, RL Grime\, RZRKT\, Vastive\, Seeing Dubble\, Sev
+ en Lions\, sfam\, SHOSH\, SISTO (San Jose)\, Slang Dogs\, Smoakland\, Stel
+ ler\, Subtronics\, Crankdat\, sumthin sumthin\, Taiki Nulight\, TroyBoi\, 
+ TYNAN\, Vicky B\, Uyhara\, Warlord\, Witching Hour (VAMPA & JEANIE)\, Z3LL
+ A\nTimes are an estimate from Festivals & one-offs's usual hours - the lis
+ ting has no start time yet. Check the link.\nhttps://edmtrain.com/fort-lau
+ derdale-fl/cyclops-cove-463360
+URL:https://edmtrain.com/fort-lauderdale-fl/cyclops-cove-463360
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4450624-anotr@festivals.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261204T210000Z
+DTEND:20261205T020000Z
+SUMMARY:Anotr
+LOCATION:Watson Island Park\, Miami Beach
+DESCRIPTION:Lineup: ANOTR\nTags: tech house\nPresented by: Unkommon Events 
+ & Framework\nAges: 21+\nhttps://dice.fm/partner/tickets/event/2wqeoa-unkom
+ mon-events-framework-present-anotr-4th-dec-watson-island-park-miami-beach-
+ tickets\nhttps://edmtrain.com/miami-fl/unkommon-anotr-527848
+URL:https://dice.fm/partner/tickets/event/2wqeoa-unkommon-events-framework-
+ present-anotr-4th-dec-watson-island-park-miami-beach-tickets
+STATUS:CONFIRMED
+CATEGORIES:tech house
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-534466@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20261205T200000Z
+DTEND:20261206T070000Z
+SUMMARY:III Points Basel - Michael Bibi's One Life: Michael Bibi
+LOCATION:Hialeah Park Casino Racetrack\, 2200 E 4th Ave\, Hialeah\, FL 3301
+ 3\, USA
+DESCRIPTION:Lineup: Michael Bibi\nTimes are an estimate from Festivals & on
+ e-offs's usual hours - the listing has no start time yet. Check the link.
+ \nhttps://edmtrain.com/miami-fl/iii-points-basel-michael-bibis-one-life-mi
+ chael-bibi-534466
+URL:https://edmtrain.com/miami-fl/iii-points-basel-michael-bibis-one-life-m
+ ichael-bibi-534466
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-463361@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20261205T200000Z
+DTEND:20261206T070000Z
+SUMMARY:Cyclops Cove
+LOCATION:Sunset Cove Amphitheater\, 20405 Amphitheater Cir\, Boca Raton\, F
+ L 33498\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ fort-lauderdale-fl/cyclops-cove-463361
+URL:https://edmtrain.com/fort-lauderdale-fl/cyclops-cove-463361
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6aa82e05fcb1030001a9cd65@festivals.miami-calendars
+DTSTAMP:20260921T214009Z
+LAST-MODIFIED:20260921T214009Z
+SEQUENCE:0
+DTSTART:20261206T030000Z
+DTEND:20261206T120000Z
+SUMMARY:Circoloco Miami (Factory Basel 2026)
+LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
+DESCRIPTION:Lineup: Aline Umber\, Beltran\, Carlita\, Chloé Caillet\, Dixo
+ n\, Jamback\, Jimi Jules\, Luke Dean\, Make A Dance\, Max Dean\, Miguelle 
+ & Tons\, Omar+\, Palms Trax\, PAWSA\, Prospa\, Rampa\, Rony Seikaly\, Seth
+  Troxler\nTags (guess): house\, techno\nhttps://edmtrain.com/miami-fl/circ
+ oloco-miami-536726
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-463362@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20261206T200000Z
+DTEND:20261207T070000Z
+SUMMARY:Cyclops Cove
+LOCATION:Sunset Cove Amphitheater\, 20405 Amphitheater Cir\, Boca Raton\, F
+ L 33498\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ fort-lauderdale-fl/cyclops-cove-463362
+URL:https://edmtrain.com/fort-lauderdale-fl/cyclops-cove-463362
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-523791@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20261231T200000Z
+DTEND:20270101T070000Z
+SUMMARY:Dreamland New Years Festival
+LOCATION:Miami Beach\, Miami Beach\, FL\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ miami-fl/dreamland-new-years-festival-523791
+URL:https://edmtrain.com/miami-fl/dreamland-new-years-festival-523791
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-523792@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20270101T200000Z
+DTEND:20270102T070000Z
+SUMMARY:Dreamland New Years Festival
+LOCATION:Miami Beach\, Miami Beach\, FL\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ miami-fl/dreamland-new-years-festival-523792
+URL:https://edmtrain.com/miami-fl/dreamland-new-years-festival-523792
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-523794@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20270102T200000Z
+DTEND:20270103T070000Z
+SUMMARY:Dreamland New Years Festival
+LOCATION:Miami Beach\, Miami Beach\, FL\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ miami-fl/dreamland-new-years-festival-523794
+URL:https://edmtrain.com/miami-fl/dreamland-new-years-festival-523794
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-458943@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20270121T200000Z
+DTEND:20270122T070000Z
+SUMMARY:Groove Cruise Miami 2027
+LOCATION:Miami\, Miami\, FL\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ miami-fl/groove-cruise-miami-2027-458943
+URL:https://edmtrain.com/miami-fl/groove-cruise-miami-2027-458943
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-458944@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20270122T200000Z
+DTEND:20270123T070000Z
+SUMMARY:Groove Cruise Miami 2027
+LOCATION:Miami\, Miami\, FL\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ miami-fl/groove-cruise-miami-2027-458944
+URL:https://edmtrain.com/miami-fl/groove-cruise-miami-2027-458944
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-458945@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20270123T200000Z
+DTEND:20270124T070000Z
+SUMMARY:Groove Cruise Miami 2027
+LOCATION:Miami\, Miami\, FL\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ miami-fl/groove-cruise-miami-2027-458945
+URL:https://edmtrain.com/miami-fl/groove-cruise-miami-2027-458945
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-458946@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20270124T200000Z
+DTEND:20270125T070000Z
+SUMMARY:Groove Cruise Miami 2027
+LOCATION:Miami\, Miami\, FL\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ miami-fl/groove-cruise-miami-2027-458946
+URL:https://edmtrain.com/miami-fl/groove-cruise-miami-2027-458946
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-458947@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20270125T200000Z
+DTEND:20270126T070000Z
+SUMMARY:Groove Cruise Miami 2027
+LOCATION:Miami\, Miami\, FL\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ miami-fl/groove-cruise-miami-2027-458947
+URL:https://edmtrain.com/miami-fl/groove-cruise-miami-2027-458947
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-496902@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20270226T200000Z
+DTEND:20270227T070000Z
+SUMMARY:We Belong Here - Miami
+LOCATION:Virginia Key Beach Park\, 4020 Virginia Beach Dr\, Miami\, FL 3314
+ 9\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ miami-fl/we-belong-here-miami-496902
+URL:https://edmtrain.com/miami-fl/we-belong-here-miami-496902
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-496903@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20270227T200000Z
+DTEND:20270228T070000Z
+SUMMARY:We Belong Here - Miami
+LOCATION:Virginia Key Beach Park\, 4020 Virginia Beach Dr\, Miami\, FL 3314
+ 9\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ miami-fl/we-belong-here-miami-496903
+URL:https://edmtrain.com/miami-fl/we-belong-here-miami-496903
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-496904@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20270228T200000Z
+DTEND:20270301T070000Z
+SUMMARY:We Belong Here - Miami
+LOCATION:Virginia Key Beach Park\, 4020 Virginia Beach Dr\, Miami\, FL 3314
+ 9\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ miami-fl/we-belong-here-miami-496904
+URL:https://edmtrain.com/miami-fl/we-belong-here-miami-496904
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-492062@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20270327T190000Z
+DTEND:20270328T060000Z
+SUMMARY:Ultra Miami
+LOCATION:Bayfront Park\, 301 Biscayne Blvd\, Miami\, FL 33132\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ miami-fl/ultra-miami-492062
+URL:https://edmtrain.com/miami-fl/ultra-miami-492062
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-492063@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20270328T190000Z
+DTEND:20270329T060000Z
+SUMMARY:Ultra Miami
+LOCATION:Bayfront Park\, 301 Biscayne Blvd\, Miami\, FL 33132\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ miami-fl/ultra-miami-492063
+URL:https://edmtrain.com/miami-fl/ultra-miami-492063
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-492064@festivals.miami-calendars
+DTSTAMP:20260921T214138Z
+LAST-MODIFIED:20260921T214138Z
+SEQUENCE:1
+DTSTART:20270329T190000Z
+DTEND:20270330T060000Z
+SUMMARY:Ultra Miami
+LOCATION:Bayfront Park\, 301 Biscayne Blvd\, Miami\, FL 33132\, USA
+DESCRIPTION:Times are an estimate from Festivals & one-offs's usual hours -
+  the listing has no start time yet. Check the link.\nhttps://edmtrain.com/
+ miami-fl/ultra-miami-492064
+URL:https://edmtrain.com/miami-fl/ultra-miami-492064
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
