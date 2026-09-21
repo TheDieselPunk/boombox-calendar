@@ -14,11 +14,14 @@ Sources
                https://edmtrain.com/developer-api); it may carry start times.
 
 Outputs (all in the repo root)
-  <slug>.ics    one feed per venue in venues.json; Shotgun-detailed events are
-                timed, date-only events are all-day
+  <slug>.ics    one feed per venue in venues.json. Shotgun-detailed events carry
+                real times; date-only events get the venue's typical hours
+                (venues.json "hours") flagged as estimates
   events.json   every event from both sources, normalized, tracked or not -
                 what whats_on.py (and the miami-plans skill) read
   feeds.json    manifest the landing page renders
+  state.json    per-event content hash / SEQUENCE / last-modified, so feeds
+                carry proper change stamps and stay byte-identical otherwise
 
 Usage:
     python build_feeds.py             # build everything
@@ -30,6 +33,7 @@ previous feeds in place rather than publishing partial ones.
 
 import argparse
 import datetime as dt
+import hashlib
 import html
 import json
 import os
@@ -51,6 +55,7 @@ PRODID = "-//TheDieselPunk//miami-calendars//EN"
 MAX_CITY_PAGES = 25
 POLITE_DELAY = 1.0
 DEFAULT_DURATION = dt.timedelta(hours=5)
+STATE_FILE = "state.json"  # uid -> {hash, seq, modified}; drives DTSTAMP/LAST-MODIFIED/SEQUENCE
 
 # Shotgun 429s bare clients; this header set has been reliable.
 BROWSER_HEADERS = {
@@ -523,25 +528,25 @@ def fold(line):
 
 
 def vevent(ev, venue):
+    """(uid, body lines) - the content of a VEVENT without its change stamps.
+
+    DTSTAMP / LAST-MODIFIED / SEQUENCE are added by stamp_vevents() from the
+    change-tracking state, so they move only when this body actually changes.
+    Clients (Google included) use those to decide whether to apply an update
+    to an event they already hold; a same-UID rewrite with a stale DTSTAMP and
+    no SEQUENCE can be silently ignored.
+    """
     kind, ident = ev["id"].split(":", 1)
-    uid = f"{ident}@shotgun.live" if kind == "shotgun" else f"edmtrain-{ident}@edmtrain.com"
-    lines = ["BEGIN:VEVENT", f"UID:{uid}"]
+    uid = f"{ident}@shotgun.live" if kind == "shotgun" else f"edmtrain-{ident}@miami-calendars"
+    lines = []
 
     if ev["start"]:
         start = parse_iso(ev["start"])
         end = parse_iso(ev["end"]) if ev["end"] else start + DEFAULT_DURATION
-        # Stable DTSTAMP so unchanged events produce byte-identical output between runs.
-        if ev.get("created"):
-            stamp = parse_iso(ev["created"])
-        elif ev["time_estimated"]:
-            stamp = dt.datetime.combine(dt.date.fromisoformat(ev["date"]), dt.time(), UTC)
-        else:
-            stamp = start
-        lines += [f"DTSTAMP:{ics_dt(stamp)}", f"DTSTART:{ics_dt(start)}", f"DTEND:{ics_dt(end)}"]
+        lines += [f"DTSTART:{ics_dt(start)}", f"DTEND:{ics_dt(end)}"]
     else:
         day = dt.date.fromisoformat(ev["date"])
         lines += [
-            f"DTSTAMP:{day.strftime('%Y%m%d')}T000000Z",
             f"DTSTART;VALUE=DATE:{day.strftime('%Y%m%d')}",
             f"DTEND;VALUE=DATE:{(day + dt.timedelta(days=1)).strftime('%Y%m%d')}",
         ]
@@ -580,8 +585,32 @@ def vevent(ev, venue):
         lines.append("CATEGORIES:" + ",".join(ics_text(g) for g in ev["genres"]))
     if ev.get("geo"):
         lines.append(f"GEO:{ev['geo'].get('latitude')};{ev['geo'].get('longitude')}")
-    lines.append("END:VEVENT")
-    return lines
+    return uid, lines
+
+
+def stamp_vevents(built, state, now):
+    """Wrap (uid, body) pairs in BEGIN/END with DTSTAMP, LAST-MODIFIED and SEQUENCE.
+
+    `state` maps uid -> {"hash", "seq", "modified"} and is updated in place: a
+    new uid starts at SEQUENCE 0; a changed body bumps SEQUENCE and moves the
+    stamps to `now`; an unchanged body keeps its previous stamps, so a run that
+    changes nothing produces byte-identical files.
+    """
+    out = []
+    for uid, body in built:
+        digest = hashlib.sha1("\n".join(body).encode("utf-8")).hexdigest()[:16]
+        prev = state.get(uid)
+        if prev is None:
+            entry = {"hash": digest, "seq": 0, "modified": now}
+        elif prev["hash"] != digest:
+            entry = {"hash": digest, "seq": prev["seq"] + 1, "modified": now}
+        else:
+            entry = prev
+        state[uid] = entry
+        stamp = ics_dt(parse_iso(entry["modified"]))
+        out.append(["BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{stamp}", f"LAST-MODIFIED:{stamp}",
+                    f"SEQUENCE:{entry['seq']}"] + body + ["END:VEVENT"])
+    return out
 
 
 def calendar_text(name, vevents):
@@ -625,10 +654,16 @@ def main():
 
     today = dt.date.today()
     cutoff = (today - dt.timedelta(days=1)).isoformat()
+    state_path = os.path.join(HERE, STATE_FILE)
+    state = load_json(STATE_FILE) if os.path.exists(state_path) else {}
+    now = dt.datetime.now(UTC).replace(microsecond=0).isoformat()
+    seen = set()
     feeds = []
     for v in venues:
         mine = [e for e in events if e["venue_slug"] == v["slug"] and e["date"] >= cutoff]
-        write(f"{v['slug']}.ics", calendar_text(v["name"], [vevent(e, v) for e in mine]))
+        built = [vevent(e, v) for e in mine]
+        seen.update(uid for uid, _ in built)
+        write(f"{v['slug']}.ics", calendar_text(v["name"], stamp_vevents(built, state, now)))
         srcs = sorted({s for e in mine for s in e["source"].split("+")})
         est = sum(1 for e in mine if e["time_estimated"])
         feeds.append({"slug": v["slug"], "name": v["name"], "file": f"{v['slug']}.ics",
@@ -637,10 +672,16 @@ def main():
         log(f"  {v['slug']:14s} {len(mine):3d} events  ({'+'.join(srcs) or 'none'}; {est} with estimated times)")
 
     if not args.only:
+        state = {uid: state[uid] for uid in sorted(seen)}  # forget events that have dropped off
         keep = [e for e in events if e["date"] >= cutoff]
         write("events.json", json.dumps({"events": keep}, indent=1, ensure_ascii=False) + "\n")
         write("feeds.json", json.dumps(feeds, indent=1) + "\n")
         log(f"Wrote {len(keep)} events to events.json and {len(feeds)} feeds")
+    else:
+        state = dict(sorted(state.items()))
+    changed = sum(1 for uid in seen if state[uid]["modified"] == now)
+    write(STATE_FILE, json.dumps(state, indent=1) + "\n")
+    log(f"  {changed} event(s) new or changed since last run")
     return 0
 
 

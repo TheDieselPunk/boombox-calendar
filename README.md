@@ -29,7 +29,10 @@ Windows scheduled task and served from GitHub Pages.
    description; the real time replaces the estimate as soon as a source publishes one. Venues
    without an `hours` entry fall back to the median of observed Shotgun times, then to all-day.
    `UID` is the Shotgun slug or Edmtrain id, so re-runs update/remove rather than duplicate.
-   Output is deterministic, so the scheduled task only commits when something actually changed.
+   `state.json` remembers each event's content hash, so `DTSTAMP`/`LAST-MODIFIED` move and
+   `SEQUENCE` increments **only when an event actually changes** — that's what calendar clients
+   (Google included) use to decide whether to apply an update to an event they already hold —
+   while a run that changes nothing produces byte-identical files and no commit.
 5. Also written: `events.json` (every event from both sources, tracked or not — what `whats_on.py`
    reads) and `feeds.json` (manifest the landing page renders).
 

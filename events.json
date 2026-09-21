@@ -5630,6 +5630,30 @@
    "url": "https://edmtrain.com/miami-fl/hercules-and-love-affair-530459"
   },
   {
+   "id": "shotgun:boris-oct30",
+   "source": "shotgun",
+   "title": "Boris At Edge Halloween Weekend",
+   "artists": [],
+   "venue": "EDGE MIAMI",
+   "venue_slug": null,
+   "date": "2026-10-30",
+   "start": "2026-10-31T02:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$20.00",
+   "genres": [
+    "tech house",
+    "techno",
+    "house"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/boris-oct30"
+  },
+  {
    "id": "shotgun:sarah-tonin-presents-strange-creatures-w-los-refrescos-more",
    "source": "shotgun+edmtrain",
    "title": "Sarah Tonin Presents Strange Creatures W Los Refrescos &More",
@@ -5729,6 +5753,28 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/miami-fl/halloweek-l-p-rhythm-536867"
+  },
+  {
+   "id": "edmtrain:538589",
+   "source": "edmtrain",
+   "title": "DJ Pauly D",
+   "artists": [
+    "DJ Pauly D"
+   ],
+   "venue": "DAER Nightclub",
+   "venue_slug": null,
+   "date": "2026-10-30",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "1 Lucky St, Davie, FL 33314, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://edmtrain.com/fort-lauderdale-fl/dj-pauly-d-538589"
   },
   {
    "id": "edmtrain:523286",
@@ -8293,6 +8339,30 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/fort-lauderdale-fl/cyclops-cove-463362"
+  },
+  {
+   "id": "shotgun:minotaur-booking-presents-sudden-infant-death-syndrome-ky",
+   "source": "shotgun",
+   "title": "Minotaur Booking Presents: Sudden Infant Death Syndrome (Ky)",
+   "artists": [],
+   "venue": "Churchill's Pub",
+   "venue_slug": null,
+   "date": "2026-12-11",
+   "start": "2026-12-12T01:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$11.55",
+   "genres": [
+    "metal",
+    "metalcore",
+    "death metal"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/minotaur-booking-presents-sudden-infant-death-syndrome-ky"
   },
   {
    "id": "edmtrain:536457",

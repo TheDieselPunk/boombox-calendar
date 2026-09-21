@@ -10,7 +10,7 @@ cd "$(dirname "$0")"
 echo "== $(date -u +%Y-%m-%dT%H:%M:%SZ)"
 git pull --rebase --autostash --quiet
 python3 build_feeds.py          # non-zero exit leaves the previous feeds in place
-git add ./*.ics events.json feeds.json
+git add ./*.ics events.json feeds.json state.json
 if git diff --cached --quiet; then
   echo "Feeds unchanged"
 else

@@ -41,7 +41,7 @@ def main():
     log(f"== {stamp}")
     run("git", "pull", "--rebase", "--autostash", "--quiet")
     run(PYTHON if os.path.exists(PYTHON) else sys.executable, "build_feeds.py")
-    run("git", "add", "*.ics", "events.json", "feeds.json")
+    run("git", "add", "*.ics", "events.json", "feeds.json", "state.json")
     if run("git", "diff", "--cached", "--quiet", check=False) == 0:
         log("Feeds unchanged")
         return 0
