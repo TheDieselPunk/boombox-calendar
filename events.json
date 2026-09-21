@@ -959,6 +959,27 @@
    ]
   },
   {
+   "id": "hardrock:199487",
+   "source": "venue",
+   "title": "Alex Sensation",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-09-25",
+   "start": "2026-09-26T02:00:00+00:00",
+   "end": "2026-09-26T08:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/199487",
+   "generic_title": false
+  },
+  {
    "id": "19hz:4443928-jimrider",
    "source": "19hz+edmtrain",
    "title": "Jim Rider",
@@ -1570,6 +1591,27 @@
    "url": "https://dice.fm/event/3obpvx-roger-sanchez-inbal-26th-sep-sable-miami-miami-tickets"
   },
   {
+   "id": "hardrock:199438",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-09-26",
+   "start": "2026-09-26T16:00:00+00:00",
+   "end": "2026-09-26T22:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/199438",
+   "generic_title": true
+  },
+  {
    "id": "shotgun:intriga-x-boho-house-day-1-new-location",
    "source": "edmtrain+shotgun",
    "title": "Intriga X Boho House: Day 1 (New Location)",
@@ -1891,6 +1933,27 @@
    "organizer": "",
    "description": "",
    "url": "https://shotgun.live/en/events/boris-larramendi-in-concert-3"
+  },
+  {
+   "id": "hardrock:199483",
+   "source": "venue",
+   "title": "Melanie Fiona",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-09-26",
+   "start": "2026-09-27T02:00:00+00:00",
+   "end": "2026-09-27T08:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/199483",
+   "generic_title": false
   },
   {
    "id": "19hz:4444024-nikisadeki",
@@ -2387,24 +2450,28 @@
    ]
   },
   {
-   "id": "19hz:4444080-goodnightjohnboy",
-   "source": "19hz",
-   "title": "Goodnight Johnboys Pool Party",
+   "id": "hardrock:199440",
+   "source": "19hz+venue",
+   "title": "GoodNight JohnBoys Pool Party",
    "artists": [],
-   "venue": "Daer Dayclub",
-   "venue_slug": null,
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
    "date": "2026-09-27",
    "start": "2026-09-27T16:00:00+00:00",
-   "end": "2026-09-27T23:00:00+00:00",
+   "end": "2026-09-27T22:00:00+00:00",
    "time_estimated": false,
-   "address": "Hollywood",
+   "address": "1 Seminole Way, Hollywood, FL 33314",
    "ages": "21+",
    "price": "$20",
    "genres": [],
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://www.tixr.com/groups/daerdayclubsouthflorida/events/goodnight-johnboys-pool-party-daer-dayclub-199440"
+   "url": "https://tixr.com/e/199440",
+   "generic_title": false,
+   "alt_urls": [
+    "https://www.tixr.com/groups/daerdayclubsouthflorida/events/goodnight-johnboys-pool-party-daer-dayclub-199440"
+   ]
   },
   {
    "id": "19hz:4444099-breaksyo8bitbebe",
@@ -2919,6 +2986,27 @@
    ]
   },
   {
+   "id": "hardrock:202028",
+   "source": "venue",
+   "title": "Skilla Baby",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-10-02",
+   "start": "2026-10-03T02:00:00+00:00",
+   "end": "2026-10-03T08:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/202028",
+   "generic_title": false
+  },
+  {
    "id": "19hz:4444600-talfussman",
    "source": "19hz+edmtrain",
    "title": "Tal Fussman",
@@ -3243,17 +3331,17 @@
    "url": "https://edmtrain.com/miami-fl/generous-b-presents-538119"
   },
   {
-   "id": "19hz:4444656-djkhaled",
-   "source": "19hz",
+   "id": "hardrock:202003",
+   "source": "19hz+venue",
    "title": "DJ Khaled",
    "artists": [],
-   "venue": "Daer Dayclub",
-   "venue_slug": null,
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
    "date": "2026-10-03",
    "start": "2026-10-03T16:00:00+00:00",
-   "end": "2026-10-03T23:00:00+00:00",
+   "end": "2026-10-03T22:00:00+00:00",
    "time_estimated": false,
-   "address": "Hollywood",
+   "address": "1 Seminole Way, Hollywood, FL 33314",
    "ages": "21+",
    "price": "$40",
    "genres": [
@@ -3262,7 +3350,11 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://www.tixr.com/groups/daerdayclubsouthflorida/events/dj-khaled-daer-dayclub-202003"
+   "url": "https://tixr.com/e/202003",
+   "generic_title": false,
+   "alt_urls": [
+    "https://www.tixr.com/groups/daerdayclubsouthflorida/events/dj-khaled-daer-dayclub-202003"
+   ]
   },
   {
    "id": "19hz:4444672-thirdparty",
@@ -3404,6 +3496,27 @@
    "description": "",
    "url": "https://calendar.zeyzeymiami.com/shows/electric-feels-indie-rock-electronic-dance-party-03-oct",
    "cancelled": false
+  },
+  {
+   "id": "hardrock:202029",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-10-03",
+   "start": "2026-10-04T02:00:00+00:00",
+   "end": "2026-10-04T08:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/202029",
+   "generic_title": true
   },
   {
    "id": "19hz:4444696-tamirregevjessyn",
@@ -3782,6 +3895,27 @@
    "url": "https://edmtrain.com/miami-fl/treehouse-la-picoza-records-takeover-534841"
   },
   {
+   "id": "hardrock:202007",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-10-04",
+   "start": "2026-10-04T16:00:00+00:00",
+   "end": "2026-10-04T22:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/202007",
+   "generic_title": true
+  },
+  {
    "id": "shotgun:once-upon-a-melody-a-disney-classic-piano-performance",
    "source": "shotgun",
    "title": "Once Upon A Melody - A Disney Classic Piano Performance",
@@ -4121,24 +4255,34 @@
    "cancelled": false
   },
   {
-   "id": "19hz:4445244-luckwork",
-   "source": "19hz",
+   "id": "hardrock:201835",
+   "source": "19hz+edmtrain+venue",
    "title": "Luck Work",
-   "artists": [],
-   "venue": "Daer Dayclub",
-   "venue_slug": null,
+   "artists": [
+    "Chase & Status"
+   ],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
    "date": "2026-10-09",
    "start": "2026-10-09T19:00:00+00:00",
-   "end": "2026-10-10T01:00:00+00:00",
+   "end": "2026-10-09T22:00:00+00:00",
    "time_estimated": false,
-   "address": "Hollywood",
+   "address": "1 Seminole Way, Hollywood, FL 33314",
    "ages": "21+",
    "price": "$30-40",
-   "genres": [],
+   "genres": [
+    "drum and bass"
+   ],
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://www.tixr.com/groups/daerdayclubsouthflorida/events/luck-work-daer-dayclub-201835"
+   "url": "https://tixr.com/e/201835",
+   "generic_title": false,
+   "alt_urls": [
+    "https://www.tixr.com/groups/daerdayclubsouthflorida/events/luck-work-daer-dayclub-201835",
+    "https://www.tixr.com/groups/daernightclubsouthflorida/events/chase-and-status-daer-nightclub-202030",
+    "https://edmtrain.com/fort-lauderdale-fl/chase-and-status-528506"
+   ]
   },
   {
    "id": "shotgun:quick-to-judge-at-the-boombox-10-9",
@@ -4252,28 +4396,6 @@
    "alt_urls": [
     "https://edmtrain.com/miami-fl/starjunk-95-511485"
    ]
-  },
-  {
-   "id": "19hz:4445272-chaseandstatus",
-   "source": "19hz",
-   "title": "Chase and Status",
-   "artists": [],
-   "venue": "Daer Nightclub",
-   "venue_slug": null,
-   "date": "2026-10-09",
-   "start": "2026-10-10T02:00:00+00:00",
-   "end": "2026-10-10T08:00:00+00:00",
-   "time_estimated": false,
-   "address": "Hollywood",
-   "ages": "21+",
-   "price": "$49+",
-   "genres": [
-    "drum and bass"
-   ],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://www.tixr.com/groups/daernightclubsouthflorida/events/chase-and-status-daer-nightclub-202030"
   },
   {
    "id": "19hz:4445272-yokoo",
@@ -4625,9 +4747,11 @@
   },
   {
    "id": "shotgun:get-milked-alec-falconer-pres-by-sarah-tonin-un-mute",
-   "source": "shotgun",
+   "source": "edmtrain+shotgun",
    "title": "Get Milked: Alec Falconer Pres By Sarah Tonin & Un_Mute",
-   "artists": [],
+   "artists": [
+    "Alec Falconer"
+   ],
    "venue": "Paraiso Estereo",
    "venue_slug": null,
    "date": "2026-10-09",
@@ -4641,7 +4765,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://shotgun.live/en/events/get-milked-alec-falconer-pres-by-sarah-tonin-un-mute"
+   "url": "https://shotgun.live/en/events/get-milked-alec-falconer-pres-by-sarah-tonin-un-mute",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/pres-by-sarah-tonin-and-un-mute-alec-falconer-538249"
+   ]
   },
   {
    "id": "dice:6a5a971f5dff640001733cb0",
@@ -4673,28 +4800,6 @@
    ]
   },
   {
-   "id": "edmtrain:528506",
-   "source": "edmtrain",
-   "title": "Chase & Status",
-   "artists": [
-    "Chase & Status"
-   ],
-   "venue": "DAER Nightclub",
-   "venue_slug": null,
-   "date": "2026-10-09",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "1 Lucky St, Davie, FL 33314, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/chase-and-status-528506"
-  },
-  {
    "id": "edmtrain:527998",
    "source": "edmtrain",
    "title": "Eternal Frequencies: Cosmic Gate",
@@ -4715,28 +4820,6 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/miami-fl/eternal-frequencies-cosmic-gate-527998"
-  },
-  {
-   "id": "edmtrain:538249",
-   "source": "edmtrain",
-   "title": "Pres By Sarah Tonin & Un_mute: Alec Falconer",
-   "artists": [
-    "Alec Falconer"
-   ],
-   "venue": "Paraíso Estéreo",
-   "venue_slug": null,
-   "date": "2026-10-09",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "1306 N Miami Ave, Miami, FL 33136, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://edmtrain.com/miami-fl/pres-by-sarah-tonin-and-un-mute-alec-falconer-538249"
   },
   {
    "id": "edmtrain:538275",
@@ -4790,19 +4873,19 @@
    ]
   },
   {
-   "id": "19hz:4445328-gorgoncity",
-   "source": "19hz+edmtrain",
+   "id": "hardrock:202009",
+   "source": "19hz+edmtrain+venue",
    "title": "Gorgon City",
    "artists": [
     "Gorgon City"
    ],
-   "venue": "Daer Dayclub",
-   "venue_slug": null,
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
    "date": "2026-10-10",
    "start": "2026-10-10T16:00:00+00:00",
-   "end": "2026-10-10T23:00:00+00:00",
+   "end": "2026-10-10T22:00:00+00:00",
    "time_estimated": false,
-   "address": "Hollywood",
+   "address": "1 Seminole Way, Hollywood, FL 33314",
    "ages": "21+",
    "price": "$37",
    "genres": [
@@ -4811,8 +4894,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://www.tixr.com/groups/daerdayclubsouthflorida/events/gorgon-city-daer-dayclub-202009",
+   "url": "https://tixr.com/e/202009",
+   "generic_title": false,
    "alt_urls": [
+    "https://www.tixr.com/groups/daerdayclubsouthflorida/events/gorgon-city-daer-dayclub-202009",
     "https://edmtrain.com/fort-lauderdale-fl/gorgon-city-536839"
    ]
   },
@@ -4937,19 +5022,19 @@
    "url": "https://ra.co/events/2517792"
   },
   {
-   "id": "19hz:4445368-acraze",
-   "source": "19hz+edmtrain",
+   "id": "hardrock:202031",
+   "source": "19hz+edmtrain+venue",
    "title": "Acraze",
    "artists": [
     "ACRAZE"
    ],
-   "venue": "Daer Nightclub",
-   "venue_slug": null,
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
    "date": "2026-10-10",
    "start": "2026-10-11T02:00:00+00:00",
    "end": "2026-10-11T08:00:00+00:00",
    "time_estimated": false,
-   "address": "Hollywood",
+   "address": "1 Seminole Way, Hollywood, FL 33314",
    "ages": "21+",
    "price": "$20",
    "genres": [
@@ -4959,8 +5044,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://www.tixr.com/groups/daernightclubsouthflorida/events/acraze-daer-nightclub-202031",
+   "url": "https://tixr.com/e/202031",
+   "generic_title": false,
    "alt_urls": [
+    "https://www.tixr.com/groups/daernightclubsouthflorida/events/acraze-daer-nightclub-202031",
     "https://edmtrain.com/fort-lauderdale-fl/acraze-529504"
    ]
   },
@@ -5226,19 +5313,19 @@
    ]
   },
   {
-   "id": "19hz:4445424-levelup",
-   "source": "19hz+edmtrain",
+   "id": "hardrock:202010",
+   "source": "19hz+edmtrain+venue",
    "title": "Level Up",
    "artists": [
     "LEVEL UP"
    ],
-   "venue": "Daer Dayclub",
-   "venue_slug": null,
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
    "date": "2026-10-11",
    "start": "2026-10-11T16:00:00+00:00",
-   "end": "2026-10-11T23:00:00+00:00",
+   "end": "2026-10-11T22:00:00+00:00",
    "time_estimated": false,
-   "address": "Hollywood",
+   "address": "1 Seminole Way, Hollywood, FL 33314",
    "ages": "21+",
    "price": "$37+",
    "genres": [
@@ -5249,8 +5336,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://www.tixr.com/groups/daerdayclubsouthflorida/events/level-up-daer-dayclub-202010",
+   "url": "https://tixr.com/e/202010",
+   "generic_title": false,
    "alt_urls": [
+    "https://www.tixr.com/groups/daerdayclubsouthflorida/events/level-up-daer-dayclub-202010",
     "https://edmtrain.com/fort-lauderdale-fl/level-up-530444"
    ]
   },
@@ -5777,6 +5866,27 @@
    "url": "https://ra.co/events/2528904"
   },
   {
+   "id": "hardrock:202032",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-10-16",
+   "start": "2026-10-17T02:00:00+00:00",
+   "end": "2026-10-17T08:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/202032",
+   "generic_title": true
+  },
+  {
    "id": "19hz:4445944-chrisschwarzwald",
    "source": "19hz",
    "title": "Chris Schwarzwalder",
@@ -6061,19 +6171,19 @@
    "url": "https://edmtrain.com/fort-lauderdale-fl/sak-noel-538271"
   },
   {
-   "id": "19hz:4446000-ianasher",
-   "source": "19hz+edmtrain",
+   "id": "hardrock:202011",
+   "source": "19hz+edmtrain+venue",
    "title": "Ian Asher",
    "artists": [
     "Ian Asher"
    ],
-   "venue": "Daer Dayclub",
-   "venue_slug": null,
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
    "date": "2026-10-17",
    "start": "2026-10-17T16:00:00+00:00",
-   "end": "2026-10-17T23:00:00+00:00",
+   "end": "2026-10-17T22:00:00+00:00",
    "time_estimated": false,
-   "address": "Hollywood",
+   "address": "1 Seminole Way, Hollywood, FL 33314",
    "ages": "21+",
    "price": "$37",
    "genres": [
@@ -6083,8 +6193,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://www.tixr.com/groups/daerdayclubsouthflorida/events/saturday-october-17th-daer-dayclub-202011",
+   "url": "https://tixr.com/e/202011",
+   "generic_title": false,
    "alt_urls": [
+    "https://www.tixr.com/groups/daerdayclubsouthflorida/events/saturday-october-17th-daer-dayclub-202011",
     "https://edmtrain.com/fort-lauderdale-fl/ian-asher-535875"
    ]
   },
@@ -6184,19 +6296,19 @@
    "cancelled": false
   },
   {
-   "id": "19hz:4446040-ydg",
-   "source": "19hz+edmtrain",
-   "title": "Ydg",
+   "id": "hardrock:202033",
+   "source": "19hz+edmtrain+venue",
+   "title": "YDG",
    "artists": [
     "YDG"
    ],
-   "venue": "Daer Nightclub",
-   "venue_slug": null,
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
    "date": "2026-10-17",
    "start": "2026-10-18T02:00:00+00:00",
    "end": "2026-10-18T08:00:00+00:00",
    "time_estimated": false,
-   "address": "Hollywood",
+   "address": "1 Seminole Way, Hollywood, FL 33314",
    "ages": "21+",
    "price": "$37 pre",
    "genres": [
@@ -6205,8 +6317,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://www.tixr.com/groups/daernightclubsouthflorida/events/ydg-daer-nightclub-202033",
+   "url": "https://tixr.com/e/202033",
+   "generic_title": false,
    "alt_urls": [
+    "https://www.tixr.com/groups/daernightclubsouthflorida/events/ydg-daer-nightclub-202033",
     "https://edmtrain.com/fort-lauderdale-fl/ydg-531413"
    ]
   },
@@ -6473,6 +6587,27 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/miami-fl/iii-points-434706"
+  },
+  {
+   "id": "hardrock:202012",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-10-18",
+   "start": "2026-10-18T16:00:00+00:00",
+   "end": "2026-10-18T22:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/202012",
+   "generic_title": true
   },
   {
    "id": "dice:6a85fa6621cf7000019482af",
@@ -6964,6 +7099,27 @@
    "cancelled": false
   },
   {
+   "id": "hardrock:202034",
+   "source": "venue",
+   "title": "Halloween Most Wanted",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-10-23",
+   "start": "2026-10-24T02:00:00+00:00",
+   "end": "2026-10-24T08:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/202034",
+   "generic_title": false
+  },
+  {
    "id": "19hz:4446616-bastigrub",
    "source": "19hz+edmtrain",
    "title": "Basti Grub",
@@ -7205,6 +7361,30 @@
    "url": "https://edmtrain.com/miami-fl/wassu-537380"
   },
   {
+   "id": "hardrock:206563",
+   "source": "19hz+venue",
+   "title": "Doomsday",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-10-24",
+   "start": "2026-10-24T16:00:00+00:00",
+   "end": "2026-10-24T22:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "21+",
+   "price": "$37",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/206563",
+   "generic_title": false,
+   "alt_urls": [
+    "https://www.tixr.com/groups/daerdayclubsouthflorida/events/doomsday-daer-dayclub-afterdark-206563"
+   ]
+  },
+  {
    "id": "shotgun:midnighthertz",
    "source": "shotgun",
    "title": "Midnight Hertz",
@@ -7279,26 +7459,6 @@
    "organizer": "",
    "description": "",
    "url": "https://shotgun.live/en/events/sammy-jackie-clarke-dj-set-with-special-guest-valery-karbia"
-  },
-  {
-   "id": "19hz:4446712-doomsdayafterdar",
-   "source": "19hz",
-   "title": "Doomsday Afterdark",
-   "artists": [],
-   "venue": "Daer Dayclub",
-   "venue_slug": null,
-   "date": "2026-10-24",
-   "start": "2026-10-25T02:00:00+00:00",
-   "end": "2026-10-25T08:00:00+00:00",
-   "time_estimated": false,
-   "address": "Hollywood",
-   "ages": "21+",
-   "price": "$37",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://www.tixr.com/groups/daerdayclubsouthflorida/events/doomsday-daer-dayclub-afterdark-206563"
   },
   {
    "id": "19hz:4446712-pasodoble",
@@ -7422,19 +7582,19 @@
    ]
   },
   {
-   "id": "19hz:4446715-vavo",
-   "source": "19hz+edmtrain",
-   "title": "Vavo",
+   "id": "hardrock:202036",
+   "source": "19hz+edmtrain+venue",
+   "title": "VAVO",
    "artists": [
     "VAVO"
    ],
-   "venue": "Daer Nightclub",
-   "venue_slug": null,
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
    "date": "2026-10-24",
    "start": "2026-10-25T03:00:00+00:00",
    "end": "2026-10-25T08:00:00+00:00",
    "time_estimated": false,
-   "address": "Hollywood",
+   "address": "1 Seminole Way, Hollywood, FL 33314",
    "ages": "21+",
    "price": "$37+",
    "genres": [
@@ -7445,8 +7605,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://www.tixr.com/groups/daernightclubsouthflorida/events/vavo-daer-nightclub-202036",
+   "url": "https://tixr.com/e/202036",
+   "generic_title": false,
    "alt_urls": [
+    "https://www.tixr.com/groups/daernightclubsouthflorida/events/vavo-daer-nightclub-202036",
     "https://edmtrain.com/fort-lauderdale-fl/vavo-531795"
    ]
   },
@@ -7585,6 +7747,27 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/miami-fl/valery-karbia-538185"
+  },
+  {
+   "id": "hardrock:202018",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-10-25",
+   "start": "2026-10-25T16:00:00+00:00",
+   "end": "2026-10-25T22:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/202018",
+   "generic_title": true
   },
   {
    "id": "zeyzey:peter-bjorn-and-john-writer-s-block-20th-anniversary-tour-25-oct",
@@ -7843,6 +8026,32 @@
    "description": "",
    "url": "https://calendar.zeyzeymiami.com/shows/ile-30-oct",
    "cancelled": false
+  },
+  {
+   "id": "hardrock:204541",
+   "source": "edmtrain+venue",
+   "title": "DJ Pauly D - Halloween Weekend",
+   "artists": [
+    "DJ Pauly D"
+   ],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-10-30",
+   "start": "2026-10-31T02:00:00+00:00",
+   "end": "2026-10-31T08:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/204541",
+   "generic_title": false,
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/dj-pauly-d-538589"
+   ]
   },
   {
    "id": "19hz:4447288-donotsitonhallow",
@@ -8153,28 +8362,6 @@
    ]
   },
   {
-   "id": "edmtrain:538589",
-   "source": "edmtrain",
-   "title": "DJ Pauly D",
-   "artists": [
-    "DJ Pauly D"
-   ],
-   "venue": "DAER Nightclub",
-   "venue_slug": null,
-   "date": "2026-10-30",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "1 Lucky St, Davie, FL 33314, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/dj-pauly-d-538589"
-  },
-  {
    "id": "edmtrain:538267",
    "source": "edmtrain",
    "title": "Murder On The Dance Floor",
@@ -8214,6 +8401,27 @@
    "description": "",
    "url": "https://calendar.zeyzeymiami.com/shows/golden-a-k-pop-kids-party-31-oct",
    "cancelled": false
+  },
+  {
+   "id": "hardrock:204543",
+   "source": "venue",
+   "title": "Halloween - Saturday, October 31st",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-10-31",
+   "start": "2026-10-31T16:00:00+00:00",
+   "end": "2026-10-31T22:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/204543",
+   "generic_title": false
   },
   {
    "id": "19hz:4447360-blondish",
@@ -8361,19 +8569,19 @@
    ]
   },
   {
-   "id": "19hz:4447384-laszewo",
-   "source": "19hz+edmtrain",
-   "title": "Laszewo",
+   "id": "hardrock:204542",
+   "source": "19hz+edmtrain+venue",
+   "title": "ŁASZEWO - Halloween",
    "artists": [
     "Łaszewo"
    ],
-   "venue": "Daer Nightclub",
-   "venue_slug": null,
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
    "date": "2026-10-31",
    "start": "2026-11-01T02:00:00+00:00",
    "end": "2026-11-01T09:00:00+00:00",
    "time_estimated": false,
-   "address": "Hollywood",
+   "address": "1 Seminole Way, Hollywood, FL 33314",
    "ages": "21+",
    "price": "$37",
    "genres": [
@@ -8384,16 +8592,21 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://www.tixr.com/groups/daernightclubsouthflorida/events/-aszewo-halloween-daer-nightclub-204542",
+   "url": "https://tixr.com/e/204542",
+   "generic_title": false,
    "alt_urls": [
+    "https://www.tixr.com/groups/daernightclubsouthflorida/events/-aszewo-halloween-daer-nightclub-204542",
     "https://edmtrain.com/fort-lauderdale-fl/aszewo-531796"
    ]
   },
   {
    "id": "19hz:4447384-leharlucaszarate",
-   "source": "19hz",
+   "source": "19hz+edmtrain",
    "title": "Lehar, Lucas Zarate",
-   "artists": [],
+   "artists": [
+    "Lehar",
+    "Lucas Zárate"
+   ],
    "venue": "Do Not Sit On The Furniture",
    "venue_slug": null,
    "date": "2026-10-31",
@@ -8410,7 +8623,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://link.dice.fm/v2d48dbf0fc6"
+   "url": "https://link.dice.fm/v2d48dbf0fc6",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/lehar-lucas-zarate-531993"
+   ]
   },
   {
    "id": "dice:6aa04992243edc00012e491a",
@@ -8641,31 +8857,6 @@
    ]
   },
   {
-   "id": "edmtrain:531993",
-   "source": "edmtrain",
-   "title": "Lehar, Lucas Zárate",
-   "artists": [
-    "Lehar",
-    "Lucas Zárate"
-   ],
-   "venue": "Do Not Sit On The Furniture",
-   "venue_slug": null,
-   "date": "2026-10-31",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "423 16th St, Miami Beach, FL 33139, USA",
-   "ages": "",
-   "price": "",
-   "genres": [
-    "deep house"
-   ],
-   "genres_inferred": true,
-   "organizer": "",
-   "description": "",
-   "url": "https://edmtrain.com/miami-fl/lehar-lucas-zarate-531993"
-  },
-  {
    "id": "edmtrain:531061",
    "source": "edmtrain",
    "title": "DIESEL (Shaquille O'Neal)",
@@ -8708,6 +8899,27 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/miami-fl/habibeats-515860"
+  },
+  {
+   "id": "hardrock:204544",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-11-01",
+   "start": "2026-11-01T17:00:00+00:00",
+   "end": "2026-11-01T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/204544",
+   "generic_title": true
   },
   {
    "id": "19hz:4447471-mistergray",
@@ -9014,6 +9226,27 @@
    ]
   },
   {
+   "id": "hardrock:205999",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-11-06",
+   "start": "2026-11-07T03:00:00+00:00",
+   "end": "2026-11-07T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/205999",
+   "generic_title": true
+  },
+  {
    "id": "19hz:4447960-nicomorano",
    "source": "19hz+edmtrain",
    "title": "Nico Morano",
@@ -9097,6 +9330,27 @@
    ]
   },
   {
+   "id": "hardrock:205527",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-11-07",
+   "start": "2026-11-07T17:00:00+00:00",
+   "end": "2026-11-07T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/205527",
+   "generic_title": true
+  },
+  {
    "id": "zeyzey:dana-and-alden-07-nov",
    "source": "venue",
    "title": "Dana and Alden",
@@ -9142,6 +9396,27 @@
    "organizer": "",
    "description": "",
    "url": "https://shotgun.live/en/events/leaetherstrip-live"
+  },
+  {
+   "id": "hardrock:206000",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-11-07",
+   "start": "2026-11-08T03:00:00+00:00",
+   "end": "2026-11-08T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/206000",
+   "generic_title": true
   },
   {
    "id": "dice:6aaae261eacc0d0001e8d9e6",
@@ -9235,6 +9510,27 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/miami-fl/vavo-ricky-retro-535915"
+  },
+  {
+   "id": "hardrock:205532",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-11-08",
+   "start": "2026-11-08T17:00:00+00:00",
+   "end": "2026-11-08T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/205532",
+   "generic_title": true
   },
   {
    "id": "shotgun:girl-of-glass-at-boombox-11-8",
@@ -9502,6 +9798,27 @@
    ]
   },
   {
+   "id": "hardrock:206001",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-11-13",
+   "start": "2026-11-14T03:00:00+00:00",
+   "end": "2026-11-14T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/206001",
+   "generic_title": true
+  },
+  {
    "id": "dice:6a84879f8e0c81000177fc08",
    "source": "19hz+dice",
    "title": "UNREAL",
@@ -9635,6 +9952,27 @@
    "url": "https://edmtrain.com/fort-lauderdale-fl/karsten-sollors-534979"
   },
   {
+   "id": "hardrock:205535",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-11-14",
+   "start": "2026-11-14T17:00:00+00:00",
+   "end": "2026-11-14T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/205535",
+   "generic_title": true
+  },
+  {
    "id": "19hz:4448695-sacredmeadowsart",
    "source": "19hz+edmtrain",
    "title": "Sacred Meadows Art and Music Project",
@@ -9725,6 +10063,27 @@
    "description": "",
    "url": "https://calendar.zeyzeymiami.com/shows/tul8te-world-tour-14-nov",
    "cancelled": false
+  },
+  {
+   "id": "hardrock:206002",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-11-14",
+   "start": "2026-11-15T03:00:00+00:00",
+   "end": "2026-11-15T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/206002",
+   "generic_title": true
   },
   {
    "id": "dice:6a3077721b98d10001598c8a",
@@ -9897,6 +10256,27 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/miami-fl/krewella-535253"
+  },
+  {
+   "id": "hardrock:205537",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-11-15",
+   "start": "2026-11-15T17:00:00+00:00",
+   "end": "2026-11-15T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/205537",
+   "generic_title": true
   },
   {
    "id": "19hz:4448784-pierpressurehome",
@@ -10148,6 +10528,27 @@
    "cancelled": false
   },
   {
+   "id": "hardrock:206018",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-11-20",
+   "start": "2026-11-21T03:00:00+00:00",
+   "end": "2026-11-21T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/206018",
+   "generic_title": true
+  },
+  {
    "id": "dice:6a9840d31cfa4500010544f6",
    "source": "dice+edmtrain",
    "title": "RONI SIZE",
@@ -10271,6 +10672,27 @@
    "url": "https://edmtrain.com/miami-fl/kapo-536724"
   },
   {
+   "id": "hardrock:205539",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-11-21",
+   "start": "2026-11-21T17:00:00+00:00",
+   "end": "2026-11-21T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/205539",
+   "generic_title": true
+  },
+  {
    "id": "shotgun:zeyzey-selects-donny-benet",
    "source": "shotgun+venue",
    "title": "Donny Benét",
@@ -10337,6 +10759,27 @@
    "alt_urls": [
     "https://edmtrain.com/miami-fl/john-summit-505496"
    ]
+  },
+  {
+   "id": "hardrock:206019",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-11-21",
+   "start": "2026-11-22T03:00:00+00:00",
+   "end": "2026-11-22T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/206019",
+   "generic_title": true
   },
   {
    "id": "dice:6a64b93c7b94a300012b1b10",
@@ -10438,6 +10881,27 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/miami-fl/klingande-535916"
+  },
+  {
+   "id": "hardrock:205540",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-11-22",
+   "start": "2026-11-22T17:00:00+00:00",
+   "end": "2026-11-22T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/205540",
+   "generic_title": true
   },
   {
    "id": "shotgun:stunsgiving-2026",
@@ -10554,6 +11018,27 @@
    "url": "https://edmtrain.com/miami-fl/helena-hauff-537226"
   },
   {
+   "id": "hardrock:206020",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-11-27",
+   "start": "2026-11-28T03:00:00+00:00",
+   "end": "2026-11-28T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/206020",
+   "generic_title": true
+  },
+  {
    "id": "dice:6aaae809e78bd300017554b1",
    "source": "dice+edmtrain",
    "title": "SPACE 92",
@@ -10630,6 +11115,48 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/miami-fl/sander-kleinenberg-lucas-zarate-538079"
+  },
+  {
+   "id": "hardrock:205541",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-11-28",
+   "start": "2026-11-28T17:00:00+00:00",
+   "end": "2026-11-28T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/205541",
+   "generic_title": true
+  },
+  {
+   "id": "hardrock:206021",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-11-28",
+   "start": "2026-11-29T03:00:00+00:00",
+   "end": "2026-11-29T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/206021",
+   "generic_title": true
   },
   {
    "id": "19hz:4450072-helenahauff",
@@ -10887,6 +11414,27 @@
    "organizer": "",
    "description": "",
    "url": "https://shotgun.live/en/events/lunasol-pres-sunrise-lesson-8"
+  },
+  {
+   "id": "hardrock:205543",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-11-29",
+   "start": "2026-11-29T17:00:00+00:00",
+   "end": "2026-11-29T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/205543",
+   "generic_title": true
   },
   {
    "id": "edmtrain:533948",
@@ -11382,6 +11930,27 @@
    ]
   },
   {
+   "id": "hardrock:207833",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-12-04",
+   "start": "2026-12-05T03:00:00+00:00",
+   "end": "2026-12-05T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207833",
+   "generic_title": true
+  },
+  {
    "id": "dice:6aa19424a8735500017d3f72",
    "source": "dice+edmtrain",
    "title": "Music On (Space Basel)",
@@ -11539,6 +12108,48 @@
    "url": "https://edmtrain.com/fort-lauderdale-fl/cyclops-cove-463360"
   },
   {
+   "id": "hardrock:207848",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-12-05",
+   "start": "2026-12-05T17:00:00+00:00",
+   "end": "2026-12-05T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207848",
+   "generic_title": true
+  },
+  {
+   "id": "hardrock:207834",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-12-05",
+   "start": "2026-12-06T03:00:00+00:00",
+   "end": "2026-12-06T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207834",
+   "generic_title": true
+  },
+  {
    "id": "dice:6aa82e05fcb1030001a9cd65",
    "source": "dice+edmtrain",
    "title": "Circoloco Miami (Factory Basel 2026)",
@@ -11680,6 +12291,27 @@
    "url": "https://edmtrain.com/fort-lauderdale-fl/cyclops-cove-463361"
   },
   {
+   "id": "hardrock:207849",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-12-06",
+   "start": "2026-12-06T17:00:00+00:00",
+   "end": "2026-12-06T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207849",
+   "generic_title": true
+  },
+  {
    "id": "zeyzey:shintaro-sakamoto-06-dec",
    "source": "venue",
    "title": "Shintaro Sakamoto + Rogê",
@@ -11814,6 +12446,48 @@
    "cancelled": false
   },
   {
+   "id": "hardrock:207835",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-12-11",
+   "start": "2026-12-12T03:00:00+00:00",
+   "end": "2026-12-12T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207835",
+   "generic_title": true
+  },
+  {
+   "id": "hardrock:207851",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-12-12",
+   "start": "2026-12-12T17:00:00+00:00",
+   "end": "2026-12-12T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207851",
+   "generic_title": true
+  },
+  {
    "id": "shotgun:buko-boys-floating-around-tour-at-lincoln-s-beard-miami-fl",
    "source": "shotgun",
    "title": "Buko Boys Floating Around Tour At Lincoln's Beard Miami, Fl",
@@ -11890,6 +12564,27 @@
    ]
   },
   {
+   "id": "hardrock:207836",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-12-12",
+   "start": "2026-12-13T03:00:00+00:00",
+   "end": "2026-12-13T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207836",
+   "generic_title": true
+  },
+  {
    "id": "zeyzey:takuya-nakamura-12-dec",
    "source": "venue",
    "title": "Takuya Nakamura",
@@ -11955,6 +12650,27 @@
    "url": "https://edmtrain.com/miami-fl/frank-walker-535917"
   },
   {
+   "id": "hardrock:207852",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-12-13",
+   "start": "2026-12-13T17:00:00+00:00",
+   "end": "2026-12-13T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207852",
+   "generic_title": true
+  },
+  {
    "id": "zeyzey:ax-and-the-hatchetmen-the-late-checkout-tour-2026-13-dec",
    "source": "venue",
    "title": "Ax and the Hatchetmen — The Late Checkout Tour 2026",
@@ -11998,6 +12714,27 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/miami-fl/eelke-kleijn-536967"
+  },
+  {
+   "id": "hardrock:207837",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-12-18",
+   "start": "2026-12-19T03:00:00+00:00",
+   "end": "2026-12-19T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207837",
+   "generic_title": true
   },
   {
    "id": "edmtrain:524125",
@@ -12047,6 +12784,48 @@
    "url": "https://edmtrain.com/miami-fl/kloud-535570"
   },
   {
+   "id": "hardrock:207853",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-12-19",
+   "start": "2026-12-19T17:00:00+00:00",
+   "end": "2026-12-19T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207853",
+   "generic_title": true
+  },
+  {
+   "id": "hardrock:207838",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-12-19",
+   "start": "2026-12-20T03:00:00+00:00",
+   "end": "2026-12-20T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207838",
+   "generic_title": true
+  },
+  {
    "id": "edmtrain:534106",
    "source": "edmtrain",
    "title": "CYCLOPS, MACHAKI, SPORTMODE",
@@ -12069,6 +12848,90 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/miami-fl/cyclops-machaki-534106"
+  },
+  {
+   "id": "hardrock:207855",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-12-20",
+   "start": "2026-12-20T17:00:00+00:00",
+   "end": "2026-12-20T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207855",
+   "generic_title": true
+  },
+  {
+   "id": "hardrock:207839",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-12-25",
+   "start": "2026-12-26T03:00:00+00:00",
+   "end": "2026-12-26T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207839",
+   "generic_title": true
+  },
+  {
+   "id": "hardrock:207856",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-12-26",
+   "start": "2026-12-26T17:00:00+00:00",
+   "end": "2026-12-26T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207856",
+   "generic_title": true
+  },
+  {
+   "id": "hardrock:207840",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-12-26",
+   "start": "2026-12-27T03:00:00+00:00",
+   "end": "2026-12-27T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207840",
+   "generic_title": true
   },
   {
    "id": "19hz:4452760-avello",
@@ -12097,6 +12960,69 @@
    "alt_urls": [
     "https://edmtrain.com/fort-lauderdale-fl/avello-524557"
    ]
+  },
+  {
+   "id": "hardrock:207857",
+   "source": "venue",
+   "title": "DAER Dayclub",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-12-27",
+   "start": "2026-12-27T17:00:00+00:00",
+   "end": "2026-12-27T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207857",
+   "generic_title": true
+  },
+  {
+   "id": "hardrock:207897",
+   "source": "venue",
+   "title": "New Year's Eve",
+   "artists": [],
+   "venue": "DAER Dayclub Afterdark",
+   "venue_slug": "daer",
+   "date": "2026-12-31",
+   "start": "2027-01-01T02:00:00+00:00",
+   "end": "2027-01-01T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207897",
+   "generic_title": false
+  },
+  {
+   "id": "hardrock:207892",
+   "source": "venue",
+   "title": "New Year's Eve",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-12-31",
+   "start": "2027-01-01T02:00:00+00:00",
+   "end": "2027-01-01T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/207892",
+   "generic_title": false
   },
   {
    "id": "19hz:4453236-dreamland2026mai",

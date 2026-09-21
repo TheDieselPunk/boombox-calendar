@@ -126,5 +126,19 @@
    "shotgun"
   ],
   "hours_note": "Observed on Shotgun: 9 PM-3 AM every night."
+ },
+ {
+  "slug": "daer",
+  "name": "DAER (Hard Rock Hollywood)",
+  "file": "daer.ics",
+  "events": 58,
+  "estimated_times": 0,
+  "next": "2026-09-25",
+  "sources": [
+   "19hz",
+   "edmtrain",
+   "venue"
+  ],
+  "hours_note": "Nightclub 10 PM-4 AM; Dayclub pool parties noon-6 PM. Seminole Hard Rock, Hollywood FL (~25 mi north)."
  }
 ]

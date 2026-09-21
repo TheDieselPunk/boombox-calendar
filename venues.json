@@ -72,5 +72,14 @@
     "match": ["mad radio"],
     "hours": {"default": ["21:00", "03:00"]},
     "hours_note": "Observed on Shotgun: 9 PM-3 AM every night."
+  },
+  {
+    "slug": "daer",
+    "name": "DAER (Hard Rock Hollywood)",
+    "match": ["daer"],
+    "street": "1 Seminole Way, Hollywood, FL 33314",
+    "hardrock_calendar": {"url": "https://www.hardrocknightlife.com/calendar", "rooms": ["daer"]},
+    "hours": {"default": ["22:00", "04:00"], "day": ["12:00", "18:00"]},
+    "hours_note": "Nightclub 10 PM-4 AM; Dayclub pool parties noon-6 PM. Seminole Hard Rock, Hollywood FL (~25 mi north)."
   }
 ]

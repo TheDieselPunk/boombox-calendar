@@ -48,6 +48,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -492,6 +493,8 @@ def default_end(venue, start_local):
     """Closing time from the venue's typical hours for that weekday, else +5h."""
     hours = (venue or {}).get("hours") or {}
     spec = hours.get(DAYS[start_local.weekday()]) or hours.get("default")
+    if start_local.hour < 18 and hours.get("day"):  # pool parties, day events
+        spec = hours["day"]
     if spec and spec[1]:
         end = end_after(start_local, tuple(int(x) for x in spec[1].split(":")))
         if end - start_local <= dt.timedelta(hours=16):
@@ -632,6 +635,70 @@ def zeyzey_calendar_events(venues):
 
 
 # --------------------------------------------------------------------------- #
+# Hard Rock Nightlife calendar (DAER Nightclub / Dayclub, Webflow + Tixr)
+# --------------------------------------------------------------------------- #
+
+HR_CARD_SPLIT = 'class="event-item w-dyn-item"'
+HR_NAME_RE = re.compile(r'class="ticket-name[^"]*"[^>]*>([^<]*)<')
+HR_DATE_RE = re.compile(r'class="month[^"]*"[^>]*>([^<]*)<')
+HR_TIXR_RE = re.compile(r'href="(https?://(?:www\.)?tixr\.com/e/\d+)"')
+GENERIC_TITLE_RE = re.compile(r"^(mon|tues|wednes|thurs|fri|satur|sun)day,?\s+[a-z]+\s+\d{1,2}(st|nd|rd|th)?$", re.I)
+
+
+def hardrock_events(venues):
+    """Cards on hardrocknightlife.com/calendar for the rooms named in
+    venues.json "hardrock_calendar" (e.g. ["daer"]). Each card: "Title | Room",
+    weekday / month / day / start time, and a Tixr link. No year (inferred), no
+    end time (venue's typical closing, with the daytime rule for the Dayclub).
+    """
+    events = []
+    for v in venues:
+        cfg = v.get("hardrock_calendar")
+        if not cfg:
+            continue
+        time.sleep(POLITE_DELAY)
+        markup = fetch(cfg["url"])
+        rooms = [r.lower() for r in cfg.get("rooms", [])]
+        n = 0
+        for card in markup.split(HR_CARD_SPLIT)[1:]:
+            name = HR_NAME_RE.search(card)
+            if not name:
+                continue
+            full = clean(name.group(1))
+            title, _, room = full.rpartition(" | ")
+            if not room:
+                title, room = full, ""
+            if rooms and not any(r in room.lower() for r in rooms):
+                continue
+            generic = bool(GENERIC_TITLE_RE.match(title))
+            if generic:
+                title = room or v["name"]
+            texts = [clean(t) for t in HR_DATE_RE.findall(card)]
+            try:
+                day_no = int(next(t for t in texts if t.isdigit()))
+                month = MONTHS[next(t for t in texts if t.lower()[:3] in MONTHS and not t.isdigit()).lower()[:3]]
+            except (StopIteration, KeyError, ValueError):
+                continue
+            clock = next((parse_clock(t) for t in texts if CLOCK_RE.search(t)), None)
+            day = nearest_date(month, day_no)
+            start = end = None
+            if clock:
+                start_l = at_local(day, clock)
+                start, end = start_l.astimezone(UTC).isoformat(), default_end(v, start_l).astimezone(UTC).isoformat()
+            tixr = HR_TIXR_RE.search(card)
+            ident = tixr.group(1).rsplit("/", 1)[-1] if tixr else f"{day.isoformat()}-{squash(full)[:16]}"
+            events.append(new_event(
+                id=f"hardrock:{ident}", source="venue", title=title or room,
+                venue=room or v["name"], venue_slug=v["slug"], date=day.isoformat(), start=start, end=end,
+                address=v.get("street", ""), url=tixr.group(1) if tixr else cfg["url"],
+                generic_title=generic,
+            ))
+            n += 1
+        log(f"  hard rock calendar: {n} shows for {v['slug']}")
+    return events
+
+
+# --------------------------------------------------------------------------- #
 # Edmtrain
 # --------------------------------------------------------------------------- #
 
@@ -711,9 +778,13 @@ def edmtrain_events(venues):
 # Merge + tag
 # --------------------------------------------------------------------------- #
 
+TRANSLIT = str.maketrans({"ł": "l", "ø": "o", "đ": "d", "ð": "d", "þ": "th", "ß": "ss", "æ": "ae", "œ": "oe"})
+
+
 def squash(text):
-    """Lowercase alphanumerics only, so 'SoDown' == 'SO DOWN' == 'So-Down'."""
-    return re.sub(r"[^a-z0-9]", "", (text or "").lower())
+    """Lowercase ASCII alphanumerics only, accents stripped: 'Łaszewo' == 'Laszewo', 'SoDown' == 'SO DOWN'."""
+    text = unicodedata.normalize("NFKD", (text or "").lower().translate(TRANSLIT))
+    return re.sub(r"[^a-z0-9]", "", text)
 
 
 def title_key(title):
@@ -748,6 +819,9 @@ def names_of(ev):
 
 def looks_same(a, b):
     """Two events on the same night at the same venue that share a name."""
+    if a.get("generic_title") or b.get("generic_title"):  # "Saturday, October 3rd | DAER Nightclub"
+        va, vb = squash(a["venue"]), squash(b["venue"])
+        return bool(va and vb and (va in vb or vb in va))
     na, nb = names_of(a), names_of(b)
     if na & nb:
         return True
@@ -788,6 +862,8 @@ def merge(primary, secondary):
                 target = overlap[0] if len(overlap) == 1 else None
         if target:
             target["source"] = "+".join(sorted(set(target["source"].split("+")) | {ev["source"]}))
+            if target.get("generic_title") and ev["title"] and not ev.get("generic_title"):
+                target["title"], target["generic_title"] = ev["title"], False
             if not target["start"] and ev["start"]:
                 target["start"], target["end"], target["time_estimated"] = ev["start"], ev["end"], False
             elif target["start"] and not target["end"] and ev["end"]:
@@ -899,6 +975,8 @@ def vevent(ev, venue):
         desc.append("Tickets: " + ev["tickets"])
     if ev["ages"]:
         desc.append("Ages: " + ev["ages"])
+    if ev.get("generic_title"):
+        desc.append("No headliner announced yet.")
     if ev["time_estimated"]:
         desc.append(f"Times are an estimate from {venue['name']}'s usual hours - the listing has no "
                     "start time yet. Check the link.")
@@ -988,6 +1066,7 @@ def main():
     events = merge(events, drop_excluded(tablelist_events(venues), venues))
     log("Venue calendars")
     events = merge(events, drop_excluded(zeyzey_calendar_events(venues), venues))
+    events = merge(events, drop_excluded(hardrock_events(venues), venues))
     log("19hz.info")
     events = merge(events, drop_excluded(hz19_events(venues), venues))
     events = merge(events, drop_excluded(edmtrain_events(venues), venues))
