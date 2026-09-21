@@ -1,26 +1,6 @@
 {
  "events": [
   {
-   "id": "shotgun:lacocina",
-   "source": "shotgun",
-   "title": "La Cocina: Latin House Sundays",
-   "artists": [],
-   "venue": "Miami",
-   "venue_slug": null,
-   "date": "2026-09-20",
-   "start": "2026-09-20T23:00:00+00:00",
-   "end": null,
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "Free",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/en/events/lacocina"
-  },
-  {
    "id": "edmtrain:538136",
    "source": "edmtrain",
    "title": "Binh",
