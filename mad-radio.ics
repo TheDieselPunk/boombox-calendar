@@ -8,20 +8,6 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:edmtrain-538136@edmtrain.com
-DTSTAMP:20260920T000000Z
-DTSTART:20260921T010000Z
-DTEND:20260921T070000Z
-SUMMARY:Binh
-LOCATION:Mad Radio Miami\, 7700 Biscayne Blvd\, Miami\, FL 33138\, USA
-DESCRIPTION:Lineup: Binh\nTags (guess): deep house\, house\nTimes are an es
- timate from Mad Radio Miami's usual hours - the listing has no start time 
- yet. Check the link.\nhttps://edmtrain.com/miami-fl/binh-538136
-URL:https://edmtrain.com/miami-fl/binh-538136
-STATUS:CONFIRMED
-CATEGORIES:deep house,house
-END:VEVENT
-BEGIN:VEVENT
 UID:madradiomiami092326@shotgun.live
 DTSTAMP:20260825T132016Z
 DTSTART:20260924T010000Z

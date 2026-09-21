@@ -1,147 +1,6 @@
 {
  "events": [
   {
-   "id": "edmtrain:538136",
-   "source": "edmtrain",
-   "title": "Binh",
-   "artists": [
-    "Binh"
-   ],
-   "venue": "Mad Radio Miami",
-   "venue_slug": "mad-radio",
-   "date": "2026-09-20",
-   "start": "2026-09-21T01:00:00+00:00",
-   "end": "2026-09-21T07:00:00+00:00",
-   "time_estimated": true,
-   "address": "7700 Biscayne Blvd, Miami, FL 33138, USA",
-   "ages": "",
-   "price": "",
-   "genres": [
-    "deep house",
-    "house"
-   ],
-   "genres_inferred": true,
-   "organizer": "",
-   "description": "",
-   "url": "https://edmtrain.com/miami-fl/binh-538136"
-  },
-  {
-   "id": "edmtrain:527082",
-   "source": "edmtrain",
-   "title": "Robbie Doherty, Ms. Mada, LO-G",
-   "artists": [
-    "Robbie Doherty",
-    "Ms. Mada",
-    "LO-G"
-   ],
-   "venue": "Floyd",
-   "venue_slug": "floyd",
-   "date": "2026-09-20",
-   "start": "2026-09-21T03:00:00+00:00",
-   "end": "2026-09-21T09:00:00+00:00",
-   "time_estimated": true,
-   "address": "34 NE 11th St, Miami, FL 33132, USA",
-   "ages": "",
-   "price": "",
-   "genres": [
-    "house",
-    "techno"
-   ],
-   "genres_inferred": true,
-   "organizer": "",
-   "description": "",
-   "url": "https://edmtrain.com/miami-fl/robbie-doherty-ms-mada-527082"
-  },
-  {
-   "id": "edmtrain:537547",
-   "source": "edmtrain",
-   "title": "COFFEEANDBEATS 2 Year Anniversary: ANGIE LONARC, NOCTRA, Lumi, Ki Ki Baby G",
-   "artists": [
-    "ANGIE LONARC",
-    "NOCTRA",
-    "Lumi",
-    "Ki Ki Baby G"
-   ],
-   "venue": "Domus Brickell Park",
-   "venue_slug": null,
-   "date": "2026-09-20",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "1611 SW 2nd Ave, Miami, FL 33129, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://edmtrain.com/miami-fl/coffeeandbeats-2-year-anniversary-angie-lonarc-537547"
-  },
-  {
-   "id": "edmtrain:524466",
-   "source": "edmtrain",
-   "title": "Prankstisci",
-   "artists": [
-    "Prankstisci"
-   ],
-   "venue": "E11EVEN",
-   "venue_slug": null,
-   "date": "2026-09-20",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "29 NE 11th St, Miami, FL 33132, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://edmtrain.com/miami-fl/prankstisci-524466"
-  },
-  {
-   "id": "edmtrain:533546",
-   "source": "edmtrain",
-   "title": "Lunasol Pres.",
-   "artists": [],
-   "venue": "Lunasol",
-   "venue_slug": null,
-   "date": "2026-09-20",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "158 NW 24th St, Miami, FL 33127, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://edmtrain.com/miami-fl/lunasol-pres-533546"
-  },
-  {
-   "id": "edmtrain:538345",
-   "source": "edmtrain",
-   "title": "Craze",
-   "artists": [
-    "Craze"
-   ],
-   "venue": "Tomorrowland Miami",
-   "venue_slug": null,
-   "date": "2026-09-20",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "1368 N Miami Ave, Miami, FL 33136, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://edmtrain.com/miami-fl/craze-538345"
-  },
-  {
    "id": "shotgun:comedy-night-at-churchill-s-4",
    "source": "shotgun",
    "title": "Comedy Night At Churchill's",
@@ -207,7 +66,7 @@
   },
   {
    "id": "shotgun:stage777-20",
-   "source": "shotgun",
+   "source": "shotgun+edmtrain",
    "title": "Stage 777: Miami Underground Showcase",
    "artists": [],
    "venue": "Miami",
@@ -223,7 +82,8 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://shotgun.live/en/events/stage777-20"
+   "url": "https://shotgun.live/en/events/stage777-20",
+   "edmtrain_url": "https://edmtrain.com/miami-fl/stage-777-miami-underground-showcase-538555"
   },
   {
    "id": "shotgun:madradiomiami092326",
@@ -613,7 +473,7 @@
   },
   {
    "id": "shotgun:expansion",
-   "source": "shotgun",
+   "source": "shotgun+edmtrain",
    "title": "Expansion: Ecstatic Dance Miami",
    "artists": [],
    "venue": "Miami",
@@ -629,7 +489,8 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://shotgun.live/en/events/expansion"
+   "url": "https://shotgun.live/en/events/expansion",
+   "edmtrain_url": "https://edmtrain.com/miami-fl/expansion-ecstatic-dance-miami-538556"
   },
   {
    "id": "edmtrain:527883",
@@ -783,6 +644,26 @@
    "organizer": "",
    "description": "",
    "url": "https://shotgun.live/en/events/lunasol-pres-misifu-6"
+  },
+  {
+   "id": "shotgun:zona",
+   "source": "shotgun",
+   "title": "Zonaroza: Ft. Fantasia Royale Gaga",
+   "artists": [],
+   "venue": "Miami",
+   "venue_slug": null,
+   "date": "2026-09-25",
+   "start": "2026-09-26T02:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$11.35",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/zona"
   },
   {
    "id": "shotgun:new-blood-transfusion",

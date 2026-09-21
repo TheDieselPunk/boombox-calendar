@@ -8,21 +8,6 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:edmtrain-527082@edmtrain.com
-DTSTAMP:20260920T000000Z
-DTSTART:20260921T030000Z
-DTEND:20260921T090000Z
-SUMMARY:Robbie Doherty\, Ms. Mada\, LO-G
-LOCATION:Floyd\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Robbie Doherty\, Ms. Mada\, LO-G\nTags (guess): house\,
-  techno\nTimes are an estimate from Floyd's usual hours - the listing has 
- no start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/robbie-d
- oherty-ms-mada-527082
-URL:https://edmtrain.com/miami-fl/robbie-doherty-ms-mada-527082
-STATUS:CONFIRMED
-CATEGORIES:house,techno
-END:VEVENT
-BEGIN:VEVENT
 UID:edmtrain-538086@edmtrain.com
 DTSTAMP:20260924T000000Z
 DTSTART:20260925T030000Z
