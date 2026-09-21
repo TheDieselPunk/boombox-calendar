@@ -1,0 +1,69 @@
+{
+  "_comment": "Genre taxonomy for the site's filters (and anything else that wants families). Tags are the lowercase strings sources emit; anything not listed lands in 'Other'. Order = display order.",
+  "families": [
+    {
+      "name": "House",
+      "tags": ["house", "tech house", "deep house", "progressive house", "afro house", "electro house", "big room house",
+               "latin house", "funky house", "bass house", "disco house", "french house", "french touch", "jackin house",
+               "organic house", "pop house", "soulful house", "tropical house", "hard house", "melodic house & techno", "afro", "afrobeat", "afrobeats"]
+    },
+    {
+      "name": "Techno",
+      "tags": ["techno", "hard techno", "minimal", "acid", "industrial", "big room techno", "schranz", "playa tech", "midtempo", "prhg"]
+    },
+    {
+      "name": "Trance",
+      "tags": ["trance", "uplifting trance", "big room trance"]
+    },
+    {
+      "name": "Bass",
+      "tags": ["dubstep", "bass", "bass music", "riddim", "trap", "future bass", "uk bass", "miami bass", "grime", "bassline",
+               "glitch-hop", "future beats", "beats", "dub", "hard bounce"]
+    },
+    {
+      "name": "Drum & bass",
+      "tags": ["drum and bass", "drum & bass", "jungle"]
+    },
+    {
+      "name": "Breaks & garage",
+      "tags": ["breaks", "uk garage", "garage", "club music", "club", "jersey club"]
+    },
+    {
+      "name": "Hard dance",
+      "tags": ["hardstyle", "hardcore"]
+    },
+    {
+      "name": "EDM & big room",
+      "tags": ["edm", "pop edm", "big room", "electro", "dance/electronic", "multigenre edm", "electropop", "remixes", "open-format", "tbd"]
+    },
+    {
+      "name": "Electronica & downtempo",
+      "tags": ["electronica", "downtempo", "idm", "experimental", "leftfield", "chillwave", "live electronic", "electronic funk", "electronic rock", "future funk"]
+    },
+    {
+      "name": "Disco & funk",
+      "tags": ["disco", "nu-disco", "italo disco", "funk", "indie dance"]
+    },
+    {
+      "name": "Dark wave & industrial",
+      "tags": ["dark wave", "darkwave", "ebm", "synthpop", "coldwave", "goth", "post-punk"]
+    },
+    {
+      "name": "Latin",
+      "tags": ["latin", "reggaeton"]
+    },
+    {
+      "name": "Hip-hop & R&B",
+      "tags": ["hip-hop", "hip-hop/rap", "r&b", "r&b/soul"]
+    },
+    {
+      "name": "Rock, indie & metal",
+      "tags": ["rock", "indie/alternative", "indie rock", "indie", "indie pop", "alternative", "punk", "emo", "pop rock",
+               "psychedelic rock", "metal", "death metal", "black metal", "metalcore", "folk"]
+    },
+    {
+      "name": "Pop & other",
+      "tags": ["pop", "jazz", "country"]
+    }
+  ]
+}

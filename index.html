@@ -56,6 +56,13 @@
   .chip[data-state="on"] { background:var(--chip-on); color:var(--chip-on-fg); }
   .chip[data-state="off"] { background:var(--chip-off); color:var(--chip-off-fg); text-decoration:line-through; }
   .chip.small { font-size:.76rem; padding:3px 8px; }
+  .chip[data-state="mixed"] { box-shadow:inset 0 0 0 2px var(--chip-on); }
+  .chip .n { opacity:.6; font-size:.74rem; }
+  .fam { margin-bottom:6px; }
+  .famrow { display:flex; align-items:center; gap:4px; }
+  .caret { border:0; background:none; color:var(--muted); cursor:pointer; font:inherit; padding:2px 6px; border-radius:6px; }
+  .caret:hover { background:var(--chip); }
+  .subs { display:flex; flex-wrap:wrap; gap:5px; padding:6px 0 4px 18px; }
   input[type=search], select { width:100%; border:1px solid var(--line); background:var(--bg); color:var(--fg); border-radius:8px; padding:8px 10px; font:inherit; }
   select { margin-top:8px; }
   label.check { display:flex; align-items:center; gap:8px; font-size:.9rem; margin:4px 0; cursor:pointer; }
@@ -128,12 +135,8 @@
 
       <div class="group">
         <h3>Genres <button data-clear="genres">clear</button></h3>
-        <div class="chips" id="genres"></div>
-        <div class="chips" style="margin-top:8px">
-          <button class="chip small" id="skipHouse">Skip the house family</button>
-          <button class="chip small" id="moreGenres">more genres…</button>
-        </div>
-        <div class="hint">Click a genre once to require it, twice to hide it, again to reset.</div>
+        <div id="genres"></div>
+        <div class="hint">Click once to require, twice to hide, again to reset. A family applies to all its subgenres; ▸ opens them.</div>
       </div>
 
       <div class="group">
@@ -198,8 +201,6 @@
 <script>
 (() => {
   const TZ = "America/New_York";
-  const HOUSE_FAMILY = ["house","tech house","deep house","progressive house","afro house","disco","nu-disco","disco house",
-                        "electro house","big room house","latin house","melodic house","soulful house","funky house","jackin house","detroit house"];
   const SOURCE_LABEL = { shotgun:"Shotgun", dice:"Dice", tablelist:"Tablelist", venue:"Venue site", "19hz":"19hz", edmtrain:"Edmtrain" };
   const GCAL = "https://calendar.google.com/calendar/r/settings/addbyurl";
   const $ = s => document.querySelector(s);
@@ -208,9 +209,9 @@
     view: "month", month: null, range: "7", day: null,
     q: "", venues: new Set(), otherVenue: "", trackedOnly: true,
     gIn: new Set(), gOut: new Set(), freeOnly: false, over18: false, confirmedTimes: false, hideTba: true, taggedOnly: false,
-    tod: null, sources: new Set(), moreGenres: false,
+    tod: null, sources: new Set(), expanded: new Set(),
   };
-  let events = [], feeds = [], genreCounts = new Map();
+  let events = [], feeds = [], genreCounts = new Map(), families = [];
 
   // ---------- helpers ----------
   const todayISO = () => new Date().toLocaleDateString("en-CA", { timeZone: TZ });
@@ -314,20 +315,48 @@
     ov.value = state.otherVenue;
 
     const gbox = $("#genres"); gbox.innerHTML = "";
-    const all = [...genreCounts.entries()].sort((a, b) => b[1] - a[1]);
-    const shown = state.moreGenres ? all : all.slice(0, 22);
-    for (const [g] of shown) gbox.appendChild(chip(g, { genre: g }, state.gIn.has(g) ? "on" : state.gOut.has(g) ? "off" : ""));
-    for (const g of [...state.gIn, ...state.gOut]) if (!shown.some(([x]) => x === g)) gbox.appendChild(chip(g, { genre: g }, state.gIn.has(g) ? "on" : "off"));
-    $("#moreGenres").textContent = state.moreGenres ? "fewer genres" : `more genres (${all.length})…`;
-    const houseOn = HOUSE_FAMILY.some(g => genreCounts.has(g)) && HOUSE_FAMILY.every(g => !genreCounts.has(g) || state.gOut.has(g));
-    $("#skipHouse").dataset.state = houseOn ? "off" : "";
-
+    for (const fam of families) {
+      const tags = fam.tags.filter(t => genreCounts.has(t));
+      if (!tags.length) continue;
+      const inN = tags.filter(t => state.gIn.has(t)).length, outN = tags.filter(t => state.gOut.has(t)).length;
+      const st = inN === tags.length ? "on" : outN === tags.length ? "off" : (inN || outN) ? "mixed" : "";
+      const total = tags.reduce((a, t) => a + genreCounts.get(t), 0);
+      const open = state.expanded.has(fam.name) || st === "mixed";
+      const wrap = document.createElement("div"); wrap.className = "fam";
+      const row = document.createElement("div"); row.className = "famrow";
+      const c = chip(fam.name, { family: fam.name }, st);
+      const n = document.createElement("span"); n.className = "n"; n.textContent = total; c.appendChild(n);
+      row.appendChild(c);
+      if (tags.length > 1 || tags[0] !== fam.name.toLowerCase()) {
+        const caret = document.createElement("button"); caret.className = "caret"; caret.type = "button";
+        caret.dataset.expand = fam.name; caret.textContent = open ? "▾" : "▸"; caret.title = `${tags.length} subgenres`;
+        row.appendChild(caret);
+      }
+      wrap.appendChild(row);
+      if (open) {
+        const subs = document.createElement("div"); subs.className = "subs";
+        for (const t of tags.sort((a, b) => genreCounts.get(b) - genreCounts.get(a))) {
+          const cc = chip(t, { genre: t }, state.gIn.has(t) ? "on" : state.gOut.has(t) ? "off" : ""); cc.classList.add("small");
+          const nn = document.createElement("span"); nn.className = "n"; nn.textContent = genreCounts.get(t); cc.appendChild(nn);
+          subs.appendChild(cc);
+        }
+        wrap.appendChild(subs);
+      }
+      gbox.appendChild(wrap);
+    }
     for (const k of ["freeOnly", "over18", "confirmedTimes", "hideTba", "taggedOnly"]) $("#" + k).checked = state[k];
     for (const b of document.querySelectorAll("#tod .chip")) b.dataset.state = state.tod === b.dataset.tod ? "on" : "";
     const sbox = $("#sources"); sbox.innerHTML = "";
     for (const s of ["shotgun", "dice", "tablelist", "venue", "19hz", "edmtrain"]) sbox.appendChild(chip(SOURCE_LABEL[s], { source: s }, state.sources.has(s) ? "on" : ""));
     if (document.activeElement !== $("#q")) $("#q").value = state.q;
-    const active = (state.venues.size ? 1 : 0) + (state.otherVenue ? 1 : 0) + (state.trackedOnly ? 0 : 1) + state.gIn.size + state.gOut.size +
+    let genreSel = 0;
+    for (const fam of families) {
+      const tags = fam.tags.filter(t => genreCounts.has(t));
+      if (!tags.length) continue;
+      const inN = tags.filter(t => state.gIn.has(t)).length, outN = tags.filter(t => state.gOut.has(t)).length;
+      genreSel += (inN === tags.length || outN === tags.length) ? 1 : inN + outN;
+    }
+    const active = (state.venues.size ? 1 : 0) + (state.otherVenue ? 1 : 0) + (state.trackedOnly ? 0 : 1) + genreSel +
       ["freeOnly", "over18", "confirmedTimes", "taggedOnly"].filter(k => state[k]).length + (state.hideTba ? 0 : 1) + (state.tod ? 1 : 0) + state.sources.size + (state.q ? 1 : 0);
     $("#fcount").textContent = active ? `· ${active} active` : "";
   }
@@ -453,16 +482,20 @@
     $("#trackedOnly").onchange = e => { state.trackedOnly = e.target.checked; if (state.trackedOnly) state.otherVenue = ""; render(); };
     $("#otherVenue").onchange = e => { state.otherVenue = e.target.value; render(); };
     $("#genres").onclick = e => {
-      const b = e.target.closest(".chip"); if (!b) return; const g = b.dataset.genre;
-      if (state.gIn.has(g)) { state.gIn.delete(g); state.gOut.add(g); } else if (state.gOut.has(g)) state.gOut.delete(g); else state.gIn.add(g);
+      const caret = e.target.closest(".caret");
+      if (caret) { const f = caret.dataset.expand; state.expanded.has(f) ? state.expanded.delete(f) : state.expanded.add(f); render(); return; }
+      const b = e.target.closest(".chip"); if (!b) return;
+      if (b.dataset.family) {
+        const tags = families.find(f => f.name === b.dataset.family).tags.filter(t => genreCounts.has(t));
+        const allIn = tags.every(t => state.gIn.has(t)), allOut = tags.every(t => state.gOut.has(t));
+        for (const t of tags) { state.gIn.delete(t); state.gOut.delete(t); if (allIn) state.gOut.add(t); else if (!allOut) state.gIn.add(t); }
+        if (allIn) state.expanded.delete(b.dataset.family);
+      } else {
+        const g = b.dataset.genre;
+        if (state.gIn.has(g)) { state.gIn.delete(g); state.gOut.add(g); } else if (state.gOut.has(g)) state.gOut.delete(g); else state.gIn.add(g);
+      }
       render();
     };
-    $("#skipHouse").onclick = () => {
-      const on = HOUSE_FAMILY.every(g => !genreCounts.has(g) || state.gOut.has(g));
-      for (const g of HOUSE_FAMILY) { if (on) state.gOut.delete(g); else if (genreCounts.has(g)) { state.gOut.add(g); state.gIn.delete(g); } }
-      render();
-    };
-    $("#moreGenres").onclick = () => { state.moreGenres = !state.moreGenres; render(); };
     for (const k of ["freeOnly", "over18", "confirmedTimes", "hideTba", "taggedOnly"]) $("#" + k).onchange = e => { state[k] = e.target.checked; render(); };
     $("#tod").onclick = e => { const b = e.target.closest(".chip"); if (!b) return; state.tod = state.tod === b.dataset.tod ? null : b.dataset.tod; render(); };
     $("#sources").onclick = e => { const b = e.target.closest(".chip"); if (!b) return; const s = b.dataset.source; state.sources.has(s) ? state.sources.delete(s) : state.sources.add(s); render(); };
@@ -478,12 +511,16 @@
   // ---------- boot ----------
   async function boot() {
     load();
-    const [ej, fj] = await Promise.all([fetch("events.json"), fetch("feeds.json")]);
+    const [ej, fj, gj] = await Promise.all([fetch("events.json"), fetch("feeds.json"), fetch("genres.json")]);
     const lm = ej.headers.get("last-modified");
     events = (await ej.json()).events;
     feeds = await fj.json();
+    families = (await gj.json()).families.map(f => ({ name: f.name, tags: [...f.tags] }));
     events.sort((a, b) => a.date.localeCompare(b.date) || (a.start || "~").localeCompare(b.start || "~") || a.venue.localeCompare(b.venue));
     for (const e of events) if (!e.genres_inferred) for (const g of e.genres || []) genreCounts.set(g, (genreCounts.get(g) || 0) + 1);
+    const known = new Set(families.flatMap(f => f.tags));
+    const other = [...genreCounts.keys()].filter(g => !known.has(g));
+    if (other.length) families.push({ name: "Other", tags: other });
     $("#asof").textContent = `${events.length} events` + (lm ? `, data as of ${new Date(lm).toLocaleString("en-US", { timeZone: TZ, month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })} ET` : "");
     wire();
     renderFeeds();
