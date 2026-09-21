@@ -459,6 +459,179 @@ def tablelist_events(venues):
 
 
 # --------------------------------------------------------------------------- #
+# Clock-time helpers (sources that publish "9pm-3am" style ranges)
+# --------------------------------------------------------------------------- #
+
+CLOCK_RE = re.compile(r"(\d{1,2})(?::(\d{2}))?\s*(am|pm)", re.I)
+MONTHS = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun",
+                                       "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+
+
+def parse_clock(text):
+    """'9pm' / '11:30 pm' -> (hour, minute) in 24h, else None."""
+    m = CLOCK_RE.search(text or "")
+    if not m:
+        return None
+    h, mi, ap = int(m.group(1)) % 12, int(m.group(2) or 0), m.group(3).lower()
+    return (h + 12 if ap == "pm" else h, mi)
+
+
+def at_local(day, clock):
+    return dt.datetime(day.year, day.month, day.day, clock[0], clock[1], tzinfo=EASTERN)
+
+
+def end_after(start_local, clock):
+    """End datetime for a clock time on the same night as start (rolls past midnight)."""
+    end = at_local(start_local.date(), clock)
+    if end <= start_local:
+        end += dt.timedelta(days=1)
+    return end
+
+
+def default_end(venue, start_local):
+    """Closing time from the venue's typical hours for that weekday, else +5h."""
+    hours = (venue or {}).get("hours") or {}
+    spec = hours.get(DAYS[start_local.weekday()]) or hours.get("default")
+    if spec and spec[1]:
+        end = end_after(start_local, tuple(int(x) for x in spec[1].split(":")))
+        if end - start_local <= dt.timedelta(hours=16):
+            return end
+    return start_local + DEFAULT_DURATION
+
+
+def nearest_date(month, day, today=None):
+    """Month/day with no year (a site card) -> the occurrence nearest to today."""
+    today = today or dt.date.today()
+    cands = []
+    for year in (today.year - 1, today.year, today.year + 1):
+        try:
+            cands.append(dt.date(year, month, day))
+        except ValueError:
+            pass
+    return min(cands, key=lambda d: abs((d - today).days))
+
+
+# --------------------------------------------------------------------------- #
+# 19hz.info - curated metro listing: genres, time ranges, ages, ticket links
+# --------------------------------------------------------------------------- #
+
+HZ19_CSV = "https://19hz.info/events_Miami.csv"
+HZ19_SPLIT_RE = re.compile(r",|\s/\s|\s\+\s|\s&\s|\sb2b\s|\sx\s|:", re.I)
+
+
+def hz19_events(venues):
+    """Rows of 19hz's Miami CSV as events.
+
+    One person's curation, electronic-only, but every row carries genre tags
+    and nearly every row a time range - the two things the ticket platforms
+    don't give us. Columns (no header): day label, title, genres, venue (city),
+    time range, price, ages, organizer, link, second link, Excel serial of the
+    start (date + time, local).
+    """
+    import csv
+    import io
+    raw = fetch(HZ19_CSV)
+    events, n_time = [], 0
+    for r in csv.reader(io.StringIO(raw)):
+        if len(r) < 11 or not r[10]:
+            continue
+        try:
+            serial = float(r[10])
+        except ValueError:
+            continue
+        when = dt.datetime(1899, 12, 30) + dt.timedelta(days=serial)
+        day = when.date()
+        venue_txt = re.sub(r"\s*\([^)]*\)\s*$", "", r[3]).strip()
+        city = (re.search(r"\(([^)]*)\)\s*$", r[3]) or [None, ""])[1]
+        tracked = venue_for(venues, venue_txt)
+        clocks = CLOCK_RE.findall(r[4] or "")
+        start = end = None
+        if clocks:
+            start_c = parse_clock(r[4])
+            start_l = at_local(day, start_c)
+            start = start_l.astimezone(UTC).isoformat()
+            if len(clocks) >= 2:
+                end_c = parse_clock(r[4][CLOCK_RE.search(r[4]).end():])
+                if end_c:
+                    end = end_after(start_l, end_c).astimezone(UTC).isoformat()
+            if not end:
+                end = default_end(tracked, start_l).astimezone(UTC).isoformat()
+            n_time += 1
+        genres = sorted({g.strip().lower() for g in (r[2] or "").split(",") if g.strip()})
+        parts = [clean(x) for x in HZ19_SPLIT_RE.split(r[1]) if len(squash(x)) >= 4]
+        events.append(new_event(
+            id=f"19hz:{int(serial * 96)}-{squash(r[1])[:16]}", source="19hz", title=clean(r[1]),
+            venue=venue_txt, venue_slug=tracked["slug"] if tracked else None,
+            date=day.isoformat(), start=start, end=end, address=city if city and city != "Miami" else "",
+            ages=(r[6] or "").strip(), price=(r[5] or "").strip(), genres=genres,
+            organizer=(r[7] or "").strip(), url=(r[8] or "").strip() or (r[9] or "").strip(),
+            match_names=parts,
+        ))
+    log(f"  {len(events)} rows, {n_time} with a time, {sum(1 for e in events if e['venue_slug'])} at tracked venues")
+    return events
+
+
+# --------------------------------------------------------------------------- #
+# ZeyZey's own calendar (Webflow site, tickets via Opendate)
+# --------------------------------------------------------------------------- #
+
+ZZ_CARD_RE = re.compile(r'<div class="event-card">(.*?)</div>\s*</div>\s*(?=<div fs-list-element="item"|</div>)', re.S)
+ZZ_TEXT_RE = re.compile(r'class="text-block-61-copy[^"]*"[^>]*>([^<]*)<')
+ZZ_TITLE_RE = re.compile(r"<h3[^>]*>([^<]*)</h3>")
+ZZ_HREF_RE = re.compile(r'href="(/shows/[^"?#]+)"')
+ZZ_BUTTON_RE = re.compile(r'class="[^"]*w-button[^"]*"[^>]*>([^<]*)</a>')
+
+
+def zeyzey_calendar_events(venues):
+    """Every show on calendar.zeyzeymiami.com (the venue's full list, all promoters).
+
+    Cards carry weekday / day / month / start time / title / a genre label and
+    an RSVP / Buy Tickets / Sold Out button; no year (inferred) and no end time
+    (venue's typical closing). Configured via venues.json "zeyzey_calendar".
+    """
+    events = []
+    for v in venues:
+        base = v.get("zeyzey_calendar")
+        if not base:
+            continue
+        time.sleep(POLITE_DELAY)
+        markup = fetch(base)
+        seen, n = set(), 0
+        for card in ZZ_CARD_RE.findall(markup):
+            href = ZZ_HREF_RE.search(card)
+            title = ZZ_TITLE_RE.search(card)
+            texts = [clean(t) for t in ZZ_TEXT_RE.findall(card)]
+            if not href or not title or href.group(1) in seen:
+                continue
+            seen.add(href.group(1))
+            try:
+                day_no = int(next(t for t in texts if t.isdigit()))
+                month = MONTHS[next(t for t in texts if t.lower()[:3] in MONTHS and not t.isdigit()).lower()[:3]]
+            except (StopIteration, KeyError, ValueError):
+                continue
+            clock = next((parse_clock(t) for t in texts if CLOCK_RE.search(t)), None)
+            day = nearest_date(month, day_no)
+            start = end = None
+            if clock:
+                start_l = at_local(day, clock)
+                start, end = start_l.astimezone(UTC).isoformat(), default_end(v, start_l).astimezone(UTC).isoformat()
+            genre = [t.lower() for t in texts if t and not t.isdigit() and not CLOCK_RE.search(t)
+                     and t.lower()[:3] not in MONTHS and t not in ("-",)
+                     and t.lower() not in ("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday")]
+            button = ZZ_BUTTON_RE.findall(card)
+            status = (button[-1] if button else "").strip().lower()
+            events.append(new_event(
+                id=f"zeyzey:{href.group(1).rsplit('/', 1)[-1]}", source="venue", title=clean(title.group(1)),
+                venue=v["name"], venue_slug=v["slug"], date=day.isoformat(), start=start, end=end,
+                genres=[g for g in genre if g][:1], price="Free" if status == "rsvp" else ("(sold out)" if "sold" in status else ""),
+                url=base.rstrip("/") + href.group(1), cancelled=False,
+            ))
+            n += 1
+        log(f"  venue calendar {base}: {n} shows")
+    return events
+
+
+# --------------------------------------------------------------------------- #
 # Edmtrain
 # --------------------------------------------------------------------------- #
 
@@ -562,12 +735,33 @@ def drop_excluded(events, venues):
     return kept
 
 
+def night_key(ev):
+    """Same-night bucket: tracked venue slug, else a prefix of the venue name."""
+    return (ev["venue_slug"] or squash(ev["venue"])[:8] or None, ev["date"])
+
+
+def names_of(ev):
+    """Normalized names to match on: artists, the title, and any match_names."""
+    return {squash(a) for a in ev["artists"] if a} | {squash(ev["title"])} | \
+           {squash(n) for n in ev.get("match_names", []) if squash(n)}
+
+
+def looks_same(a, b):
+    """Two events on the same night at the same venue that share a name."""
+    na, nb = names_of(a), names_of(b)
+    if na & nb:
+        return True
+    ta, tb = squash(a["title"]), squash(b["title"])
+    return any(len(n) >= 4 and (n in tb) for n in na) or any(len(n) >= 4 and (n in ta) for n in nb)
+
+
 def merge(primary, secondary):
     """Fold `secondary` rows into `primary` events that are clearly the same night.
 
-    The primary event keeps its times and details; the secondary contributes
-    what the primary lacks (lineup, ages) and its link. Called twice: Shotgun
-    absorbs Dice, then that result absorbs Edmtrain.
+    The primary event keeps its identity and, if it has them, its times; the
+    secondary contributes what the primary lacks (times, lineup, ages, price),
+    its genre tags (unioned) and its link. Called once per source in priority
+    order: Shotgun, then Dice, Tablelist, the venue calendar, 19hz, Edmtrain.
     """
     # Source order isn't stable run to run (Edmtrain repeats events across
     # widgets), and which row folds in first decides the lineup - so sort.
@@ -576,32 +770,34 @@ def merge(primary, secondary):
     by_key = {}
     for ev in primary:
         by_key.setdefault((ev["date"], title_key(ev["title"])), ev)
-    by_venue_date = {}
+    by_night = {}
     for ev in primary:
-        if ev["venue_slug"]:
-            by_venue_date.setdefault((ev["venue_slug"], ev["date"]), []).append(ev)
+        k = night_key(ev)
+        if k[0]:
+            by_night.setdefault(k, []).append(ev)
 
     merged = list(primary)
     for ev in secondary:
         target = by_key.get((ev["date"], title_key(ev["title"])))
-        if not target and ev["venue_slug"]:
-            same_night = by_venue_date.get((ev["venue_slug"], ev["date"]), [])
-            if len(same_night) == 1:
+        if not target:
+            same_night = by_night.get(night_key(ev), []) if night_key(ev)[0] else []
+            if len(same_night) == 1 and (ev["venue_slug"] or looks_same(ev, same_night[0])):
                 target = same_night[0]
             elif same_night:
-                names = {squash(a) for a in ev["artists"]} | {squash(ev["title"])}
-                overlap = [s for s in same_night
-                           if names & ({squash(a) for a in s["artists"]} | {squash(s["title"])}) or
-                           any(n and n in squash(s["title"]) for n in names) or
-                           any(squash(a) in squash(ev["title"]) for a in s["artists"] if a)]
+                overlap = [s for s in same_night if looks_same(ev, s)]
                 target = overlap[0] if len(overlap) == 1 else None
         if target:
             target["source"] = "+".join(sorted(set(target["source"].split("+")) | {ev["source"]}))
+            if not target["start"] and ev["start"]:
+                target["start"], target["end"], target["time_estimated"] = ev["start"], ev["end"], False
+            elif target["start"] and not target["end"] and ev["end"]:
+                target["end"] = ev["end"]
             target["artists"] = target["artists"] or ev["artists"]
             target["ages"] = target["ages"] or ev["ages"]
             target["price"] = target["price"] or ev["price"]
-            if not target["genres"]:
-                target["genres"] = ev["genres"]
+            target["genres"] = sorted(set(target["genres"]) | set(ev["genres"]))
+            if ev.get("match_names"):
+                target.setdefault("match_names", []).extend(ev["match_names"])
             target.setdefault("alt_urls", []).append(ev["url"])
         else:
             merged.append(ev)
@@ -790,6 +986,10 @@ def main():
     log("Dice: venue profiles")
     events = merge(events, drop_excluded(dice_events(venues), venues))
     events = merge(events, drop_excluded(tablelist_events(venues), venues))
+    log("Venue calendars")
+    events = merge(events, drop_excluded(zeyzey_calendar_events(venues), venues))
+    log("19hz.info")
+    events = merge(events, drop_excluded(hz19_events(venues), venues))
     events = merge(events, drop_excluded(edmtrain_events(venues), venues))
     events = apply_genre_hints(events, hints)
     estimated = fill_typical_hours(events, venues, learn_hours(events))
@@ -817,7 +1017,7 @@ def main():
 
     if not args.only:
         state = {uid: state[uid] for uid in sorted(seen)}  # forget events that have dropped off
-        keep = [e for e in events if e["date"] >= cutoff]
+        keep = [{k: x for k, x in e.items() if k != "match_names"} for e in events if e["date"] >= cutoff]
         write("events.json", json.dumps({"events": keep}, indent=1, ensure_ascii=False) + "\n")
         write("feeds.json", json.dumps(feeds, indent=1) + "\n")
         log(f"Wrote {len(keep)} events to events.json and {len(feeds)} feeds")

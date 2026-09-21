@@ -8,76 +8,102 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:dice-6a3f12f64ed8b10001b2bca7@factory-town.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:19hz-4443432-turnstilemallgra@factory-town.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
+DTSTART:20260920T220000Z
+DTEND:20260921T030000Z
+SUMMARY:Turnstile: Mall Grab\, Cold World\, Collateral
+LOCATION:Factory Town
+DESCRIPTION:Tags: deep house\, tech house\, techno\nAges: All ages\nhttps:/
+ /dice.fm/event/92rqd6-turnstile-the-never-enough-tour-pt-2-20th-sep-factor
+ y-town-miami-tickets
+URL:https://dice.fm/event/92rqd6-turnstile-the-never-enough-tour-pt-2-20th-
+ sep-factory-town-miami-tickets
+STATUS:CONFIRMED
+CATEGORIES:deep house,tech house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a3f12f64ed8b10001b2bca7@factory-town.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20260926T020000Z
 DTEND:20260926T090000Z
 SUMMARY:Eli Brown
 LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
-DESCRIPTION:Lineup: Eli Brown\, Massano\, Marie Vaunt\, Daizy\nTags (guess)
- : house\, techno\nhttps://edmtrain.com/miami-fl/eli-brown-massano-527883
+DESCRIPTION:Lineup: Eli Brown\, Massano\, Marie Vaunt\, Daizy\nTags: house
+ \, techno\nAges: 18+\nhttps://edmtrain.com/miami-fl/eli-brown-massano-5278
+ 83\nhttps://fcty.tw/elibrown
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a7a01575051510001c83c86@factory-town.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20260927T020000Z
 DTEND:20260927T090000Z
 SUMMARY:FISHER
 LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
-DESCRIPTION:Lineup: Fisher\nTags (guess): house\, techno\nhttps://edmtrain.
- com/miami-fl/fisher-527882
+DESCRIPTION:Lineup: Fisher\nTags: tech house\nAges: 18+\nhttps://dice.fm/ev
+ ent/avxpod-fisher-26th-sep-factory-town-miami-tickets\nhttps://edmtrain.co
+ m/miami-fl/fisher-527882
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:tech house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a35888fc559de000170027a@factory-town.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261010T020000Z
 DTEND:20261010T090000Z
 SUMMARY:WORSHIP - Sub Focus/Dimension/Culture Shock/1991
 LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
 DESCRIPTION:Lineup: WORSHIP (Sub Focus x Dimension x Culture Shock x 1991)
- \, Sub Focus\, Dimension\, Culture Shock\, 1991\nTags (guess): house\, tec
- hno\nhttps://edmtrain.com/miami-fl/worship-sub-focus-x-dimension-x-culture
- -shock-x-1991-sub-focus-514911
+ \, Sub Focus\, Dimension\, Culture Shock\, 1991\nTags: drum and bass\nAges
+ : 18+\nhttps://dice.fm/partner/tickets/event/xeyxve-worship-sub-focusdimen
+ sionculture-shock1991-9th-oct-factory-town-miami-tickets\nhttps://edmtrain
+ .com/miami-fl/worship-sub-focus-x-dimension-x-culture-shock-x-1991-sub-foc
+ us-514911
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:drum and bass
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a79f930505151000162da35@factory-town.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261011T020000Z
 DTEND:20261011T090000Z
 SUMMARY:Armin van Buuren presents The Orb
 LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
-DESCRIPTION:Lineup: Armin van Buuren\, Funk Tribu\, NRG2000\nTags (guess): 
- house\, techno\nhttps://edmtrain.com/miami-fl/the-orb-armin-van-buuren-528
- 542
+DESCRIPTION:Lineup: Armin van Buuren\, Funk Tribu\, NRG2000\nTags: big room
+  house\, trance\nAges: 18+\nhttps://dice.fm/event/8e96w5-armin-van-buuren-
+ presents-the-orb-10th-oct-factory-town-miami-tickets\nhttps://edmtrain.com
+ /miami-fl/the-orb-armin-van-buuren-528542
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:big room house,trance
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6aa04779c1a81a00016fe6d6@factory-town.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261031T020000Z
 DTEND:20261031T110000Z
 SUMMARY:Hocus Pocus 2026 (Friday Pass)
 LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
-DESCRIPTION:Tags (guess): house\, techno
+DESCRIPTION:Tags: breaks\, club\, disco\, drum and bass\, electro\, progres
+ sive house\, tech house\, techno\, uk garage\nAges: 18+\nhttps://dice.fm/e
+ vent/eoxxmw-hocus-pocus-2026-3-day-pass-30th-oct-factory-town-miami-ticket
+ s
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:breaks,club,disco,drum and bass,electro,progressive house,tech h
+ ouse,techno,uk garage
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6aa04992243edc00012e491a@factory-town.miami-calendars
@@ -107,30 +133,32 @@ CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a84879f8e0c81000177fc08@factory-town.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261114T030000Z
 DTEND:20261114T100000Z
 SUMMARY:UNREAL
 LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
-DESCRIPTION:Tags (guess): house\, techno
+DESCRIPTION:Tags: techno\nAges: 18+\nhttps://dice.fm/event/6a84879f8e0c8100
+ 0177fc08
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:techno
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a3077721b98d10001598c8a@factory-town.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261115T030000Z
 DTEND:20261115T100000Z
 SUMMARY:ODESZA
 LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
-DESCRIPTION:Lineup: ODESZA\, Boys Noize\, Bob Moses\nTags (guess): house\, 
- techno\nhttps://edmtrain.com/miami-fl/odesza-boys-noize-527884
+DESCRIPTION:Lineup: ODESZA\, Boys Noize\, Bob Moses\nTags: future bass\, ho
+ use\, synthpop\nAges: 18+\nhttps://dice.fm/event/6a3077721b98d10001598c8a
+ \nhttps://edmtrain.com/miami-fl/odesza-boys-noize-527884
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:future bass,house,synthpop
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6aa82e05fcb1030001a9cd65@factory-town.miami-calendars

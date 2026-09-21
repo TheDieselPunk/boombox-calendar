@@ -8,52 +8,53 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:edmtrain-529511@domicile.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:19hz-4444024-vladimirdubyshki@domicile.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
 DTSTART:20260927T020000Z
 DTEND:20260927T090000Z
-SUMMARY:Vladimir Dubyshkin\, Grace Dahl\, Ultrathem\, Mila Gama
-LOCATION:Domicile Miami\, 2900 NW 7th Ave\, Miami\, FL 33127\, USA
+SUMMARY:Vladimir Dubyshkin\, Grace Dahl
+LOCATION:Domicile
 DESCRIPTION:Lineup: Vladimir Dubyshkin\, Grace Dahl\, Ultrathem\, Mila Gama
- \nTags (guess): techno\nTimes are an estimate from Domicile's usual hours 
- - the listing has no start time yet. Check the link.\nhttps://edmtrain.com
- /miami-fl/vladimir-dubyshkin-grace-dahl-529511
-URL:https://edmtrain.com/miami-fl/vladimir-dubyshkin-grace-dahl-529511
+ \nTags: techno\nAges: 18+\nhttps://dice.fm/event/bb97ro-vladimir-dubyshkin
+ -grace-dahl-26th-sep-domicile-miami-miami-tickets\nhttps://edmtrain.com/mi
+ ami-fl/vladimir-dubyshkin-grace-dahl-529511
+URL:https://dice.fm/event/bb97ro-vladimir-dubyshkin-grace-dahl-26th-sep-dom
+ icile-miami-miami-tickets
 STATUS:CONFIRMED
 CATEGORIES:techno
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-533939@domicile.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:19hz-4444600-noisemafiatabeam@domicile.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
 DTSTART:20261003T020000Z
 DTEND:20261003T090000Z
-SUMMARY:Noise Mafia
-LOCATION:Domicile Miami\, 2900 NW 7th Ave\, Miami\, FL 33127\, USA
-DESCRIPTION:Lineup: Noise Mafia\nTags (guess): techno\nTimes are an estimat
- e from Domicile's usual hours - the listing has no start time yet. Check t
- he link.\nhttps://edmtrain.com/miami-fl/noise-mafia-533939
-URL:https://edmtrain.com/miami-fl/noise-mafia-533939
+SUMMARY:Noise Mafia\, Tabea\, Mania
+LOCATION:Domicile
+DESCRIPTION:Lineup: Noise Mafia\nTags: hard techno\, trance\nAges: 18+\nhtt
+ ps://dice.fm/event/53kd9k-noise-mafia-2nd-oct-domicile-miami-miami-tickets
+ \nhttps://edmtrain.com/miami-fl/noise-mafia-533939
+URL:https://dice.fm/event/53kd9k-noise-mafia-2nd-oct-domicile-miami-miami-t
+ ickets
 STATUS:CONFIRMED
-CATEGORIES:techno
+CATEGORIES:hard techno,trance
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-532116@domicile.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:19hz-4445268-dvs1@domicile.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
-DTSTART:20261010T020000Z
+DTSTART:20261010T010000Z
 DTEND:20261010T090000Z
-SUMMARY:DVS1\, Elias Garcia\, Nikita Green
-LOCATION:Domicile Miami\, 2900 NW 7th Ave\, Miami\, FL 33127\, USA
-DESCRIPTION:Lineup: DVS1\, Elias Garcia\, Nikita Green\nTags (guess): techn
- o\nTimes are an estimate from Domicile's usual hours - the listing has no 
- start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/dvs1-elias-
- garcia-532116
-URL:https://edmtrain.com/miami-fl/dvs1-elias-garcia-532116
+SUMMARY:Dvs1
+LOCATION:Domicile
+DESCRIPTION:Lineup: DVS1\, Elias Garcia\, Nikita Green\nTags: techno\nAges:
+  18+\nhttps://dice.fm/event/v3l38d-dvs1-9th-oct-domicile-miami-miami-ticke
+ ts\nhttps://edmtrain.com/miami-fl/dvs1-elias-garcia-532116
+URL:https://dice.fm/event/v3l38d-dvs1-9th-oct-domicile-miami-miami-tickets
 STATUS:CONFIRMED
 CATEGORIES:techno
 END:VEVENT

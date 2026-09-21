@@ -9,31 +9,50 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:dice-6a6b7e4aca1d730001022be1@the-ground.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20260926T030000Z
 DTEND:20260926T110000Z
 SUMMARY:Autonomy: SHERELLE\, Bok Bok\, & Introspekt
 LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Sherelle\, Bok Bok\, Introspekt\nTags (guess): house\, 
- techno\nhttps://edmtrain.com/miami-fl/sherelle-bok-bok-526702
+DESCRIPTION:Lineup: Sherelle\, Bok Bok\, Introspekt\nTags: club music\, gar
+ age\, house\, techno\nAges: 21+\nhttps://edmtrain.com/miami-fl/sherelle-bo
+ k-bok-526702\nhttps://link.dice.fm/autonomyground
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:club music,garage,house,techno
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a8f403b417eef0001d29461@the-ground.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261003T030000Z
 DTEND:20261003T110000Z
 SUMMARY:Andy Stott & Carrier
 LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Andy Stott\, Carrier\, Adam At The Door\nTags (guess): 
- house\, techno\nhttps://edmtrain.com/miami-fl/andy-stott-carrier-532804
+DESCRIPTION:Lineup: Andy Stott\, Carrier\, Adam At The Door\nTags: downtemp
+ o\, experimental\, techno\nAges: 21+\nhttps://dice.fm/event/6dgdq3-andy-st
+ ott-carrier-2nd-oct-the-ground-miami-miami-tickets\nhttps://edmtrain.com/m
+ iami-fl/andy-stott-carrier-532804
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:downtempo,experimental,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4444699-morganseatreedat@the-ground.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261004T030000Z
+DTEND:20261004T110000Z
+SUMMARY:Morgan Seatree\, Datsko
+LOCATION:The Ground
+DESCRIPTION:Tags: house\nAges: 21+\nhttps://dice.fm/event/53mb5y-morgan-sea
+ tree-datsko-3rd-oct-the-ground-miami-miami-tickets
+URL:https://dice.fm/event/53mb5y-morgan-seatree-datsko-3rd-oct-the-ground-m
+ iami-miami-tickets
+STATUS:CONFIRMED
+CATEGORIES:house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a5a971f5dff640001733cb0@the-ground.miami-calendars
@@ -51,18 +70,20 @@ CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a837face888570001cdef5f@the-ground.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261016T030000Z
 DTEND:20261016T110000Z
 SUMMARY:Satellite: Flying Lotus (DJ Set) + More
 LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Flying Lotus\, Actress\, Ivy Lab\, Loukeman\, Suzi Anal
- ogue\nTags (guess): house\, techno\nhttps://edmtrain.com/miami-fl/flying-l
- otus-actress-529660
+ ogue\nTags: bass music\, drum and bass\, dubstep\, future beats\, glitch-h
+ op\, hip-hop\nAges: 21+\nhttps://dice.fm/event/dkdpev-satellite-flying-lot
+ us-actress-ivy-lab-more-15th-oct-the-ground-miami-miami-tickets\nhttps://e
+ dmtrain.com/miami-fl/flying-lotus-actress-529660
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:bass music,drum and bass,dubstep,future beats,glitch-hop,hip-hop
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a8724f65b367e0001f22de9@the-ground.miami-calendars
@@ -80,46 +101,51 @@ CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a8380fbb132fb00010733cd@the-ground.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261018T030000Z
 DTEND:20261018T110000Z
 SUMMARY:Satellite: HAAi\, Jacques Greene\, & DJ Fuckoff
 LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: HAAi\, Jacques Greene\, DJ FuckOFF\nTags (guess): house
- \, techno\nhttps://edmtrain.com/miami-fl/haai-jacques-greene-529661
+DESCRIPTION:Lineup: HAAi\, Jacques Greene\, DJ FuckOFF\nTags: techno\nAges:
+  21+\nhttps://dice.fm/event/3orxdp-satellite-haai-jacques-greene-dj-fuckof
+ f-17th-oct-the-ground-miami-miami-tickets\nhttps://edmtrain.com/miami-fl/h
+ aai-jacques-greene-529661
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:techno
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a838327c1861c000191d7c5@the-ground.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261019T030000Z
 DTEND:20261019T110000Z
 SUMMARY:Satellite: 1tbsp\, DJ Chaotic Ugly\, Safety Trance\, TECH G1RLS\, &
   More
 LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: 1tbsp\, Chaotic Ugly\, SAFETY TRANCE\, TECHG1RLS\nTags:
-  trance\nhttps://edmtrain.com/miami-fl/1tbsp-chaotic-ugly-529662
+  house\, indie dance\nAges: 21+\nhttps://dice.fm/event/oe8ax5-satellite-1t
+ bsp-dj-chaotic-ugly-safety-trance-tech-g1rls-more-18th-oct-the-ground-miam
+ i-miami-tickets\nhttps://edmtrain.com/miami-fl/1tbsp-chaotic-ugly-529662
 STATUS:CONFIRMED
-CATEGORIES:trance
+CATEGORIES:house,indie dance
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a63c13377937e0001f8f752@the-ground.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261024T030000Z
 DTEND:20261024T110000Z
 SUMMARY:BABY J
 LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Baby J\nTags (guess): house\, techno\nhttps://edmtrain.
- com/miami-fl/baby-j-526707
+DESCRIPTION:Lineup: Baby J\nTags: breaks\, club\, dubstep\nAges: 21+\nhttps
+ ://dice.fm/event/dkdr2g-baby-j-23rd-oct-the-ground-miami-miami-tickets\nht
+ tps://edmtrain.com/miami-fl/baby-j-526707
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:breaks,club,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a90763252ac72000187b29b@the-ground.miami-calendars
@@ -176,17 +202,19 @@ CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a9050c13e2dcd00013c2e7e@the-ground.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261114T040000Z
 DTEND:20261114T120000Z
 SUMMARY:NOTION
 LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Notion\, DJ Flashdrive\, Violeta\nTags (guess): house\,
-  techno\nhttps://edmtrain.com/miami-fl/notion-dj-flashdrive-532805
+DESCRIPTION:Lineup: Notion\, DJ Flashdrive\, Violeta\nTags: bassline\, drum
+  and bass\, uk garage\nAges: 21+\nhttps://dice.fm/event/2wqn27-notion-13th
+ -nov-the-ground-miami-miami-tickets\nhttps://edmtrain.com/miami-fl/notion-
+ dj-flashdrive-532805
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:bassline,drum and bass,uk garage
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a88676d138c56000110cb09@the-ground.miami-calendars

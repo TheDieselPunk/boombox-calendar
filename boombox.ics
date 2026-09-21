@@ -9,9 +9,9 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:new-blood-transfusion@shotgun.live
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:2
 DTSTART:20260926T020000Z
 DTEND:20260926T080000Z
 SUMMARY:New Blood · Transfusion
@@ -21,20 +21,21 @@ DESCRIPTION:COUNTERCULTURE Miami presents... 🩸NEW BLOOD: TRANSFUSION🩸
   🩸BLOOD RAVE🩸 2 STAGES 9.25.26 10 PM - 4 AM THIS IS AN 18+ EVENT Phy
  sical ID’s only\, Photo ID’s will not be accepted RSVP prioritizes ent
  ry\, but does not guarantee it Rain or Shine Genres: Hard | Dark | Acid | 
- Industrial Techno Hard | Dark Wave Trance IDM Midtempo Schranz\nTags: idm
- \, hard techno\, industrial\nTickets: Early Bird $15 (sold out)\, T1 $20\n
- https://shotgun.live/en/events/new-blood-transfusion\nhttps://edmtrain.com
- /miami-fl/new-blood-transfusion-533680
+ Industrial Techno Hard | Dark Wave Trance IDM Midtempo Schranz\nTags: dark
+ wave\, hard techno\, idm\, industrial\, midtempo\, schranz\, trance\nTicke
+ ts: Early Bird $15 (sold out)\, T1 $20\nAges: 18+\nhttps://shotgun.live/en
+ /events/new-blood-transfusion\nhttps://edmtrain.com/miami-fl/new-blood-tra
+ nsfusion-533680
 URL:https://shotgun.live/en/events/new-blood-transfusion
 STATUS:CONFIRMED
-CATEGORIES:idm,hard techno,industrial
+CATEGORIES:darkwave,hard techno,idm,industrial,midtempo,schranz,trance
 GEO:25.7287781;-80.3169309
 END:VEVENT
 BEGIN:VEVENT
 UID:gothstarmiami@shotgun.live
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
-SEQUENCE:0
+DTSTAMP:20260921T200036Z
+LAST-MODIFIED:20260921T200036Z
+SEQUENCE:1
 DTSTART:20260927T000000Z
 DTEND:20260927T060000Z
 SUMMARY:Gothstar Tour X Gothic Cabaret / Johnny Based\, Kwasi Kao
@@ -50,37 +51,37 @@ DESCRIPTION:MIAMI\, GET READY FOR A NIGHT OF GOTHIC CHAOS. 🖤 GOTHIC COSP
   2 Tickets to next Black Moon Theater event Bring your favorite gothic lor
  e to life\, or put a gothic twist on your favorite characters to take home
   the cash prize.\nLineup: Johnny Based\, His Panic\, Laboratory A.D.\nTags
- : dark wave\, rock\, alternative\nPresented by: Antiheroine Productions\nT
+ : alternative\, dark wave\, rock\nPresented by: Antiheroine Productions\nT
  ickets: General Admin - Tier 1 $20\nhttps://shotgun.live/en/events/gothsta
  rmiami\nhttps://edmtrain.com/miami-fl/kwasi-kao-516876
 URL:https://shotgun.live/en/events/gothstarmiami
 STATUS:CONFIRMED
-CATEGORIES:dark wave,rock,alternative
+CATEGORIES:alternative,dark wave,rock
 GEO:25.7287781;-80.3169309
 END:VEVENT
 BEGIN:VEVENT
 UID:joey-cash-the-boombox@shotgun.live
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261003T020000Z
 DTEND:20261003T080000Z
 SUMMARY:Joey Cash @Theboombox
 LOCATION:The Boombox Miami\, 4447 Southwest 75th Avenue\, Miami\, FL 33155
  \, USA
-DESCRIPTION:Joey Cash live\nLineup: Joey Cash\nTags: edm\nTickets: Early Bi
- rd $15 (sold out)\, T1 $20 (sold out)\, T2 $25 (sold out)\, T3 $30\nhttps:
- //shotgun.live/en/events/joey-cash-the-boombox
+DESCRIPTION:Joey Cash live\nLineup: Joey Cash\nTags: edm\, house\nTickets: 
+ Early Bird $15 (sold out)\, T1 $20 (sold out)\, T2 $25 (sold out)\, T3 $30
+ \nhttps://shotgun.live/en/events/joey-cash-the-boombox
 URL:https://shotgun.live/en/events/joey-cash-the-boombox
 STATUS:CONFIRMED
-CATEGORIES:edm
+CATEGORIES:edm,house
 GEO:25.7287781;-80.3169309
 END:VEVENT
 BEGIN:VEVENT
 UID:machina-records-presents-circuit@shotgun.live
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261004T020000Z
 DTEND:20261004T080000Z
 SUMMARY:Machina Records Presents: Circuit - Dj Marfox
@@ -95,12 +96,12 @@ DESCRIPTION:Machina Records presents "Circuit" — the first edition of the
  hina Records label head RARA goes B2B with Ianko FJ\, providing support fo
  r this deep night of Afrobeat and Afro-electronica. Boombox residents Mang
  o and Guacharo hold down the fort for the night.\nLineup: Dj Marfox\, RARA
- \, Say3\, ianko fj\, mango.\nTags: afro house\, electronica\, afrobeat\nPr
- esented by: omnisoundsevents\nTickets: Tier 1 $13.33\nhttps://shotgun.live
- /en/events/machina-records-presents-circuit
+ \, Say3\, ianko fj\, mango.\nTags: afro house\, afrobeat\, afrobeats\, ele
+ ctronica\nPresented by: omnisoundsevents\nTickets: Tier 1 $13.33\nhttps://
+ shotgun.live/en/events/machina-records-presents-circuit
 URL:https://shotgun.live/en/events/machina-records-presents-circuit
 STATUS:CONFIRMED
-CATEGORIES:afro house,electronica,afrobeat
+CATEGORIES:afro house,afrobeat,afrobeats,electronica
 GEO:25.7287781;-80.3169309
 END:VEVENT
 BEGIN:VEVENT

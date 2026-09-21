@@ -8,6 +8,22 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
+UID:19hz-4443451-robbiedoherty@floyd.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20260921T030000Z
+DTEND:20260921T090000Z
+SUMMARY:Robbie Doherty
+LOCATION:Floyd Miami
+DESCRIPTION:Tags: house\nAges: 21+\nhttps://dice.fm/event/g5bko2-robbie-doh
+ erty-20th-sep-floyd-miami-miami-tickets
+URL:https://dice.fm/event/g5bko2-robbie-doherty-20th-sep-floyd-miami-miami-
+ tickets
+STATUS:CONFIRMED
+CATEGORIES:house
+END:VEVENT
+BEGIN:VEVENT
 UID:dice-6a73973b35b6a8000123ce50@floyd.miami-calendars
 DTSTAMP:20260921T193056Z
 LAST-MODIFIED:20260921T193056Z
@@ -23,118 +39,126 @@ CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a60ffdef0b167000162f646@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20260926T030000Z
 DTEND:20260926T090000Z
 SUMMARY:Shonky + Jennifer Loveless
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Shonky\, Jennifer Loveless\, Bort\, Gio Elia\nTags (gue
- ss): house\, techno\nhttps://edmtrain.com/miami-fl/shonky-jennifer-loveles
- s-523290
+DESCRIPTION:Lineup: Shonky\, Jennifer Loveless\, Bort\, Gio Elia\nTags: tec
+ h house\nAges: 21+\nhttps://dice.fm/event/yod8px-shonky-jennifer-loveless-
+ 25th-sep-floyd-miami-miami-tickets\nhttps://edmtrain.com/miami-fl/shonky-j
+ ennifer-loveless-523290
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:tech house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a74ad89e04de600012d3783@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20260927T030000Z
 DTEND:20260927T090000Z
 SUMMARY:My Friend Misty
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Tags (guess): house\, techno\nhttps://edmtrain.com/miami-fl/my-
- friend-misty-533522
+DESCRIPTION:Tags: minimal\, tech house\nAges: 21+\nhttps://edmtrain.com/mia
+ mi-fl/my-friend-misty-533522\nhttps://link.dice.fm/mfmseptember
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:minimal,tech house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a6122ea7433b5000169d332@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20260928T030000Z
 DTEND:20260928T090000Z
 SUMMARY:Knight Club: Spray
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Tags (guess): house\, techno\nhttps://edmtrain.com/miami-fl/kni
- ght-club-524863
+DESCRIPTION:Tags: progressive house\, tech house\nAges: 21+\nhttps://dice.f
+ m/event/nvp3oq-knight-club-27th-sep-floyd-miami-miami-tickets\nhttps://edm
+ train.com/miami-fl/knight-club-524863
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:progressive house,tech house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a906d9602c6070001fac780@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261003T030000Z
 DTEND:20261003T090000Z
 SUMMARY:LuSiD + Samantha Loveridge
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: LuSiD\, Samantha Loveridge\, Jake Mercer\, Siegel\nTags
-  (guess): house\, techno\nhttps://edmtrain.com/miami-fl/lusid-samantha-lov
- eridge-532658
+ : progressive house\nAges: 21+\nhttps://dice.fm/event/92n9l7-lusid-samanth
+ a-loveridge-2nd-oct-floyd-miami-miami-tickets\nhttps://edmtrain.com/miami-
+ fl/lusid-samantha-loveridge-532658
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:progressive house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a107e9c31787200010c14d5@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261004T030000Z
 DTEND:20261004T090000Z
 SUMMARY:dublon
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: dublon\, Tiffy Vera\, Will Buck\nTags (guess): house\, 
- techno\nhttps://edmtrain.com/miami-fl/dublon-tiffy-vera-506951
+DESCRIPTION:Lineup: dublon\, Tiffy Vera\, Will Buck\nTags: bass music\, dub
+ step\nAges: 21+\nhttps://dice.fm/event/eo87o2-dublon-3rd-oct-floyd-miami-m
+ iami-tickets\nhttps://edmtrain.com/miami-fl/dublon-tiffy-vera-506951
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:bass music,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a906eeb3e2dcd0001b0a622@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261005T030000Z
 DTEND:20261005T090000Z
 SUMMARY:Jay De Lys
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Jay de Lys\, Ms. Mada\, Alezsandro\nTags (guess): house
- \, techno\nhttps://edmtrain.com/miami-fl/jay-de-lys-ms-mada-532659
+DESCRIPTION:Lineup: Jay de Lys\, Ms. Mada\, Alezsandro\nTags: minimal\, tec
+ h house\, techno\nAges: 21+\nhttps://dice.fm/event/dk7l9o-jay-de-lys-4th-o
+ ct-floyd-miami-miami-tickets\nhttps://edmtrain.com/miami-fl/jay-de-lys-ms-
+ mada-532659
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:minimal,tech house,techno
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a906e504e1d1f00013d8f76@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261010T030000Z
 DTEND:20261010T090000Z
 SUMMARY:Laolu & KARABA
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Laolu\, KARABA\, Nii Tei\nTags (guess): house\, techno
- \nhttps://edmtrain.com/miami-fl/laolu-karaba-532661
+DESCRIPTION:Lineup: Laolu\, KARABA\, Nii Tei\nTags: progressive house\nAges
+ : 21+\nhttps://dice.fm/event/eonk26-laolu-karaba-9th-oct-floyd-miami-miami
+ -tickets\nhttps://edmtrain.com/miami-fl/laolu-karaba-532661
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:progressive house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a90700ddd78440001e06b8c@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261011T030000Z
 DTEND:20261011T090000Z
 SUMMARY:Jackie Hollander
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Jackie Hollander\, Lupe Fuentes\, Monoky\nTags (guess):
-  house\, techno\nhttps://edmtrain.com/miami-fl/jackie-hollander-lupe-fuent
- es-532662
+DESCRIPTION:Lineup: Jackie Hollander\, Lupe Fuentes\, Monoky\nTags: progres
+ sive house\, tech house\nAges: 21+\nhttps://dice.fm/event/oe9klm-jackie-ho
+ llander-10th-oct-floyd-miami-miami-tickets\nhttps://edmtrain.com/miami-fl/
+ jackie-hollander-lupe-fuentes-532662
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:progressive house,tech house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a907094edf55c0001de62e9@floyd.miami-calendars
@@ -151,88 +175,98 @@ CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a8362e91d183400011845d0@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261016T020000Z
 DTEND:20261016T060000Z
 SUMMARY:Satellite: Moscoman\, Red Axes\, & Whitesquare
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Moscoman\, Red Axes\, Whitesquare\, Eveava\nTags (guess
- ): house\, techno\nhttps://edmtrain.com/miami-fl/moscoman-red-axes-529530
+DESCRIPTION:Lineup: Moscoman\, Red Axes\, Whitesquare\, Eveava\nTags: elect
+ ronic rock\nAges: 21+\nhttps://dice.fm/event/mxn9kw-satellite-moscoman-red
+ -axes-whitesquare-15th-oct-floyd-miami-miami-tickets\nhttps://edmtrain.com
+ /miami-fl/moscoman-red-axes-529530
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:electronic rock
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a83641eb48dec00014ae51f@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261017T030000Z
 DTEND:20261017T090000Z
 SUMMARY:Satellite: Odd Mob
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Odd Mob\, Cut & Sew\, Nat Siriani\nTags (guess): house
- \, techno\nhttps://edmtrain.com/miami-fl/odd-mob-cut-and-sew-529531
+DESCRIPTION:Lineup: Odd Mob\, Cut & Sew\, Nat Siriani\nTags: house\, progre
+ ssive house\nAges: 21+\nhttps://dice.fm/event/2wqyva-satellite-odd-mob-16t
+ h-oct-floyd-miami-miami-tickets\nhttps://edmtrain.com/miami-fl/odd-mob-cut
+ -and-sew-529531
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:house,progressive house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a8364ba1d183400018c2cf6@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261018T030000Z
 DTEND:20261018T090000Z
 SUMMARY:Satellite: Marsolo & Silvie Loto
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Marsolo\, Silvie Loto\, Mick Jerome\nTags (guess): hous
- e\, techno\nhttps://edmtrain.com/miami-fl/marsolo-silvie-loto-529532
+DESCRIPTION:Lineup: Marsolo\, Silvie Loto\, Mick Jerome\nTags: house\nAges:
+  21+\nhttps://dice.fm/event/yodwr2-satellite-marsolo-silvie-loto-17th-oct-
+ floyd-miami-miami-tickets\nhttps://edmtrain.com/miami-fl/marsolo-silvie-lo
+ to-529532
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a8365787f9df20001ac61b7@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261019T030000Z
 DTEND:20261019T090000Z
 SUMMARY:Satellite: Saraga Presents Stardust
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Saraga\nTags (guess): house\, techno\nhttps://edmtrain.
- com/miami-fl/saraga-529533
+DESCRIPTION:Lineup: Saraga\nTags (guess): house\, techno\nAges: 21+\nhttps:
+ //dice.fm/event/923kq9-satellite-saraga-presents-stardust-18th-oct-floyd-m
+ iami-miami-tickets\nhttps://edmtrain.com/miami-fl/saraga-529533
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a9071e7ab622c00014d4900@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261024T030000Z
 DTEND:20261024T090000Z
 SUMMARY:Thunderpony's Saloon: Jack Marlow + Snooko
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Jack Marlow\, Snooko\nTags (guess): house\, techno\nhtt
- ps://edmtrain.com/miami-fl/jack-marlow-snooko-533959
+DESCRIPTION:Lineup: Jack Marlow\, Snooko\nTags: bassline\, house\, uk garag
+ e\nAges: 21+\nhttps://dice.fm/event/l8mqew-thunderponys-saloon-jack-marlow
+ -snooko-23rd-oct-floyd-miami-miami-tickets\nhttps://edmtrain.com/miami-fl/
+ jack-marlow-snooko-533959
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:bassline,house,uk garage
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a90713a02c6070001243858@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261025T030000Z
 DTEND:20261025T090000Z
 SUMMARY:Aluna
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Aluna (of AlunaGeorge)\, Nikita Green\nTags (guess): ho
- use\, techno\nhttps://edmtrain.com/miami-fl/aluna-of-alunageorge-nikita-gr
- een-532663
+DESCRIPTION:Lineup: Aluna (of AlunaGeorge)\, Nikita Green\nTags: house\nAge
+ s: 21+\nhttps://dice.fm/event/6dg9r7-aluna-24th-oct-floyd-miami-miami-tick
+ ets\nhttps://edmtrain.com/miami-fl/aluna-of-alunageorge-nikita-green-53266
+ 3
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a9072b7977d0a0001bea010@floyd.miami-calendars
@@ -249,45 +283,49 @@ CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a90734702c6070001b79a91@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261031T030000Z
 DTEND:20261031T090000Z
 SUMMARY:Halloweek: L.P. Rhythm + Salomé Le Chat
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: L.P. Rhythm\, Salomé le Chat\, Alezsandro\nTags (guess
- ): house\, techno\nhttps://edmtrain.com/miami-fl/halloweek-l-p-rhythm-5368
- 67
+DESCRIPTION:Lineup: L.P. Rhythm\, Salomé le Chat\, Alezsandro\nTags: house
+ \nAges: 21+\nhttps://dice.fm/event/nvxye8-halloweek-lp-rhythm-salom-le-cha
+ t-30th-oct-floyd-miami-miami-tickets\nhttps://edmtrain.com/miami-fl/hallow
+ eek-l-p-rhythm-536867
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a9073e03e2dcd00010e1e0d@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261101T030000Z
 DTEND:20261101T100000Z
 SUMMARY:Halloweek: Faster Horses + Kyle Starkey
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Tags (guess): house\, techno
+DESCRIPTION:Tags: house\, trance\nAges: 21+\nhttps://link.dice.fm/floydhall
+ oweek-sat
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:house,trance
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a8f45d3417eef0001651264@floyd.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261129T040000Z
 DTEND:20261129T100000Z
 SUMMARY:Bag Raiders
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Bag Raiders\, Katie Ox\, Jovigibs\nTags (guess): house
- \, techno\nhttps://edmtrain.com/miami-fl/bag-raiders-katie-ox-532664
+DESCRIPTION:Lineup: Bag Raiders\, Katie Ox\, Jovigibs\nTags: pop edm\, synt
+ hpop\nAges: 21+\nhttps://dice.fm/event/53kwqd-bag-raiders-28th-nov-floyd-m
+ iami-miami-tickets\nhttps://edmtrain.com/miami-fl/bag-raiders-katie-ox-532
+ 664
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:pop edm,synthpop
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6aa05e5de8caab0001795dc7@floyd.miami-calendars

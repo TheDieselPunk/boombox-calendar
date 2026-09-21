@@ -4,9 +4,10 @@
   "name": "Club Space",
   "file": "club-space.ics",
   "events": 22,
-  "estimated_times": 1,
+  "estimated_times": 0,
   "next": "2026-09-25",
   "sources": [
+   "19hz",
    "dice",
    "edmtrain"
   ],
@@ -16,10 +17,11 @@
   "slug": "the-ground",
   "name": "The Ground at Space",
   "file": "the-ground.ics",
-  "events": 16,
+  "events": 17,
   "estimated_times": 0,
   "next": "2026-09-25",
   "sources": [
+   "19hz",
    "dice",
    "edmtrain"
   ],
@@ -29,10 +31,11 @@
   "slug": "floyd",
   "name": "Floyd",
   "file": "floyd.ics",
-  "events": 25,
+  "events": 26,
   "estimated_times": 0,
-  "next": "2026-09-24",
+  "next": "2026-09-20",
   "sources": [
+   "19hz",
    "dice",
    "edmtrain"
   ],
@@ -43,9 +46,10 @@
   "name": "Domicile",
   "file": "domicile.ics",
   "events": 3,
-  "estimated_times": 3,
+  "estimated_times": 0,
   "next": "2026-09-26",
   "sources": [
+   "19hz",
    "edmtrain"
   ],
   "hours_note": "Parties typically 10 PM-5 AM, sometimes 6 AM."
@@ -54,10 +58,11 @@
   "slug": "factory-town",
   "name": "Factory Town",
   "file": "factory-town.ics",
-  "events": 10,
+  "events": 11,
   "estimated_times": 0,
-  "next": "2026-09-25",
+  "next": "2026-09-20",
   "sources": [
+   "19hz",
    "dice",
    "edmtrain"
   ],
@@ -68,9 +73,10 @@
   "name": "Kemistry (Fort Lauderdale)",
   "file": "kemistry.ics",
   "events": 27,
-  "estimated_times": 5,
+  "estimated_times": 2,
   "next": "2026-09-24",
   "sources": [
+   "19hz",
    "dice",
    "edmtrain"
   ],
@@ -84,6 +90,7 @@
   "estimated_times": 0,
   "next": "2026-09-25",
   "sources": [
+   "19hz",
    "edmtrain",
    "shotgun"
   ],
@@ -93,14 +100,16 @@
   "slug": "zeyzey",
   "name": "ZeyZey Miami",
   "file": "zeyzey.ics",
-  "events": 27,
-  "estimated_times": 15,
+  "events": 64,
+  "estimated_times": 1,
   "next": "2026-09-20",
   "sources": [
+   "19hz",
    "dice",
    "edmtrain",
    "shotgun",
-   "tablelist"
+   "tablelist",
+   "venue"
   ],
   "hours_note": "Observed on Shotgun: shows 7 PM-1 AM; Friday DJ nights 10 PM-3 AM."
  },
@@ -112,6 +121,7 @@
   "estimated_times": 0,
   "next": "2026-09-23",
   "sources": [
+   "19hz",
    "edmtrain",
    "shotgun"
   ],

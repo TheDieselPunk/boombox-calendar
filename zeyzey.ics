@@ -36,99 +36,216 @@ URL:https://edmtrain.com/miami-fl/rae-sada-ape-drums-535660
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-518461@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:zeyzey-salsa-z-25-sep@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
-DTSTART:20260926T230000Z
-DTEND:20260927T050000Z
-SUMMARY:Nervous Records: Riva Starr\, Seamus Haji
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Riva Starr\, Seamus Haji\nTimes are an estimate from Ze
- yZey Miami's usual hours - the listing has no start time yet. Check the li
- nk.\nhttps://edmtrain.com/miami-fl/nervous-records-riva-starr-518461
-URL:https://edmtrain.com/miami-fl/nervous-records-riva-starr-518461
+DTSTART:20260925T230000Z
+DTEND:20260926T070000Z
+SUMMARY:Merengue Z
+LOCATION:ZeyZey Miami
+DESCRIPTION:https://calendar.zeyzeymiami.com/shows/salsa-z-25-sep
+URL:https://calendar.zeyzeymiami.com/shows/salsa-z-25-sep
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:zeyzey-yasser-tejeda-free-entry-25-sep@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20260926T010000Z
+DTEND:20260926T070000Z
+SUMMARY:Yasser Tejeda (Free Entry)
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: latin\nhttps://calendar.zeyzeymiami.com/shows/yasser-teje
+ da-free-entry-25-sep
+URL:https://calendar.zeyzeymiami.com/shows/yasser-tejeda-free-entry-25-sep
+STATUS:CONFIRMED
+CATEGORIES:latin
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-gasolina-reggaeton-party-25-sep@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20260926T020000Z
+DTEND:20260926T070000Z
+SUMMARY:Gasolina: Reggaetón Party
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: latin\nhttps://calendar.zeyzeymiami.com/shows/gasolina-re
+ ggaeton-party-25-sep
+URL:https://calendar.zeyzeymiami.com/shows/gasolina-reggaeton-party-25-sep
+STATUS:CONFIRMED
+CATEGORIES:latin
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-riva-starr-26-sep@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20260927T000000Z
+DTEND:20260927T050000Z
+SUMMARY:Riva Starr + Seamus Haji (Free Entry)
+LOCATION:ZeyZey Miami
+DESCRIPTION:Lineup: Riva Starr\, Seamus Haji\nTags: dance/electronic\, deep
+  house\, tech house\nAges: 21+\nhttps://calendar.zeyzeymiami.com/shows/riv
+ a-starr-26-sep\nhttps://edmtrain.com/miami-fl/nervous-records-riva-starr-5
+ 18461\nhttps://ra.co/events/2506139
+URL:https://calendar.zeyzeymiami.com/shows/riva-starr-26-sep
+STATUS:CONFIRMED
+CATEGORIES:dance/electronic,deep house,tech house
+END:VEVENT
+BEGIN:VEVENT
 UID:tablelist-ff19f2b25fe40779@zeyzey.miami-calendars
-DTSTAMP:20260921T194848Z
-LAST-MODIFIED:20260921T194848Z
-SEQUENCE:1
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:2
 DTSTART:20260927T230000Z
 DTEND:20260928T030000Z
 SUMMARY:A.CHAL
 LOCATION:ZeyZey Miami
-DESCRIPTION:https://buy.tablelist.com/e/ff19f2b25fe40779
+DESCRIPTION:Tags: hip-hop/rap\nhttps://buy.tablelist.com/e/ff19f2b25fe40779
+ \nhttps://calendar.zeyzeymiami.com/shows/a-chal-27-sep\nhttps://calendar.z
+ eyzeymiami.com/shows/zeyzey-juniors-27-sep
 URL:https://buy.tablelist.com/e/ff19f2b25fe40779
 STATUS:CONFIRMED
+CATEGORIES:hip-hop/rap
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-presents-dadi-freyr-too-much-not-enough@shotgun.live
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261001T230000Z
 DTEND:20261002T050000Z
 SUMMARY:Daði Freyr
 LOCATION:ZeyZey Miami\, 353 Northeast 61st Street\, Miami\, FL 33137\, USA
 DESCRIPTION:Ticket sales for this event have moved. Please visit this link 
  to get tickets: https://calendar.zeyzeymiami.com/shows/dadi-freyr-01-oct\n
- Lineup: BRÍET\, Daði Freyr\nhttps://shotgun.live/en/events/zeyzey-presen
- ts-dadi-freyr-too-much-not-enough
+ Lineup: BRÍET\, Daði Freyr\nTags: pop\nhttps://shotgun.live/en/events/ze
+ yzey-presents-dadi-freyr-too-much-not-enough\nhttps://calendar.zeyzeymiami
+ .com/shows/dadi-freyr-01-oct
 URL:https://shotgun.live/en/events/zeyzey-presents-dadi-freyr-too-much-not-
  enough
 STATUS:CONFIRMED
+CATEGORIES:pop
 GEO:25.8327924;-80.1891253
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-514144@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:zeyzey-monsieur-perine-02-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
-DTSTART:20261003T020000Z
+DTSTART:20261003T000000Z
 DTEND:20261003T070000Z
-SUMMARY:Flamingosis
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Flamingosis\nTimes are an estimate from ZeyZey Miami's 
- usual hours - the listing has no start time yet. Check the link.\nhttps://
- edmtrain.com/miami-fl/flamingosis-514144
-URL:https://edmtrain.com/miami-fl/flamingosis-514144
+SUMMARY:Monsieur Periné - Instrucciones Para Ser Feliz
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: indie/alternative\nhttps://calendar.zeyzeymiami.com/shows
+ /monsieur-perine-02-oct
+URL:https://calendar.zeyzeymiami.com/shows/monsieur-perine-02-oct
 STATUS:CONFIRMED
+CATEGORIES:indie/alternative
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-509115@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:zeyzey-flamingosis-02-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
-DTSTART:20261003T230000Z
-DTEND:20261004T050000Z
-SUMMARY:WHIPPED CREAM
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: WHIPPED CREAM\nTimes are an estimate from ZeyZey Miami'
- s usual hours - the listing has no start time yet. Check the link.\nhttps:
- //edmtrain.com/miami-fl/whipped-cream-509115
-URL:https://edmtrain.com/miami-fl/whipped-cream-509115
+DTSTART:20261003T010000Z
+DTEND:20261003T070000Z
+SUMMARY:Flamingosis
+LOCATION:ZeyZey Miami
+DESCRIPTION:Lineup: Flamingosis\nTags: dance/electronic\, downtempo\, funk
+ \, hip-hop\nAges: All ages\nhttps://calendar.zeyzeymiami.com/shows/flaming
+ osis-02-oct\nhttps://edmtrain.com/miami-fl/flamingosis-514144
+URL:https://calendar.zeyzeymiami.com/shows/flamingosis-02-oct
 STATUS:CONFIRMED
+CATEGORIES:dance/electronic,downtempo,funk,hip-hop
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-electric-feels-indie-rock-electronic-dance-party-03-oct@zeyzey.m
+ iami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261004T010000Z
+DTEND:20261004T050000Z
+SUMMARY:Electric Feels: Indie Rock + Electronic Dance Party
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: dance/electronic\nhttps://calendar.zeyzeymiami.com/shows/
+ electric-feels-indie-rock-electronic-dance-party-03-oct
+URL:https://calendar.zeyzeymiami.com/shows/electric-feels-indie-rock-electr
+ onic-dance-party-03-oct
+STATUS:CONFIRMED
+CATEGORIES:dance/electronic
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-whipped-cream-03-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261004T020000Z
+DTEND:20261004T050000Z
+SUMMARY:Whipped Cream
+LOCATION:ZeyZey Miami
+DESCRIPTION:Lineup: WHIPPED CREAM\nTags: bass music\, club music\, dance/el
+ ectronic\, trap\nAges: 18+\nhttps://calendar.zeyzeymiami.com/shows/whipped
+ -cream-03-oct\nhttps://edmtrain.com/miami-fl/whipped-cream-509115
+URL:https://calendar.zeyzeymiami.com/shows/whipped-cream-03-oct
+STATUS:CONFIRMED
+CATEGORIES:bass music,club music,dance/electronic,trap
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a6b9027ca1d730001823403@zeyzey.miami-calendars
-DTSTAMP:20260921T193924Z
-LAST-MODIFIED:20260921T193924Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261004T210000Z
 DTEND:20261005T020000Z
 SUMMARY:PLAYGRND SERIES MIAMI
 LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
  d States
-DESCRIPTION:
+DESCRIPTION:Tags: r&b/soul\nhttps://calendar.zeyzeymiami.com/shows/playgrnd
+ -series-04-oct
 STATUS:CONFIRMED
+CATEGORIES:r&b/soul
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-night-tapes-08-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261008T230000Z
+DTEND:20261009T050000Z
+SUMMARY:Night Tapes
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: dance/electronic\nhttps://calendar.zeyzeymiami.com/shows/
+ night-tapes-08-oct
+URL:https://calendar.zeyzeymiami.com/shows/night-tapes-08-oct
+STATUS:CONFIRMED
+CATEGORIES:dance/electronic
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-degs-craze-shinobi-b2b-stereotype-08-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261009T000000Z
+DTEND:20261009T050000Z
+SUMMARY:DEGS\, Craze & Shinobi b2b Stereotype
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: dance/electronic\nhttps://calendar.zeyzeymiami.com/shows/
+ degs-craze-shinobi-b2b-stereotype-08-oct
+URL:https://calendar.zeyzeymiami.com/shows/degs-craze-shinobi-b2b-stereotyp
+ e-08-oct
+STATUS:CONFIRMED
+CATEGORIES:dance/electronic
 END:VEVENT
 BEGIN:VEVENT
 UID:solmates-season-opener-ft-fahlberg-orsay-more@shotgun.live
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:2
 DTSTART:20261010T020000Z
 DTEND:20261010T070000Z
 SUMMARY:Solmates Season Opener Ft. Fahlberg\, Orsay & More
@@ -161,248 +278,613 @@ DESCRIPTION:Solmates brings together two European producers whose work meet
  ing outward\, Solmates brings together different musical backgrounds and p
  erspectives under one shared atmosphere — where melody meets movement an
  d the right records create lasting moments. 21+ event\nLineup: Fahlberg\, 
- Orsay\nTags: house\, afro house\, melodic house & techno\nPresented by: So
- lmates Miami\nTickets: VIP (1st Release) $50\, Entry before 11 PM $10\, En
- try Anytime (1st Release) $25\nhttps://shotgun.live/en/events/solmates-sea
- son-opener-ft-fahlberg-orsay-more\nhttps://edmtrain.com/miami-fl/solmates-
- fahlberg-534168
+ Orsay\nTags: afro house\, house\, latin\, melodic house & techno\, progres
+ sive house\nPresented by: Solmates Miami\nTickets: VIP (1st Release) $50\,
+  Entry before 11 PM $10\, Entry Anytime (1st Release) $25\nAges: 21+\nhttp
+ s://shotgun.live/en/events/solmates-season-opener-ft-fahlberg-orsay-more\n
+ https://calendar.zeyzeymiami.com/shows/cain-culto-free-entry-09-oct\nhttps
+ ://calendar.zeyzeymiami.com/shows/fahlberg-orsay-more-tba-09-oct\nhttps://
+ edmtrain.com/miami-fl/solmates-fahlberg-534168\nhttps://ra.co/events/25294
+ 43
 URL:https://shotgun.live/en/events/solmates-season-opener-ft-fahlberg-orsay
  -more
 STATUS:CONFIRMED
-CATEGORIES:house,afro house,melodic house & techno
+CATEGORIES:afro house,house,latin,melodic house & techno,progressive house
 GEO:25.8327584;-80.1890685
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-536639@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:zeyzey-cannons-10-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
-DTSTART:20261011T230000Z
-DTEND:20261012T050000Z
-SUMMARY:Lukas & Frank
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Lukas & Frank\nTimes are an estimate from ZeyZey Miami'
- s usual hours - the listing has no start time yet. Check the link.\nhttps:
- //edmtrain.com/miami-fl/lukas-and-frank-536639
-URL:https://edmtrain.com/miami-fl/lukas-and-frank-536639
+DTSTART:20261011T000000Z
+DTEND:20261011T050000Z
+SUMMARY:Cannons — The Everything Glows Tour
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: pop\nhttps://calendar.zeyzeymiami.com/shows/cannons-10-oc
+ t
+URL:https://calendar.zeyzeymiami.com/shows/cannons-10-oct
 STATUS:CONFIRMED
+CATEGORIES:pop
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-cannons-dj-set-10-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261011T033000Z
+DTEND:20261011T050000Z
+SUMMARY:Cannons DJ Set Afterparty
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: electropop\nAges: 18+\nhttps://calendar.zeyzeymiami.com/s
+ hows/cannons-dj-set-10-oct\nhttps://ra.co/events/2525260
+URL:https://calendar.zeyzeymiami.com/shows/cannons-dj-set-10-oct
+STATUS:CONFIRMED
+CATEGORIES:electropop
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4445443-lukasfrank@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261011T210000Z
+DTEND:20261012T010000Z
+SUMMARY:Lukas & Frank
+LOCATION:Zeyzey
+DESCRIPTION:Lineup: Lukas & Frank\nTags: afro house\, house\nPresented by: 
+ Happy Hour\nAges: 21+\nhttps://ra.co/events/2513782\nhttps://edmtrain.com/
+ miami-fl/lukas-and-frank-536639
+URL:https://ra.co/events/2513782
+STATUS:CONFIRMED
+CATEGORIES:afro house,house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a85fa1255f47f0001c509a5@zeyzey.miami-calendars
-DTSTAMP:20260921T193924Z
-LAST-MODIFIED:20260921T193924Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261014T230000Z
 DTEND:20261015T050000Z
 SUMMARY:Satellite: Neon Indian (DJ Set)\, Twin Shadow & Washed Out (DJ Set)
 LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
  d States
-DESCRIPTION:Lineup: Neon Indian\nhttps://edmtrain.com/miami-fl/neon-indian-
- 532196
+DESCRIPTION:Lineup: Neon Indian\nTags: indie/alternative\, synthpop\nAges: 
+ 18+\nhttps://calendar.zeyzeymiami.com/shows/satellite-neon-indian-dj-set-t
+ win-shadow-washed-out-dj-set-14-oct\nhttps://dice.fm/event/ww999v-satellit
+ e-neon-indian-dj-set-twin-shadow-washed-out-dj-set-14th-oct-zeyzey-miami-t
+ ickets\nhttps://edmtrain.com/miami-fl/neon-indian-532196
 STATUS:CONFIRMED
+CATEGORIES:indie/alternative,synthpop
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a85fa446932660001a56c43@zeyzey.miami-calendars
-DTSTAMP:20260921T193924Z
-LAST-MODIFIED:20260921T193924Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261015T200000Z
 DTEND:20261016T060000Z
 SUMMARY:Satellite: Chasewest B2B Discip\, Ragie Ban\, Dan Molinari & Stixx
 LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
  d States
 DESCRIPTION:Lineup: ChaseWest\, Discip\, Ragie Ban\, Dan Molinari\, Stixx\n
- https://edmtrain.com/miami-fl/chasewest-discip-532846
+ Tags: dance/electronic\, tech house\nAges: 18+\nhttps://calendar.zeyzeymia
+ mi.com/shows/satellite-chasewest-b2b-discip-ragie-ban-dan-molinari-stixx-1
+ 5-oct\nhttps://dice.fm/event/6dooo2-satellite-chasewest-b2b-discip-ragie-b
+ an-dan-molinari-stixx-15th-oct-zeyzey-miami-tickets\nhttps://edmtrain.com/
+ miami-fl/chasewest-discip-532846
 STATUS:CONFIRMED
+CATEGORIES:dance/electronic,tech house
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-529175@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:zeyzey-party-pupils-16-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
-DTSTART:20261017T020000Z
+DTSTART:20261017T000000Z
 DTEND:20261017T070000Z
 SUMMARY:Party Pupils
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Party Pupils\nTimes are an estimate from ZeyZey Miami's
-  usual hours - the listing has no start time yet. Check the link.\nhttps:/
- /edmtrain.com/miami-fl/party-pupils-529175
-URL:https://edmtrain.com/miami-fl/party-pupils-529175
+LOCATION:ZeyZey Miami
+DESCRIPTION:Lineup: Party Pupils\nTags: future funk\, house\nAges: 21+\nhtt
+ ps://calendar.zeyzeymiami.com/shows/party-pupils-16-oct\nhttps://edmtrain.
+ com/miami-fl/party-pupils-529175
+URL:https://calendar.zeyzeymiami.com/shows/party-pupils-16-oct
+STATUS:CONFIRMED
+CATEGORIES:future funk,house
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-alta-joda-fest-17-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261018T010000Z
+DTEND:20261018T050000Z
+SUMMARY:Alta Joda Fest
+LOCATION:ZeyZey Miami
+DESCRIPTION:https://calendar.zeyzeymiami.com/shows/alta-joda-fest-17-oct
+URL:https://calendar.zeyzeymiami.com/shows/alta-joda-fest-17-oct
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a85fa6621cf7000019482af@zeyzey.miami-calendars
-DTSTAMP:20260921T193924Z
-LAST-MODIFIED:20260921T193924Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261018T180000Z
 DTEND:20261019T040000Z
 SUMMARY:Satellite: Interplanetary Criminal\, Sam Alfred\, Jubilee + More
 LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
  d States
-DESCRIPTION:
+DESCRIPTION:Tags: dance/electronic\nhttps://calendar.zeyzeymiami.com/shows/
+ satellite-interplanetary-criminal-sam-alfred-jubilee-more-18-oct
 STATUS:CONFIRMED
+CATEGORIES:dance/electronic
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-532000@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:zeyzey-bombargo-21-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261021T230000Z
+DTEND:20261022T050000Z
+SUMMARY:Bombargo
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: pop\nhttps://calendar.zeyzeymiami.com/shows/bombargo-21-o
+ ct
+URL:https://calendar.zeyzeymiami.com/shows/bombargo-21-oct
+STATUS:CONFIRMED
+CATEGORIES:pop
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-mashbit-22-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
 DTSTART:20261022T230000Z
 DTEND:20261023T050000Z
 SUMMARY:MashBit
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: MashBit\nTimes are an estimate from ZeyZey Miami's usua
- l hours - the listing has no start time yet. Check the link.\nhttps://edmt
- rain.com/miami-fl/mashbit-532000
-URL:https://edmtrain.com/miami-fl/mashbit-532000
+LOCATION:ZeyZey Miami
+DESCRIPTION:Lineup: MashBit\nTags: edm\, progressive house\nAges: 18+\nhttp
+ s://calendar.zeyzeymiami.com/shows/mashbit-22-oct\nhttps://edmtrain.com/mi
+ ami-fl/mashbit-532000
+URL:https://calendar.zeyzeymiami.com/shows/mashbit-22-oct
+STATUS:CONFIRMED
+CATEGORIES:edm,progressive house
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-black-chiney-sound-22-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261023T000000Z
+DTEND:20261023T050000Z
+SUMMARY:Black Chiney Sound (Free Entry)
+LOCATION:ZeyZey Miami
+DESCRIPTION:https://calendar.zeyzeymiami.com/shows/black-chiney-sound-22-oc
+ t
+URL:https://calendar.zeyzeymiami.com/shows/black-chiney-sound-22-oct
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-535661@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:zeyzey-dope-lemon-23-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
-DTSTART:20261024T230000Z
+DTSTART:20261024T000000Z
+DTEND:20261024T070000Z
+SUMMARY:DOPE LEMON
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: indie/alternative\nhttps://calendar.zeyzeymiami.com/shows
+ /dope-lemon-23-oct
+URL:https://calendar.zeyzeymiami.com/shows/dope-lemon-23-oct
+STATUS:CONFIRMED
+CATEGORIES:indie/alternative
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-intima-ft-ammo-amor-baby-bass-dcal-sebas-23-oct@zeyzey.miami-cal
+ endars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261024T030000Z
+DTEND:20261024T070000Z
+SUMMARY:Intima ft. Ammo Amor\, Baby Bass\, DCAL & Sebas
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: dance/electronic\nhttps://calendar.zeyzeymiami.com/shows/
+ intima-ft-ammo-amor-baby-bass-dcal-sebas-23-oct
+URL:https://calendar.zeyzeymiami.com/shows/intima-ft-ammo-amor-baby-bass-dc
+ al-sebas-23-oct
+STATUS:CONFIRMED
+CATEGORIES:dance/electronic
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-lewis-ofman-24-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261025T030000Z
 DTEND:20261025T050000Z
 SUMMARY:Lewis OfMan
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Lewis OfMan\nTimes are an estimate from ZeyZey Miami's 
- usual hours - the listing has no start time yet. Check the link.\nhttps://
- edmtrain.com/miami-fl/lewis-ofman-535661
-URL:https://edmtrain.com/miami-fl/lewis-ofman-535661
+LOCATION:ZeyZey Miami
+DESCRIPTION:Lineup: Lewis OfMan\nTags: dance/electronic\, disco\, funk\, ho
+ use\nAges: 18+\nhttps://calendar.zeyzeymiami.com/shows/lewis-ofman-24-oct
+ \nhttps://edmtrain.com/miami-fl/lewis-ofman-535661\nhttps://ra.co/events/2
+ 534428
+URL:https://calendar.zeyzeymiami.com/shows/lewis-ofman-24-oct
 STATUS:CONFIRMED
+CATEGORIES:dance/electronic,disco,funk,house
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-524856@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:zeyzey-peter-bjorn-and-john-writer-s-block-20th-anniversary-tour-25-oct
+ @zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
-DTSTART:20261031T020000Z
+DTSTART:20261025T230000Z
+DTEND:20261026T050000Z
+SUMMARY:Peter Bjorn and John - Writer’s Block 20th Anniversary Tour
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: indie/alternative\nhttps://calendar.zeyzeymiami.com/shows
+ /peter-bjorn-and-john-writer-s-block-20th-anniversary-tour-25-oct
+URL:https://calendar.zeyzeymiami.com/shows/peter-bjorn-and-john-writer-s-bl
+ ock-20th-anniversary-tour-25-oct
+STATUS:CONFIRMED
+CATEGORIES:indie/alternative
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-puma-blue-29-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261029T220000Z
+DTEND:20261030T050000Z
+SUMMARY:Puma Blue
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: indie/alternative\nhttps://calendar.zeyzeymiami.com/shows
+ /puma-blue-29-oct
+URL:https://calendar.zeyzeymiami.com/shows/puma-blue-29-oct
+STATUS:CONFIRMED
+CATEGORIES:indie/alternative
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-ile-30-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261031T010000Z
 DTEND:20261031T070000Z
-SUMMARY:Fleetmac Wood\, Roxanne Roll\, Alex Oxley
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Fleetmac Wood\, Roxanne Roll\, Alex Oxley\nTimes are an
-  estimate from ZeyZey Miami's usual hours - the listing has no start time 
- yet. Check the link.\nhttps://edmtrain.com/miami-fl/fleetmac-wood-roxanne-
- roll-524856
-URL:https://edmtrain.com/miami-fl/fleetmac-wood-roxanne-roll-524856
+SUMMARY:iLe
+LOCATION:ZeyZey Miami
+DESCRIPTION:https://calendar.zeyzeymiami.com/shows/ile-30-oct
+URL:https://calendar.zeyzeymiami.com/shows/ile-30-oct
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-524906@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:zeyzey-fleetmac-wood-horror-hifi-free-entry-30-oct@zeyzey.miami-calenda
+ rs
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
-DTSTART:20261031T230000Z
+DTSTART:20261031T030000Z
+DTEND:20261031T070000Z
+SUMMARY:Fleetmac Wood + Horror HiFi (Free Entry)
+LOCATION:ZeyZey Miami
+DESCRIPTION:Lineup: Fleetmac Wood\, Roxanne Roll\, Alex Oxley\nTags: dance/
+ electronic\, disco\, funk\, remixes\nAges: All ages\nhttps://calendar.zeyz
+ eymiami.com/shows/fleetmac-wood-horror-hifi-free-entry-30-oct\nhttps://edm
+ train.com/miami-fl/fleetmac-wood-roxanne-roll-524856
+URL:https://calendar.zeyzeymiami.com/shows/fleetmac-wood-horror-hifi-free-e
+ ntry-30-oct
+STATUS:CONFIRMED
+CATEGORIES:dance/electronic,disco,funk,remixes
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-golden-a-k-pop-kids-party-31-oct@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261031T140000Z
 DTEND:20261101T050000Z
-SUMMARY:Mark Farina\, Nutritious
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Mark Farina\, Nutritious\nTimes are an estimate from Ze
- yZey Miami's usual hours - the listing has no start time yet. Check the li
- nk.\nhttps://edmtrain.com/miami-fl/mark-farina-nutritious-524906
-URL:https://edmtrain.com/miami-fl/mark-farina-nutritious-524906
+SUMMARY:GOLDEN: A K-Pop Kids Party
+LOCATION:ZeyZey Miami
+DESCRIPTION:https://calendar.zeyzeymiami.com/shows/golden-a-k-pop-kids-part
+ y-31-oct
+URL:https://calendar.zeyzeymiami.com/shows/golden-a-k-pop-kids-party-31-oct
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-529732@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:zeyzey-mark-farina-s-mushroom-jazz-halloween-edition-31-oct@zeyzey.miam
+ i-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261031T220000Z
+DTEND:20261101T050000Z
+SUMMARY:Mark Farina's Mushroom Jazz - Halloween Edition with Nutritious
+LOCATION:ZeyZey Miami
+DESCRIPTION:Lineup: Mark Farina\, Nutritious\nTags: beats\, dance/electroni
+ c\, downtempo\, hip-hop\nAges: 18+\nhttps://calendar.zeyzeymiami.com/shows
+ /mark-farina-s-mushroom-jazz-halloween-edition-31-oct\nhttps://edmtrain.co
+ m/miami-fl/mark-farina-nutritious-524906
+URL:https://calendar.zeyzeymiami.com/shows/mark-farina-s-mushroom-jazz-hall
+ oween-edition-31-oct
+STATUS:CONFIRMED
+CATEGORIES:beats,dance/electronic,downtempo,hip-hop
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-scattrbrain-03-nov@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261104T010000Z
+DTEND:20261104T060000Z
+SUMMARY:Scattrbrain
+LOCATION:ZeyZey Miami
+DESCRIPTION:https://calendar.zeyzeymiami.com/shows/scattrbrain-03-nov
+URL:https://calendar.zeyzeymiami.com/shows/scattrbrain-03-nov
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-the-floozies-05-nov@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
 DTSTART:20261106T000000Z
 DTEND:20261106T060000Z
 SUMMARY:The Floozies
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: The Floozies\nTimes are an estimate from ZeyZey Miami's
-  usual hours - the listing has no start time yet. Check the link.\nhttps:/
- /edmtrain.com/miami-fl/the-floozies-529732
-URL:https://edmtrain.com/miami-fl/the-floozies-529732
+LOCATION:ZeyZey Miami
+DESCRIPTION:Lineup: The Floozies\nTags: dance/electronic\, electropop\, fun
+ k\, synthpop\nAges: All ages\nhttps://calendar.zeyzeymiami.com/shows/the-f
+ loozies-05-nov\nhttps://edmtrain.com/miami-fl/the-floozies-529732
+URL:https://calendar.zeyzeymiami.com/shows/the-floozies-05-nov
 STATUS:CONFIRMED
+CATEGORIES:dance/electronic,electropop,funk,synthpop
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-531010@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:zeyzey-curawaka-06-nov@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
-DTSTART:20261107T030000Z
+DTSTART:20261106T230000Z
 DTEND:20261107T080000Z
-SUMMARY:Amtrac
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Amtrac\nTimes are an estimate from ZeyZey Miami's usual
-  hours - the listing has no start time yet. Check the link.\nhttps://edmtr
- ain.com/miami-fl/amtrac-531010
-URL:https://edmtrain.com/miami-fl/amtrac-531010
+SUMMARY:Curawaka
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: folk\nhttps://calendar.zeyzeymiami.com/shows/curawaka-06-
+ nov
+URL:https://calendar.zeyzeymiami.com/shows/curawaka-06-nov
 STATUS:CONFIRMED
+CATEGORIES:folk
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-536978@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:zeyzey-amtrac-live-06-nov@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
-DTSTART:20261107T030000Z
+DTSTART:20261107T010000Z
+DTEND:20261107T080000Z
+SUMMARY:Amtrac (Live)
+LOCATION:ZeyZey Miami
+DESCRIPTION:Lineup: Amtrac\nTags: house\nAges: 18+\nhttps://calendar.zeyzey
+ miami.com/shows/amtrac-live-06-nov\nhttps://app.opendate.io/e/amtrac-live-
+ november-06-2026-708055?utm_source=bandsintown&click_id=Jx1LBob5Tp2MIMBGRq
+ HHNg\nhttps://edmtrain.com/miami-fl/amtrac-531010
+URL:https://calendar.zeyzeymiami.com/shows/amtrac-live-06-nov
+STATUS:CONFIRMED
+CATEGORIES:house
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-com-truise-06-nov@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261107T020000Z
 DTEND:20261107T080000Z
 SUMMARY:Com Truise
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Com Truise\nTimes are an estimate from ZeyZey Miami's u
- sual hours - the listing has no start time yet. Check the link.\nhttps://e
- dmtrain.com/miami-fl/com-truise-536978
-URL:https://edmtrain.com/miami-fl/com-truise-536978
+LOCATION:ZeyZey Miami
+DESCRIPTION:Lineup: Com Truise\nTags: dance/electronic\, downtempo\, electr
+ o\, idm\, synthpop\nAges: All ages\nhttps://calendar.zeyzeymiami.com/shows
+ /com-truise-06-nov\nhttps://edmtrain.com/miami-fl/com-truise-536978
+URL:https://calendar.zeyzeymiami.com/shows/com-truise-06-nov
 STATUS:CONFIRMED
+CATEGORIES:dance/electronic,downtempo,electro,idm,synthpop
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-dana-and-alden-07-nov@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261107T220000Z
+DTEND:20261108T060000Z
+SUMMARY:Dana and Alden
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: jazz\nhttps://calendar.zeyzeymiami.com/shows/dana-and-ald
+ en-07-nov
+URL:https://calendar.zeyzeymiami.com/shows/dana-and-alden-07-nov
+STATUS:CONFIRMED
+CATEGORIES:jazz
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-presents-parra-for-cuva@shotgun.live
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:2
 DTSTART:20261109T000000Z
 DTEND:20261109T050000Z
 SUMMARY:Parra For Cuva
 LOCATION:ZeyZey Miami\, 353 Northeast 61st Street\, Miami\, FL 33137\, USA
 DESCRIPTION:Ticket sales for this event have moved. Please visit this link 
  to get tickets: https://calendar.zeyzeymiami.com/shows/parra-for-cuva-08-n
- ov\nLineup: Parra for Cuva\nTags: melodic house & techno\, deep house\, el
- ectronica\nhttps://shotgun.live/en/events/zeyzey-presents-parra-for-cuva\n
- https://edmtrain.com/miami-fl/parra-for-cuva-493732
+ ov\nLineup: Parra for Cuva\nTags: dance/electronic\, deep house\, downtemp
+ o\, electronica\, melodic house & techno\, tech house\nAges: 18+\nhttps://
+ shotgun.live/en/events/zeyzey-presents-parra-for-cuva\nhttps://calendar.ze
+ yzeymiami.com/shows/parra-for-cuva-08-nov\nhttps://edmtrain.com/miami-fl/p
+ arra-for-cuva-493732
 URL:https://shotgun.live/en/events/zeyzey-presents-parra-for-cuva
 STATUS:CONFIRMED
-CATEGORIES:melodic house & techno,deep house,electronica
+CATEGORIES:dance/electronic,deep house,downtempo,electronica,melodic house 
+ & techno,tech house
 GEO:25.8327924;-80.1891253
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-538533@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:zeyzey-las-migas-10-nov@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
-DTSTART:20261114T030000Z
-DTEND:20261114T080000Z
-SUMMARY:Christian Löffler
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: Christian Löffler\nTimes are an estimate from ZeyZey M
- iami's usual hours - the listing has no start time yet. Check the link.\nh
- ttps://edmtrain.com/miami-fl/christian-loffler-538533
-URL:https://edmtrain.com/miami-fl/christian-loffler-538533
+DTSTART:20261111T000000Z
+DTEND:20261111T060000Z
+SUMMARY:Las Migas
+LOCATION:ZeyZey Miami
+DESCRIPTION:https://calendar.zeyzeymiami.com/shows/las-migas-10-nov
+URL:https://calendar.zeyzeymiami.com/shows/las-migas-10-nov
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:dice-6a0eff0b5ffbf40001c9044c@zeyzey.miami-calendars
-DTSTAMP:20260921T193924Z
-LAST-MODIFIED:20260921T193924Z
+UID:zeyzey-blueface-x-ddg-fresh-out-of-love-tour-16-sep@zeyzey.miami-calend
+ ars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
+DTSTART:20261111T060000Z
+DTEND:20261111T110000Z
+SUMMARY:Blueface x DDG - Fresh Out of Love Tour
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: hip-hop/rap\nhttps://calendar.zeyzeymiami.com/shows/bluef
+ ace-x-ddg-fresh-out-of-love-tour-16-sep
+URL:https://calendar.zeyzeymiami.com/shows/blueface-x-ddg-fresh-out-of-love
+ -tour-16-sep
+STATUS:CONFIRMED
+CATEGORIES:hip-hop/rap
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-the-altons-show-you-love-tour-13-nov@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261114T000000Z
+DTEND:20261114T080000Z
+SUMMARY:The Altons: Show You Love Tour
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: r&b/soul\nhttps://calendar.zeyzeymiami.com/shows/the-alto
+ ns-show-you-love-tour-13-nov
+URL:https://calendar.zeyzeymiami.com/shows/the-altons-show-you-love-tour-13
+ -nov
+STATUS:CONFIRMED
+CATEGORIES:r&b/soul
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-christian-loffler-live-fall-2026-tour-13-nov@zeyzey.miami-calend
+ ars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261114T020000Z
+DTEND:20261114T080000Z
+SUMMARY:Christian Löffler LIVE – Fall 2026 Tour
+LOCATION:ZeyZey Miami
+DESCRIPTION:Lineup: Christian Löffler\nTags: dance/electronic\nhttps://cal
+ endar.zeyzeymiami.com/shows/christian-loffler-live-fall-2026-tour-13-nov\n
+ https://edmtrain.com/miami-fl/christian-loffler-538533
+URL:https://calendar.zeyzeymiami.com/shows/christian-loffler-live-fall-2026
+ -tour-13-nov
+STATUS:CONFIRMED
+CATEGORIES:dance/electronic
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-tul8te-world-tour-14-nov@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261115T010000Z
+DTEND:20261115T060000Z
+SUMMARY:Tul8te – World Tour
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: indie/alternative\nhttps://calendar.zeyzeymiami.com/shows
+ /tul8te-world-tour-14-nov
+URL:https://calendar.zeyzeymiami.com/shows/tul8te-world-tour-14-nov
+STATUS:CONFIRMED
+CATEGORIES:indie/alternative
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a0eff0b5ffbf40001c9044c@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261115T200000Z
 DTEND:20261116T000000Z
 SUMMARY:Club 1BD Miami ft. Chvmeleon\, Hunny Bee\, Pressure Point\, & Spine
  lli
 LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
  d States
-DESCRIPTION:Lineup: Club 1BD\, DJ Hunny Bee\, Pressure Point\, Spinelli\nht
- tps://edmtrain.com/miami-fl/club-1bd-dj-hunny-bee-517966
+DESCRIPTION:Lineup: Club 1BD\, DJ Hunny Bee\, Pressure Point\, Spinelli\nTa
+ gs: hip-hop/rap\nhttps://calendar.zeyzeymiami.com/shows/club-1bd-miami-day
+ -party-15-nov\nhttps://edmtrain.com/miami-fl/club-1bd-dj-hunny-bee-517966
 STATUS:CONFIRMED
+CATEGORIES:hip-hop/rap
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-el-david-aguilar-17-nov@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261118T000000Z
+DTEND:20261118T060000Z
+SUMMARY:El David Aguilar
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: latin\nhttps://calendar.zeyzeymiami.com/shows/el-david-ag
+ uilar-17-nov
+URL:https://calendar.zeyzeymiami.com/shows/el-david-aguilar-17-nov
+STATUS:CONFIRMED
+CATEGORIES:latin
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-vicente-garcia-19-nov@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261120T010000Z
+DTEND:20261120T060000Z
+SUMMARY:Vicente Garcia
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: latin\nhttps://calendar.zeyzeymiami.com/shows/vicente-gar
+ cia-19-nov
+URL:https://calendar.zeyzeymiami.com/shows/vicente-garcia-19-nov
+STATUS:CONFIRMED
+CATEGORIES:latin
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-the-hails-21-nov@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261121T010000Z
+DTEND:20261121T080000Z
+SUMMARY:The Hails
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: indie/alternative\nhttps://calendar.zeyzeymiami.com/shows
+ /the-hails-21-nov
+URL:https://calendar.zeyzeymiami.com/shows/the-hails-21-nov
+STATUS:CONFIRMED
+CATEGORIES:indie/alternative
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-amarji-king-20-nov@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261121T020000Z
+DTEND:20261121T080000Z
+SUMMARY:Amarji King
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: dance/electronic\nhttps://calendar.zeyzeymiami.com/shows/
+ amarji-king-20-nov
+URL:https://calendar.zeyzeymiami.com/shows/amarji-king-20-nov
+STATUS:CONFIRMED
+CATEGORIES:dance/electronic
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-selects-donny-benet@shotgun.live
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261121T233000Z
 DTEND:20261123T040000Z
 SUMMARY:Donny Benét
@@ -410,27 +892,148 @@ LOCATION:ZeyZey Miami\, 353 Northeast 61st Street\, Miami\, FL 33137\, USA
 DESCRIPTION:Donny Benét Saturday\, November 21st 2026 18+ | Zaku Stage Tic
  ket sales for this event have moved. Please visit this link to get tickets
  : https://calendar.zeyzeymiami.com/shows/donny-benet-21-nov\nLineup: Donny
-  Benét\, OTNES\nTags: italo disco\, synthpop\, electronica\nhttps://shotg
- un.live/en/events/zeyzey-selects-donny-benet
+  Benét\, OTNES\nTags: electronica\, funk\, italo disco\, latin\, synthpop
+ \nhttps://shotgun.live/en/events/zeyzey-selects-donny-benet\nhttps://calen
+ dar.zeyzeymiami.com/shows/donny-benet-21-nov\nhttps://calendar.zeyzeymiami
+ .com/shows/helado-tropical-helado-negro-reyna-tropical-21-nov
 URL:https://shotgun.live/en/events/zeyzey-selects-donny-benet
 STATUS:CONFIRMED
-CATEGORIES:italo disco,synthpop,electronica
+CATEGORIES:electronica,funk,italo disco,latin,synthpop
 GEO:25.8327924;-80.1891253
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-536457@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
+UID:zeyzey-arde-bogota-22-nov@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
 SEQUENCE:0
-DTSTART:20261213T000000Z
+DTSTART:20261123T000000Z
+DTEND:20261123T060000Z
+SUMMARY:Arde Bogotá
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: rock\nhttps://calendar.zeyzeymiami.com/shows/arde-bogota-
+ 22-nov
+URL:https://calendar.zeyzeymiami.com/shows/arde-bogota-22-nov
+STATUS:CONFIRMED
+CATEGORIES:rock
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-justin-nozuka-01-dec@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261202T000000Z
+DTEND:20261202T060000Z
+SUMMARY:Justin Nozuka
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: indie/alternative\nhttps://calendar.zeyzeymiami.com/shows
+ /justin-nozuka-01-dec
+URL:https://calendar.zeyzeymiami.com/shows/justin-nozuka-01-dec
+STATUS:CONFIRMED
+CATEGORIES:indie/alternative
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-justin-nozuka-second-show-02-dec@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261203T000000Z
+DTEND:20261203T060000Z
+SUMMARY:Justin Nozuka (Second Show)
+LOCATION:ZeyZey Miami
+DESCRIPTION:https://calendar.zeyzeymiami.com/shows/justin-nozuka-second-sho
+ w-02-dec
+URL:https://calendar.zeyzeymiami.com/shows/justin-nozuka-second-show-02-dec
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-shintaro-sakamoto-06-dec@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261207T000000Z
+DTEND:20261207T060000Z
+SUMMARY:Shintaro Sakamoto + Rogê
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: indie/alternative\nhttps://calendar.zeyzeymiami.com/shows
+ /shintaro-sakamoto-06-dec
+URL:https://calendar.zeyzeymiami.com/shows/shintaro-sakamoto-06-dec
+STATUS:CONFIRMED
+CATEGORIES:indie/alternative
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-los-amigos-invisibles-11-dec@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261212T010000Z
+DTEND:20261212T080000Z
+SUMMARY:Los Amigos Invisibles
+LOCATION:ZeyZey Miami
+DESCRIPTION:https://calendar.zeyzeymiami.com/shows/los-amigos-invisibles-11
+ -dec
+URL:https://calendar.zeyzeymiami.com/shows/los-amigos-invisibles-11-dec
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-wev-12-dec@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261213T010000Z
 DTEND:20261213T060000Z
 SUMMARY:wev
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: wev\nTimes are an estimate from ZeyZey Miami's usual ho
- urs - the listing has no start time yet. Check the link.\nhttps://edmtrain
- .com/miami-fl/wev-536457
-URL:https://edmtrain.com/miami-fl/wev-536457
+LOCATION:ZeyZey Miami
+DESCRIPTION:Lineup: wev\nTags: dance/electronic\nhttps://calendar.zeyzeymia
+ mi.com/shows/wev-12-dec\nhttps://edmtrain.com/miami-fl/wev-536457
+URL:https://calendar.zeyzeymiami.com/shows/wev-12-dec
 STATUS:CONFIRMED
+CATEGORIES:dance/electronic
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-takuya-nakamura-12-dec@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261213T030000Z
+DTEND:20261213T060000Z
+SUMMARY:Takuya Nakamura
+LOCATION:ZeyZey Miami
+DESCRIPTION:https://calendar.zeyzeymiami.com/shows/takuya-nakamura-12-dec
+URL:https://calendar.zeyzeymiami.com/shows/takuya-nakamura-12-dec
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-ax-and-the-hatchetmen-the-late-checkout-tour-2026-13-dec@zeyzey.
+ miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20261214T000000Z
+DTEND:20261214T060000Z
+SUMMARY:Ax and the Hatchetmen — The Late Checkout Tour 2026
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: indie/alternative\nhttps://calendar.zeyzeymiami.com/shows
+ /ax-and-the-hatchetmen-the-late-checkout-tour-2026-13-dec
+URL:https://calendar.zeyzeymiami.com/shows/ax-and-the-hatchetmen-the-late-c
+ heckout-tour-2026-13-dec
+STATUS:CONFIRMED
+CATEGORIES:indie/alternative
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-the-unofficial-end-cruise-party-21-jan@zeyzey.miami-calendars
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:0
+DTSTART:20270121T230000Z
+DTEND:20270122T060000Z
+SUMMARY:The Unofficial END Cruise Party
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: emo\nhttps://calendar.zeyzeymiami.com/shows/the-unofficia
+ l-end-cruise-party-21-jan
+URL:https://calendar.zeyzeymiami.com/shows/the-unofficial-end-cruise-party-
+ 21-jan
+STATUS:CONFIRMED
+CATEGORIES:emo
 END:VEVENT
 BEGIN:VEVENT
 UID:paloma-morphy-miami@shotgun.live

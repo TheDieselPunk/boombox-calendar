@@ -9,9 +9,9 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:madradiomiami092326@shotgun.live
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20260924T010000Z
 DTEND:20260924T070000Z
 SUMMARY:Frecuencia: Volen / Milagros Espada / Larissa
@@ -21,9 +21,9 @@ DESCRIPTION:"The river venue sets the stage for a stylish yet chill night o
   our slick radio show serving up the latest tracks. Save the date and cath
   the urban-chic experience at Mad Radio Miami. See you on the dance floor!
   Come early\, stay late\, and let the night unfold FREE ENTRY HAPPY HOUR 5
-  PM - 9 PM"\nLineup: Milagros Espada\nTags: house\nTickets: RSVP Free\nhtt
- ps://shotgun.live/en/events/madradiomiami092326\nhttps://edmtrain.com/miam
- i-fl/frecuencia-milagros-espada-531844
+  PM - 9 PM"\nLineup: Milagros Espada\nTags: house\nTickets: RSVP Free\nAge
+ s: 21+\nhttps://shotgun.live/en/events/madradiomiami092326\nhttps://edmtra
+ in.com/miami-fl/frecuencia-milagros-espada-531844
 URL:https://shotgun.live/en/events/madradiomiami092326
 STATUS:CONFIRMED
 CATEGORIES:house
@@ -31,9 +31,9 @@ GEO:25.8462027;-80.1851332
 END:VEVENT
 BEGIN:VEVENT
 UID:madradiomiami092426@shotgun.live
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20260925T010000Z
 DTEND:20260925T070000Z
 SUMMARY:Frameless: Francesco / Auphoria / Anabelen
@@ -43,9 +43,9 @@ DESCRIPTION:"The river venue sets the stage for a stylish yet chill night o
   our slick radio show serving up the latest tracks. Save the date and cath
   the urban-chic experience at Mad Radio Miami. See you on the dance floor!
   Come early\, stay late\, and let the night unfold FREE ENTRY HAPPY HOUR 5
-  PM - 9 PM"\nLineup: Anabelen\nTags: house\nTickets: RSVP Free\nhttps://sh
- otgun.live/en/events/madradiomiami092426\nhttps://edmtrain.com/miami-fl/fr
- ameless-anabelen-531845
+  PM - 9 PM"\nLineup: Anabelen\nTags: house\nTickets: RSVP Free\nAges: 21+
+ \nhttps://shotgun.live/en/events/madradiomiami092426\nhttps://edmtrain.com
+ /miami-fl/frameless-anabelen-531845
 URL:https://shotgun.live/en/events/madradiomiami092426
 STATUS:CONFIRMED
 CATEGORIES:house
@@ -76,9 +76,9 @@ GEO:25.8462027;-80.1851332
 END:VEVENT
 BEGIN:VEVENT
 UID:madradiomiami092626@shotgun.live
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20260927T010000Z
 DTEND:20260927T070000Z
 SUMMARY:Dj Ray & Ez Dee
@@ -89,19 +89,20 @@ DESCRIPTION:"The river venue sets the stage for a stylish yet chill night o
   the urban-chic experience at Mad Radio Miami. See you on the dance floor!
   Come early\, stay late\, and let the night unfold FREE ENTRY BEFORE 10 PM
   / FREE ENTRY LADIES UNTIL MIDNIGHT HAPPY HOUR 5 PM - 9 PM"\nLineup: DJ ra
- y\, EZ Dee\nTags: house\nTickets: AFTER 10 PM $20\, FREE LADIES RSVP BEFOR
- E 12 AM Free\nhttps://shotgun.live/en/events/madradiomiami092626\nhttps://
- edmtrain.com/miami-fl/dj-ray-ez-dee-531846
+ y\, EZ Dee\nTags: acid\, club music\, electro\, house\nTickets: AFTER 10 P
+ M $20\, FREE LADIES RSVP BEFORE 12 AM Free\nAges: 21+\nhttps://shotgun.liv
+ e/en/events/madradiomiami092626\nhttps://edmtrain.com/miami-fl/dj-ray-ez-d
+ ee-531846
 URL:https://shotgun.live/en/events/madradiomiami092626
 STATUS:CONFIRMED
-CATEGORIES:house
+CATEGORIES:acid,club music,electro,house
 GEO:25.8462027;-80.1851332
 END:VEVENT
 BEGIN:VEVENT
 UID:madradiomiami093026@shotgun.live
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
-SEQUENCE:0
+DTSTAMP:20260921T200140Z
+LAST-MODIFIED:20260921T200140Z
+SEQUENCE:1
 DTSTART:20261001T010000Z
 DTEND:20261001T070000Z
 SUMMARY:Undertone: Joaquin Bohmer
@@ -111,9 +112,9 @@ DESCRIPTION:"The river venue sets the stage for a stylish yet chill night o
   our slick radio show serving up the latest tracks. Save the date and cath
   the urban-chic experience at Mad Radio Miami. See you on the dance floor!
   Come early\, stay late\, and let the night unfold FREE ENTRY HAPPY HOUR 5
-  PM - 9 PM"\nLineup: Joaquin Bohmer\nTags: house\nTickets: RSVP Free\nhttp
- s://shotgun.live/en/events/madradiomiami093026\nhttps://edmtrain.com/miami
- -fl/undertone-joaquin-bohmer-531847
+  PM - 9 PM"\nLineup: Joaquin Bohmer\nTags: house\nTickets: RSVP Free\nAges
+ : 21+\nhttps://shotgun.live/en/events/madradiomiami093026\nhttps://edmtrai
+ n.com/miami-fl/undertone-joaquin-bohmer-531847
 URL:https://shotgun.live/en/events/madradiomiami093026
 STATUS:CONFIRMED
 CATEGORIES:house
