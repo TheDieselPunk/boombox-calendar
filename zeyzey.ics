@@ -80,20 +80,20 @@ CATEGORIES:latin
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-riva-starr-26-sep@zeyzey.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:0
+DTSTAMP:20260921T235357Z
+LAST-MODIFIED:20260921T235357Z
+SEQUENCE:1
 DTSTART:20260927T000000Z
 DTEND:20260927T050000Z
 SUMMARY:Riva Starr + Seamus Haji (Free Entry)
 LOCATION:ZeyZey Miami
-DESCRIPTION:Lineup: Riva Starr\, Seamus Haji\nTags: dance/electronic\, deep
-  house\, tech house\nAges: 21+\nhttps://calendar.zeyzeymiami.com/shows/riv
- a-starr-26-sep\nhttps://edmtrain.com/miami-fl/nervous-records-riva-starr-5
- 18461\nhttps://ra.co/events/2506139
+DESCRIPTION:Lineup: Riva Starr\, Seamus Haji\nTags: deep house\, tech house
+ \nAges: 21+\nhttps://calendar.zeyzeymiami.com/shows/riva-starr-26-sep\nhtt
+ ps://edmtrain.com/miami-fl/nervous-records-riva-starr-518461\nhttps://ra.c
+ o/events/2506139
 URL:https://calendar.zeyzeymiami.com/shows/riva-starr-26-sep
 STATUS:CONFIRMED
-CATEGORIES:dance/electronic,deep house,tech house
+CATEGORIES:deep house,tech house
 END:VEVENT
 BEGIN:VEVENT
 UID:tablelist-ff19f2b25fe40779@zeyzey.miami-calendars
@@ -148,19 +148,19 @@ CATEGORIES:indie/alternative
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-flamingosis-02-oct@zeyzey.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:0
+DTSTAMP:20260921T235357Z
+LAST-MODIFIED:20260921T235357Z
+SEQUENCE:1
 DTSTART:20261003T010000Z
 DTEND:20261003T070000Z
 SUMMARY:Flamingosis
 LOCATION:ZeyZey Miami
-DESCRIPTION:Lineup: Flamingosis\nTags: dance/electronic\, downtempo\, funk
- \, hip-hop\nAges: All ages\nhttps://calendar.zeyzeymiami.com/shows/flaming
- osis-02-oct\nhttps://edmtrain.com/miami-fl/flamingosis-514144
+DESCRIPTION:Lineup: Flamingosis\nTags: downtempo\, funk\, hip-hop\nAges: Al
+ l ages\nhttps://calendar.zeyzeymiami.com/shows/flamingosis-02-oct\nhttps:/
+ /edmtrain.com/miami-fl/flamingosis-514144
 URL:https://calendar.zeyzeymiami.com/shows/flamingosis-02-oct
 STATUS:CONFIRMED
-CATEGORIES:dance/electronic,downtempo,funk,hip-hop
+CATEGORIES:downtempo,funk,hip-hop
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-electric-feels-indie-rock-electronic-dance-party-03-oct@zeyzey.m
@@ -181,19 +181,19 @@ CATEGORIES:dance/electronic
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-whipped-cream-03-oct@zeyzey.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:0
+DTSTAMP:20260921T235357Z
+LAST-MODIFIED:20260921T235357Z
+SEQUENCE:1
 DTSTART:20261004T020000Z
 DTEND:20261004T050000Z
 SUMMARY:Whipped Cream
 LOCATION:ZeyZey Miami
-DESCRIPTION:Lineup: WHIPPED CREAM\nTags: bass music\, club music\, dance/el
- ectronic\, trap\nAges: 18+\nhttps://calendar.zeyzeymiami.com/shows/whipped
- -cream-03-oct\nhttps://edmtrain.com/miami-fl/whipped-cream-509115
+DESCRIPTION:Lineup: WHIPPED CREAM\nTags: bass music\, club music\, trap\nAg
+ es: 18+\nhttps://calendar.zeyzeymiami.com/shows/whipped-cream-03-oct\nhttp
+ s://edmtrain.com/miami-fl/whipped-cream-509115
 URL:https://calendar.zeyzeymiami.com/shows/whipped-cream-03-oct
 STATUS:CONFIRMED
-CATEGORIES:bass music,club music,dance/electronic,trap
+CATEGORIES:bass music,club music,trap
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a6b9027ca1d730001823403@zeyzey.miami-calendars
@@ -358,22 +358,22 @@ CATEGORIES:indie/alternative,synthpop
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a85fa446932660001a56c43@zeyzey.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+DTSTAMP:20260921T235357Z
+LAST-MODIFIED:20260921T235357Z
+SEQUENCE:2
 DTSTART:20261015T200000Z
 DTEND:20261016T060000Z
 SUMMARY:Satellite: Chasewest B2B Discip\, Ragie Ban\, Dan Molinari & Stixx
 LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
  d States
 DESCRIPTION:Lineup: ChaseWest\, Discip\, Ragie Ban\, Dan Molinari\, Stixx\n
- Tags: dance/electronic\, tech house\nAges: 18+\nhttps://calendar.zeyzeymia
- mi.com/shows/satellite-chasewest-b2b-discip-ragie-ban-dan-molinari-stixx-1
- 5-oct\nhttps://dice.fm/event/6dooo2-satellite-chasewest-b2b-discip-ragie-b
- an-dan-molinari-stixx-15th-oct-zeyzey-miami-tickets\nhttps://edmtrain.com/
- miami-fl/chasewest-discip-532846
+ Tags: tech house\nAges: 18+\nhttps://calendar.zeyzeymiami.com/shows/satell
+ ite-chasewest-b2b-discip-ragie-ban-dan-molinari-stixx-15-oct\nhttps://dice
+ .fm/event/6dooo2-satellite-chasewest-b2b-discip-ragie-ban-dan-molinari-sti
+ xx-15th-oct-zeyzey-miami-tickets\nhttps://edmtrain.com/miami-fl/chasewest-
+ discip-532846
 STATUS:CONFIRMED
-CATEGORIES:dance/electronic,tech house
+CATEGORIES:tech house
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-party-pupils-16-oct@zeyzey.miami-calendars
@@ -498,20 +498,19 @@ CATEGORIES:dance/electronic
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-lewis-ofman-24-oct@zeyzey.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:0
+DTSTAMP:20260921T235357Z
+LAST-MODIFIED:20260921T235357Z
+SEQUENCE:1
 DTSTART:20261025T030000Z
 DTEND:20261025T050000Z
 SUMMARY:Lewis OfMan
 LOCATION:ZeyZey Miami
-DESCRIPTION:Lineup: Lewis OfMan\nTags: dance/electronic\, disco\, funk\, ho
- use\nAges: 18+\nhttps://calendar.zeyzeymiami.com/shows/lewis-ofman-24-oct
- \nhttps://edmtrain.com/miami-fl/lewis-ofman-535661\nhttps://ra.co/events/2
- 534428
+DESCRIPTION:Lineup: Lewis OfMan\nTags: disco\, funk\, house\nAges: 18+\nhtt
+ ps://calendar.zeyzeymiami.com/shows/lewis-ofman-24-oct\nhttps://edmtrain.c
+ om/miami-fl/lewis-ofman-535661\nhttps://ra.co/events/2534428
 URL:https://calendar.zeyzeymiami.com/shows/lewis-ofman-24-oct
 STATUS:CONFIRMED
-CATEGORIES:dance/electronic,disco,funk,house
+CATEGORIES:disco,funk,house
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-peter-bjorn-and-john-writer-s-block-20th-anniversary-tour-25-oct
@@ -561,21 +560,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-fleetmac-wood-horror-hifi-free-entry-30-oct@zeyzey.miami-calenda
  rs
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:0
+DTSTAMP:20260921T235357Z
+LAST-MODIFIED:20260921T235357Z
+SEQUENCE:1
 DTSTART:20261031T030000Z
 DTEND:20261031T070000Z
 SUMMARY:Fleetmac Wood + Horror HiFi (Free Entry)
 LOCATION:ZeyZey Miami
-DESCRIPTION:Lineup: Fleetmac Wood\, Roxanne Roll\, Alex Oxley\nTags: dance/
- electronic\, disco\, funk\, remixes\nAges: All ages\nhttps://calendar.zeyz
- eymiami.com/shows/fleetmac-wood-horror-hifi-free-entry-30-oct\nhttps://edm
- train.com/miami-fl/fleetmac-wood-roxanne-roll-524856
+DESCRIPTION:Lineup: Fleetmac Wood\, Roxanne Roll\, Alex Oxley\nTags: disco
+ \, funk\nAges: All ages\nhttps://calendar.zeyzeymiami.com/shows/fleetmac-w
+ ood-horror-hifi-free-entry-30-oct\nhttps://edmtrain.com/miami-fl/fleetmac-
+ wood-roxanne-roll-524856
 URL:https://calendar.zeyzeymiami.com/shows/fleetmac-wood-horror-hifi-free-e
  ntry-30-oct
 STATUS:CONFIRMED
-CATEGORIES:dance/electronic,disco,funk,remixes
+CATEGORIES:disco,funk
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-golden-a-k-pop-kids-party-31-oct@zeyzey.miami-calendars
@@ -594,21 +593,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-mark-farina-s-mushroom-jazz-halloween-edition-31-oct@zeyzey.miam
  i-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:0
+DTSTAMP:20260921T235357Z
+LAST-MODIFIED:20260921T235357Z
+SEQUENCE:1
 DTSTART:20261031T220000Z
 DTEND:20261101T050000Z
 SUMMARY:Mark Farina's Mushroom Jazz - Halloween Edition with Nutritious
 LOCATION:ZeyZey Miami
-DESCRIPTION:Lineup: Mark Farina\, Nutritious\nTags: beats\, dance/electroni
- c\, downtempo\, hip-hop\nAges: 18+\nhttps://calendar.zeyzeymiami.com/shows
- /mark-farina-s-mushroom-jazz-halloween-edition-31-oct\nhttps://edmtrain.co
- m/miami-fl/mark-farina-nutritious-524906
+DESCRIPTION:Lineup: Mark Farina\, Nutritious\nTags: beats\, downtempo\, hip
+ -hop\nAges: 18+\nhttps://calendar.zeyzeymiami.com/shows/mark-farina-s-mush
+ room-jazz-halloween-edition-31-oct\nhttps://edmtrain.com/miami-fl/mark-far
+ ina-nutritious-524906
 URL:https://calendar.zeyzeymiami.com/shows/mark-farina-s-mushroom-jazz-hall
  oween-edition-31-oct
 STATUS:CONFIRMED
-CATEGORIES:beats,dance/electronic,downtempo,hip-hop
+CATEGORIES:beats,downtempo,hip-hop
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-scattrbrain-03-nov@zeyzey.miami-calendars
@@ -625,19 +624,19 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-the-floozies-05-nov@zeyzey.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:0
+DTSTAMP:20260921T235357Z
+LAST-MODIFIED:20260921T235357Z
+SEQUENCE:1
 DTSTART:20261106T000000Z
 DTEND:20261106T060000Z
 SUMMARY:The Floozies
 LOCATION:ZeyZey Miami
-DESCRIPTION:Lineup: The Floozies\nTags: dance/electronic\, electropop\, fun
- k\, synthpop\nAges: All ages\nhttps://calendar.zeyzeymiami.com/shows/the-f
- loozies-05-nov\nhttps://edmtrain.com/miami-fl/the-floozies-529732
+DESCRIPTION:Lineup: The Floozies\nTags: electropop\, funk\, synthpop\nAges:
+  All ages\nhttps://calendar.zeyzeymiami.com/shows/the-floozies-05-nov\nhtt
+ ps://edmtrain.com/miami-fl/the-floozies-529732
 URL:https://calendar.zeyzeymiami.com/shows/the-floozies-05-nov
 STATUS:CONFIRMED
-CATEGORIES:dance/electronic,electropop,funk,synthpop
+CATEGORIES:electropop,funk,synthpop
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-curawaka-06-nov@zeyzey.miami-calendars
@@ -673,19 +672,19 @@ CATEGORIES:house
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-com-truise-06-nov@zeyzey.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:0
+DTSTAMP:20260921T235357Z
+LAST-MODIFIED:20260921T235357Z
+SEQUENCE:1
 DTSTART:20261107T020000Z
 DTEND:20261107T080000Z
 SUMMARY:Com Truise
 LOCATION:ZeyZey Miami
-DESCRIPTION:Lineup: Com Truise\nTags: dance/electronic\, downtempo\, electr
- o\, idm\, synthpop\nAges: All ages\nhttps://calendar.zeyzeymiami.com/shows
- /com-truise-06-nov\nhttps://edmtrain.com/miami-fl/com-truise-536978
+DESCRIPTION:Lineup: Com Truise\nTags: downtempo\, electro\, idm\, synthpop
+ \nAges: All ages\nhttps://calendar.zeyzeymiami.com/shows/com-truise-06-nov
+ \nhttps://edmtrain.com/miami-fl/com-truise-536978
 URL:https://calendar.zeyzeymiami.com/shows/com-truise-06-nov
 STATUS:CONFIRMED
-CATEGORIES:dance/electronic,downtempo,electro,idm,synthpop
+CATEGORIES:downtempo,electro,idm,synthpop
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-dana-and-alden-07-nov@zeyzey.miami-calendars
@@ -704,24 +703,24 @@ CATEGORIES:jazz
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-presents-parra-for-cuva@shotgun.live
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:2
+DTSTAMP:20260921T235357Z
+LAST-MODIFIED:20260921T235357Z
+SEQUENCE:3
 DTSTART:20261109T000000Z
 DTEND:20261109T050000Z
 SUMMARY:Parra For Cuva
 LOCATION:ZeyZey Miami\, 353 Northeast 61st Street\, Miami\, FL 33137\, USA
 DESCRIPTION:Ticket sales for this event have moved. Please visit this link 
  to get tickets: https://calendar.zeyzeymiami.com/shows/parra-for-cuva-08-n
- ov\nLineup: Parra for Cuva\nTags: dance/electronic\, deep house\, downtemp
- o\, electronica\, melodic house & techno\, tech house\nAges: 18+\nhttps://
- shotgun.live/en/events/zeyzey-presents-parra-for-cuva\nhttps://calendar.ze
- yzeymiami.com/shows/parra-for-cuva-08-nov\nhttps://edmtrain.com/miami-fl/p
- arra-for-cuva-493732
+ ov\nLineup: Parra for Cuva\nTags: deep house\, downtempo\, electronica\, m
+ elodic house & techno\, tech house\nAges: 18+\nhttps://shotgun.live/en/eve
+ nts/zeyzey-presents-parra-for-cuva\nhttps://calendar.zeyzeymiami.com/shows
+ /parra-for-cuva-08-nov\nhttps://edmtrain.com/miami-fl/parra-for-cuva-49373
+ 2
 URL:https://shotgun.live/en/events/zeyzey-presents-parra-for-cuva
 STATUS:CONFIRMED
-CATEGORIES:dance/electronic,deep house,downtempo,electronica,melodic house 
- & techno,tech house
+CATEGORIES:deep house,downtempo,electronica,melodic house & techno,tech hou
+ se
 GEO:25.8327924;-80.1891253
 END:VEVENT
 BEGIN:VEVENT

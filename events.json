@@ -1821,7 +1821,6 @@
    "ages": "21+",
    "price": "Free",
    "genres": [
-    "dance/electronic",
     "deep house",
     "tech house"
    ],
@@ -2065,7 +2064,7 @@
    "time_estimated": false,
    "address": "4800 NW 37th Ave, Miami, FL 33142, USA",
    "ages": "18+",
-   "price": "From $130",
+   "price": " (sold out)",
    "genres": [
     "tech house"
    ],
@@ -2929,7 +2928,6 @@
    "ages": "All ages",
    "price": "$24",
    "genres": [
-    "dance/electronic",
     "downtempo",
     "funk",
     "hip-hop"
@@ -3702,7 +3700,6 @@
    "genres": [
     "bass music",
     "club music",
-    "dance/electronic",
     "trap"
    ],
    "genres_inferred": false,
@@ -5574,7 +5571,6 @@
    "ages": "18+",
    "price": "From $38",
    "genres": [
-    "dance/electronic",
     "tech house"
    ],
    "genres_inferred": false,
@@ -6303,6 +6299,26 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/miami-fl/iii-points-434706"
+  },
+  {
+   "id": "shotgun:nokings",
+   "source": "shotgun",
+   "title": "No Kings: Vote Early!",
+   "artists": [],
+   "venue": "Miami",
+   "venue_slug": null,
+   "date": "2026-10-17",
+   "start": "2026-10-17T20:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "Free",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/nokings"
   },
   {
    "id": "19hz:4446016-mose",
@@ -7723,7 +7739,6 @@
    "ages": "18+",
    "price": "$23-51.70",
    "genres": [
-    "dance/electronic",
     "disco",
     "funk",
     "house"
@@ -8392,10 +8407,8 @@
    "ages": "All ages",
    "price": "Free",
    "genres": [
-    "dance/electronic",
     "disco",
-    "funk",
-    "remixes"
+    "funk"
    ],
    "genres_inferred": false,
    "organizer": "",
@@ -8539,7 +8552,6 @@
    "price": "free w/rsvp b4 11pm / $25+",
    "genres": [
     "beats",
-    "dance/electronic",
     "downtempo",
     "hip-hop"
    ],
@@ -9127,7 +9139,6 @@
    "ages": "All ages",
    "price": "$29+",
    "genres": [
-    "dance/electronic",
     "electropop",
     "funk",
     "synthpop"
@@ -9260,7 +9271,6 @@
    "ages": "All ages",
    "price": "$29",
    "genres": [
-    "dance/electronic",
     "downtempo",
     "electro",
     "idm",
@@ -9631,7 +9641,6 @@
    "ages": "18+",
    "price": "",
    "genres": [
-    "dance/electronic",
     "deep house",
     "downtempo",
     "electronica",

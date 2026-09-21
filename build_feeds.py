@@ -919,9 +919,15 @@ def apply_rules(events, venues):
     return events
 
 
+COARSE_TAGS = {"dance/electronic", "multigenre edm", "remixes", "tbd"}  # a source saying "electronic, dunno"
+
+
 def apply_genre_hints(events, hints):
     artists, venues = hints.get("artists", {}), hints.get("venues", {})
     for ev in events:
+        # Venue-site category labels only carry information when nothing more specific is known.
+        if ev["genres"] and set(ev["genres"]) - COARSE_TAGS:
+            ev["genres"] = [g for g in ev["genres"] if g not in COARSE_TAGS]
         if ev["genres"]:
             continue
         hay = " ".join([ev["title"]] + ev["artists"]).lower()

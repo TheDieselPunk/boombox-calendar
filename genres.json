@@ -3,13 +3,11 @@
   "families": [
     {
       "name": "House",
-      "tags": ["house", "tech house", "deep house", "progressive house", "afro house", "electro house", "big room house",
-               "latin house", "funky house", "bass house", "disco house", "french house", "french touch", "jackin house",
-               "organic house", "pop house", "soulful house", "tropical house", "hard house", "melodic house & techno", "afro", "afrobeat", "afrobeats"]
+      "tags": ["house", "tech house", "deep house", "progressive house", "afro house", "electro house", "big room house", "latin house", "funky house", "bass house", "disco house", "french house", "french touch", "jackin house", "organic house", "pop house", "soulful house", "tropical house", "hard house", "melodic house & techno", "afro", "afrobeat", "afrobeats"]
     },
     {
       "name": "Techno",
-      "tags": ["techno", "hard techno", "minimal", "acid", "industrial", "big room techno", "schranz", "playa tech", "midtempo", "prhg"]
+      "tags": ["techno", "hard techno", "minimal", "electro", "acid", "industrial", "big room techno", "schranz", "playa tech", "midtempo", "prhg"]
     },
     {
       "name": "Trance",
@@ -17,8 +15,7 @@
     },
     {
       "name": "Bass",
-      "tags": ["dubstep", "bass", "bass music", "riddim", "trap", "future bass", "uk bass", "miami bass", "grime", "bassline",
-               "glitch-hop", "future beats", "beats", "dub", "hard bounce"]
+      "tags": ["dubstep", "bass", "bass music", "riddim", "trap", "future bass", "uk bass", "miami bass", "grime", "bassline", "glitch-hop", "future beats", "beats", "dub", "hard bounce"]
     },
     {
       "name": "Drum & bass",
@@ -33,8 +30,12 @@
       "tags": ["hardstyle", "hardcore"]
     },
     {
-      "name": "EDM & big room",
-      "tags": ["edm", "pop edm", "big room", "electro", "dance/electronic", "multigenre edm", "electropop", "remixes", "open-format", "tbd"]
+      "name": "Mainstream EDM",
+      "tags": ["edm", "pop edm", "big room", "electropop", "open-format", "remixes"]
+    },
+    {
+      "name": "Electronic (unspecified)",
+      "tags": ["dance/electronic", "multigenre edm", "tbd"]
     },
     {
       "name": "Electronica & downtempo",
@@ -58,8 +59,7 @@
     },
     {
       "name": "Rock, indie & metal",
-      "tags": ["rock", "indie/alternative", "indie rock", "indie", "indie pop", "alternative", "punk", "emo", "pop rock",
-               "psychedelic rock", "metal", "death metal", "black metal", "metalcore", "folk"]
+      "tags": ["rock", "indie/alternative", "indie rock", "indie", "indie pop", "alternative", "punk", "emo", "pop rock", "psychedelic rock", "metal", "death metal", "black metal", "metalcore", "folk"]
     },
     {
       "name": "Pop & other",
