@@ -8,111 +8,144 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:edmtrain-527883@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6a3f12f64ed8b10001b2bca7@factory-town.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
-DTSTART:20260926T010000Z
+DTSTART:20260926T020000Z
 DTEND:20260926T090000Z
-SUMMARY:Eli Brown\, Massano\, Marie Vaunt\, Daizy
+SUMMARY:Eli Brown
 LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
 DESCRIPTION:Lineup: Eli Brown\, Massano\, Marie Vaunt\, Daizy\nTags (guess)
- : house\, techno\nTimes are an estimate from Factory Town's usual hours - 
- the listing has no start time yet. Check the link.\nhttps://edmtrain.com/m
- iami-fl/eli-brown-massano-527883
-URL:https://edmtrain.com/miami-fl/eli-brown-massano-527883
+ : house\, techno\nhttps://edmtrain.com/miami-fl/eli-brown-massano-527883
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-527882@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6a7a01575051510001c83c86@factory-town.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
-DTSTART:20260927T010000Z
+DTSTART:20260927T020000Z
 DTEND:20260927T090000Z
-SUMMARY:Fisher
+SUMMARY:FISHER
 LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
-DESCRIPTION:Lineup: Fisher\nTags (guess): house\, techno\nTimes are an esti
- mate from Factory Town's usual hours - the listing has no start time yet. 
- Check the link.\nhttps://edmtrain.com/miami-fl/fisher-527882
-URL:https://edmtrain.com/miami-fl/fisher-527882
+DESCRIPTION:Lineup: Fisher\nTags (guess): house\, techno\nhttps://edmtrain.
+ com/miami-fl/fisher-527882
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-514911@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6a35888fc559de000170027a@factory-town.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
-DTSTART:20261010T010000Z
+DTSTART:20261010T020000Z
 DTEND:20261010T090000Z
-SUMMARY:WORSHIP (Sub Focus x Dimension x Culture Shock x 1991)\, Sub Focus
- \, Dimension\, Culture Shock\, 1991
+SUMMARY:WORSHIP - Sub Focus/Dimension/Culture Shock/1991
 LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
 DESCRIPTION:Lineup: WORSHIP (Sub Focus x Dimension x Culture Shock x 1991)
  \, Sub Focus\, Dimension\, Culture Shock\, 1991\nTags (guess): house\, tec
- hno\nTimes are an estimate from Factory Town's usual hours - the listing h
- as no start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/worsh
- ip-sub-focus-x-dimension-x-culture-shock-x-1991-sub-focus-514911
-URL:https://edmtrain.com/miami-fl/worship-sub-focus-x-dimension-x-culture-s
- hock-x-1991-sub-focus-514911
+ hno\nhttps://edmtrain.com/miami-fl/worship-sub-focus-x-dimension-x-culture
+ -shock-x-1991-sub-focus-514911
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-528542@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6a79f930505151000162da35@factory-town.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
-DTSTART:20261011T010000Z
+DTSTART:20261011T020000Z
 DTEND:20261011T090000Z
-SUMMARY:The Orb: Armin van Buuren\, Funk Tribu\, NRG2000
+SUMMARY:Armin van Buuren presents The Orb
 LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
 DESCRIPTION:Lineup: Armin van Buuren\, Funk Tribu\, NRG2000\nTags (guess): 
- house\, techno\nTimes are an estimate from Factory Town's usual hours - th
- e listing has no start time yet. Check the link.\nhttps://edmtrain.com/mia
- mi-fl/the-orb-armin-van-buuren-528542
-URL:https://edmtrain.com/miami-fl/the-orb-armin-van-buuren-528542
+ house\, techno\nhttps://edmtrain.com/miami-fl/the-orb-armin-van-buuren-528
+ 542
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-527884@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6aa04779c1a81a00016fe6d6@factory-town.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
-DTSTART:20261115T020000Z
+DTSTART:20261031T020000Z
+DTEND:20261031T110000Z
+SUMMARY:Hocus Pocus 2026 (Friday Pass)
+LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
+DESCRIPTION:Tags (guess): house\, techno
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6aa04992243edc00012e491a@factory-town.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
+SEQUENCE:0
+DTSTART:20261101T020000Z
+DTEND:20261101T120000Z
+SUMMARY:Hocus Pocus 2026 (Saturday Pass)
+LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
+DESCRIPTION:Tags (guess): house\, techno
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6aa04b4a5c32c6000140c12f@factory-town.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
+SEQUENCE:0
+DTSTART:20261102T030000Z
+DTEND:20261102T120000Z
+SUMMARY:Hocus Pocus 2026 (Sunday Pass)
+LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
+DESCRIPTION:Tags (guess): house\, techno
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a84879f8e0c81000177fc08@factory-town.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
+SEQUENCE:0
+DTSTART:20261114T030000Z
+DTEND:20261114T100000Z
+SUMMARY:UNREAL
+LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
+DESCRIPTION:Tags (guess): house\, techno
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a3077721b98d10001598c8a@factory-town.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
+SEQUENCE:0
+DTSTART:20261115T030000Z
 DTEND:20261115T100000Z
-SUMMARY:ODESZA\, Boys Noize\, Bob Moses
+SUMMARY:ODESZA
 LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
 DESCRIPTION:Lineup: ODESZA\, Boys Noize\, Bob Moses\nTags (guess): house\, 
- techno\nTimes are an estimate from Factory Town's usual hours - the listin
- g has no start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/od
- esza-boys-noize-527884
-URL:https://edmtrain.com/miami-fl/odesza-boys-noize-527884
+ techno\nhttps://edmtrain.com/miami-fl/odesza-boys-noize-527884
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-536726@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6aa82e05fcb1030001a9cd65@factory-town.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
-DTSTART:20261206T020000Z
-DTEND:20261206T100000Z
-SUMMARY:Circoloco Miami: Aline Umber\, Beltran\, Carlita\, Chloé Caillet\,
-  Dixon\, Jamback\, Jimi Jules\, Luke Dean\, Make A Dance\, Max Dean\, Migu
- elle & Tons\, Omar+\, Palms Trax\, PAWSA\, Prospa\, Rampa\, Rony Seikaly\,
-  Seth Troxler
+DTSTART:20261206T030000Z
+DTEND:20261206T120000Z
+SUMMARY:Circoloco Miami (Factory Basel 2026)
 LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
 DESCRIPTION:Lineup: Aline Umber\, Beltran\, Carlita\, Chloé Caillet\, Dixo
  n\, Jamback\, Jimi Jules\, Luke Dean\, Make A Dance\, Max Dean\, Miguelle 
  & Tons\, Omar+\, Palms Trax\, PAWSA\, Prospa\, Rampa\, Rony Seikaly\, Seth
-  Troxler\nTags (guess): house\, techno\nTimes are an estimate from Factory
-  Town's usual hours - the listing has no start time yet. Check the link.\n
- https://edmtrain.com/miami-fl/circoloco-miami-536726
-URL:https://edmtrain.com/miami-fl/circoloco-miami-536726
+  Troxler\nTags (guess): house\, techno\nhttps://edmtrain.com/miami-fl/circ
+ oloco-miami-536726
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT

@@ -3,10 +3,11 @@
   "slug": "club-space",
   "name": "Club Space",
   "file": "club-space.ics",
-  "events": 23,
-  "estimated_times": 23,
+  "events": 22,
+  "estimated_times": 1,
   "next": "2026-09-25",
   "sources": [
+   "dice",
    "edmtrain"
   ],
   "hours_note": "Doors 11 PM; main room to ~5 AM, Terrace after-hours to noon+ on weekends."
@@ -15,10 +16,11 @@
   "slug": "the-ground",
   "name": "The Ground at Space",
   "file": "the-ground.ics",
-  "events": 11,
-  "estimated_times": 11,
+  "events": 16,
+  "estimated_times": 0,
   "next": "2026-09-25",
   "sources": [
+   "dice",
    "edmtrain"
   ],
   "hours_note": "Venue hours: Thu 9 PM-2 AM, Fri/Sat 11 PM-4 AM. Live shows may open earlier."
@@ -27,10 +29,11 @@
   "slug": "floyd",
   "name": "Floyd",
   "file": "floyd.ics",
-  "events": 19,
-  "estimated_times": 19,
+  "events": 25,
+  "estimated_times": 0,
   "next": "2026-09-24",
   "sources": [
+   "dice",
    "edmtrain"
   ],
   "hours_note": "Fri-Sun 11 PM-5 AM."
@@ -51,10 +54,11 @@
   "slug": "factory-town",
   "name": "Factory Town",
   "file": "factory-town.ics",
-  "events": 6,
-  "estimated_times": 6,
+  "events": 10,
+  "estimated_times": 0,
   "next": "2026-09-25",
   "sources": [
+   "dice",
    "edmtrain"
   ],
   "hours_note": "Varies a lot by event (7 PM-7 AM happens); 9 PM-5 AM is the common shape."
@@ -63,10 +67,11 @@
   "slug": "kemistry",
   "name": "Kemistry (Fort Lauderdale)",
   "file": "kemistry.ics",
-  "events": 19,
-  "estimated_times": 19,
-  "next": "2026-09-25",
+  "events": 27,
+  "estimated_times": 5,
+  "next": "2026-09-24",
   "sources": [
+   "dice",
    "edmtrain"
   ],
   "hours_note": "Thu 9 PM-4 AM, Fri/Sat 10 PM-4 AM. Note: Fort Lauderdale, ~30 mi north."

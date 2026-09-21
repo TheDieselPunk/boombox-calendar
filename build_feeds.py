@@ -7,11 +7,16 @@ Sources
                tiers. Genre chips only exist on listing cards. A venue's own
                /en/venues/<slug> page is just its organizer profile (promoter-run
                shows don't appear there), so it's only used as a backstop.
-  * Edmtrain - metro-wide coverage (location id 87) including the rooms that
-               don't sell on Shotgun (Space, Floyd, Kemistry, ...). Date only:
-               no start time, no genres. The official API is used automatically
-               when EDMTRAIN_CLIENT_KEY is set (free personal keys at
-               https://edmtrain.com/developer-api); it may carry start times.
+  * Dice     - each tracked venue's Dice profile (venues.json "dice"). Space,
+               Floyd, The Ground, Factory Town and Kemistry sell here; the page's
+               embedded JSON has real start and end times and sold-out status.
+  * Edmtrain - metro-wide coverage (location id 87), the backstop for anything
+               the other two miss (e.g. Domicile). Date only: no start time, no
+               genres. The official API is used automatically when
+               EDMTRAIN_CLIENT_KEY is set (free keys at edmtrain.com/developer-api).
+
+Same-night events at a tracked venue are merged with priority Shotgun > Dice >
+Edmtrain; the winner keeps its times, the others contribute lineup and links.
 
 Outputs (all in the repo root)
   <slug>.ics    one feed per venue in venues.json. Shotgun-detailed events carry
@@ -357,6 +362,59 @@ def shotgun_events(venues):
 
 
 # --------------------------------------------------------------------------- #
+# Dice
+# --------------------------------------------------------------------------- #
+
+NEXT_DATA_RE = re.compile(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', re.S)
+DICE_MAX_SPAN = dt.timedelta(days=3)  # belt and braces alongside the is_multi_days_event flag
+
+
+def dice_events(venues):
+    """Upcoming events from each tracked venue's Dice profile (venues.json "dice").
+
+    Dice is where Space / Floyd / The Ground / Factory Town / Kemistry actually
+    sell, and its embedded page data carries real start *and* end times plus
+    sold-out status - so it outranks Edmtrain (date only) for those rooms.
+    """
+    events = []
+    for v in venues:
+        slug = v.get("dice")
+        if not slug:
+            continue
+        time.sleep(POLITE_DELAY)
+        markup = fetch(f"https://dice.fm/venue/{slug}")
+        m = NEXT_DATA_RE.search(markup)
+        if not m:
+            raise RuntimeError(f"Dice: no __NEXT_DATA__ on /venue/{slug} - page layout changed?")
+        profile = json.loads(m.group(1))["props"]["pageProps"].get("profile") or {}
+        n = 0
+        for section in profile.get("sections", []):
+            for item in section.get("items", []):
+                e = item.get("event")
+                if not e or not (e.get("dates") or {}).get("event_start_date"):
+                    continue
+                start = parse_iso(e["dates"]["event_start_date"])
+                end = parse_iso(e["dates"]["event_end_date"]) if e["dates"].get("event_end_date") else None
+                if e["dates"].get("is_multi_days_event") or (end and end - start > DICE_MAX_SPAN):
+                    continue  # passes, donations, season tickets - not a night out
+                place = (e.get("venues") or [{}])[0]
+                price = (e.get("price") or {}).get("amount_from")
+                status = e.get("status") or ""
+                events.append(new_event(
+                    id=f"dice:{e['id']}", source="dice", title=clean(e.get("name")),
+                    venue=place.get("name", "") or v["name"], venue_slug=v["slug"],
+                    date=local_date(start), start=start.isoformat(), end=end.isoformat() if end else None,
+                    address=place.get("address", ""),
+                    price=(f"From ${price / 100:.0f}" if price else "") + (" (sold out)" if status == "sold-out" else ""),
+                    url=f"https://dice.fm/event/{e['perm_name']}" if e.get("perm_name") else "",
+                    cancelled=status in ("cancelled", "canceled"),
+                ))
+                n += 1
+        log(f"  dice/{slug}: {n} events")
+    return events
+
+
+# --------------------------------------------------------------------------- #
 # Edmtrain
 # --------------------------------------------------------------------------- #
 
@@ -436,38 +494,71 @@ def edmtrain_events(venues):
 # Merge + tag
 # --------------------------------------------------------------------------- #
 
+def squash(text):
+    """Lowercase alphanumerics only, so 'SoDown' == 'SO DOWN' == 'So-Down'."""
+    return re.sub(r"[^a-z0-9]", "", (text or "").lower())
+
+
 def title_key(title):
-    return re.sub(r"[^a-z0-9]", "", (title or "").lower())[:12]
+    return squash(title)[:12]
 
 
-def merge(shotgun, edmtrain):
-    """Fold Edmtrain rows into Shotgun events that are clearly the same night."""
+def drop_excluded(events, venues):
+    """Remove events whose title matches a venue's "exclude" patterns (e.g. a comedy room)."""
+    rules = {v["slug"]: [x.lower() for x in v.get("exclude", [])] for v in venues if v.get("exclude")}
+    kept, dropped = [], 0
+    for ev in events:
+        pats = rules.get(ev["venue_slug"])
+        if pats and any(p in ev["title"].lower() for p in pats):
+            dropped += 1
+            continue
+        kept.append(ev)
+    if dropped:
+        log(f"  {dropped} event(s) dropped by venue exclude rules")
+    return kept
+
+
+def merge(primary, secondary):
+    """Fold `secondary` rows into `primary` events that are clearly the same night.
+
+    The primary event keeps its times and details; the secondary contributes
+    what the primary lacks (lineup, ages) and its link. Called twice: Shotgun
+    absorbs Dice, then that result absorbs Edmtrain.
+    """
+    # Source order isn't stable run to run (Edmtrain repeats events across
+    # widgets), and which row folds in first decides the lineup - so sort.
+    primary = sorted(primary, key=lambda e: (e["date"], e["id"]))
+    secondary = sorted(secondary, key=lambda e: (e["date"], e["id"]))
     by_key = {}
-    for ev in shotgun:
+    for ev in primary:
         by_key.setdefault((ev["date"], title_key(ev["title"])), ev)
     by_venue_date = {}
-    for ev in shotgun:
+    for ev in primary:
         if ev["venue_slug"]:
             by_venue_date.setdefault((ev["venue_slug"], ev["date"]), []).append(ev)
 
-    merged = list(shotgun)
-    for ev in edmtrain:
+    merged = list(primary)
+    for ev in secondary:
         target = by_key.get((ev["date"], title_key(ev["title"])))
         if not target and ev["venue_slug"]:
             same_night = by_venue_date.get((ev["venue_slug"], ev["date"]), [])
             if len(same_night) == 1:
                 target = same_night[0]
             elif same_night:
-                names = {a.lower() for a in ev["artists"]}
+                names = {squash(a) for a in ev["artists"]} | {squash(ev["title"])}
                 overlap = [s for s in same_night
-                           if names & {a.lower() for a in s["artists"]} or
-                           any(a.lower() in s["title"].lower() for a in ev["artists"])]
+                           if names & ({squash(a) for a in s["artists"]} | {squash(s["title"])}) or
+                           any(n and n in squash(s["title"]) for n in names) or
+                           any(squash(a) in squash(ev["title"]) for a in s["artists"] if a)]
                 target = overlap[0] if len(overlap) == 1 else None
         if target:
-            target["source"] = "shotgun+edmtrain"
+            target["source"] = "+".join(sorted(set(target["source"].split("+")) | {ev["source"]}))
             target["artists"] = target["artists"] or ev["artists"]
             target["ages"] = target["ages"] or ev["ages"]
-            target["edmtrain_url"] = ev["url"]
+            target["price"] = target["price"] or ev["price"]
+            if not target["genres"]:
+                target["genres"] = ev["genres"]
+            target.setdefault("alt_urls", []).append(ev["url"])
         else:
             merged.append(ev)
     return merged
@@ -537,7 +628,10 @@ def vevent(ev, venue):
     no SEQUENCE can be silently ignored.
     """
     kind, ident = ev["id"].split(":", 1)
-    uid = f"{ident}@shotgun.live" if kind == "shotgun" else f"edmtrain-{ident}@miami-calendars"
+    # Non-Shotgun UIDs are scoped to the feed: a whole-complex party (Space +
+    # The Ground) is listed by Dice under both venues and belongs on both
+    # calendars, and each copy needs its own change-tracking entry.
+    uid = f"{ident}@shotgun.live" if kind == "shotgun" else f"{kind}-{ident}@{venue['slug']}.miami-calendars"
     lines = []
 
     if ev["start"]:
@@ -570,15 +664,17 @@ def vevent(ev, venue):
                     "start time yet. Check the link.")
     elif not ev["start"]:
         desc.append("Start time not listed - check the link.")
-    desc.append(ev["url"])
-    if ev.get("edmtrain_url") and ev["edmtrain_url"] != ev["url"]:
-        desc.append(ev["edmtrain_url"])
+    if ev["url"]:
+        desc.append(ev["url"])
+    for alt in sorted(set(ev.get("alt_urls", []))):
+        if alt and alt != ev["url"]:
+            desc.append(alt)
 
     lines += [
         f"SUMMARY:{ics_text(ev['title'])}",
         f"LOCATION:{ics_text(location)}",
         "DESCRIPTION:" + ics_text("\n".join(desc)),
-        f"URL:{ev['url']}",
+        *([f"URL:{ev['url']}"] if ev["url"] else []),
         "STATUS:" + ("CANCELLED" if ev.get("cancelled") else "CONFIRMED"),
     ]
     if ev["genres"]:
@@ -646,7 +742,10 @@ def main():
     if args.only:
         venues = [v for v in venues if v["slug"] == args.only] or sys.exit(f"no venue {args.only!r}")
 
-    events = merge(shotgun_events(venues), edmtrain_events(venues))
+    events = drop_excluded(shotgun_events(venues), venues)
+    log("Dice: venue profiles")
+    events = merge(events, drop_excluded(dice_events(venues), venues))
+    events = merge(events, drop_excluded(edmtrain_events(venues), venues))
     events = apply_genre_hints(events, hints)
     estimated = fill_typical_hours(events, venues, learn_hours(events))
     log(f"  {estimated} event(s) given the venue's typical hours (no published time)")

@@ -3,6 +3,7 @@
     "slug": "club-space",
     "name": "Club Space",
     "match": ["club space"],
+    "dice": "club-space-miami-wlav",
     "hours": {"default": ["23:00", "05:00"], "fri": ["23:00", "11:00"], "sat": ["23:00", "13:00"]},
     "hours_note": "Doors 11 PM; main room to ~5 AM, Terrace after-hours to noon+ on weekends."
   },
@@ -10,6 +11,7 @@
     "slug": "the-ground",
     "name": "The Ground at Space",
     "match": ["the ground"],
+    "dice": "the-ground-miami-qkma",
     "hours": {"default": ["23:00", "04:00"], "thu": ["21:00", "02:00"]},
     "hours_note": "Venue hours: Thu 9 PM-2 AM, Fri/Sat 11 PM-4 AM. Live shows may open earlier."
   },
@@ -17,6 +19,7 @@
     "slug": "floyd",
     "name": "Floyd",
     "match": ["floyd"],
+    "dice": "floyd-miami-q8mo",
     "hours": {"default": ["23:00", "05:00"]},
     "hours_note": "Fri-Sun 11 PM-5 AM."
   },
@@ -31,6 +34,7 @@
     "slug": "factory-town",
     "name": "Factory Town",
     "match": ["factory town"],
+    "dice": "factory-town-noal",
     "hours": {"default": ["21:00", "05:00"]},
     "hours_note": "Varies a lot by event (7 PM-7 AM happens); 9 PM-5 AM is the common shape."
   },
@@ -38,6 +42,8 @@
     "slug": "kemistry",
     "name": "Kemistry (Fort Lauderdale)",
     "match": ["kemistry"],
+    "dice": "kemistry-7bk6",
+    "exclude": ["the comedy bar"],
     "hours": {"default": ["22:00", "04:00"], "thu": ["21:00", "04:00"]},
     "hours_note": "Thu 9 PM-4 AM, Fri/Sat 10 PM-4 AM. Note: Fort Lauderdale, ~30 mi north."
   },

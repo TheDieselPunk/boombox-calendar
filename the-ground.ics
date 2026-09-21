@@ -8,187 +8,225 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:edmtrain-526702@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6a6b7e4aca1d730001022be1@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
 DTSTART:20260926T030000Z
-DTEND:20260926T080000Z
-SUMMARY:Sherelle\, Bok Bok\, Introspekt
-LOCATION:The Ground at Space\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DTEND:20260926T110000Z
+SUMMARY:Autonomy: SHERELLE\, Bok Bok\, & Introspekt
+LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Sherelle\, Bok Bok\, Introspekt\nTags (guess): house\, 
- techno\nTimes are an estimate from The Ground at Space's usual hours - the
-  listing has no start time yet. Check the link.\nhttps://edmtrain.com/miam
- i-fl/sherelle-bok-bok-526702
-URL:https://edmtrain.com/miami-fl/sherelle-bok-bok-526702
+ techno\nhttps://edmtrain.com/miami-fl/sherelle-bok-bok-526702
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-532804@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6a8f403b417eef0001d29461@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
 DTSTART:20261003T030000Z
-DTEND:20261003T080000Z
-SUMMARY:Andy Stott\, Carrier\, Adam At The Door
-LOCATION:The Ground at Space\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DTEND:20261003T110000Z
+SUMMARY:Andy Stott & Carrier
+LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Andy Stott\, Carrier\, Adam At The Door\nTags (guess): 
- house\, techno\nTimes are an estimate from The Ground at Space's usual hou
- rs - the listing has no start time yet. Check the link.\nhttps://edmtrain.
- com/miami-fl/andy-stott-carrier-532804
-URL:https://edmtrain.com/miami-fl/andy-stott-carrier-532804
+ house\, techno\nhttps://edmtrain.com/miami-fl/andy-stott-carrier-532804
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-526704@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6a5a971f5dff640001733cb0@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
 DTSTART:20261010T030000Z
-DTEND:20261010T080000Z
-SUMMARY:Rebecca Black
-LOCATION:The Ground at Space\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Rebecca Black\nTags (guess): house\, techno\nTimes are 
- an estimate from The Ground at Space's usual hours - the listing has no st
- art time yet. Check the link.\nhttps://edmtrain.com/miami-fl/rebecca-black
- -526704
-URL:https://edmtrain.com/miami-fl/rebecca-black-526704
+DTEND:20261010T110000Z
+SUMMARY:Rebecca Black: Exhibitionism on Tour
+LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Rebecca Black\nTags (guess): house\, techno\nhttps://ed
+ mtrain.com/miami-fl/rebecca-black-526704
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-529660@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6a837face888570001cdef5f@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
-DTSTART:20261016T010000Z
-DTEND:20261016T060000Z
-SUMMARY:Flying Lotus\, Actress\, Ivy Lab\, Loukeman\, Suzi Analogue
-LOCATION:The Ground at Space\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DTSTART:20261016T030000Z
+DTEND:20261016T110000Z
+SUMMARY:Satellite: Flying Lotus (DJ Set) + More
+LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Flying Lotus\, Actress\, Ivy Lab\, Loukeman\, Suzi Anal
- ogue\nTags (guess): house\, techno\nTimes are an estimate from The Ground 
- at Space's usual hours - the listing has no start time yet. Check the link
- .\nhttps://edmtrain.com/miami-fl/flying-lotus-actress-529660
-URL:https://edmtrain.com/miami-fl/flying-lotus-actress-529660
+ ogue\nTags (guess): house\, techno\nhttps://edmtrain.com/miami-fl/flying-l
+ otus-actress-529660
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-529661@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6a8724f65b367e0001f22de9@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
+SEQUENCE:0
+DTSTART:20261017T030000Z
+DTEND:20261017T180000Z
+SUMMARY:Satellite: 999999999\, KI/KI\, Roman Flügel B2B Danny Daze\, ¥ØU
+ $UK€ ¥UK1MAT$U + MORE
+LOCATION:Club Space Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Tags (guess): house\, techno
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a8380fbb132fb00010733cd@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
 DTSTART:20261018T030000Z
-DTEND:20261018T080000Z
-SUMMARY:HAAi\, Jacques Greene\, DJ FuckOFF
-LOCATION:The Ground at Space\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DTEND:20261018T110000Z
+SUMMARY:Satellite: HAAi\, Jacques Greene\, & DJ Fuckoff
+LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: HAAi\, Jacques Greene\, DJ FuckOFF\nTags (guess): house
- \, techno\nTimes are an estimate from The Ground at Space's usual hours - 
- the listing has no start time yet. Check the link.\nhttps://edmtrain.com/m
- iami-fl/haai-jacques-greene-529661
-URL:https://edmtrain.com/miami-fl/haai-jacques-greene-529661
+ \, techno\nhttps://edmtrain.com/miami-fl/haai-jacques-greene-529661
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-529662@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6a838327c1861c000191d7c5@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
 DTSTART:20261019T030000Z
-DTEND:20261019T080000Z
-SUMMARY:1tbsp\, Chaotic Ugly\, SAFETY TRANCE\, TECHG1RLS
-LOCATION:The Ground at Space\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DTEND:20261019T110000Z
+SUMMARY:Satellite: 1tbsp\, DJ Chaotic Ugly\, Safety Trance\, TECH G1RLS\, &
+  More
+LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: 1tbsp\, Chaotic Ugly\, SAFETY TRANCE\, TECHG1RLS\nTags:
-  trance\nTimes are an estimate from The Ground at Space's usual hours - th
- e listing has no start time yet. Check the link.\nhttps://edmtrain.com/mia
- mi-fl/1tbsp-chaotic-ugly-529662
-URL:https://edmtrain.com/miami-fl/1tbsp-chaotic-ugly-529662
+  trance\nhttps://edmtrain.com/miami-fl/1tbsp-chaotic-ugly-529662
 STATUS:CONFIRMED
 CATEGORIES:trance
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-526707@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6a63c13377937e0001f8f752@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
 DTSTART:20261024T030000Z
-DTEND:20261024T080000Z
-SUMMARY:Baby J
-LOCATION:The Ground at Space\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Baby J\nTags (guess): house\, techno\nTimes are an esti
- mate from The Ground at Space's usual hours - the listing has no start tim
- e yet. Check the link.\nhttps://edmtrain.com/miami-fl/baby-j-526707
-URL:https://edmtrain.com/miami-fl/baby-j-526707
+DTEND:20261024T110000Z
+SUMMARY:BABY J
+LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Baby J\nTags (guess): house\, techno\nhttps://edmtrain.
+ com/miami-fl/baby-j-526707
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-538328@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6a90763252ac72000187b29b@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
+SEQUENCE:0
+DTSTART:20261025T030000Z
+DTEND:20261025T110000Z
+SUMMARY:BLACK ROOM: KANDER
+LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Tags (guess): house\, techno
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a9077ed977d0a0001892d5d@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
+SEQUENCE:0
+DTSTART:20261031T030000Z
+DTEND:20261031T110000Z
+SUMMARY:Halloweek: Emo Nite
+LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Tags (guess): house\, techno
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a90769e977d0a000107271f@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
+SEQUENCE:0
+DTSTART:20261101T030000Z
+DTEND:20261101T120000Z
+SUMMARY:Perreo Del Futuro: Halloween
+LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Tags (guess): house\, techno
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6aac2b58ba4e800001745f0c@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
 DTSTART:20261107T040000Z
-DTEND:20261107T090000Z
-SUMMARY:Paige Tomlinson\, LAMMER\, Stüm
-LOCATION:The Ground at Space\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DTEND:20261107T120000Z
+SUMMARY:Paige Tomlinson + Lammer + Stüm
+LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Paige Tomlinson\, LAMMER\, Stüm\nTags (guess): house\,
-  techno\nTimes are an estimate from The Ground at Space's usual hours - th
- e listing has no start time yet. Check the link.\nhttps://edmtrain.com/mia
- mi-fl/paige-tomlinson-lammer-538328
-URL:https://edmtrain.com/miami-fl/paige-tomlinson-lammer-538328
+  techno\nhttps://edmtrain.com/miami-fl/paige-tomlinson-lammer-538328
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-532805@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6a9050c13e2dcd00013c2e7e@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
 DTSTART:20261114T040000Z
-DTEND:20261114T090000Z
-SUMMARY:Notion\, DJ Flashdrive\, Violeta
-LOCATION:The Ground at Space\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DTEND:20261114T120000Z
+SUMMARY:NOTION
+LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Notion\, DJ Flashdrive\, Violeta\nTags (guess): house\,
-  techno\nTimes are an estimate from The Ground at Space's usual hours - th
- e listing has no start time yet. Check the link.\nhttps://edmtrain.com/mia
- mi-fl/notion-dj-flashdrive-532805
-URL:https://edmtrain.com/miami-fl/notion-dj-flashdrive-532805
+  techno\nhttps://edmtrain.com/miami-fl/notion-dj-flashdrive-532805
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-531184@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6a88676d138c56000110cb09@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
 DTSTART:20261115T040000Z
-DTEND:20261115T090000Z
+DTEND:20261115T120000Z
 SUMMARY:suero x STAS: EQ
-LOCATION:The Ground at Space\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: EQ\nTags (guess): house\, techno\nTimes are an estimate
-  from The Ground at Space's usual hours - the listing has no start time ye
- t. Check the link.\nhttps://edmtrain.com/miami-fl/suero-x-stas-eq-531184
-URL:https://edmtrain.com/miami-fl/suero-x-stas-eq-531184
+LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: EQ\nTags (guess): house\, techno\nhttps://edmtrain.com/
+ miami-fl/suero-x-stas-eq-531184
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-536948@miami-calendars
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
+UID:dice-6a079483f03f2d0001135fb0@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
 SEQUENCE:0
-DTSTART:20261204T020000Z
-DTEND:20261204T070000Z
-SUMMARY:HAAi\, Bakke\, Sister System\, EREZ.JPG\, shanty mane\, Erin Page
-LOCATION:The Ground at Space\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DTSTART:20261123T010000Z
+DTEND:20261123T050000Z
+SUMMARY:Headache
+LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Tags (guess): house\, techno
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6a95af3f8ba41600019bdfd5@the-ground.miami-calendars
+DTSTAMP:20260921T193056Z
+LAST-MODIFIED:20260921T193056Z
+SEQUENCE:0
+DTSTART:20261204T040000Z
+DTEND:20261204T120000Z
+SUMMARY:RAW CUTS (Ground Basel 2026)
+LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: HAAi\, Bakke\, Sister System\, EREZ.JPG\, shanty mane\,
-  Erin Page\nTags (guess): house\, techno\nTimes are an estimate from The G
- round at Space's usual hours - the listing has no start time yet. Check th
- e link.\nhttps://edmtrain.com/miami-fl/haai-bakke-536948
-URL:https://edmtrain.com/miami-fl/haai-bakke-536948
+  Erin Page\nTags (guess): house\, techno\nhttps://edmtrain.com/miami-fl/ha
+ ai-bakke-536948
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
