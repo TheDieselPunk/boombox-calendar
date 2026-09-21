@@ -4,7 +4,11 @@ One subscribable iCalendar feed per Miami venue, rebuilt every 6 hours from the 
 (Shotgun, Dice, Tablelist, Tixr-backed venue calendars), 19hz.info and Edmtrain by a Windows scheduled
 task, and served from GitHub Pages.
 
-**Landing page (all feeds, copy buttons):** https://thedieselpunk.github.io/miami-calendars/
+**Site:** https://thedieselpunk.github.io/miami-calendars/ — a month/list calendar of every event in
+`events.json` (all metro venues, not just the ten with feeds) with filters for venue, genre (require or
+hide, plus a one-click "skip the house family"), free/RSVP, 18+, day vs night, published-times-only,
+sources and text search; filter state lives in the URL hash so a view can be shared. The per-venue
+subscribe cards are at the bottom of the same page.
 **Feed URLs:** `https://thedieselpunk.github.io/miami-calendars/<slug>.ics` — slugs are in
 [`venues.json`](venues.json): `club-space`, `the-ground`, `floyd`, `domicile`, `factory-town`, `kemistry`,
 `boombox`, `zeyzey`, `mad-radio`, `daer`.

@@ -4,76 +4,492 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Miami Calendars</title>
+<meta name="description" content="Every electronic show in Miami on one calendar, filterable by venue, genre, price and more — plus per-venue feeds you can subscribe to.">
 <style>
-  :root { --bg:#fafafa; --fg:#1a1a1a; --muted:#666; --card:#fff; --line:#e3e3e3; --accent:#c8102e; }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg:#111; --fg:#eee; --muted:#9a9a9a; --card:#1b1b1b; --line:#2c2c2c; --accent:#ff4d6d; }
+  :root {
+    --bg:#f6f6f7; --fg:#17171a; --muted:#6b6b72; --card:#fff; --line:#e2e2e6; --accent:#c8102e; --accent-fg:#fff;
+    --chip:#ececf0; --chip-on:#17171a; --chip-on-fg:#fff; --chip-off:#fbe9ec; --chip-off-fg:#a30d25;
+    --today:#fff5f6; --shadow:0 1px 2px rgba(0,0,0,.06);
+    --v-club-space:#d64545; --v-the-ground:#e08a2a; --v-floyd:#c9a227; --v-domicile:#7a3bd0; --v-factory-town:#2f9e6d;
+    --v-kemistry:#1f8bd6; --v-boombox:#d6409f; --v-zeyzey:#3ea6a0; --v-mad-radio:#8a6d3b; --v-daer:#5468e0; --v-other:#9a9aa3;
   }
-  body { margin:0; padding:48px 16px; background:var(--bg); color:var(--fg);
-         font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
-  main { max-width:640px; margin:0 auto; }
-  h1 { font-size:1.6rem; margin:0 0 4px; }
-  p.sub { color:var(--muted); margin:0 0 28px; }
-  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px 20px; margin-bottom:12px; }
-  .row { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; }
-  .name { font-weight:600; }
-  .meta { color:var(--muted); font-size:.9rem; }
-  code { display:block; margin-top:10px; padding:8px 12px; background:var(--bg); border:1px solid var(--line);
-         border-radius:8px; word-break:break-all; font-size:.85rem; cursor:copy; }
-  button, a.btn { padding:8px 14px; border-radius:8px; font-weight:600; font-size:.9rem; cursor:pointer;
-                  border:1px solid var(--line); background:var(--card); color:var(--fg); text-decoration:none; }
-  a.btn.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
-  .hint { color:var(--muted); font-size:.85rem; margin-top:8px; min-height:1.2em; }
-  ol { padding-left:20px; color:var(--muted); }
-  small { color:var(--muted); }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111114; --fg:#ececf0; --muted:#9a9aa3; --card:#1b1b20; --line:#2b2b32; --accent:#ff4d6d;
+            --chip:#26262d; --chip-on:#ececf0; --chip-on-fg:#111114; --chip-off:#3a1a20; --chip-off-fg:#ff8fa3;
+            --today:#231317; --shadow:none; --v-other:#6b6b72; }
+  }
+  * { box-sizing:border-box; }
+  [hidden] { display:none !important; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  a { color:inherit; }
+  header { padding:20px 16px 8px; max-width:1200px; margin:0 auto; }
+  h1 { font-size:1.45rem; margin:0; }
+  .sub { color:var(--muted); font-size:.9rem; margin:2px 0 0; }
+  .layout { max-width:1200px; margin:0 auto; padding:0 16px 40px; display:grid; grid-template-columns:270px 1fr; gap:20px; }
+  @media (max-width:860px) { .layout { grid-template-columns:1fr; } }
+
+  /* toolbar */
+  .toolbar { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:10px 0 14px; }
+  .seg { display:inline-flex; border:1px solid var(--line); border-radius:8px; overflow:hidden; background:var(--card); }
+  .seg button { border:0; background:transparent; color:var(--fg); padding:7px 12px; cursor:pointer; font:inherit; }
+  .seg button[aria-pressed="true"] { background:var(--chip-on); color:var(--chip-on-fg); }
+  .nav { display:inline-flex; align-items:center; gap:4px; }
+  .nav button, .btn { border:1px solid var(--line); background:var(--card); color:var(--fg); border-radius:8px; padding:7px 10px; cursor:pointer; font:inherit; }
+  .nav .label { min-width:150px; text-align:center; font-weight:600; }
+  .count { color:var(--muted); font-size:.9rem; margin-left:auto; display:flex; align-items:center; gap:8px; }
+
+  /* filters */
+  aside { position:sticky; top:12px; align-self:start; }
+  @media (max-width:860px) { aside { position:static; } }
+  .panel { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; box-shadow:var(--shadow); }
+  details.panel > summary { cursor:pointer; font-weight:600; list-style:none; display:flex; justify-content:space-between; }
+  details.panel > summary::-webkit-details-marker { display:none; }
+  details.panel > summary::after { content:"▾"; color:var(--muted); }
+  details.panel[open] > summary::after { content:"▴"; }
+  .group { margin-top:14px; }
+  .group h3 { font-size:.78rem; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin:0 0 6px; display:flex; justify-content:space-between; align-items:baseline; }
+  .group h3 button { border:0; background:none; color:var(--muted); font:inherit; font-size:.75rem; text-transform:none; letter-spacing:0; cursor:pointer; text-decoration:underline; }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; }
+  .chip { border:0; border-radius:999px; padding:4px 10px; font:inherit; font-size:.82rem; background:var(--chip); color:var(--fg); cursor:pointer; display:inline-flex; align-items:center; gap:6px; }
+  .chip .dot { width:9px; height:9px; border-radius:50%; background:var(--dot,var(--v-other)); flex:none; }
+  .chip[data-state="on"] { background:var(--chip-on); color:var(--chip-on-fg); }
+  .chip[data-state="off"] { background:var(--chip-off); color:var(--chip-off-fg); text-decoration:line-through; }
+  .chip.small { font-size:.76rem; padding:3px 8px; }
+  input[type=search], select { width:100%; border:1px solid var(--line); background:var(--bg); color:var(--fg); border-radius:8px; padding:8px 10px; font:inherit; }
+  select { margin-top:8px; }
+  label.check { display:flex; align-items:center; gap:8px; font-size:.9rem; margin:4px 0; cursor:pointer; }
+  .hint { color:var(--muted); font-size:.78rem; margin-top:6px; }
+
+  /* month grid */
+  .month { display:grid; grid-template-columns:repeat(7,1fr); gap:4px; }
+  .dow { text-align:center; font-size:.75rem; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; padding:4px 0; }
+  .day { background:var(--card); border:1px solid var(--line); border-radius:8px; min-height:104px; padding:4px; cursor:pointer; display:flex; flex-direction:column; gap:2px; overflow:hidden; }
+  .day.pad { opacity:.45; }
+  .day.today { background:var(--today); border-color:var(--accent); }
+  .day .num { font-size:.8rem; color:var(--muted); display:flex; justify-content:space-between; }
+  .day .num b { color:var(--fg); }
+  .ev { font-size:.72rem; line-height:1.2; padding:2px 4px; border-radius:4px; border-left:3px solid var(--dot,var(--v-other)); background:color-mix(in srgb, var(--dot,var(--v-other)) 14%, var(--card)); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .ev .t { color:var(--muted); }
+  .more { font-size:.7rem; color:var(--muted); }
+  .pips { display:none; }
+  @media (max-width:860px) { .day { min-height:64px; } .ev, .more { display:none; } .pips { display:flex; flex-wrap:wrap; gap:2px; } .pip { width:6px; height:6px; border-radius:50%; background:var(--dot,var(--v-other)); } }
+
+  /* list */
+  .dayhead { font-weight:700; margin:18px 0 8px; display:flex; align-items:baseline; gap:10px; }
+  .dayhead span { color:var(--muted); font-weight:400; font-size:.9rem; }
+  .card { background:var(--card); border:1px solid var(--line); border-left:4px solid var(--dot,var(--v-other)); border-radius:10px; padding:10px 12px; margin-bottom:8px; box-shadow:var(--shadow); }
+  .card .top { display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+  .card .title { font-weight:600; }
+  .card .title a { text-decoration:none; }
+  .card .title a:hover { text-decoration:underline; }
+  .card .when { color:var(--muted); white-space:nowrap; }
+  .card .meta { color:var(--muted); font-size:.86rem; margin-top:2px; }
+  .card .tags { margin-top:6px; display:flex; flex-wrap:wrap; gap:4px; }
+  .tag { font-size:.72rem; padding:2px 7px; border-radius:999px; background:var(--chip); color:var(--fg); }
+  .tag.guess { opacity:.7; font-style:italic; }
+  .tag.src { background:transparent; border:1px solid var(--line); color:var(--muted); }
+  .card.tba { opacity:.75; }
+  .empty { color:var(--muted); padding:30px 0; text-align:center; }
+
+  /* subscribe */
+  .feeds { margin-top:36px; }
+  .feeds h2 { font-size:1.1rem; margin:0 0 6px; }
+  .feedgrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:10px; }
+  .feed { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px; }
+  .feed .name { font-weight:600; display:flex; align-items:center; gap:8px; }
+  .feed code { display:block; margin-top:8px; padding:6px 8px; background:var(--bg); border:1px solid var(--line); border-radius:6px; font-size:.76rem; word-break:break-all; cursor:copy; }
+  .feed .row { display:flex; justify-content:space-between; align-items:center; gap:8px; margin-top:8px; }
+  .feed a.btn { text-decoration:none; font-size:.84rem; }
+  .feed .ok { font-size:.78rem; color:var(--muted); }
 </style>
 </head>
 <body>
-<main>
-  <h1>Miami venue calendars</h1>
-  <p class="sub">One subscribable feed per venue, rebuilt every 6 hours from the ticket platforms, the venues' own calendars, 19hz.info and Edmtrain.</p>
+<header>
+  <h1>Miami calendars</h1>
+  <p class="sub">Every listed show across Shotgun, Dice, the venues' own calendars, 19hz and Edmtrain — <span id="asof">loading…</span></p>
+</header>
 
-  <div id="feeds"></div>
+<div class="layout">
+  <aside>
+    <details class="panel" id="filters" open>
+      <summary>Filters <span id="fcount" style="font-weight:400;color:var(--muted)"></span></summary>
 
-  <div class="card">
-    <strong>How to subscribe</strong>
-    <ol>
-      <li>Click <em>Copy &amp; open Google Calendar</em> on a venue (desktop browser — the phone app can't add calendars by URL).</li>
-      <li>Google's <em>From URL</em> form opens in a new tab: paste, then <em>Add calendar</em>.</li>
-    </ol>
-    <small>Google refreshes subscribed feeds on its own schedule (typically 12–24 h). Nearly every event now carries a published start time and genre tags; the rare one with no time yet
-    uses the venue's usual hours and says so in its description. Google's one-click <em>cid=</em> subscribe link is currently broken on
-    their side, hence the copy-and-paste.</small>
-  </div>
-</main>
+      <div class="group">
+        <input type="search" id="q" placeholder="Search artist, show, venue…" autocomplete="off">
+      </div>
+
+      <div class="group">
+        <h3>Venues <button data-clear="venues">clear</button></h3>
+        <div class="chips" id="venues"></div>
+        <label class="check"><input type="checkbox" id="trackedOnly" checked> Only venues with feeds</label>
+        <select id="otherVenue" hidden><option value="">Any other venue…</option></select>
+      </div>
+
+      <div class="group">
+        <h3>Genres <button data-clear="genres">clear</button></h3>
+        <div class="chips" id="genres"></div>
+        <div class="chips" style="margin-top:8px">
+          <button class="chip small" id="skipHouse">Skip the house family</button>
+          <button class="chip small" id="moreGenres">more genres…</button>
+        </div>
+        <div class="hint">Click a genre once to require it, twice to hide it, again to reset.</div>
+      </div>
+
+      <div class="group">
+        <h3>Details</h3>
+        <label class="check"><input type="checkbox" id="freeOnly"> Free / RSVP only</label>
+        <label class="check"><input type="checkbox" id="over18"> 18+ welcome (hide 21+)</label>
+        <label class="check"><input type="checkbox" id="confirmedTimes"> Published start times only</label>
+        <label class="check"><input type="checkbox" id="hideTba" checked> Hide nights with no headliner yet</label>
+        <label class="check"><input type="checkbox" id="taggedOnly"> Has confirmed genre tags</label>
+      </div>
+
+      <div class="group">
+        <h3>Time of day</h3>
+        <div class="chips" id="tod">
+          <button class="chip" data-tod="day">Day (before 8 PM)</button>
+          <button class="chip" data-tod="night">Night</button>
+        </div>
+      </div>
+
+      <div class="group">
+        <h3>Sources</h3>
+        <div class="chips" id="sources"></div>
+      </div>
+
+      <div class="group">
+        <button class="btn" id="reset" style="width:100%">Reset all filters</button>
+      </div>
+    </details>
+  </aside>
+
+  <main>
+    <div class="toolbar">
+      <div class="seg" role="group" aria-label="View">
+        <button id="viewMonth" aria-pressed="true">Month</button>
+        <button id="viewList" aria-pressed="false">List</button>
+      </div>
+      <div class="nav" id="monthNav">
+        <button id="prev" aria-label="Previous month">‹</button>
+        <span class="label" id="monthLabel"></span>
+        <button id="next" aria-label="Next month">›</button>
+        <button id="today">Today</button>
+      </div>
+      <div class="seg" id="rangeSeg" hidden role="group" aria-label="Range">
+        <button data-range="weekend">This weekend</button>
+        <button data-range="7" aria-pressed="true">7 days</button>
+        <button data-range="14">14 days</button>
+        <button data-range="30">30 days</button>
+        <button data-range="all">All</button>
+      </div>
+      <span class="count" id="count"></span>
+    </div>
+    <div id="view"></div>
+
+    <section class="feeds" id="feeds">
+      <h2>Subscribe to a venue</h2>
+      <p class="sub" style="margin-bottom:10px">Each venue is its own iCalendar feed. On a desktop browser, <em>Copy &amp; open Google Calendar</em> puts the URL on your clipboard and opens Google's <em>From URL</em> form — paste, then <em>Add calendar</em>. Google refreshes feeds every 12–24 h.</p>
+      <div class="feedgrid" id="feedgrid"></div>
+    </section>
+  </main>
+</div>
+
 <script>
+(() => {
+  const TZ = "America/New_York";
+  const HOUSE_FAMILY = ["house","tech house","deep house","progressive house","afro house","disco","nu-disco","disco house",
+                        "electro house","big room house","latin house","melodic house","soulful house","funky house","jackin house","detroit house"];
+  const SOURCE_LABEL = { shotgun:"Shotgun", dice:"Dice", tablelist:"Tablelist", venue:"Venue site", "19hz":"19hz", edmtrain:"Edmtrain" };
   const GCAL = "https://calendar.google.com/calendar/r/settings/addbyurl";
-  const root = document.getElementById("feeds");
-  fetch("feeds.json", {cache: "no-store"}).then(r => r.json()).then(feeds => {
+  const $ = s => document.querySelector(s);
+
+  const state = {
+    view: "month", month: null, range: "7", day: null,
+    q: "", venues: new Set(), otherVenue: "", trackedOnly: true,
+    gIn: new Set(), gOut: new Set(), freeOnly: false, over18: false, confirmedTimes: false, hideTba: true, taggedOnly: false,
+    tod: null, sources: new Set(), moreGenres: false,
+  };
+  let events = [], feeds = [], genreCounts = new Map();
+
+  // ---------- helpers ----------
+  const todayISO = () => new Date().toLocaleDateString("en-CA", { timeZone: TZ });
+  const addDays = (iso, n) => { const d = new Date(iso + "T12:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
+  const fmtTime = iso => iso ? new Date(iso).toLocaleTimeString("en-US", { timeZone: TZ, hour: "numeric", minute: "2-digit" }).replace(":00", "") : "";
+  const localHour = iso => Number(new Date(iso).toLocaleString("en-US", { timeZone: TZ, hour: "numeric", hour12: false }));
+  const fmtDay = iso => new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", timeZone: "UTC" });
+  const fmtDayShort = iso => new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", timeZone: "UTC" });
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const colorOf = e => e.venue_slug ? `var(--v-${e.venue_slug}, var(--v-other))` : "var(--v-other)";
+  const isFree = e => /free|rsvp/i.test(e.price || "");
+  const is21 = e => /21/.test(e.ages || "");
+
+  // ---------- state <-> URL ----------
+  function save() {
+    const p = new URLSearchParams();
+    if (state.view !== "month") p.set("view", state.view);
+    if (state.view === "month" && state.month) p.set("m", state.month);
+    if (state.view === "list" && state.range !== "7") p.set("r", state.range);
+    if (state.day) p.set("day", state.day);
+    if (state.q) p.set("q", state.q);
+    if (state.venues.size) p.set("v", [...state.venues].join(","));
+    if (state.otherVenue) p.set("ov", state.otherVenue);
+    if (!state.trackedOnly) p.set("all", "1");
+    if (state.gIn.size) p.set("g", [...state.gIn].join(","));
+    if (state.gOut.size) p.set("x", [...state.gOut].join(","));
+    for (const k of ["freeOnly", "over18", "confirmedTimes", "taggedOnly"]) if (state[k]) p.set(k, "1");
+    if (!state.hideTba) p.set("tba", "1");
+    if (state.tod) p.set("tod", state.tod);
+    if (state.sources.size) p.set("s", [...state.sources].join(","));
+    const h = p.toString();
+    history.replaceState(null, "", h ? "#" + h : location.pathname);
+    try { localStorage.setItem("mc-filters", h); } catch (_) {}
+  }
+  function load() {
+    let h = location.hash.slice(1);
+    if (!h) { try { h = localStorage.getItem("mc-filters") || ""; } catch (_) {} }
+    const p = new URLSearchParams(h);
+    if (p.get("view") === "list") state.view = "list";
+    if (p.get("m")) state.month = p.get("m");
+    if (p.get("r")) state.range = p.get("r");
+    if (p.get("day")) state.day = p.get("day");
+    state.q = p.get("q") || "";
+    state.venues = new Set((p.get("v") || "").split(",").filter(Boolean));
+    state.otherVenue = p.get("ov") || "";
+    state.trackedOnly = !p.get("all");
+    state.gIn = new Set((p.get("g") || "").split(",").filter(Boolean));
+    state.gOut = new Set((p.get("x") || "").split(",").filter(Boolean));
+    for (const k of ["freeOnly", "over18", "confirmedTimes", "taggedOnly"]) state[k] = !!p.get(k);
+    state.hideTba = !p.get("tba");
+    state.tod = p.get("tod") || null;
+    state.sources = new Set((p.get("s") || "").split(",").filter(Boolean));
+  }
+
+  // ---------- filtering ----------
+  function matches(e) {
+    if (state.trackedOnly && !e.venue_slug) return false;
+    if (state.venues.size && !state.venues.has(e.venue_slug)) return false;
+    if (state.otherVenue && e.venue !== state.otherVenue) return false;
+    if (state.q) {
+      const hay = [e.title, e.venue, ...(e.artists || []), e.organizer || ""].join(" ").toLowerCase();
+      if (!state.q.toLowerCase().split(/\s+/).every(w => hay.includes(w))) return false;
+    }
+    const g = e.genres || [];
+    if (state.gIn.size && !g.some(x => state.gIn.has(x))) return false;
+    if (state.gOut.size && g.some(x => state.gOut.has(x))) return false;
+    if (state.taggedOnly && (!g.length || e.genres_inferred)) return false;
+    if (state.freeOnly && !isFree(e)) return false;
+    if (state.over18 && is21(e)) return false;
+    if (state.confirmedTimes && (!e.start || e.time_estimated)) return false;
+    if (state.hideTba && e.generic_title) return false;
+    if (state.tod) {
+      if (!e.start) return false;
+      const h = localHour(e.start);
+      if (state.tod === "day" ? h >= 20 : h < 20) return false;
+    }
+    if (state.sources.size && !e.source.split("+").some(s => state.sources.has(s))) return false;
+    return true;
+  }
+
+  // ---------- rendering ----------
+  function chip(label, attrs = {}, stateVal = "", dot = null) {
+    const b = document.createElement("button");
+    b.className = "chip"; b.type = "button";
+    if (dot) { const d = document.createElement("span"); d.className = "dot"; d.style.setProperty("--dot", dot); b.appendChild(d); }
+    b.appendChild(document.createTextNode(label));
+    for (const [k, v] of Object.entries(attrs)) b.dataset[k] = v;
+    if (stateVal) b.dataset.state = stateVal;
+    return b;
+  }
+
+  function renderFilters() {
+    const vbox = $("#venues"); vbox.innerHTML = "";
+    for (const f of feeds) vbox.appendChild(chip(f.name.replace(/ \(.*\)$/, ""), { venue: f.slug }, state.venues.has(f.slug) ? "on" : "", `var(--v-${f.slug}, var(--v-other))`));
+    $("#trackedOnly").checked = state.trackedOnly;
+    const ov = $("#otherVenue"); ov.hidden = state.trackedOnly;
+    if (ov.options.length <= 1) {
+      const names = [...new Set(events.filter(e => !e.venue_slug).map(e => e.venue))].filter(Boolean).sort((a, b) => a.localeCompare(b));
+      for (const n of names) { const o = document.createElement("option"); o.value = n; o.textContent = n; ov.appendChild(o); }
+    }
+    ov.value = state.otherVenue;
+
+    const gbox = $("#genres"); gbox.innerHTML = "";
+    const all = [...genreCounts.entries()].sort((a, b) => b[1] - a[1]);
+    const shown = state.moreGenres ? all : all.slice(0, 22);
+    for (const [g] of shown) gbox.appendChild(chip(g, { genre: g }, state.gIn.has(g) ? "on" : state.gOut.has(g) ? "off" : ""));
+    for (const g of [...state.gIn, ...state.gOut]) if (!shown.some(([x]) => x === g)) gbox.appendChild(chip(g, { genre: g }, state.gIn.has(g) ? "on" : "off"));
+    $("#moreGenres").textContent = state.moreGenres ? "fewer genres" : `more genres (${all.length})…`;
+    const houseOn = HOUSE_FAMILY.some(g => genreCounts.has(g)) && HOUSE_FAMILY.every(g => !genreCounts.has(g) || state.gOut.has(g));
+    $("#skipHouse").dataset.state = houseOn ? "off" : "";
+
+    for (const k of ["freeOnly", "over18", "confirmedTimes", "hideTba", "taggedOnly"]) $("#" + k).checked = state[k];
+    for (const b of document.querySelectorAll("#tod .chip")) b.dataset.state = state.tod === b.dataset.tod ? "on" : "";
+    const sbox = $("#sources"); sbox.innerHTML = "";
+    for (const s of ["shotgun", "dice", "tablelist", "venue", "19hz", "edmtrain"]) sbox.appendChild(chip(SOURCE_LABEL[s], { source: s }, state.sources.has(s) ? "on" : ""));
+    if (document.activeElement !== $("#q")) $("#q").value = state.q;
+    const active = (state.venues.size ? 1 : 0) + (state.otherVenue ? 1 : 0) + (state.trackedOnly ? 0 : 1) + state.gIn.size + state.gOut.size +
+      ["freeOnly", "over18", "confirmedTimes", "taggedOnly"].filter(k => state[k]).length + (state.hideTba ? 0 : 1) + (state.tod ? 1 : 0) + state.sources.size + (state.q ? 1 : 0);
+    $("#fcount").textContent = active ? `· ${active} active` : "";
+  }
+
+  function eventCard(e) {
+    const when = e.start ? (e.time_estimated ? "~" : "") + fmtTime(e.start) + (e.end ? "–" + fmtTime(e.end) : "") : "time TBA";
+    const meta = [e.venue, e.address && !e.venue_slug ? e.address : "", e.ages, e.price].filter(Boolean).join(" · ");
+    const tags = (e.genres || []).map(g => `<span class="tag${e.genres_inferred ? " guess" : ""}">${esc(g)}</span>`).join("");
+    const srcs = e.source.split("+").map(s => `<span class="tag src">${esc(SOURCE_LABEL[s] || s)}</span>`).join("");
+    const lineup = e.artists && e.artists.length && e.artists.join(", ").toLowerCase() !== e.title.toLowerCase() ? `<div class="meta">${esc(e.artists.join(", "))}</div>` : "";
+    const org = (e.organizer || "").toLowerCase(), ven = (e.venue || "").toLowerCase();
+    const pres = org && !ven.includes(org) && !org.includes(ven.replace(/ miami$/, "")) ? `<div class="meta">Presented by ${esc(e.organizer)}</div>` : "";
+    const est = e.time_estimated ? `<div class="meta">~ estimated from the venue's usual hours</div>` : "";
+    const tba = e.generic_title ? `<div class="meta">No headliner announced yet</div>` : "";
+    const link = e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title);
+    return `<div class="card${e.generic_title ? " tba" : ""}" style="--dot:${colorOf(e)}">
+      <div class="top"><div class="title">${link}</div><div class="when">${when}</div></div>
+      <div class="meta">${esc(meta)}</div>${lineup}${pres}${tba}${est}
+      <div class="tags">${tags}${srcs}</div>
+    </div>`;
+  }
+
+  function renderList(list) {
+    const v = $("#view");
+    if (!list.length) { v.innerHTML = `<div class="empty">Nothing matches — loosen a filter.</div>`; return; }
+    const counts = {};
+    for (const e of list) counts[e.date] = (counts[e.date] || 0) + 1;
+    let html = "", cur = null;
+    for (const e of list) {
+      if (e.date !== cur) { cur = e.date; html += `<div class="dayhead">${fmtDay(cur)} <span>${counts[cur]}</span></div>`; }
+      html += eventCard(e);
+    }
+    v.innerHTML = html;
+  }
+
+  function renderMonth(list) {
+    const [y, m] = state.month.split("-").map(Number);
+    const first = new Date(Date.UTC(y, m - 1, 1));
+    const startPad = first.getUTCDay();
+    const daysIn = new Date(Date.UTC(y, m, 0)).getUTCDate();
+    const byDay = {};
+    for (const e of list) (byDay[e.date] ||= []).push(e);
+    const today = todayISO();
+    const iso = d => `${y}-${String(m).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
+    let html = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map(d => `<div class="dow">${d}</div>`).join("");
+    const cell = (dayIso, pad) => {
+      const evs = byDay[dayIso] || [];
+      const shown = evs.slice(0, 4);
+      const chips = shown.map(e => `<div class="ev" style="--dot:${colorOf(e)}" title="${esc(e.title)} — ${esc(e.venue)}"><span class="t">${e.start ? fmtTime(e.start).replace(" ", "") : ""}</span> ${esc(e.title)}</div>`).join("");
+      const pips = evs.slice(0, 8).map(e => `<span class="pip" style="--dot:${colorOf(e)}"></span>`).join("");
+      const more = evs.length > 4 ? `<div class="more">+${evs.length - 4} more</div>` : "";
+      return `<div class="day${pad ? " pad" : ""}${dayIso === today ? " today" : ""}" data-day="${dayIso}"><div class="num"><b>${Number(dayIso.slice(8))}</b>${evs.length ? `<span>${evs.length}</span>` : ""}</div>${chips}${more}<div class="pips">${pips}</div></div>`;
+    };
+    for (let i = startPad; i > 0; i--) html += cell(addDays(iso(1), -i), true);
+    for (let d = 1; d <= daysIn; d++) html += cell(iso(d), false);
+    const tail = (7 - (startPad + daysIn) % 7) % 7;
+    for (let d = 1; d <= tail; d++) html += cell(addDays(iso(daysIn), d), true);
+    $("#view").innerHTML = `<div class="month">${html}</div>`;
+    $("#monthLabel").textContent = first.toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" });
+  }
+
+  function render() {
+    const filtered = events.filter(matches);
+    $("#monthNav").hidden = state.view !== "month";
+    $("#rangeSeg").hidden = state.view !== "list";
+    $("#viewMonth").setAttribute("aria-pressed", state.view === "month");
+    $("#viewList").setAttribute("aria-pressed", state.view === "list");
+    for (const b of document.querySelectorAll("#rangeSeg button")) b.setAttribute("aria-pressed", b.dataset.range === state.range);
+    if (state.view === "month") {
+      if (!state.month) state.month = todayISO().slice(0, 7);
+      renderMonth(filtered);
+      const inMonth = filtered.filter(e => e.date.startsWith(state.month)).length;
+      $("#count").textContent = `${inMonth} this month · ${filtered.length} total`;
+    } else {
+      const today = todayISO();
+      let from = today, to = null, label = "";
+      if (state.day) { from = to = state.day; label = fmtDay(state.day); }
+      else if (state.range === "weekend") {
+        const dow = new Date(today + "T12:00:00Z").getUTCDay();          // 0 Sun … 6 Sat
+        const fri = dow === 0 ? addDays(today, -2) : dow === 6 ? addDays(today, -1) : addDays(today, 5 - dow);
+        from = fri < today ? today : fri; to = addDays(fri, 2);
+      } else if (state.range !== "all") to = addDays(today, Number(state.range));
+      const list = filtered.filter(e => e.date >= from && (!to || e.date <= to));
+      renderList(list);
+      $("#count").innerHTML = (state.day ? `<button class="btn" id="backMonth">‹ month</button>` : "") + `<span>${list.length} shows${label ? " · " + label : ""}</span>`;
+      const back = $("#backMonth");
+      if (back) back.onclick = () => { state.day = null; state.view = "month"; render(); };
+    }
+    renderFilters();
+    save();
+  }
+
+  function renderFeeds() {
+    const grid = $("#feedgrid"); grid.innerHTML = "";
     for (const f of feeds) {
       const url = new URL(f.file, location.href).href;
-      const card = document.createElement("div");
-      card.className = "card";
-      const srcs = (f.sources || []).join(" + ") || "no upcoming events";
-      const next = f.next ? ` · next ${f.next}` : "";
-      const est = f.estimated_times ? ` · ${f.estimated_times} with estimated times` : "";
-      const note = f.hours_note ? `<div class="meta">${f.hours_note}</div>` : "";
-      card.innerHTML = `
-        <div class="row">
-          <div><span class="name">${f.name}</span><div class="meta">${f.events} upcoming · ${srcs}${est}${next}</div>${note}</div>
-          <div><a class="btn primary" href="${GCAL}" target="_blank" rel="noopener">Copy &amp; open Google Calendar</a></div>
-        </div>
-        <code title="Click to copy">${url}</code>
-        <div class="hint"></div>`;
-      const hint = card.querySelector(".hint");
-      const copy = () => navigator.clipboard?.writeText(url)
-        .then(() => { hint.textContent = "Copied — paste it into Google's form."; })
-        .catch(() => { hint.textContent = "Select the URL above and copy it."; });
-      card.querySelector("a.btn").addEventListener("click", copy);
-      card.querySelector("code").addEventListener("click", copy);
-      root.appendChild(card);
+      const el = document.createElement("div"); el.className = "feed";
+      el.innerHTML = `<div class="name"><span style="width:10px;height:10px;border-radius:50%;flex:none;background:var(--v-${f.slug},var(--v-other))"></span>${esc(f.name)}</div>
+        <div class="hint">${f.events} upcoming${f.estimated_times ? ` · ${f.estimated_times} with estimated times` : ""}${f.hours_note ? " · " + esc(f.hours_note) : ""}</div>
+        <code title="Click to copy">${esc(url)}</code>
+        <div class="row"><a class="btn" href="${GCAL}" target="_blank" rel="noopener">Copy &amp; open Google Calendar</a><span class="ok"></span></div>`;
+      const ok = el.querySelector(".ok");
+      const copy = () => navigator.clipboard?.writeText(url).then(() => { ok.textContent = "Copied"; }).catch(() => { ok.textContent = "Select and copy the URL"; });
+      el.querySelector("a.btn").addEventListener("click", copy);
+      el.querySelector("code").addEventListener("click", copy);
+      grid.appendChild(el);
     }
-  }).catch(() => { root.innerHTML = '<div class="card">Could not load feeds.json.</div>'; });
+  }
+
+  // ---------- events ----------
+  function wire() {
+    $("#viewMonth").onclick = () => { state.view = "month"; state.day = null; render(); };
+    $("#viewList").onclick = () => { state.view = "list"; state.day = null; render(); };
+    $("#prev").onclick = () => { const [y, m] = state.month.split("-").map(Number); state.month = new Date(Date.UTC(y, m - 2, 1)).toISOString().slice(0, 7); render(); };
+    $("#next").onclick = () => { const [y, m] = state.month.split("-").map(Number); state.month = new Date(Date.UTC(y, m, 1)).toISOString().slice(0, 7); render(); };
+    $("#today").onclick = () => { state.month = todayISO().slice(0, 7); render(); };
+    $("#rangeSeg").onclick = e => { const b = e.target.closest("button"); if (b) { state.range = b.dataset.range; state.day = null; render(); } };
+    $("#view").addEventListener("click", e => {
+      const d = e.target.closest(".day"); if (d && state.view === "month") { state.day = d.dataset.day; state.view = "list"; render(); window.scrollTo({ top: 0 }); }
+    });
+    $("#q").addEventListener("input", e => { state.q = e.target.value.trim(); render(); });
+    $("#venues").onclick = e => { const b = e.target.closest(".chip"); if (!b) return; const v = b.dataset.venue; state.venues.has(v) ? state.venues.delete(v) : state.venues.add(v); render(); };
+    $("#trackedOnly").onchange = e => { state.trackedOnly = e.target.checked; if (state.trackedOnly) state.otherVenue = ""; render(); };
+    $("#otherVenue").onchange = e => { state.otherVenue = e.target.value; render(); };
+    $("#genres").onclick = e => {
+      const b = e.target.closest(".chip"); if (!b) return; const g = b.dataset.genre;
+      if (state.gIn.has(g)) { state.gIn.delete(g); state.gOut.add(g); } else if (state.gOut.has(g)) state.gOut.delete(g); else state.gIn.add(g);
+      render();
+    };
+    $("#skipHouse").onclick = () => {
+      const on = HOUSE_FAMILY.every(g => !genreCounts.has(g) || state.gOut.has(g));
+      for (const g of HOUSE_FAMILY) { if (on) state.gOut.delete(g); else if (genreCounts.has(g)) { state.gOut.add(g); state.gIn.delete(g); } }
+      render();
+    };
+    $("#moreGenres").onclick = () => { state.moreGenres = !state.moreGenres; render(); };
+    for (const k of ["freeOnly", "over18", "confirmedTimes", "hideTba", "taggedOnly"]) $("#" + k).onchange = e => { state[k] = e.target.checked; render(); };
+    $("#tod").onclick = e => { const b = e.target.closest(".chip"); if (!b) return; state.tod = state.tod === b.dataset.tod ? null : b.dataset.tod; render(); };
+    $("#sources").onclick = e => { const b = e.target.closest(".chip"); if (!b) return; const s = b.dataset.source; state.sources.has(s) ? state.sources.delete(s) : state.sources.add(s); render(); };
+    document.querySelectorAll("[data-clear]").forEach(b => b.onclick = () => { if (b.dataset.clear === "venues") { state.venues.clear(); state.otherVenue = ""; } else { state.gIn.clear(); state.gOut.clear(); } render(); });
+    $("#reset").onclick = () => {
+      Object.assign(state, { q: "", venues: new Set(), otherVenue: "", trackedOnly: true, gIn: new Set(), gOut: new Set(), freeOnly: false, over18: false,
+                             confirmedTimes: false, hideTba: true, taggedOnly: false, tod: null, sources: new Set(), day: null });
+      render();
+    };
+    if (window.matchMedia("(max-width: 860px)").matches) { $("#filters").open = false; if (!location.hash) state.view = "list"; }
+  }
+
+  // ---------- boot ----------
+  async function boot() {
+    load();
+    const [ej, fj] = await Promise.all([fetch("events.json"), fetch("feeds.json")]);
+    const lm = ej.headers.get("last-modified");
+    events = (await ej.json()).events;
+    feeds = await fj.json();
+    events.sort((a, b) => a.date.localeCompare(b.date) || (a.start || "~").localeCompare(b.start || "~") || a.venue.localeCompare(b.venue));
+    for (const e of events) if (!e.genres_inferred) for (const g of e.genres || []) genreCounts.set(g, (genreCounts.get(g) || 0) + 1);
+    $("#asof").textContent = `${events.length} events` + (lm ? `, data as of ${new Date(lm).toLocaleString("en-US", { timeZone: TZ, month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })} ET` : "");
+    wire();
+    renderFeeds();
+    render();
+  }
+  boot().catch(err => { $("#view").innerHTML = `<div class="empty">Couldn't load events.json (${esc(err.message)}).</div>`; console.error(err); });
+})();
 </script>
 </body>
 </html>
