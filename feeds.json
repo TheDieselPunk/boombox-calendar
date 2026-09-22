@@ -100,7 +100,7 @@
   "slug": "zeyzey",
   "name": "ZeyZey Miami",
   "file": "zeyzey.ics",
-  "events": 63,
+  "events": 64,
   "estimated_times": 1,
   "next": "2026-09-24",
   "sources": [
@@ -117,7 +117,7 @@
   "slug": "mad-radio",
   "name": "Mad Radio Miami",
   "file": "mad-radio.ics",
-  "events": 5,
+  "events": 6,
   "estimated_times": 0,
   "next": "2026-09-23",
   "sources": [

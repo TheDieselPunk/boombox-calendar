@@ -151,6 +151,21 @@ STATUS:CONFIRMED
 CATEGORIES:downtempo,funk,hip-hop
 END:VEVENT
 BEGIN:VEVENT
+UID:zeyzey-jime-angel-02-oct@zeyzey.miami-calendars
+DTSTAMP:20260922T161802Z
+LAST-MODIFIED:20260922T161802Z
+SEQUENCE:0
+DTSTART:20261003T035900Z
+DTEND:20261003T070000Z
+SUMMARY:Jime Angel (Free Entry)
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: dance/electronic\nhttps://calendar.zeyzeymiami.com/shows/
+ jime-angel-02-oct
+URL:https://calendar.zeyzeymiami.com/shows/jime-angel-02-oct
+STATUS:CONFIRMED
+CATEGORIES:dance/electronic
+END:VEVENT
+BEGIN:VEVENT
 UID:zeyzey-electric-feels-indie-rock-electronic-dance-party-03-oct@zeyzey.m
  iami-calendars
 DTSTAMP:20260921T200140Z

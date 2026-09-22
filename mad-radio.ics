@@ -120,4 +120,26 @@ STATUS:CONFIRMED
 CATEGORIES:house
 GEO:25.8462027;-80.1851332
 END:VEVENT
+BEGIN:VEVENT
+UID:madradiomiami100926@shotgun.live
+DTSTAMP:20260922T161802Z
+LAST-MODIFIED:20260922T161802Z
+SEQUENCE:0
+DTSTART:20261010T010000Z
+DTEND:20261010T070000Z
+SUMMARY:Sandy Rivera / Misturada
+LOCATION:Mad Radio Miami\, 7700 Biscayne Boulevard\, Miami\, FL 33138\, USA
+DESCRIPTION:"The river venue sets the stage for a stylish yet chill night o
+ ut. Whether you´re a party pro or just vibing\, this is the spot. Tune in
+  our slick radio show serving up the latest tracks. Save the date and cath
+  the urban-chic experience at Mad Radio Miami. See you on the dance floor!
+  Come early\, stay late\, and let the night unfold FREE ENTRY BEFORE 10 PM
+  / FREE ENTRY LADIES UNTIL MIDNIGHT HAPPY HOUR 5 PM - 9 PM"\nLineup: Sandy
+  Rivera\nTags: house\nTickets: AFTER 10 PM $20\, FREE LADIES RSVP BEFORE 1
+ 2 AM Free\nhttps://shotgun.live/en/events/madradiomiami100926
+URL:https://shotgun.live/en/events/madradiomiami100926
+STATUS:CONFIRMED
+CATEGORIES:house
+GEO:25.8462027;-80.1851332
+END:VEVENT
 END:VCALENDAR
