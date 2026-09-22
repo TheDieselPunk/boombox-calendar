@@ -54,11 +54,6 @@
   "seq": 0,
   "modified": "2026-09-21T21:40:09+00:00"
  },
- "19hz-4445443-lukasfrank@zeyzey.miami-calendars": {
-  "hash": "f2e5c3d660d05338",
-  "seq": 0,
-  "modified": "2026-09-21T20:01:40+00:00"
- },
  "19hz-4445916-iiipoints2026@festivals.miami-calendars": {
   "hash": "566a93a881707e41",
   "seq": 0,
@@ -1160,9 +1155,9 @@
   "modified": "2026-09-21T20:05:54+00:00"
  },
  "hardrock-207897@daer.miami-calendars": {
-  "hash": "be5ead0fb6423411",
-  "seq": 0,
-  "modified": "2026-09-21T20:05:54+00:00"
+  "hash": "ee2652d033165bc1",
+  "seq": 1,
+  "modified": "2026-09-22T22:18:08+00:00"
  },
  "joey-cash-the-boombox@shotgun.live": {
   "hash": "7def28157f9f9161",
@@ -1243,6 +1238,11 @@
   "hash": "99a573b5c73c612b",
   "seq": 2,
   "modified": "2026-09-21T20:01:40+00:00"
+ },
+ "velora-sallywants-thesourdrops-drifting-at-boomboox-9-27@shotgun.live": {
+  "hash": "b40b921b23b14f75",
+  "seq": 0,
+  "modified": "2026-09-22T22:18:08+00:00"
  },
  "zeyzey-alta-joda-fest-17-oct@zeyzey.miami-calendars": {
   "hash": "f5700ea31efe09cd",
@@ -1394,6 +1394,11 @@
   "seq": 0,
   "modified": "2026-09-21T20:01:40+00:00"
  },
+ "zeyzey-lukas-frank-11-oct@zeyzey.miami-calendars": {
+  "hash": "0aefb80db82c10c6",
+  "seq": 0,
+  "modified": "2026-09-22T22:18:08+00:00"
+ },
  "zeyzey-mark-farina-s-mushroom-jazz-halloween-edition-31-oct@zeyzey.miami-calendars": {
   "hash": "3b9c72d8cf323322",
   "seq": 1,
@@ -1445,9 +1450,9 @@
   "modified": "2026-09-21T23:53:57+00:00"
  },
  "zeyzey-salsa-z-25-sep@zeyzey.miami-calendars": {
-  "hash": "70473ccb881c0812",
-  "seq": 0,
-  "modified": "2026-09-21T20:01:40+00:00"
+  "hash": "ffa879c92953fdab",
+  "seq": 1,
+  "modified": "2026-09-22T22:18:08+00:00"
  },
  "zeyzey-scattrbrain-03-nov@zeyzey.miami-calendars": {
   "hash": "476461007748ea9d",

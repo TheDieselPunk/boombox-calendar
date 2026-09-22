@@ -25,12 +25,12 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-salsa-z-25-sep@zeyzey.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:0
+DTSTAMP:20260922T221808Z
+LAST-MODIFIED:20260922T221808Z
+SEQUENCE:1
 DTSTART:20260925T230000Z
 DTEND:20260926T070000Z
-SUMMARY:Merengue Z
+SUMMARY:Salsa Z Presents: Merengue Z
 LOCATION:ZeyZey Miami
 DESCRIPTION:https://calendar.zeyzeymiami.com/shows/salsa-z-25-sep
 URL:https://calendar.zeyzeymiami.com/shows/salsa-z-25-sep
@@ -327,18 +327,18 @@ STATUS:CONFIRMED
 CATEGORIES:electropop
 END:VEVENT
 BEGIN:VEVENT
-UID:19hz-4445443-lukasfrank@zeyzey.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
+UID:zeyzey-lukas-frank-11-oct@zeyzey.miami-calendars
+DTSTAMP:20260922T221808Z
+LAST-MODIFIED:20260922T221808Z
 SEQUENCE:0
 DTSTART:20261011T210000Z
-DTEND:20261012T010000Z
+DTEND:20261012T050000Z
 SUMMARY:Lukas & Frank
-LOCATION:Zeyzey
-DESCRIPTION:Lineup: Lukas & Frank\nTags: afro house\, house\nPresented by: 
- Happy Hour\nAges: 21+\nhttps://ra.co/events/2513782\nhttps://edmtrain.com/
- miami-fl/lukas-and-frank-536639
-URL:https://ra.co/events/2513782
+LOCATION:ZeyZey Miami
+DESCRIPTION:Lineup: Lukas & Frank\nTags: afro house\, house\nAges: 21+\nhtt
+ ps://calendar.zeyzeymiami.com/shows/lukas-frank-11-oct\nhttps://edmtrain.c
+ om/miami-fl/lukas-and-frank-536639\nhttps://ra.co/events/2513782
+URL:https://calendar.zeyzeymiami.com/shows/lukas-frank-11-oct
 STATUS:CONFIRMED
 CATEGORIES:afro house,house
 END:VEVENT

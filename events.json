@@ -766,7 +766,7 @@
   {
    "id": "zeyzey:salsa-z-25-sep",
    "source": "venue",
-   "title": "Merengue Z",
+   "title": "Salsa Z Presents: Merengue Z",
    "artists": [],
    "venue": "ZeyZey Miami",
    "venue_slug": "zeyzey",
@@ -1174,7 +1174,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "21+",
-   "price": "$22.70",
+   "price": "$23.94",
    "genres": [
     "afro house",
     "deep house",
@@ -2196,7 +2196,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "21+",
-   "price": "$34.05",
+   "price": "$35.34",
    "genres": [
     "afro house",
     "deep house",
@@ -2532,6 +2532,37 @@
    "url": "https://www.facebook.com/events/2663571360725366/"
   },
   {
+   "id": "shotgun:velora-sallywants-thesourdrops-drifting-at-boomboox-9-27",
+   "source": "shotgun",
+   "title": "Velora, Sally Wants, The Sourdrops, Drifting At Boomboox",
+   "artists": [],
+   "venue": "The Boombox Miami",
+   "venue_slug": "boombox",
+   "date": "2026-09-27",
+   "start": "2026-09-27T22:00:00+00:00",
+   "end": "2026-09-28T03:00:00+00:00",
+   "time_estimated": false,
+   "address": "4447 Southwest 75th Avenue, Miami, FL 33155, USA",
+   "ages": "",
+   "price": "$17.03",
+   "genres": [
+    "rock",
+    "indie rock"
+   ],
+   "genres_inferred": false,
+   "organizer": "Equinox Booking",
+   "description": "Equinox Booking Presents Velora Sally Wants [Secret Set] The Sourdrops Drifting Price: $15 online / $20 door Time: 6 PM All Ages",
+   "url": "https://shotgun.live/en/events/velora-sallywants-thesourdrops-drifting-at-boomboox-9-27",
+   "tickets": "General Admission $15",
+   "cancelled": false,
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.7287781,
+    "longitude": -80.3169309
+   },
+   "created": "2026-09-22T16:23:39.000Z"
+  },
+  {
    "id": "tablelist:ff19f2b25fe40779",
    "source": "tablelist+venue",
    "title": "A.CHAL",
@@ -2585,6 +2616,26 @@
    "alt_urls": [
     "https://edmtrain.com/miami-fl/damaged-goods-521604"
    ]
+  },
+  {
+   "id": "shotgun:kinoplex-rollingthunder",
+   "source": "shotgun",
+   "title": "Kinoplex + Dudes Done Wrong : Rolling Thunder (1977)",
+   "artists": [],
+   "venue": "Churchill's Pub",
+   "venue_slug": null,
+   "date": "2026-09-27",
+   "start": "2026-09-28T02:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "Free",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/kinoplex-rollingthunder"
   },
   {
    "id": "dice:6a6122ea7433b5000169d332",
@@ -4133,7 +4184,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "",
-   "price": "$17.03",
+   "price": "$11.35",
    "genres": [
     "indie rock",
     "indie dance",
@@ -5371,6 +5422,26 @@
    ]
   },
   {
+   "id": "shotgun:slow-life-w-cecilio-paolo-mosca-rapture-s-deli-anniversary",
+   "source": "shotgun",
+   "title": "Slow Life W/Cecilio & Paolo Mosca+Rapture's Deli Anniversary",
+   "artists": [],
+   "venue": "Miami, United States 🇺🇸",
+   "venue_slug": null,
+   "date": "2026-10-10",
+   "start": "2026-10-11T02:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$11.35",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/slow-life-w-cecilio-paolo-mosca-rapture-s-deli-anniversary"
+  },
+  {
    "id": "19hz:4445368-sidequest",
    "source": "19hz+edmtrain",
    "title": "Sidequest",
@@ -5543,17 +5614,17 @@
    ]
   },
   {
-   "id": "19hz:4445443-lukasfrank",
-   "source": "19hz+edmtrain",
+   "id": "zeyzey:lukas-frank-11-oct",
+   "source": "19hz+edmtrain+venue",
    "title": "Lukas & Frank",
    "artists": [
     "Lukas & Frank"
    ],
-   "venue": "Zeyzey",
+   "venue": "ZeyZey Miami",
    "venue_slug": "zeyzey",
    "date": "2026-10-11",
    "start": "2026-10-11T21:00:00+00:00",
-   "end": "2026-10-12T01:00:00+00:00",
+   "end": "2026-10-12T05:00:00+00:00",
    "time_estimated": false,
    "address": "",
    "ages": "21+",
@@ -5563,10 +5634,12 @@
     "house"
    ],
    "genres_inferred": false,
-   "organizer": "Happy Hour",
+   "organizer": "",
    "description": "",
-   "url": "https://ra.co/events/2513782",
+   "url": "https://calendar.zeyzeymiami.com/shows/lukas-frank-11-oct",
+   "cancelled": false,
    "alt_urls": [
+    "https://ra.co/events/2513782",
     "https://edmtrain.com/miami-fl/lukas-and-frank-536639"
    ]
   },
@@ -6687,7 +6760,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "21+",
-   "price": "$34.05",
+   "price": "$35.34",
    "genres": [
     "afro house",
     "deep house",
@@ -10231,6 +10304,31 @@
    ]
   },
   {
+   "id": "edmtrain:538916",
+   "source": "edmtrain",
+   "title": "The Faint",
+   "artists": [
+    "The Faint"
+   ],
+   "venue": "Las Rosas",
+   "venue_slug": null,
+   "date": "2026-11-13",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "2898 NW 7th Ave, Miami, FL 33127, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://ticketmaster.evyy.net/c/254533/264167/4272?u=https%3A%2F%2Fwww.ticketweb.com%2Fevent%2Fid%2F14991673",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/the-faint-538916"
+   ]
+  },
+  {
    "id": "hardrock:205535",
    "source": "venue",
    "title": "DAER Dayclub",
@@ -11692,7 +11790,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "",
-   "price": "$34.05",
+   "price": "$35.34",
    "genres": [],
    "genres_inferred": false,
    "organizer": "",
@@ -13257,6 +13355,26 @@
    "generic_title": true
   },
   {
+   "id": "shotgun:krampus-revenge-2",
+   "source": "shotgun",
+   "title": "Krampus Revenge 2",
+   "artists": [],
+   "venue": "Churchill's Pub",
+   "venue_slug": null,
+   "date": "2026-12-26",
+   "start": "2026-12-27T02:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/krampus-revenge-2"
+  },
+  {
    "id": "hardrock:207840",
    "source": "venue",
    "title": "DAER Nightclub",
@@ -13352,7 +13470,7 @@
   {
    "id": "hardrock:207897",
    "source": "venue",
-   "title": "New Year's Eve",
+   "title": "New Year's Eve 2027",
    "artists": [],
    "venue": "DAER Dayclub Afterdark",
    "venue_slug": "daer",
