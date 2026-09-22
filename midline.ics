@@ -9,17 +9,18 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:edmtrain-529368@midline.miami-calendars
-DTSTAMP:20260921T214009Z
-LAST-MODIFIED:20260921T214009Z
-SEQUENCE:0
+DTSTAMP:20260922T005009Z
+LAST-MODIFIED:20260922T005009Z
+SEQUENCE:1
 DTSTART:20260927T020000Z
 DTEND:20260927T070000Z
 SUMMARY:It's A 2000's Party - Miami
 LOCATION:Midline Miami\, 2221 NW Miami Ct\, Miami\, FL 33127\, USA
 DESCRIPTION:Times are an estimate from Midline's usual hours - the listing 
- has no start time yet. Check the link.\nhttps://edmtrain.com/miami-fl/its-
- a-2000s-party-miami-529368
-URL:https://edmtrain.com/miami-fl/its-a-2000s-party-miami-529368
+ has no start time yet. Check the link.\nhttps://www.itsa2000sparty.com/pro
+ ducts/its-a-2000s-party-miami-2\nhttps://edmtrain.com/miami-fl/its-a-2000s
+ -party-miami-529368
+URL:https://www.itsa2000sparty.com/products/its-a-2000s-party-miami-2
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -89,32 +90,36 @@ CATEGORIES:house
 END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-535253@midline.miami-calendars
-DTSTAMP:20260921T214009Z
-LAST-MODIFIED:20260921T214009Z
-SEQUENCE:0
+DTSTAMP:20260922T005009Z
+LAST-MODIFIED:20260922T005009Z
+SEQUENCE:1
 DTSTART:20261115T030000Z
 DTEND:20261115T080000Z
 SUMMARY:Krewella
 LOCATION:Midline Miami\, 2221 NW Miami Ct\, Miami\, FL 33127\, USA
 DESCRIPTION:Lineup: Krewella\nTimes are an estimate from Midline's usual ho
- urs - the listing has no start time yet. Check the link.\nhttps://edmtrain
- .com/miami-fl/krewella-535253
-URL:https://edmtrain.com/miami-fl/krewella-535253
+ urs - the listing has no start time yet. Check the link.\nhttps://prod-nts
+ -api.seeticketsusa.us/v1.0.0/promote/YWZmOlNUVVMtNzA0NTUxOjc=/clickthru\nh
+ ttps://edmtrain.com/miami-fl/krewella-535253
+URL:https://prod-nts-api.seeticketsusa.us/v1.0.0/promote/YWZmOlNUVVMtNzA0NT
+ UxOjc=/clickthru
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:edmtrain-536724@midline.miami-calendars
-DTSTAMP:20260921T214009Z
-LAST-MODIFIED:20260921T214009Z
-SEQUENCE:0
+DTSTAMP:20260922T005009Z
+LAST-MODIFIED:20260922T005009Z
+SEQUENCE:1
 DTSTART:20261121T030000Z
 DTEND:20261121T080000Z
 SUMMARY:KAPO
 LOCATION:Midline Miami\, 2221 NW Miami Ct\, Miami\, FL 33127\, USA
 DESCRIPTION:Lineup: KAPO\nTimes are an estimate from Midline's usual hours 
- - the listing has no start time yet. Check the link.\nhttps://edmtrain.com
- /miami-fl/kapo-536724
-URL:https://edmtrain.com/miami-fl/kapo-536724
+ - the listing has no start time yet. Check the link.\nhttps://prod-nts-api
+ .seeticketsusa.us/v1.0.0/promote/YWZmOlNUVVMtNzA1MTc3Ojc=/clickthru\nhttps
+ ://edmtrain.com/miami-fl/kapo-536724
+URL:https://prod-nts-api.seeticketsusa.us/v1.0.0/promote/YWZmOlNUVVMtNzA1MT
+ c3Ojc=/clickthru
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

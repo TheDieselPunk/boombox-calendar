@@ -8,31 +8,19 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:tablelist-6be76e10fb1dbf65@zeyzey.miami-calendars
-DTSTAMP:20260921T194848Z
-LAST-MODIFIED:20260921T194848Z
-SEQUENCE:1
-DTSTART:20260920T220000Z
-DTEND:20260921T040000Z
-SUMMARY:The Muse Market ft. Anycia
-LOCATION:ZeyZey Miami
-DESCRIPTION:https://buy.tablelist.com/e/6be76e10fb1dbf65
-URL:https://buy.tablelist.com/e/6be76e10fb1dbf65
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:edmtrain-535660@zeyzey.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260922T005009Z
+LAST-MODIFIED:20260922T005009Z
+SEQUENCE:1
 DTSTART:20260924T230000Z
 DTEND:20260925T050000Z
 SUMMARY:RAE SADA\, Ape Drums
 LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
 DESCRIPTION:Lineup: RAE SADA\, Ape Drums\nTimes are an estimate from ZeyZey
   Miami's usual hours - the listing has no start time yet. Check the link.
- \nhttps://edmtrain.com/miami-fl/rae-sada-ape-drums-535660
-URL:https://edmtrain.com/miami-fl/rae-sada-ape-drums-535660
+ \nhttps://calendar.zeyzeymiami.com/shows/ape-drums-b2b-rae-sada-24-sep\nht
+ tps://edmtrain.com/miami-fl/rae-sada-ape-drums-535660
+URL:https://calendar.zeyzeymiami.com/shows/ape-drums-b2b-rae-sada-24-sep
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

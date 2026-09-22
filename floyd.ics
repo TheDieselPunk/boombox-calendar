@@ -8,22 +8,6 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:19hz-4443451-robbiedoherty@floyd.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:0
-DTSTART:20260921T030000Z
-DTEND:20260921T090000Z
-SUMMARY:Robbie Doherty
-LOCATION:Floyd Miami
-DESCRIPTION:Tags: house\nAges: 21+\nhttps://dice.fm/event/g5bko2-robbie-doh
- erty-20th-sep-floyd-miami-miami-tickets
-URL:https://dice.fm/event/g5bko2-robbie-doherty-20th-sep-floyd-miami-miami-
- tickets
-STATUS:CONFIRMED
-CATEGORIES:house
-END:VEVENT
-BEGIN:VEVENT
 UID:dice-6a73973b35b6a8000123ce50@floyd.miami-calendars
 DTSTAMP:20260922T004038Z
 LAST-MODIFIED:20260922T004038Z

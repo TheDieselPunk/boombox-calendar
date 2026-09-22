@@ -8,23 +8,6 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:19hz-4443432-turnstilemallgra@factory-town.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:0
-DTSTART:20260920T220000Z
-DTEND:20260921T030000Z
-SUMMARY:Turnstile: Mall Grab\, Cold World\, Collateral
-LOCATION:Factory Town
-DESCRIPTION:Tags: deep house\, tech house\, techno\nAges: All ages\nhttps:/
- /dice.fm/event/92rqd6-turnstile-the-never-enough-tour-pt-2-20th-sep-factor
- y-town-miami-tickets
-URL:https://dice.fm/event/92rqd6-turnstile-the-never-enough-tour-pt-2-20th-
- sep-factory-town-miami-tickets
-STATUS:CONFIRMED
-CATEGORIES:deep house,tech house,techno
-END:VEVENT
-BEGIN:VEVENT
 UID:dice-6a3f12f64ed8b10001b2bca7@factory-town.miami-calendars
 DTSTAMP:20260922T004038Z
 LAST-MODIFIED:20260922T004038Z

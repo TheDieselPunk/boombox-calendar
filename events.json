@@ -1,112 +1,6 @@
 {
  "events": [
   {
-   "id": "19hz:4443388-sunriselesson5",
-   "source": "19hz",
-   "title": "Sunrise Lesson 5",
-   "artists": [],
-   "venue": "Lunasol",
-   "venue_slug": null,
-   "date": "2026-09-20",
-   "start": "2026-09-20T11:00:00+00:00",
-   "end": "2026-09-20T18:00:00+00:00",
-   "time_estimated": false,
-   "address": "",
-   "ages": "21+",
-   "price": "$60.62",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://dice.fm/event/oe93gy-lunasol-pres-sunrise-lesson-5-20th-sep-lunasol-miami-tickets"
-  },
-  {
-   "id": "19hz:4443427-sogoodsundayscra",
-   "source": "19hz",
-   "title": "So Good Sundays: Craze, DBJ & G Funk",
-   "artists": [],
-   "venue": "Tomorrowland",
-   "venue_slug": null,
-   "date": "2026-09-20",
-   "start": "2026-09-20T21:00:00+00:00",
-   "end": "2026-09-21T02:00:00+00:00",
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "free",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "Culture Productions",
-   "description": "",
-   "url": "https://www.facebook.com/events/1323061636348769/"
-  },
-  {
-   "id": "19hz:4443432-turnstilemallgra",
-   "source": "19hz",
-   "title": "Turnstile: Mall Grab, Cold World, Collateral",
-   "artists": [],
-   "venue": "Factory Town",
-   "venue_slug": "factory-town",
-   "date": "2026-09-20",
-   "start": "2026-09-20T22:00:00+00:00",
-   "end": "2026-09-21T03:00:00+00:00",
-   "time_estimated": false,
-   "address": "",
-   "ages": "All ages",
-   "price": "$41",
-   "genres": [
-    "deep house",
-    "tech house",
-    "techno"
-   ],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://dice.fm/event/92rqd6-turnstile-the-never-enough-tour-pt-2-20th-sep-factory-town-miami-tickets"
-  },
-  {
-   "id": "tablelist:6be76e10fb1dbf65",
-   "source": "tablelist",
-   "title": "The Muse Market ft. Anycia",
-   "artists": [],
-   "venue": "ZeyZey Miami",
-   "venue_slug": "zeyzey",
-   "date": "2026-09-20",
-   "start": "2026-09-20T22:00:00+00:00",
-   "end": "2026-09-21T04:00:00+00:00",
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://buy.tablelist.com/e/6be76e10fb1dbf65"
-  },
-  {
-   "id": "19hz:4443451-robbiedoherty",
-   "source": "19hz",
-   "title": "Robbie Doherty",
-   "artists": [],
-   "venue": "Floyd Miami",
-   "venue_slug": "floyd",
-   "date": "2026-09-20",
-   "start": "2026-09-21T03:00:00+00:00",
-   "end": "2026-09-21T09:00:00+00:00",
-   "time_estimated": false,
-   "address": "",
-   "ages": "21+",
-   "price": "$10",
-   "genres": [
-    "house"
-   ],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://dice.fm/event/g5bko2-robbie-doherty-20th-sep-floyd-miami-miami-tickets"
-  },
-  {
    "id": "19hz:4443535-rennmateos",
    "source": "19hz",
    "title": "Renn Mateos",
@@ -197,7 +91,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/andy-martinez-538487"
+   "url": "https://dice.fm/event/6dgaqq?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/andy-martinez-538487"
+   ]
   },
   {
    "id": "shotgun:stage777-20",
@@ -300,7 +197,10 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/jessy-538077"
+   "url": "https://dice.fm/event/6dgkd3?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/jessy-538077"
+   ]
   },
   {
    "id": "edmtrain:537840",
@@ -333,7 +233,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/dubplates-and-dragons-wednesdayz-monoky-537840"
+   "url": "https://app.hi.events/event/11199/dubplates-dragons-wednesdayz",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/dubplates-and-dragons-wednesdayz-monoky-537840"
+   ]
   },
   {
    "id": "edmtrain:535660",
@@ -356,7 +259,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/rae-sada-ape-drums-535660"
+   "url": "https://calendar.zeyzeymiami.com/shows/ape-drums-b2b-rae-sada-24-sep",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/rae-sada-ape-drums-535660"
+   ]
   },
   {
    "id": "19hz:4443823-airemiamiopening",
@@ -682,7 +588,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/siwell-jude-and-frank-536466"
+   "url": "https://posh.vip/e/aire-opening-night?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/siwell-jude-and-frank-536466"
+   ]
   },
   {
    "id": "edmtrain:531200",
@@ -707,7 +616,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/treehouse-freeka-531200"
+   "url": "https://www.etix.com/ticket/p/31582830",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/treehouse-freeka-531200"
+   ]
   },
   {
    "id": "shotgun:expansion",
@@ -1480,7 +1392,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/gab-rhome-markem-536467"
+   "url": "https://posh.vip/e/gab-rhome-opening-weekend?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/gab-rhome-markem-536467"
+   ]
   },
   {
    "id": "edmtrain:535463",
@@ -1506,7 +1421,10 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/leandro-da-silva-leo-oliver-535463"
+   "url": "https://ra.co/events/2530424",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/leandro-da-silva-leo-oliver-535463"
+   ]
   },
   {
    "id": "edmtrain:537672",
@@ -1528,7 +1446,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/sistek-537672"
+   "url": "https://posh.vip/e/sistek-selva?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/sistek-537672"
+   ]
   },
   {
    "id": "edmtrain:536201",
@@ -1551,7 +1472,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/dub-takeover-reydel-536201"
+   "url": "https://posh.vip/e/dub-x-mini-bar-13?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/dub-takeover-reydel-536201"
+   ]
   },
   {
    "id": "19hz:4443976-rogersanchezinba",
@@ -2172,6 +2096,30 @@
    ]
   },
   {
+   "id": "shotgun:yaoi",
+   "source": "19hz+edmtrain+shotgun",
+   "title": "Yaoi★ The Rave Miami Fl X Hyperperreo",
+   "artists": [],
+   "venue": "Miami",
+   "venue_slug": null,
+   "date": "2026-09-26",
+   "start": "2026-09-27T02:00:00+00:00",
+   "end": "2026-09-27T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "",
+   "ages": "21+",
+   "price": "$25.00",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/yaoi",
+   "alt_urls": [
+    "https://shotgun.live/en/events/yaoi",
+    "https://edmtrain.com/miami-fl/yaoi-the-rave-miami-fl-x-hyperperreo-531546"
+   ]
+  },
+  {
    "id": "edmtrain:529368",
    "source": "edmtrain",
    "title": "It's A 2000's Party - Miami",
@@ -2189,7 +2137,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/its-a-2000s-party-miami-529368"
+   "url": "https://www.itsa2000sparty.com/products/its-a-2000s-party-miami-2",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/its-a-2000s-party-miami-529368"
+   ]
   },
   {
    "id": "19hz:4444024-theworldisyoursp",
@@ -2362,30 +2313,6 @@
    ]
   },
   {
-   "id": "shotgun:yaoi",
-   "source": "19hz+edmtrain+shotgun",
-   "title": "Yaoi★ The Rave Miami Fl X Hyperperreo",
-   "artists": [],
-   "venue": "Miami",
-   "venue_slug": null,
-   "date": "2026-09-26",
-   "start": "2026-09-27T03:00:00+00:00",
-   "end": "2026-09-27T09:00:00+00:00",
-   "time_estimated": false,
-   "address": "",
-   "ages": "21+",
-   "price": "$25.00",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/en/events/yaoi",
-   "alt_urls": [
-    "https://shotgun.live/en/events/yaoi",
-    "https://edmtrain.com/miami-fl/yaoi-the-rave-miami-fl-x-hyperperreo-531546"
-   ]
-  },
-  {
    "id": "edmtrain:536468",
    "source": "edmtrain",
    "title": "Pendulum, Steve Lawler, Ella Romand",
@@ -2407,7 +2334,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/pendulum-steve-lawler-536468"
+   "url": "https://posh.vip/e/aire-miami-pendulum-with-steve-lawler-ella-romand-and-stefaina?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/pendulum-steve-lawler-536468"
+   ]
   },
   {
    "id": "shotgun:aurora-two",
@@ -2804,7 +2734,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/trizdolf-534840"
+   "url": "https://www.etix.com/ticket/p/35020364",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/trizdolf-534840"
+   ]
   },
   {
    "id": "19hz:4444588-bloodfeastvseven",
@@ -3295,7 +3228,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/tim-green-537556"
+   "url": "https://posh.vip/e/aire-presents-tim-green?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/tim-green-537556"
+   ]
   },
   {
    "id": "edmtrain:536353",
@@ -3318,7 +3254,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/ava-blank-eva-myra-may-536353"
+   "url": "https://ra.co/events/2534770",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/ava-blank-eva-myra-may-536353"
+   ]
   },
   {
    "id": "hardrock:202003",
@@ -3617,6 +3556,26 @@
    ]
   },
   {
+   "id": "shotgun:hot",
+   "source": "shotgun",
+   "title": "Hot: Back To School Hyperpop X Perreo",
+   "artists": [],
+   "venue": "Miami",
+   "venue_slug": null,
+   "date": "2026-10-03",
+   "start": "2026-10-04T02:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$22.70",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/hot"
+  },
+  {
    "id": "19hz:4444696-robagwruhme",
    "source": "19hz",
    "title": "Robag Wruhme",
@@ -3819,7 +3778,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/twisted-funk-wally-lopez-538193"
+   "url": "https://www.eventbrite.com/e/2001269800847?aff=ebdimtedmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/twisted-funk-wally-lopez-538193"
+   ]
   },
   {
    "id": "edmtrain:537597",
@@ -3841,7 +3803,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/danny-verde-537597"
+   "url": "https://dice.fm/event/v3lyyd?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/danny-verde-537597"
+   ]
   },
   {
    "id": "edmtrain:536167",
@@ -3864,7 +3829,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/robag-wruhme-jake-mercer-536167"
+   "url": "https://dice.fm/event/k62kb9?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/robag-wruhme-jake-mercer-536167"
+   ]
   },
   {
    "id": "edmtrain:534841",
@@ -3884,7 +3852,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/treehouse-la-picoza-records-takeover-534841"
+   "url": "https://www.etix.com/ticket/p/40320151",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/treehouse-la-picoza-records-takeover-534841"
+   ]
   },
   {
    "id": "hardrock:202007",
@@ -4104,7 +4075,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/ella-romand-537702"
+   "url": "https://posh.vip/e/ella-romand?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/ella-romand-537702"
+   ]
   },
   {
    "id": "19hz:4444879-atrain",
@@ -4198,7 +4172,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/dubplates-and-dragons-wednesdayz-medley-538160"
+   "url": "https://app.hi.events/event/11229/dubplates-dragons-wednesdayz",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/dubplates-and-dragons-wednesdayz-medley-538160"
+   ]
   },
   {
    "id": "zeyzey:night-tapes-08-oct",
@@ -4859,7 +4836,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/eternal-frequencies-cosmic-gate-527998"
+   "url": "https://dice.fm/event/6dolpq?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/eternal-frequencies-cosmic-gate-527998"
+   ]
   },
   {
    "id": "edmtrain:538275",
@@ -4882,7 +4862,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/late-replies-glass-halo-538275"
+   "url": "https://dice.fm/event/dk72m6?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/late-replies-glass-halo-538275"
+   ]
   },
   {
    "id": "19hz:4445323-mc4d",
@@ -5830,7 +5813,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/b2b-records-label-showcase-tba-537451"
+   "url": "https://speakeasygo.com/event/EVE-TK8IS1?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/b2b-records-label-showcase-tba-537451"
+   ]
   },
   {
    "id": "19hz:4445916-iiipoints2026",
@@ -5913,7 +5899,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/iii-points-434705"
+   "url": "https://iiipoints.frontgatetickets.com/?utm_source=Promoters&utm_medium=edmtrain&utm_campaign=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/iii-points-434705"
+   ]
   },
   {
    "id": "zeyzey:party-pupils-16-oct",
@@ -6215,7 +6204,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/sak-noel-538271"
+   "url": "https://www.eventbrite.com/e/2001106177445?aff=ebdimtedmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/sak-noel-538271"
+   ]
   },
   {
    "id": "hardrock:202011",
@@ -6298,7 +6290,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/iii-points-434706"
+   "url": "https://iiipoints.frontgatetickets.com/?utm_source=Promoters&utm_medium=edmtrain&utm_campaign=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/iii-points-434706"
+   ]
   },
   {
    "id": "shotgun:nokings",
@@ -6984,7 +6979,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/emkay-537181"
+   "url": "https://speakeasygo.com/event/EVE-R9I8G6?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/emkay-537181"
+   ]
   },
   {
    "id": "zeyzey:bombargo-21-oct",
@@ -7052,7 +7050,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/dj-eu-537182"
+   "url": "https://speakeasygo.com/event/EVE-JOF5KE?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/dj-eu-537182"
+   ]
   },
   {
    "id": "zeyzey:mashbit-22-oct",
@@ -7390,7 +7391,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/green-velvet-green-velvet-cajmere-set-534083"
+   "url": "https://dice.fm/event/eonvo2?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/green-velvet-green-velvet-cajmere-set-534083"
+   ]
   },
   {
    "id": "edmtrain:537380",
@@ -7412,7 +7416,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/wassu-537380"
+   "url": "https://dice.fm/event/g58mga?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/wassu-537380"
+   ]
   },
   {
    "id": "hardrock:206563",
@@ -7801,7 +7808,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/valery-karbia-538185"
+   "url": "https://shotgun.live/events/sammy-jackie-clarke-dj-set-with-special-guest-valery-karbia?utm_source=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/valery-karbia-538185"
+   ]
   },
   {
    "id": "hardrock:202018",
@@ -8440,7 +8450,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/sgx-538674"
+   "url": "https://shotgun.live/events/boris-oct30?utm_source=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/sgx-538674"
+   ]
   },
   {
    "id": "edmtrain:538267",
@@ -8460,7 +8473,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/murder-on-the-dance-floor-538267"
+   "url": "https://www.eventbrite.com/e/2001249673646?aff=ebdimtedmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/murder-on-the-dance-floor-538267"
+   ]
   },
   {
    "id": "zeyzey:golden-a-k-pop-kids-party-31-oct",
@@ -8961,7 +8977,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/diesel-shaquille-oneal-531061"
+   "url": "https://speakeasygo.com/event/EVE-1IN495?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/diesel-shaquille-oneal-531061"
+   ]
   },
   {
    "id": "hardrock:204544",
@@ -9525,7 +9544,10 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/valentin-huedo-536610"
+   "url": "https://dice.fm/event/53k8vl?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/valentin-huedo-536610"
+   ]
   },
   {
    "id": "edmtrain:538129",
@@ -9547,7 +9569,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/martin-garrix-538129"
+   "url": "https://ticketmaster.evyy.net/c/254533/264167/4272?u=https%3A%2F%2Fwww.ticketweb.com%2Fevent%2Fid%2F14328774",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/martin-garrix-538129"
+   ]
   },
   {
    "id": "edmtrain:535915",
@@ -9570,7 +9595,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/vavo-ricky-retro-535915"
+   "url": "https://posh.vip/e/vavo-ricky-retro-presented-by-palm-tree-club-miami-copy?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/vavo-ricky-retro-535915"
+   ]
   },
   {
    "id": "hardrock:205532",
@@ -9685,7 +9713,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/chizzle-535421"
+   "url": "https://speakeasygo.com/event/EVE-XZPXEC?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/chizzle-535421"
+   ]
   },
   {
    "id": "zeyzey:las-migas-10-nov",
@@ -9728,7 +9759,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/sunsquabi-532667"
+   "url": "https://prod-nts-api.seeticketsusa.us/v1.0.0/promote/YWZmOlNUVVMtNzAzNjA3Ojc=/clickthru",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/sunsquabi-532667"
+   ]
   },
   {
    "id": "zeyzey:blueface-x-ddg-fresh-out-of-love-tour-16-sep",
@@ -9992,7 +10026,10 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/armen-miran-536611"
+   "url": "https://dice.fm/event/7d5qvb?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/armen-miran-536611"
+   ]
   },
   {
    "id": "edmtrain:534979",
@@ -10014,7 +10051,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/karsten-sollors-534979"
+   "url": "https://dice.fm/event/g58yr5?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/karsten-sollors-534979"
+   ]
   },
   {
    "id": "hardrock:205535",
@@ -10234,7 +10274,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/krewella-535253"
+   "url": "https://prod-nts-api.seeticketsusa.us/v1.0.0/promote/YWZmOlNUVVMtNzA0NTUxOjc=/clickthru",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/krewella-535253"
+   ]
   },
   {
    "id": "dice:6aac10c51773540001e4c41f",
@@ -10320,7 +10363,10 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/jeremy-olander-536612"
+   "url": "https://dice.fm/event/py3rqw?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/jeremy-olander-536612"
+   ]
   },
   {
    "id": "hardrock:205537",
@@ -10517,7 +10563,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/rockwell-533946"
+   "url": "https://speakeasygo.com/event/EVE-IF3OZS?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/rockwell-533946"
+   ]
   },
   {
    "id": "19hz:4449295-johnsummit",
@@ -10690,7 +10739,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/kapo-536724"
+   "url": "https://prod-nts-api.seeticketsusa.us/v1.0.0/promote/YWZmOlNUVVMtNzA1MTc3Ojc=/clickthru",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/kapo-536724"
+   ]
   },
   {
    "id": "edmtrain:537172",
@@ -10714,7 +10766,10 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/rodriguez-jr-537172"
+   "url": "https://dice.fm/event/py39ry?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/rodriguez-jr-537172"
+   ]
   },
   {
    "id": "edmtrain:537634",
@@ -10734,7 +10789,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/broadway-rave-537634"
+   "url": "https://ticketmaster.evyy.net/c/254533/264167/4272?u=https%3A%2F%2Fwww.ticketweb.com%2Fevent%2Fid%2F14313164",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/broadway-rave-537634"
+   ]
   },
   {
    "id": "hardrock:205539",
@@ -10923,7 +10981,10 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/fernando-olaya-lucas-zarate-538078"
+   "url": "https://dice.fm/event/dk72ev?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/fernando-olaya-lucas-zarate-538078"
+   ]
   },
   {
    "id": "edmtrain:535916",
@@ -10945,7 +11006,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/klingande-535916"
+   "url": "https://posh.vip/e/klingande-presented-by-palm-tree-club-miami-copy?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/klingande-535916"
+   ]
   },
   {
    "id": "hardrock:205540",
@@ -11055,7 +11119,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/mister-gray-535422"
+   "url": "https://speakeasygo.com/event/EVE-SMYQ7G?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/mister-gray-535422"
+   ]
   },
   {
    "id": "dice:6a8b4d68fec4480001a68ffe",
@@ -11138,7 +11205,7 @@
   },
   {
    "id": "dice:6ab17e0bf1fdd8000191620e",
-   "source": "dice",
+   "source": "dice+edmtrain",
    "title": "Teletech",
    "artists": [],
    "venue": "Club Space Miami",
@@ -11158,7 +11225,10 @@
    "organizer": "",
    "description": "",
    "url": "https://dice.fm/event/6ab17e0bf1fdd8000191620e",
-   "cancelled": false
+   "cancelled": false,
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/teletech-538703"
+   ]
   },
   {
    "id": "edmtrain:538079",
@@ -11183,7 +11253,10 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/sander-kleinenberg-lucas-zarate-538079"
+   "url": "https://dice.fm/event/eonmqd?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/sander-kleinenberg-lucas-zarate-538079"
+   ]
   },
   {
    "id": "hardrock:205541",
@@ -11402,7 +11475,10 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/raw-main-538080"
+   "url": "https://dice.fm/event/mxy9bl?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/raw-main-538080"
+   ]
   },
   {
    "id": "edmtrain:533040",
@@ -11424,7 +11500,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/dj-cruz-533040"
+   "url": "https://speakeasygo.com/event/EVE-SNM6NH?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/dj-cruz-533040"
+   ]
   },
   {
    "id": "shotgun:lunasol-pres-sunrise-lesson-8",
@@ -11487,7 +11566,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/yissel-533948"
+   "url": "https://speakeasygo.com/event/EVE-29ZST3?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/yissel-533948"
+   ]
   },
   {
    "id": "edmtrain:533949",
@@ -11509,7 +11591,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/emkay-533949"
+   "url": "https://speakeasygo.com/event/EVE-269ESQ?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/emkay-533949"
+   ]
   },
   {
    "id": "zeyzey:justin-nozuka-01-dec",
@@ -11658,7 +11743,10 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/deron-536847"
+   "url": "https://dice.fm/event/l8moop?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/deron-536847"
+   ]
   },
   {
    "id": "edmtrain:533698",
@@ -11687,7 +11775,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/unkommon-art-week-bedouin-533698"
+   "url": "https://dice.fm/event/g53ag6?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/unkommon-art-week-bedouin-533698"
+   ]
   },
   {
    "id": "19hz:4450552-levelup",
@@ -11874,7 +11965,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/where-are-my-keys-529001"
+   "url": "https://dice.fm/event/oe8a5y?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/where-are-my-keys-529001"
+   ]
   },
   {
    "id": "edmtrain:536848",
@@ -11899,7 +11993,10 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/nandu-nico-morano-536848"
+   "url": "https://dice.fm/event/bbg3vk?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/nandu-nico-morano-536848"
+   ]
   },
   {
    "id": "edmtrain:463360",
@@ -11976,7 +12073,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/cyclops-cove-463360"
+   "url": "https://laylo.com/subtronics/cyclopscove4?utm_source=2d65QY9eqctgGASihmBqtZRSA&utm_medium=rsvpCard&utm_campaign=null&utm_id=dropLikeThis",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/cyclops-cove-463360"
+   ]
   },
   {
    "id": "19hz:4450624-anotr",
@@ -12136,7 +12236,10 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/patrice-baumel-536849"
+   "url": "https://dice.fm/event/nvxky9?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/patrice-baumel-536849"
+   ]
   },
   {
    "id": "hardrock:207848",
@@ -12179,7 +12282,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/iii-points-basel-michael-bibis-one-life-michael-bibi-534466"
+   "url": "https://link.dice.fm/e03c76e15273?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/iii-points-basel-michael-bibis-one-life-michael-bibi-534466"
+   ]
   },
   {
    "id": "edmtrain:463361",
@@ -12199,7 +12305,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/cyclops-cove-463361"
+   "url": "https://laylo.com/subtronics/cyclopscove4?utm_source=2d65QY9eqctgGASihmBqtZRSA&utm_medium=rsvpCard&utm_campaign=null&utm_id=dropLikeThis",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/cyclops-cove-463361"
+   ]
   },
   {
    "id": "hardrock:207834",
@@ -12322,7 +12431,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/sota-dionne-warwick-508726"
+   "url": "https://ticketmaster.evyy.net/c/254533/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2F0D0064B5BFA4BF26",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/sota-dionne-warwick-508726"
+   ]
   },
   {
    "id": "hardrock:207849",
@@ -12363,7 +12475,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/cyclops-cove-463362"
+   "url": "https://laylo.com/subtronics/cyclopscove4?utm_source=2d65QY9eqctgGASihmBqtZRSA&utm_medium=rsvpCard&utm_campaign=null&utm_id=dropLikeThis",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/cyclops-cove-463362"
+   ]
   },
   {
    "id": "zeyzey:shintaro-sakamoto-06-dec",
@@ -12432,7 +12547,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/golfos-pawsa-and-dennis-cruz-533428"
+   "url": "https://dice.fm/event/avklnq?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/golfos-pawsa-and-dennis-cruz-533428"
+   ]
   },
   {
    "id": "shotgun:minotaur-booking-presents-sudden-infant-death-syndrome-ky",
@@ -12659,7 +12777,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/sonny-fodera-537637"
+   "url": "https://ticketmaster.evyy.net/c/254533/264167/4272?u=https%3A%2F%2Fwww.ticketweb.com%2Fevent%2Fid%2F14322674",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/sonny-fodera-537637"
+   ]
   },
   {
    "id": "edmtrain:535917",
@@ -12681,7 +12802,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/frank-walker-535917"
+   "url": "https://posh.vip/e/frank-walker-presented-by-palm-tree-club-miami-copy?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/frank-walker-535917"
+   ]
   },
   {
    "id": "hardrock:207852",
@@ -12747,7 +12871,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/eelke-kleijn-536967"
+   "url": "https://dice.fm/event/8e78rv?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/eelke-kleijn-536967"
+   ]
   },
   {
    "id": "hardrock:207837",
@@ -12793,7 +12920,10 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/automhate-524125"
+   "url": "https://dice.fm/event/7dxyd9?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/automhate-524125"
+   ]
   },
   {
    "id": "edmtrain:535570",
@@ -12815,7 +12945,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/kloud-535570"
+   "url": "https://dice.fm/event/bbgwwg?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/kloud-535570"
+   ]
   },
   {
    "id": "hardrock:207853",
@@ -12881,7 +13014,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/cyclops-machaki-534106"
+   "url": "https://dice.fm/event/oe9kwy?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/cyclops-machaki-534106"
+   ]
   },
   {
    "id": "hardrock:207855",
@@ -13034,7 +13170,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/dreamland-new-years-festival-523791"
+   "url": "https://www.tixr.com/pr/edmtrain/170476",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/dreamland-new-years-festival-523791"
+   ]
   },
   {
    "id": "hardrock:207897",
@@ -13119,7 +13258,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/dreamland-new-years-festival-523792"
+   "url": "https://www.tixr.com/pr/edmtrain/170476",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/dreamland-new-years-festival-523792"
+   ]
   },
   {
    "id": "19hz:4453332-dreamland2026mea",
@@ -13162,7 +13304,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/dreamland-new-years-festival-523794"
+   "url": "https://www.tixr.com/pr/edmtrain/170476",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/dreamland-new-years-festival-523794"
+   ]
   },
   {
    "id": "19hz:4453420-dreamland2026the",
@@ -13207,7 +13352,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/jody-wisternoff-537703"
+   "url": "https://posh.vip/e/jody-wisternoff-2?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/jody-wisternoff-537703"
+   ]
   },
   {
    "id": "edmtrain:511448",
@@ -13232,7 +13380,10 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/fort-lauderdale-fl/infected-mushroom-511448"
+   "url": "https://dice.fm/event/6daxpq?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/infected-mushroom-511448"
+   ]
   },
   {
    "id": "edmtrain:458943",
@@ -13252,7 +13403,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/groove-cruise-miami-2027-458943"
+   "url": "https://www.groovecruise.com/",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/groove-cruise-miami-2027-458943"
+   ]
   },
   {
    "id": "zeyzey:the-unofficial-end-cruise-party-21-jan",
@@ -13295,7 +13449,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/groove-cruise-miami-2027-458944"
+   "url": "https://www.groovecruise.com/",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/groove-cruise-miami-2027-458944"
+   ]
   },
   {
    "id": "19hz:4455352-hamro",
@@ -13344,7 +13501,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/groove-cruise-miami-2027-458945"
+   "url": "https://www.groovecruise.com/",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/groove-cruise-miami-2027-458945"
+   ]
   },
   {
    "id": "edmtrain:458946",
@@ -13364,7 +13524,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/groove-cruise-miami-2027-458946"
+   "url": "https://www.groovecruise.com/",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/groove-cruise-miami-2027-458946"
+   ]
   },
   {
    "id": "edmtrain:458947",
@@ -13384,7 +13547,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/groove-cruise-miami-2027-458947"
+   "url": "https://www.groovecruise.com/",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/groove-cruise-miami-2027-458947"
+   ]
   },
   {
    "id": "19hz:4456024-heyz",
@@ -13433,7 +13599,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/we-belong-here-miami-496902"
+   "url": "https://www.webelonghere.world/miami/",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/we-belong-here-miami-496902"
+   ]
   },
   {
    "id": "edmtrain:496903",
@@ -13453,7 +13622,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/we-belong-here-miami-496903"
+   "url": "https://www.webelonghere.world/miami/",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/we-belong-here-miami-496903"
+   ]
   },
   {
    "id": "edmtrain:496904",
@@ -13473,7 +13645,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/we-belong-here-miami-496904"
+   "url": "https://www.webelonghere.world/miami/",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/we-belong-here-miami-496904"
+   ]
   },
   {
    "id": "19hz:4460046-vnvnation",
@@ -13522,7 +13697,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/winter-music-conference-513565"
+   "url": "https://fever.pxf.io/c/254533/1928078/16345?prodsku=665136&u=https%3A%2F%2Ffeverup.com%2Fm%2F665136&intsrc=APIG_15532",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/winter-music-conference-513565"
+   ]
   },
   {
    "id": "edmtrain:513566",
@@ -13542,7 +13720,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/winter-music-conference-513566"
+   "url": "https://fever.pxf.io/c/254533/1928078/16345?prodsku=665136&u=https%3A%2F%2Ffeverup.com%2Fm%2F665136&intsrc=APIG_15532",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/winter-music-conference-513566"
+   ]
   },
   {
    "id": "edmtrain:513567",
@@ -13562,7 +13743,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/winter-music-conference-513567"
+   "url": "https://fever.pxf.io/c/254533/1928078/16345?prodsku=665136&u=https%3A%2F%2Ffeverup.com%2Fm%2F665136&intsrc=APIG_15532",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/winter-music-conference-513567"
+   ]
   },
   {
    "id": "edmtrain:492062",
@@ -13582,7 +13766,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/ultra-miami-492062"
+   "url": "https://ultramusicfestival.com/tickets/miami-2027",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/ultra-miami-492062"
+   ]
   },
   {
    "id": "edmtrain:492063",
@@ -13602,7 +13789,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/ultra-miami-492063"
+   "url": "https://ultramusicfestival.com/tickets/miami-2027",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/ultra-miami-492063"
+   ]
   },
   {
    "id": "edmtrain:492064",
@@ -13622,7 +13812,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://edmtrain.com/miami-fl/ultra-miami-492064"
+   "url": "https://ultramusicfestival.com/tickets/miami-2027",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/ultra-miami-492064"
+   ]
   },
   {
    "id": "shotgun:paloma-morphy-miami",
