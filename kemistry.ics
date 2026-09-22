@@ -9,23 +9,25 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:dice-6ab14c6dda43eb00017f4dfd@kemistry.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:1
 DTSTART:20260925T020000Z
 DTEND:20260925T080000Z
 SUMMARY:WHITE OUT PARTY
 LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
  312\, United States
-DESCRIPTION:Tags (guess): bass\, dubstep
+DESCRIPTION:Tags (guess): bass\, dubstep\nhttps://dice.fm/event/6ab14c6dda4
+ 3eb00017f4dfd
+URL:https://dice.fm/event/6ab14c6dda43eb00017f4dfd
 STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a424b1c7547a100012efb71@kemistry.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+DTSTAMP:20260922T004154Z
+LAST-MODIFIED:20260922T004154Z
+SEQUENCE:3
 DTSTART:20260926T020000Z
 DTEND:20260926T080000Z
 SUMMARY:GRAVEDGR
@@ -34,29 +36,33 @@ LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
 DESCRIPTION:Lineup: GRAVEDGR\nTags: dubstep\, trap\nAges: 18+\nhttps://dice
  .fm/event/ry8bwv-gravedgr-25th-sep-kemistry-fort-lauderdale-tickets\nhttps
  ://edmtrain.com/fort-lauderdale-fl/gravedgr-517397
+URL:https://dice.fm/event/ry8bwv-gravedgr-25th-sep-kemistry-fort-lauderdale
+ -tickets
 STATUS:CONFIRMED
 CATEGORIES:dubstep,trap
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a90c4acedf55c000191e6b7@kemistry.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:1
 DTSTART:20260927T020000Z
 DTEND:20260927T080000Z
 SUMMARY:REWIND: 2000s RAVE
 LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
  312\, United States
-DESCRIPTION:Tags (guess): bass\, dubstep\nhttps://edmtrain.com/fort-lauderd
- ale-fl/rewind-2000s-rave-537514
+DESCRIPTION:Tags (guess): bass\, dubstep\nhttps://dice.fm/event/6a90c4acedf
+ 55c000191e6b7\nhttps://edmtrain.com/fort-lauderdale-fl/rewind-2000s-rave-5
+ 37514
+URL:https://dice.fm/event/6a90c4acedf55c000191e6b7
 STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a8c76d5c583f90001abc9b2@kemistry.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+DTSTAMP:20260922T004154Z
+LAST-MODIFIED:20260922T004154Z
+SEQUENCE:3
 DTSTART:20261003T020000Z
 DTEND:20261003T080000Z
 SUMMARY:PLANET OF THE DRUMS
@@ -66,14 +72,16 @@ DESCRIPTION:Lineup: Dieselboy\, AK1200\, MC Messinian\, Dara\nTags: drum an
  d bass\nAges: 18+\nhttps://dice.fm/event/q2dxea-planet-of-the-drums-2nd-oc
  t-kemistry-fort-lauderdale-tickets\nhttps://edmtrain.com/fort-lauderdale-f
  l/dieselboy-ak1200-532686
+URL:https://dice.fm/event/q2dxea-planet-of-the-drums-2nd-oct-kemistry-fort-
+ lauderdale-tickets
 STATUS:CONFIRMED
 CATEGORIES:drum and bass
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a2864a9fe10c10001ce0750@kemistry.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+DTSTAMP:20260922T004154Z
+LAST-MODIFIED:20260922T004154Z
+SEQUENCE:3
 DTSTART:20261004T020000Z
 DTEND:20261004T080000Z
 SUMMARY:LUMASI
@@ -83,14 +91,16 @@ DESCRIPTION:Lineup: Lumasi\, Entangled Mind\, fika\nTags: bass music\, dubs
  tep\nAges: 18+\nhttps://dice.fm/event/yowqla-lumasi-3rd-oct-kemistry-fort-
  lauderdale-tickets\nhttps://edmtrain.com/fort-lauderdale-fl/lumasi-entangl
  ed-mind-532129
+URL:https://dice.fm/event/yowqla-lumasi-3rd-oct-kemistry-fort-lauderdale-ti
+ ckets
 STATUS:CONFIRMED
 CATEGORIES:bass music,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a29f4a8dd83280001d85c25@kemistry.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+DTSTAMP:20260922T004154Z
+LAST-MODIFIED:20260922T004154Z
+SEQUENCE:3
 DTSTART:20261010T020000Z
 DTEND:20261010T080000Z
 SUMMARY:NIFRA
@@ -99,28 +109,32 @@ LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
 DESCRIPTION:Lineup: Nifra\nTags: big room trance\, uplifting trance\nAges: 
  18+\nhttps://dice.fm/event/6d83nq-nifra-9th-oct-kemistry-fort-lauderdale-t
  ickets\nhttps://edmtrain.com/fort-lauderdale-fl/nifra-512211
+URL:https://dice.fm/event/6d83nq-nifra-9th-oct-kemistry-fort-lauderdale-tic
+ kets
 STATUS:CONFIRMED
 CATEGORIES:big room trance,uplifting trance
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6aa1904c7b78cf000187096e@kemistry.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:1
 DTSTART:20261010T220000Z
 DTEND:20261011T013000Z
 SUMMARY:Day Made Tour Ft. Big Red (Alex Dougherty)
 LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
  312\, United States
-DESCRIPTION:Tags (guess): bass\, dubstep
+DESCRIPTION:Tags (guess): bass\, dubstep\nhttps://dice.fm/event/6aa1904c7b7
+ 8cf000187096e
+URL:https://dice.fm/event/6aa1904c7b78cf000187096e
 STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a6fe05cfd4b720001b0a904@kemistry.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+DTSTAMP:20260922T004154Z
+LAST-MODIFIED:20260922T004154Z
+SEQUENCE:3
 DTSTART:20261011T020000Z
 DTEND:20261011T080000Z
 SUMMARY:SO DOWN
@@ -130,14 +144,16 @@ DESCRIPTION:Lineup: SoDown\, Oddly Eazy\nTags: bass music\, dubstep\nAges:
  18+\nhttps://dice.fm/event/bb95vm-so-down-10th-oct-kemistry-fort-lauderdal
  e-tickets\nhttps://edmtrain.com/fort-lauderdale-fl/sodown-oddly-eazy-53076
  2
+URL:https://dice.fm/event/bb95vm-so-down-10th-oct-kemistry-fort-lauderdale-
+ tickets
 STATUS:CONFIRMED
 CATEGORIES:bass music,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a6bfca21cace90001cc180d@kemistry.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+DTSTAMP:20260922T004154Z
+LAST-MODIFIED:20260922T004154Z
+SEQUENCE:3
 DTSTART:20261017T020000Z
 DTEND:20261017T080000Z
 SUMMARY:CODD DUBZ x HE$H
@@ -146,57 +162,65 @@ LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
 DESCRIPTION:Lineup: Codd Dubz\, HE$H\nTags: dubstep\, trap\nAges: 18+\nhttp
  s://dice.fm/event/923lv9-codd-dubz-x-heh-16th-oct-kemistry-fort-lauderdale
  -tickets\nhttps://edmtrain.com/fort-lauderdale-fl/codd-dubz-he-h-525557
+URL:https://dice.fm/event/923lv9-codd-dubz-x-heh-16th-oct-kemistry-fort-lau
+ derdale-tickets
 STATUS:CONFIRMED
 CATEGORIES:dubstep,trap
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a3c2d5c3f99c300019d7c15@kemistry.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:1
 DTSTART:20261018T010000Z
 DTEND:20261018T080000Z
 SUMMARY:KAWAII RAVE
 LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
  312\, United States
-DESCRIPTION:Tags (guess): bass\, dubstep
+DESCRIPTION:Tags (guess): bass\, dubstep\nhttps://dice.fm/event/6a3c2d5c3f9
+ 9c300019d7c15
+URL:https://dice.fm/event/6a3c2d5c3f99c300019d7c15
 STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6ab179c76d5a1f0001669601@kemistry.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:1
 DTSTART:20261023T020000Z
 DTEND:20261023T080000Z
 SUMMARY:HAUNTED RAVEYARD PRE-PARTY
 LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
  312\, United States
-DESCRIPTION:Tags (guess): bass\, dubstep
+DESCRIPTION:Tags (guess): bass\, dubstep\nhttps://dice.fm/event/6ab179c76d5
+ a1f0001669601
+URL:https://dice.fm/event/6ab179c76d5a1f0001669601
 STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-69dc9d05fd62d30001cecb18@kemistry.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:1
 DTSTART:20261024T020000Z
 DTEND:20261024T080000Z
 SUMMARY:REAPER
 LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
  312\, United States
-DESCRIPTION:Lineup: REAPER\nTags (guess): bass\, dubstep\nhttps://edmtrain.
- com/fort-lauderdale-fl/boneyard-tour-26-reaper-495852
+DESCRIPTION:Lineup: REAPER\nTags (guess): bass\, dubstep\nhttps://dice.fm/e
+ vent/69dc9d05fd62d30001cecb18\nhttps://edmtrain.com/fort-lauderdale-fl/bon
+ eyard-tour-26-reaper-495852
+URL:https://dice.fm/event/69dc9d05fd62d30001cecb18
 STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a83a12b1d18340001d369c3@kemistry.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+DTSTAMP:20260922T004154Z
+LAST-MODIFIED:20260922T004154Z
+SEQUENCE:3
 DTSTART:20261025T020000Z
 DTEND:20261025T080000Z
 SUMMARY:KASIA
@@ -205,70 +229,80 @@ LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
 DESCRIPTION:Lineup: Kasia\nTags: progressive house\, trance\nAges: 18+\nhtt
  ps://dice.fm/event/yodxp2-kasia-24th-oct-kemistry-fort-lauderdale-tickets
  \nhttps://edmtrain.com/fort-lauderdale-fl/kasia-535154
+URL:https://dice.fm/event/yodxp2-kasia-24th-oct-kemistry-fort-lauderdale-ti
+ ckets
 STATUS:CONFIRMED
 CATEGORIES:progressive house,trance
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a6fe2cc1f37f90001ee3794@kemistry.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:1
 DTSTART:20261101T020000Z
 DTEND:20261101T090000Z
 SUMMARY:ONE MORE TIME : HALLOWEEN
 LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
  312\, United States
-DESCRIPTION:Tags (guess): bass\, dubstep
+DESCRIPTION:Tags (guess): bass\, dubstep\nhttps://dice.fm/event/6a6fe2cc1f3
+ 7f90001ee3794
+URL:https://dice.fm/event/6a6fe2cc1f37f90001ee3794
 STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a77d938f193780001937329@kemistry.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:1
 DTSTART:20261107T030000Z
 DTEND:20261107T090000Z
 SUMMARY:3BallMTY
 LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
  312\, United States
-DESCRIPTION:Tags (guess): bass\, dubstep
+DESCRIPTION:Tags (guess): bass\, dubstep\nhttps://dice.fm/event/6a77d938f19
+ 3780001937329
+URL:https://dice.fm/event/6a77d938f193780001937329
 STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6aaae261eacc0d0001e8d9e6@kemistry.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:1
 DTSTART:20261108T030000Z
 DTEND:20261108T090000Z
 SUMMARY:WE HEART RnB
 LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
  312\, United States
-DESCRIPTION:Tags (guess): bass\, dubstep
+DESCRIPTION:Tags (guess): bass\, dubstep\nhttps://dice.fm/event/6aaae261eac
+ c0d0001e8d9e6
+URL:https://dice.fm/event/6aaae261eacc0d0001e8d9e6
 STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a9c6f1a8e70340001656cb5@kemistry.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:1
 DTSTART:20261114T200000Z
 DTEND:20261115T010000Z
 SUMMARY:80'S DAY DISCO
 LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
  312\, United States
-DESCRIPTION:Tags (guess): bass\, dubstep
+DESCRIPTION:Tags (guess): bass\, dubstep\nhttps://dice.fm/event/6a9c6f1a8e7
+ 0340001656cb5
+URL:https://dice.fm/event/6a9c6f1a8e70340001656cb5
 STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a39388b80183200011c1c6f@kemistry.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+DTSTAMP:20260922T004154Z
+LAST-MODIFIED:20260922T004154Z
+SEQUENCE:3
 DTSTART:20261115T030000Z
 DTEND:20261115T090000Z
 SUMMARY:JESSICA AUDIFFRED
@@ -278,29 +312,33 @@ DESCRIPTION:Lineup: Jessica Audiffred\nTags: bass house\, dubstep\, future
  bass\nAges: 18+\nhttps://dice.fm/event/7dwvg7-jessica-audiffred-14th-nov-k
  emistry-fort-lauderdale-tickets\nhttps://edmtrain.com/fort-lauderdale-fl/j
  essica-audiffred-515130
+URL:https://dice.fm/event/7dwvg7-jessica-audiffred-14th-nov-kemistry-fort-l
+ auderdale-tickets
 STATUS:CONFIRMED
 CATEGORIES:bass house,dubstep,future bass
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a9840d31cfa4500010544f6@kemistry.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:1
 DTSTART:20261121T030000Z
 DTEND:20261121T090000Z
 SUMMARY:RONI SIZE
 LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
  312\, United States
-DESCRIPTION:Lineup: Roni Size\nTags (guess): bass\, dubstep\nhttps://edmtra
- in.com/fort-lauderdale-fl/roni-size-534312
+DESCRIPTION:Lineup: Roni Size\nTags (guess): bass\, dubstep\nhttps://dice.f
+ m/event/6a9840d31cfa4500010544f6\nhttps://edmtrain.com/fort-lauderdale-fl/
+ roni-size-534312
+URL:https://dice.fm/event/6a9840d31cfa4500010544f6
 STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a64b93c7b94a300012b1b10@kemistry.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+DTSTAMP:20260922T004154Z
+LAST-MODIFIED:20260922T004154Z
+SEQUENCE:3
 DTSTART:20261122T030000Z
 DTEND:20261122T090000Z
 SUMMARY:STAR MONSTER
@@ -309,29 +347,33 @@ LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
 DESCRIPTION:Lineup: Star Monster\nTags: dubstep\, trap\nAges: 18+\nhttps://
  dice.fm/event/v3xw57-star-monster-21st-nov-kemistry-fort-lauderdale-ticket
  s\nhttps://edmtrain.com/fort-lauderdale-fl/star-monster-526019
+URL:https://dice.fm/event/v3xw57-star-monster-21st-nov-kemistry-fort-lauder
+ dale-tickets
 STATUS:CONFIRMED
 CATEGORIES:dubstep,trap
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6aaae809e78bd300017554b1@kemistry.miami-calendars
-DTSTAMP:20260921T193056Z
-LAST-MODIFIED:20260921T193056Z
-SEQUENCE:0
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:1
 DTSTART:20261128T030000Z
 DTEND:20261128T090000Z
 SUMMARY:SPACE 92
 LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
  312\, United States
-DESCRIPTION:Lineup: Space 92\nTags (guess): bass\, dubstep\nhttps://edmtrai
- n.com/fort-lauderdale-fl/space-92-538122
+DESCRIPTION:Lineup: Space 92\nTags (guess): bass\, dubstep\nhttps://dice.fm
+ /event/6aaae809e78bd300017554b1\nhttps://edmtrain.com/fort-lauderdale-fl/s
+ pace-92-538122
+URL:https://dice.fm/event/6aaae809e78bd300017554b1
 STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a60e813170f000001bd0743@kemistry.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+DTSTAMP:20260922T004154Z
+LAST-MODIFIED:20260922T004154Z
+SEQUENCE:3
 DTSTART:20261129T030000Z
 DTEND:20261129T090000Z
 SUMMARY:SPACE WIZARD
@@ -341,6 +383,8 @@ DESCRIPTION:Lineup: Space Wizard\, XaeboR\nTags: bass music\, dubstep\nAges
  : 18+\nhttps://dice.fm/event/xe3wmk-space-wizard-28th-nov-kemistry-fort-la
  uderdale-tickets\nhttps://edmtrain.com/fort-lauderdale-fl/space-wizard-xae
  bor-526433
+URL:https://dice.fm/event/xe3wmk-space-wizard-28th-nov-kemistry-fort-lauder
+ dale-tickets
 STATUS:CONFIRMED
 CATEGORIES:bass music,dubstep
 END:VEVENT

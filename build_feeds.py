@@ -410,7 +410,7 @@ def dice_events(venues):
                     date=local_date(start), start=start.isoformat(), end=end.isoformat() if end else None,
                     address=place.get("address", ""),
                     price=(f"From ${price / 100:.0f}" if price else "") + (" (sold out)" if status == "sold-out" else ""),
-                    url=f"https://dice.fm/event/{e['perm_name']}" if e.get("perm_name") else "",
+                    url=f"https://dice.fm/event/{e.get('perm_name') or e['id']}",
                     cancelled=status in ("cancelled", "canceled"),
                 ))
                 n += 1
@@ -869,6 +869,9 @@ def merge(primary, secondary):
             elif target["start"] and not target["end"] and ev["end"]:
                 target["end"] = ev["end"]
             target["artists"] = target["artists"] or ev["artists"]
+            if not target["url"] or (target["url"].startswith("https://dice.fm/event/") and ev["url"].startswith("https://dice.fm/event/")
+                                     and target["url"].rsplit("/", 1)[-1] == target["id"].split(":", 1)[-1]):
+                target["url"] = ev["url"] or target["url"]  # a slug URL beats an id URL for the same Dice event
             target["ages"] = target["ages"] or ev["ages"]
             target["price"] = target["price"] or ev["price"]
             target["genres"] = sorted(set(target["genres"]) | set(ev["genres"]))
@@ -1029,8 +1032,11 @@ def vevent(ev, venue):
         desc.append("Start time not listed - check the link.")
     if ev["url"]:
         desc.append(ev["url"])
+    if not ev["url"]:
+        ev["url"] = next((a for a in ev.get("alt_urls", []) if a), "")
+    host = urllib.parse.urlparse(ev["url"]).hostname
     for alt in sorted(set(ev.get("alt_urls", []))):
-        if alt and alt != ev["url"]:
+        if alt and alt != ev["url"] and urllib.parse.urlparse(alt).hostname != host:
             desc.append(alt)
 
     lines += [

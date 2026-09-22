@@ -197,16 +197,17 @@ CATEGORIES:bass music,club music,trap
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a6b9027ca1d730001823403@zeyzey.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:2
 DTSTART:20261004T210000Z
 DTEND:20261005T020000Z
 SUMMARY:PLAYGRND SERIES MIAMI
 LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
  d States
-DESCRIPTION:Tags: r&b/soul\nhttps://calendar.zeyzeymiami.com/shows/playgrnd
- -series-04-oct
+DESCRIPTION:Tags: r&b/soul\nhttps://dice.fm/event/6a6b9027ca1d730001823403
+ \nhttps://calendar.zeyzeymiami.com/shows/playgrnd-series-04-oct
+URL:https://dice.fm/event/6a6b9027ca1d730001823403
 STATUS:CONFIRMED
 CATEGORIES:r&b/soul
 END:VEVENT
@@ -243,9 +244,9 @@ CATEGORIES:dance/electronic
 END:VEVENT
 BEGIN:VEVENT
 UID:solmates-season-opener-ft-fahlberg-orsay-more@shotgun.live
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:2
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:3
 DTSTART:20261010T020000Z
 DTEND:20261010T070000Z
 SUMMARY:Solmates Season Opener Ft. Fahlberg\, Orsay & More
@@ -284,8 +285,8 @@ DESCRIPTION:Solmates brings together two European producers whose work meet
  s://shotgun.live/en/events/solmates-season-opener-ft-fahlberg-orsay-more\n
  https://calendar.zeyzeymiami.com/shows/cain-culto-free-entry-09-oct\nhttps
  ://calendar.zeyzeymiami.com/shows/fahlberg-orsay-more-tba-09-oct\nhttps://
- edmtrain.com/miami-fl/solmates-fahlberg-534168\nhttps://ra.co/events/25294
- 43
+ dice.fm/event/6a9750591ac7ec00014fffc8\nhttps://edmtrain.com/miami-fl/solm
+ ates-fahlberg-534168\nhttps://ra.co/events/2529443
 URL:https://shotgun.live/en/events/solmates-season-opener-ft-fahlberg-orsay
  -more
 STATUS:CONFIRMED
@@ -340,38 +341,42 @@ CATEGORIES:afro house,house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a85fa1255f47f0001c509a5@zeyzey.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+DTSTAMP:20260922T004154Z
+LAST-MODIFIED:20260922T004154Z
+SEQUENCE:3
 DTSTART:20261014T230000Z
 DTEND:20261015T050000Z
 SUMMARY:Satellite: Neon Indian (DJ Set)\, Twin Shadow & Washed Out (DJ Set)
 LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
  d States
 DESCRIPTION:Lineup: Neon Indian\nTags: indie/alternative\, synthpop\nAges: 
- 18+\nhttps://calendar.zeyzeymiami.com/shows/satellite-neon-indian-dj-set-t
- win-shadow-washed-out-dj-set-14-oct\nhttps://dice.fm/event/ww999v-satellit
- e-neon-indian-dj-set-twin-shadow-washed-out-dj-set-14th-oct-zeyzey-miami-t
- ickets\nhttps://edmtrain.com/miami-fl/neon-indian-532196
+ 18+\nhttps://dice.fm/event/ww999v-satellite-neon-indian-dj-set-twin-shadow
+ -washed-out-dj-set-14th-oct-zeyzey-miami-tickets\nhttps://calendar.zeyzeym
+ iami.com/shows/satellite-neon-indian-dj-set-twin-shadow-washed-out-dj-set-
+ 14-oct\nhttps://edmtrain.com/miami-fl/neon-indian-532196
+URL:https://dice.fm/event/ww999v-satellite-neon-indian-dj-set-twin-shadow-w
+ ashed-out-dj-set-14th-oct-zeyzey-miami-tickets
 STATUS:CONFIRMED
 CATEGORIES:indie/alternative,synthpop
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a85fa446932660001a56c43@zeyzey.miami-calendars
-DTSTAMP:20260921T235357Z
-LAST-MODIFIED:20260921T235357Z
-SEQUENCE:2
+DTSTAMP:20260922T004154Z
+LAST-MODIFIED:20260922T004154Z
+SEQUENCE:4
 DTSTART:20261015T200000Z
 DTEND:20261016T060000Z
 SUMMARY:Satellite: Chasewest B2B Discip\, Ragie Ban\, Dan Molinari & Stixx
 LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
  d States
 DESCRIPTION:Lineup: ChaseWest\, Discip\, Ragie Ban\, Dan Molinari\, Stixx\n
- Tags: tech house\nAges: 18+\nhttps://calendar.zeyzeymiami.com/shows/satell
- ite-chasewest-b2b-discip-ragie-ban-dan-molinari-stixx-15-oct\nhttps://dice
- .fm/event/6dooo2-satellite-chasewest-b2b-discip-ragie-ban-dan-molinari-sti
- xx-15th-oct-zeyzey-miami-tickets\nhttps://edmtrain.com/miami-fl/chasewest-
- discip-532846
+ Tags: tech house\nAges: 18+\nhttps://dice.fm/event/6dooo2-satellite-chasew
+ est-b2b-discip-ragie-ban-dan-molinari-stixx-15th-oct-zeyzey-miami-tickets
+ \nhttps://calendar.zeyzeymiami.com/shows/satellite-chasewest-b2b-discip-ra
+ gie-ban-dan-molinari-stixx-15-oct\nhttps://edmtrain.com/miami-fl/chasewest
+ -discip-532846
+URL:https://dice.fm/event/6dooo2-satellite-chasewest-b2b-discip-ragie-ban-d
+ an-molinari-stixx-15th-oct-zeyzey-miami-tickets
 STATUS:CONFIRMED
 CATEGORIES:tech house
 END:VEVENT
@@ -406,16 +411,18 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a85fa6621cf7000019482af@zeyzey.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:2
 DTSTART:20261018T180000Z
 DTEND:20261019T040000Z
 SUMMARY:Satellite: Interplanetary Criminal\, Sam Alfred\, Jubilee + More
 LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
  d States
-DESCRIPTION:Tags: dance/electronic\nhttps://calendar.zeyzeymiami.com/shows/
- satellite-interplanetary-criminal-sam-alfred-jubilee-more-18-oct
+DESCRIPTION:Tags: dance/electronic\nhttps://dice.fm/event/6a85fa6621cf70000
+ 19482af\nhttps://calendar.zeyzeymiami.com/shows/satellite-interplanetary-c
+ riminal-sam-alfred-jubilee-more-18-oct
+URL:https://dice.fm/event/6a85fa6621cf7000019482af
 STATUS:CONFIRMED
 CATEGORIES:dance/electronic
 END:VEVENT
@@ -804,9 +811,9 @@ CATEGORIES:indie/alternative
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a0eff0b5ffbf40001c9044c@zeyzey.miami-calendars
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:2
 DTSTART:20261115T200000Z
 DTEND:20261116T000000Z
 SUMMARY:Club 1BD Miami ft. Chvmeleon\, Hunny Bee\, Pressure Point\, & Spine
@@ -814,8 +821,10 @@ SUMMARY:Club 1BD Miami ft. Chvmeleon\, Hunny Bee\, Pressure Point\, & Spine
 LOCATION:ZeyZey\, 353 Northeast 61st Street\, Miami\, Florida 33137\, Unite
  d States
 DESCRIPTION:Lineup: Club 1BD\, DJ Hunny Bee\, Pressure Point\, Spinelli\nTa
- gs: hip-hop/rap\nhttps://calendar.zeyzeymiami.com/shows/club-1bd-miami-day
- -party-15-nov\nhttps://edmtrain.com/miami-fl/club-1bd-dj-hunny-bee-517966
+ gs: hip-hop/rap\nhttps://dice.fm/event/6a0eff0b5ffbf40001c9044c\nhttps://c
+ alendar.zeyzeymiami.com/shows/club-1bd-miami-day-party-15-nov\nhttps://edm
+ train.com/miami-fl/club-1bd-dj-hunny-bee-517966
+URL:https://dice.fm/event/6a0eff0b5ffbf40001c9044c
 STATUS:CONFIRMED
 CATEGORIES:hip-hop/rap
 END:VEVENT

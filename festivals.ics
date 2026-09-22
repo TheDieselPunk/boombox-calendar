@@ -370,9 +370,9 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6aa82e05fcb1030001a9cd65@festivals.miami-calendars
-DTSTAMP:20260921T214009Z
-LAST-MODIFIED:20260921T214009Z
-SEQUENCE:0
+DTSTAMP:20260922T004038Z
+LAST-MODIFIED:20260922T004038Z
+SEQUENCE:1
 DTSTART:20261206T030000Z
 DTEND:20261206T120000Z
 SUMMARY:Circoloco Miami (Factory Basel 2026)
@@ -380,8 +380,9 @@ LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
 DESCRIPTION:Lineup: Aline Umber\, Beltran\, Carlita\, Chloé Caillet\, Dixo
  n\, Jamback\, Jimi Jules\, Luke Dean\, Make A Dance\, Max Dean\, Miguelle 
  & Tons\, Omar+\, Palms Trax\, PAWSA\, Prospa\, Rampa\, Rony Seikaly\, Seth
-  Troxler\nTags (guess): house\, techno\nhttps://edmtrain.com/miami-fl/circ
- oloco-miami-536726
+  Troxler\nTags (guess): house\, techno\nhttps://dice.fm/event/6aa82e05fcb1
+ 030001a9cd65\nhttps://edmtrain.com/miami-fl/circoloco-miami-536726
+URL:https://dice.fm/event/6aa82e05fcb1030001a9cd65
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT

@@ -373,11 +373,14 @@
     const pres = org && !ven.includes(org) && !org.includes(ven.replace(/ miami$/, "")) ? `<div class="meta">Presented by ${esc(e.organizer)}</div>` : "";
     const est = e.time_estimated ? `<div class="meta">~ estimated from the venue's usual hours</div>` : "";
     const tba = e.generic_title ? `<div class="meta">No headliner announced yet</div>` : "";
-    const link = e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title);
+    const href = e.url || (e.alt_urls || []).find(Boolean);
+    const link = href ? `<a href="${esc(href)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title);
+    const host = href ? new URL(href).hostname : "";
+    const more = (e.alt_urls || []).filter(u => u && u !== href && new URL(u).hostname !== host).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(new URL(u).hostname.replace(/^www\./, ""))}</a>`).join(" · ");
     return `<div class="card${e.generic_title ? " tba" : ""}" style="--dot:${colorOf(e)}">
       <div class="top"><div class="title">${link}</div><div class="when">${when}</div></div>
       <div class="meta">${esc(meta)}</div>${lineup}${pres}${tba}${est}
-      <div class="tags">${tags}${srcs}</div>
+      <div class="tags">${tags}${srcs}</div>${more ? `<div class="meta">Also on: ${more}</div>` : ""}
     </div>`;
   }
 
