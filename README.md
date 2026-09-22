@@ -5,10 +5,9 @@ One subscribable iCalendar feed per Miami venue, rebuilt every 6 hours from the 
 task, and served from GitHub Pages.
 
 **Site:** https://thedieselpunk.github.io/miami-calendars/ — a month/list calendar of every event in
-`events.json` (all metro venues, not just the ones with feeds) with filters for venue, genre (`genres.json` puts every source tag into one of the 28 scenes of
-[Ishkur's Guide to Electronic Music](https://music.ishkur.com/), in the guide's order, with the scene's
-canonical genres kept for reference; require or hide at scene or subgenre level, plus a one-click "skip all
-house scenes"), free/RSVP, 18+, day vs night, published-times-only,
+`events.json` (all metro venues, not just the ones with feeds) with filters for venue, genre (`genres.json`: 16 families by common usage — trance is trance, house
+is house — each carrying the canonical genre list of the [Ishkur's Guide](https://music.ishkur.com/) scenes it
+draws from, subgenres nested; require or hide at either level), free/RSVP, 18+, day vs night, published-times-only,
 sources and text search; filter state lives in the URL hash so a view can be shared. The per-venue
 subscribe cards are at the bottom of the same page.
 **Feed URLs:** `https://thedieselpunk.github.io/miami-calendars/<slug>.ics` — slugs are in

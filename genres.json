@@ -1,186 +1,100 @@
 {
-  "_comment": "Genre taxonomy for the site's filters. Families are the 28 scenes of Ishkur's Guide to Electronic Music v3 (music.ishkur.com), in the guide's order, each with its canonical genre list; 'tags' are the lowercase strings our sources emit, placed in the scene their genre belongs to. Two non-guide buckets close the list. Empty families are hidden by the page.",
-  "source": "https://music.ishkur.com/",
+  "_comment": "Genre taxonomy for the site's filters. Families follow common usage (trance is trance); each notes the scenes of Ishkur's Guide to Electronic Music v3 it draws from and carries their canonical genre list as reference. 'tags' are the lowercase strings our sources emit. Empty families are hidden by the page.",
+  "reference": "https://music.ishkur.com/",
   "families": [
     {
-      "name": "Bass",
-      "ishkur": true,
-      "ishkur_genres": ["Ghetto Tech", "Technobass", "Miami Bass", "Dirty South Rap", "Crunk", "Moombahton", "Trap"],
-      "tags": ["trap", "miami bass", "hard bounce"]
-    },
-    {
-      "name": "Hip Hop",
-      "ishkur": true,
-      "ishkur_genres": ["Rap", "Southern Rap", "Westcoast Rap", "Eastcoast Rap", "Bling", "Dancehall", "Conscious Rap", "Themed Rap", "Turntablism"],
-      "tags": ["hip-hop", "hip-hop/rap"]
-    },
-    {
-      "name": "Electro",
-      "ishkur": true,
-      "ishkur_genres": ["Freestyle", "Florida Breaks", "Electro"],
-      "tags": ["electro"]
+      "name": "House",
+      "ishkur_scenes": ["House", "Tech House", "Progressive", "Garage/Deep House"],
+      "ishkur_genres": ["8th Note Prog", "Chicago House", "Deeptech", "Disco House", "Electrohouse", "Euro Deep House", "Eurohouse", "Fidget House", "French House", "Garage", "Hard House", "Hip House", "Italo House", "McProg", "Microhouse", "Minimal Prog", "Minimal Tech", "Progressive", "Progressive House", "Tech House", "Twinkle Prog", "UK House", "US Deep House", "World House"],
+      "tags": ["house", "tech house", "deep house", "progressive house", "afro house", "electro house", "latin house", "disco house", "french house", "french touch", "funky house", "jackin house", "soulful house", "hard house", "pop house", "organic house", "tropical house", "bass house", "melodic house & techno", "afro", "afrobeat", "afrobeats"]
     },
     {
       "name": "Techno",
-      "ishkur": true,
-      "ishkur_genres": ["Minimal Techno", "Dub Techno", "Bangin Techno", "Detroit Techno", "Bleep Techno", "Hard Techno", "Euro Techno", "Schranz", "Experimental Techno"],
-      "tags": ["techno", "hard techno", "minimal", "schranz", "big room techno", "playa tech", "midtempo", "prhg"]
-    },
-    {
-      "name": "Hardcore",
-      "ishkur": true,
-      "ishkur_genres": ["Speedcore", "Rave", "Hardcore", "UK Hardcore", "Freeform", "Happy Hardcore", "Oldskool Rave Hardcore"],
-      "tags": []
-    },
-    {
-      "name": "Drum n Bass",
-      "ishkur": true,
-      "ishkur_genres": ["Atmospheric Jungle", "Jazzstep", "Liquid Funk", "Darkside", "Microfunk", "Techstep", "Neurofunk", "Darkstep", "Drumstep", "Pendulum", "Jumpup", "Ragga Jungle"],
-      "tags": ["drum and bass", "drum & bass", "jungle"]
-    },
-    {
-      "name": "Breakbeat",
-      "ishkur": true,
-      "ishkur_genres": ["Progressive Breaks", "Breaks", "Chemical Breaks", "Big Beat", "Nu Skool Breaks", "Freeland Breaks"],
-      "tags": ["breaks", "club music", "club", "jersey club"]
-    },
-    {
-      "name": "Acid",
-      "ishkur": true,
-      "ishkur_genres": ["Hard Acid", "Acid", "Acid House"],
-      "tags": ["acid"]
-    },
-    {
-      "name": "House",
-      "ishkur": true,
-      "ishkur_genres": ["Chicago House", "Hard House", "Hip House", "Italo House", "Disco House", "French House", "Electrohouse", "World House", "Eurohouse", "UK House"],
-      "tags": ["house", "electro house", "latin house", "disco house", "french house", "french touch", "funky house", "jackin house", "soulful house", "hard house", "pop house", "afro house", "organic house", "tropical house", "afro", "afrobeat", "afrobeats"]
-    },
-    {
-      "name": "Tech House",
-      "ishkur": true,
-      "ishkur_genres": ["Minimal Tech", "Microhouse", "Tech House", "Fidget House", "Deeptech"],
-      "tags": ["tech house", "bass house"]
-    },
-    {
-      "name": "Progressive",
-      "ishkur": true,
-      "ishkur_genres": ["Minimal Prog", "Progressive", "8th Note Prog", "McProg", "Twinkle Prog", "Progressive House"],
-      "tags": ["progressive house", "melodic house & techno"]
-    },
-    {
-      "name": "Garage/Deep House",
-      "ishkur": true,
-      "ishkur_genres": ["Euro Deep House", "US Deep House", "Garage"],
-      "tags": ["deep house"]
-    },
-    {
-      "name": "UK Garage",
-      "ishkur": true,
-      "ishkur_genres": ["Speed Garage", "Brostep", "Dubstep", "Future Garage", "Grime", "2-Step Garage"],
-      "tags": ["dubstep", "riddim", "bass", "bass music", "future bass", "uk bass", "grime", "uk garage", "garage", "bassline"]
-    },
-    {
-      "name": "Urban",
-      "ishkur": true,
-      "ishkur_genres": ["R&B", "Reggaeton", "Soul", "New Jack Swing", "Funk"],
-      "tags": ["r&b", "r&b/soul", "reggaeton", "latin", "funk", "electronic funk", "future funk"]
-    },
-    {
-      "name": "Downtempo",
-      "ishkur": true,
-      "ishkur_genres": ["Nu Jazz", "Acid Jazz", "Downtempo", "Trip Hop", "Dub"],
-      "tags": ["downtempo", "electronica", "chillwave", "live electronic", "dub", "future beats", "beats"]
-    },
-    {
-      "name": "Chill Out",
-      "ishkur": true,
-      "ishkur_genres": ["Indie", "Chill Out", "Worldbeat", "New Age"],
-      "tags": []
-    },
-    {
-      "name": "Ambient",
-      "ishkur": true,
-      "ishkur_genres": ["Ambient", "Dark Ambient", "Drone"],
-      "tags": []
-    },
-    {
-      "name": "Pioneers",
-      "ishkur": true,
-      "ishkur_genres": ["Moog", "Soundtrack", "Modern Classical", "Krautrock", "Minimalism", "Musique Concrete", "Experimental"],
-      "tags": []
-    },
-    {
-      "name": "Chiptune",
-      "ishkur": true,
-      "ishkur_genres": ["Amiga/Tracker", "FM", "Chiptune", "Fakebit", "Plus"],
-      "tags": []
-    },
-    {
-      "name": "Intelligent Dance Music",
-      "ishkur": true,
-      "ishkur_genres": ["Braindance", "Ambient Techno", "Glitch", "Glitch Hop", "Drill n Bass", "Breakcore"],
-      "tags": ["idm", "experimental", "leftfield", "glitch-hop"]
-    },
-    {
-      "name": "Industrial/Goth",
-      "ishkur": true,
-      "ishkur_genres": ["Noise", "Collage", "Industrial", "Aggrotech", "Industrial Rock", "Ethereal", "Darkwave", "New Beat", "Futurepop", "EBM"],
-      "tags": ["industrial", "dark wave", "darkwave", "ebm", "coldwave", "goth", "post-punk"]
-    },
-    {
-      "name": "Psy Trance",
-      "ishkur": true,
-      "ishkur_genres": ["Psydub", "Goa Trance", "Psychedelic Trance", "Darkpsy", "Full On", "Progpsy"],
-      "tags": []
+      "ishkur_scenes": ["Techno", "Acid", "Electro"],
+      "ishkur_genres": ["Acid", "Acid House", "Bangin Techno", "Bleep Techno", "Detroit Techno", "Dub Techno", "Electro", "Euro Techno", "Experimental Techno", "Florida Breaks", "Freestyle", "Hard Acid", "Hard Techno", "Minimal Techno", "Schranz"],
+      "tags": ["techno", "hard techno", "minimal", "acid", "electro", "industrial", "schranz", "big room techno", "playa tech", "midtempo", "prhg"]
     },
     {
       "name": "Trance",
-      "ishkur": true,
-      "ishkur_genres": ["Dream Trance", "Balearic Trance", "Neo Trance", "Trance", "Progressive Trance", "Tech Trance"],
-      "tags": ["trance", "uplifting trance", "big room trance"]
+      "ishkur_scenes": ["Trance", "Eurotrance", "Psy Trance"],
+      "ishkur_genres": ["Anthem House", "Balearic Trance", "Darkpsy", "Dream Trance", "Dutch House", "Eurotrance", "Full On", "Goa Trance", "Neo Trance", "Progpsy", "Progressive Trance", "Psychedelic Trance", "Psydub", "Tech Trance", "Trance"],
+      "tags": ["trance", "uplifting trance", "big room trance", "progressive trance", "psytrance", "goa", "hard trance"]
     },
     {
-      "name": "Hard Dance",
-      "ishkur": true,
-      "ishkur_genres": ["NRG", "UK Hardhouse", "Jumpstyle", "Hardstyle", "Hard Trance", "German Trance"],
-      "tags": ["hardstyle"]
+      "name": "Bass & dubstep",
+      "ishkur_scenes": ["UK Garage", "Bass"],
+      "ishkur_genres": ["2-Step Garage", "Brostep", "Crunk", "Dirty South Rap", "Dubstep", "Future Garage", "Ghetto Tech", "Grime", "Miami Bass", "Moombahton", "Speed Garage", "Technobass", "Trap"],
+      "tags": ["dubstep", "riddim", "bass", "bass music", "future bass", "uk bass", "brostep", "grime", "trap", "miami bass", "hard bounce"]
     },
     {
-      "name": "Eurotrance",
-      "ishkur": true,
-      "ishkur_genres": ["Eurotrance", "Anthem House", "Dutch House"],
-      "tags": ["edm", "pop edm", "big room", "big room house"]
+      "name": "Drum & bass",
+      "ishkur_scenes": ["Drum n Bass"],
+      "ishkur_genres": ["Atmospheric Jungle", "Darkside", "Darkstep", "Drumstep", "Jazzstep", "Jumpup", "Liquid Funk", "Microfunk", "Neurofunk", "Pendulum", "Ragga Jungle", "Techstep"],
+      "tags": ["drum and bass", "drum & bass", "jungle", "liquid dnb"]
     },
     {
-      "name": "Europop",
-      "ishkur": true,
-      "ishkur_genres": ["Vocal Trance", "Handsup", "Eurodance", "Nu Italo", "Asian Pop", "Eurobeat"],
-      "tags": []
+      "name": "Breaks & garage",
+      "ishkur_scenes": ["Breakbeat", "UK Garage"],
+      "ishkur_genres": ["2-Step Garage", "Big Beat", "Breaks", "Brostep", "Chemical Breaks", "Dubstep", "Freeland Breaks", "Future Garage", "Grime", "Nu Skool Breaks", "Progressive Breaks", "Speed Garage"],
+      "tags": ["breaks", "breakbeat", "uk garage", "garage", "bassline", "club music", "club", "jersey club", "footwork"]
     },
     {
-      "name": "Eurodisco",
-      "ishkur": true,
-      "ishkur_genres": ["Italo Disco", "Spacesynth", "Synthwave", "Synthpop", "Hi NRG"],
-      "tags": ["synthpop", "electropop", "italo disco", "disco", "nu-disco"]
+      "name": "Hard dance",
+      "ishkur_scenes": ["Hard Dance", "Hardcore"],
+      "ishkur_genres": ["Freeform", "German Trance", "Happy Hardcore", "Hard Trance", "Hardcore", "Hardstyle", "Jumpstyle", "NRG", "Oldskool Rave Hardcore", "Rave", "Speedcore", "UK Hardcore", "UK Hardhouse"],
+      "tags": ["hardstyle", "gabber", "hard dance", "rawstyle", "happy hardcore"]
     },
     {
-      "name": "Eurotrash",
-      "ishkur": true,
-      "ishkur_genres": ["Electroclash", "Filthy Electrohouse", "Dancepunk"],
-      "tags": ["indie dance", "electronic rock"]
+      "name": "Big room & EDM",
+      "ishkur_scenes": ["Eurotrance"],
+      "ishkur_genres": ["Anthem House", "Dutch House", "Eurotrance"],
+      "tags": ["edm", "pop edm", "big room", "big room house", "future rave"]
+    },
+    {
+      "name": "Downtempo & electronica",
+      "ishkur_scenes": ["Downtempo", "Chill Out", "Ambient"],
+      "ishkur_genres": ["Acid Jazz", "Ambient", "Chill Out", "Dark Ambient", "Downtempo", "Drone", "Dub", "Indie", "New Age", "Nu Jazz", "Trip Hop", "Worldbeat"],
+      "tags": ["downtempo", "electronica", "chillwave", "live electronic", "dub", "future beats", "beats", "ambient", "trip hop", "lo-fi"]
+    },
+    {
+      "name": "IDM & experimental",
+      "ishkur_scenes": ["Intelligent Dance Music"],
+      "ishkur_genres": ["Ambient Techno", "Braindance", "Breakcore", "Drill n Bass", "Glitch", "Glitch Hop"],
+      "tags": ["idm", "experimental", "leftfield", "glitch-hop", "glitch", "breakcore"]
+    },
+    {
+      "name": "Disco, funk & synthpop",
+      "ishkur_scenes": ["Eurodisco", "Eurotrash"],
+      "ishkur_genres": ["Dancepunk", "Electroclash", "Filthy Electrohouse", "Hi NRG", "Italo Disco", "Spacesynth", "Synthpop", "Synthwave"],
+      "tags": ["disco", "nu-disco", "italo disco", "funk", "electronic funk", "future funk", "boogie", "synthpop", "electropop", "synthwave", "indie dance", "electronic rock", "electroclash"]
+    },
+    {
+      "name": "Dark wave & industrial",
+      "ishkur_scenes": ["Industrial/Goth"],
+      "ishkur_genres": ["Aggrotech", "Collage", "Darkwave", "EBM", "Ethereal", "Futurepop", "Industrial", "Industrial Rock", "New Beat", "Noise"],
+      "tags": ["dark wave", "darkwave", "ebm", "coldwave", "goth", "post-punk", "industrial rock", "minimal wave"]
+    },
+    {
+      "name": "Hip-hop & R&B",
+      "ishkur_scenes": ["Hip Hop", "Urban"],
+      "ishkur_genres": ["Bling", "Conscious Rap", "Dancehall", "Eastcoast Rap", "Funk", "New Jack Swing", "R&B", "Rap", "Reggaeton", "Soul", "Southern Rap", "Themed Rap", "Turntablism", "Westcoast Rap"],
+      "tags": ["hip-hop", "hip-hop/rap", "rap", "r&b", "r&b/soul", "soul"]
+    },
+    {
+      "name": "Latin",
+      "ishkur_scenes": ["Urban"],
+      "ishkur_genres": ["Funk", "New Jack Swing", "R&B", "Reggaeton", "Soul"],
+      "tags": ["latin", "reggaeton", "dembow", "cumbia", "salsa", "merengue", "bachata"]
     },
     {
       "name": "Electronic (unspecified)",
-      "ishkur": false,
       "tags": ["dance/electronic", "multigenre edm", "tbd", "open-format", "remixes"],
       "note": "A source only said 'electronic'. Kept only when nothing more specific is known."
     },
     {
       "name": "Not electronic",
-      "ishkur": false,
-      "tags": ["rock", "indie/alternative", "indie rock", "indie", "indie pop", "alternative", "punk", "hardcore", "emo", "pop rock", "psychedelic rock", "metal", "death metal", "black metal", "metalcore", "folk", "pop", "jazz", "country"],
-      "note": "Outside the guide's scope. 'hardcore' is here because every use in this data is hardcore punk, not rave hardcore."
+      "tags": ["rock", "indie/alternative", "indie rock", "indie", "indie pop", "alternative", "punk", "hardcore", "emo", "pop rock", "psychedelic rock", "metal", "death metal", "black metal", "metalcore", "folk", "pop", "jazz", "country", "comedy"],
+      "note": "'hardcore' is here because every use in this data is hardcore punk, not rave hardcore."
     }
   ]
 }
