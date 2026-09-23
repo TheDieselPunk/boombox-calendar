@@ -28,26 +28,6 @@
    ]
   },
   {
-   "id": "shotgun:comedy-night-at-churchill-s-4",
-   "source": "shotgun",
-   "title": "Comedy Night At Churchill's",
-   "artists": [],
-   "venue": "Churchill's Pub",
-   "venue_slug": null,
-   "date": "2026-09-22",
-   "start": "2026-09-23T03:59:00+00:00",
-   "end": null,
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "Free",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/en/events/comedy-night-at-churchill-s-4"
-  },
-  {
    "id": "edmtrain:538487",
    "source": "edmtrain",
    "title": "Andy Martinez",
@@ -647,7 +627,7 @@
    "time_estimated": false,
    "address": "34 NE 11th St, Miami, FL 33132, USA",
    "ages": "",
-   "price": "From $48",
+   "price": "From $48 (sold out)",
    "genres": [
     "house",
     "techno"
