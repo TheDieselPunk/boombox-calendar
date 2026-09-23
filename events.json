@@ -1,30 +1,6 @@
 {
  "events": [
   {
-   "id": "19hz:4443535-rennmateos",
-   "source": "19hz",
-   "title": "Renn Mateos",
-   "artists": [],
-   "venue": "E11even",
-   "venue_slug": null,
-   "date": "2026-09-21",
-   "start": "2026-09-22T00:00:00+00:00",
-   "end": "2026-09-22T14:00:00+00:00",
-   "time_estimated": false,
-   "address": "",
-   "ages": "21+",
-   "price": "free w/rsvp b4 midnight / $23-34",
-   "genres": [
-    "afro house",
-    "edm",
-    "tech house"
-   ],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://speakeasygo.com/e11even/renn-mateos-at-e11even"
-  },
-  {
    "id": "19hz:4443631-arielassault",
    "source": "19hz+edmtrain",
    "title": "Ariel Assault",
@@ -1544,6 +1520,28 @@
    "alt_urls": [
     "https://edmtrain.com/miami-fl/leandro-da-silva-leo-oliver-535463"
    ]
+  },
+  {
+   "id": "edmtrain:539314",
+   "source": "edmtrain",
+   "title": "DJ Masda",
+   "artists": [
+    "DJ Masda"
+   ],
+   "venue": "Paraíso Estéreo",
+   "venue_slug": null,
+   "date": "2026-09-25",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "1306 N Miami Ave, Miami, FL 33136, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://edmtrain.com/miami-fl/dj-masda-539314"
   },
   {
    "id": "edmtrain:537672",
@@ -4463,6 +4461,31 @@
    "url": "https://shotgun.live/en/events/loofy-sable-october-8th"
   },
   {
+   "id": "edmtrain:539171",
+   "source": "edmtrain",
+   "title": "Loofy",
+   "artists": [
+    "Loofy"
+   ],
+   "venue": "Sable Miami",
+   "venue_slug": null,
+   "date": "2026-10-08",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "2219 NW 2nd Ave, Miami, FL 33127, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/wwk9wg?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/loofy-539171"
+   ]
+  },
+  {
    "id": "hardrock:201835",
    "source": "19hz+edmtrain+venue",
    "title": "Luck Work",
@@ -4578,7 +4601,7 @@
   },
   {
    "id": "shotgun:madradiomiami100926",
-   "source": "shotgun",
+   "source": "edmtrain+shotgun",
    "title": "Sandy Rivera / Misturada",
    "artists": [
     "Sandy Rivera"
@@ -4606,7 +4629,10 @@
     "latitude": 25.8462027,
     "longitude": -80.1851332
    },
-   "created": "2026-09-22T16:05:47.000Z"
+   "created": "2026-09-22T16:05:47.000Z",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/sandy-rivera-kings-of-tomorrow-misturada-539086"
+   ]
   },
   {
    "id": "19hz:4445268-starjunk95",
@@ -4846,6 +4872,30 @@
    "alt_urls": [
     "https://edmtrain.com/miami-fl/wuki-536174"
    ]
+  },
+  {
+   "id": "shotgun:the-hall-pres-eze-ramirez",
+   "source": "shotgun",
+   "title": "The Hall Pres. Eze Ramirez",
+   "artists": [],
+   "venue": "Upside",
+   "venue_slug": null,
+   "date": "2026-10-09",
+   "start": "2026-10-10T02:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$22.69",
+   "genres": [
+    "melodic house & techno",
+    "house",
+    "progressive house"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/the-hall-pres-eze-ramirez"
   },
   {
    "id": "shotgun:solmates-season-opener-ft-fahlberg-orsay-more",
@@ -5580,6 +5630,63 @@
    "cancelled": false,
    "alt_urls": [
     "https://ra.co/events/2525260"
+   ]
+  },
+  {
+   "id": "edmtrain:539104",
+   "source": "edmtrain",
+   "title": "Slow Life: Adam Bogdan, Boghian, jeremiasbarna, Elizabëth, GALI, Michelle Mavris, rhaff, yomayo",
+   "artists": [
+    "Adam Bogdan",
+    "Boghian",
+    "jeremiasbarna",
+    "Elizabëth",
+    "GALI",
+    "Michelle Mavris",
+    "rhaff",
+    "yomayo"
+   ],
+   "venue": "Miami",
+   "venue_slug": null,
+   "date": "2026-10-10",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "Miami, FL, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/events/slow-life-w-cecilio-paolo-mosca-rapture-s-deli-anniversary?utm_source=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/slow-life-adam-bogdan-539104"
+   ]
+  },
+  {
+   "id": "edmtrain:539286",
+   "source": "edmtrain",
+   "title": "Enmeshed",
+   "artists": [
+    "Enmeshed"
+   ],
+   "venue": "Treehouse Miami Beach",
+   "venue_slug": null,
+   "date": "2026-10-10",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "323 23rd St, Miami Beach, FL 33139, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://www.etix.com/ticket/p/74928984",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/enmeshed-539286"
    ]
   },
   {
@@ -8061,6 +8168,32 @@
    ]
   },
   {
+   "id": "edmtrain:539202",
+   "source": "edmtrain",
+   "title": "Dave Summer, Kelland",
+   "artists": [
+    "Dave Summer",
+    "Kelland"
+   ],
+   "venue": "Studio 60",
+   "venue_slug": null,
+   "date": "2026-10-24",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "2300 NW 36th St, Miami, FL 33142, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/bbgglg?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/dave-summer-kelland-539202"
+   ]
+  },
+  {
    "id": "hardrock:202018",
    "source": "venue",
    "title": "DAER Dayclub",
@@ -9205,6 +9338,32 @@
    ]
   },
   {
+   "id": "edmtrain:539000",
+   "source": "edmtrain",
+   "title": "Zoey808, 9B49",
+   "artists": [
+    "Zoey808",
+    "9B49"
+   ],
+   "venue": "Backyard Ft. Lauderdale",
+   "venue_slug": null,
+   "date": "2026-10-31",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "100 SW 3rd Ave, Fort Lauderdale, FL 33301, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://posh.vip/e/paradise-presents-zoey808-x-9b49-halloween-festival-at-backyard-ftl?t=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/zoey808-9b49-539000"
+   ]
+  },
+  {
    "id": "edmtrain:531061",
    "source": "edmtrain",
    "title": "DIESEL (Shaquille O'Neal)",
@@ -9819,6 +9978,29 @@
    "url": "https://ticketmaster.evyy.net/c/254533/264167/4272?u=https%3A%2F%2Fwww.ticketweb.com%2Fevent%2Fid%2F14328774",
    "alt_urls": [
     "https://edmtrain.com/miami-fl/martin-garrix-538129"
+   ]
+  },
+  {
+   "id": "edmtrain:539079",
+   "source": "edmtrain",
+   "title": "unKommon",
+   "artists": [],
+   "venue": "Little River Studios",
+   "venue_slug": null,
+   "date": "2026-11-07",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "300 NE 71st St, Miami, FL 33138, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/6dg2o3?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/unkommon-539079"
    ]
   },
   {
@@ -11157,9 +11339,11 @@
   },
   {
    "id": "hardrock:206019",
-   "source": "venue",
+   "source": "edmtrain+venue",
    "title": "Ely Oaks",
-   "artists": [],
+   "artists": [
+    "Ely Oaks"
+   ],
    "venue": "DAER Nightclub",
    "venue_slug": "daer",
    "date": "2026-11-21",
@@ -11174,7 +11358,10 @@
    "organizer": "",
    "description": "",
    "url": "https://tixr.com/e/206019",
-   "generic_title": false
+   "generic_title": false,
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/ely-oaks-539032"
+   ]
   },
   {
    "id": "dice:6a64b93c7b94a300012b1b10",
@@ -11219,7 +11406,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "",
-   "price": "$10.00",
+   "price": "$15.00",
    "genres": [
     "dub",
     "experimental",
