@@ -1570,7 +1570,7 @@
   {
    "id": "hardrock:199438",
    "source": "venue",
-   "title": "DAER Dayclub",
+   "title": "Landis",
    "artists": [],
    "venue": "DAER Dayclub",
    "venue_slug": "daer",
@@ -1586,7 +1586,7 @@
    "organizer": "",
    "description": "",
    "url": "https://tixr.com/e/199438",
-   "generic_title": true
+   "generic_title": false
   },
   {
    "id": "shotgun:intriga-x-boho-house-day-1-new-location",
@@ -2566,6 +2566,26 @@
    ]
   },
   {
+   "id": "shotgun:rendezvous1-9",
+   "source": "shotgun",
+   "title": "Sukkot After: Adi-J, Røyé, Dmeyer, Bagdelan, Lerso",
+   "artists": [],
+   "venue": "Miami",
+   "venue_slug": null,
+   "date": "2026-09-27",
+   "start": "2026-09-28T01:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$25.00",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/rendezvous1-9"
+  },
+  {
    "id": "shotgun:kinoplex-rollingthunder",
    "source": "shotgun",
    "title": "Kinoplex + Dudes Done Wrong : Rolling Thunder (1977)",
@@ -2811,6 +2831,28 @@
    ]
   },
   {
+   "id": "shotgun:riot-sessions",
+   "source": "shotgun",
+   "title": "Riot Sessions",
+   "artists": [],
+   "venue": "Miami",
+   "venue_slug": null,
+   "date": "2026-10-01",
+   "start": "2026-10-02T00:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$10.00",
+   "genres": [
+    "rock"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/riot-sessions"
+  },
+  {
    "id": "dice:6ab3eef6a713180001f76939",
    "source": "19hz+dice",
    "title": "BERRAKKA b2b v1fro & RARA",
@@ -2932,7 +2974,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "",
-   "price": "$17.03",
+   "price": "$11.35",
    "genres": [
     "black metal",
     "experimental",
@@ -4005,7 +4047,7 @@
   {
    "id": "hardrock:202007",
    "source": "venue",
-   "title": "DAER Dayclub",
+   "title": "Viatando Por El Mundo",
    "artists": [],
    "venue": "DAER Dayclub",
    "venue_slug": "daer",
@@ -4021,7 +4063,7 @@
    "organizer": "",
    "description": "",
    "url": "https://tixr.com/e/202007",
-   "generic_title": true
+   "generic_title": false
   },
   {
    "id": "shotgun:once-upon-a-melody-a-disney-classic-piano-performance",
@@ -4441,11 +4483,9 @@
   },
   {
    "id": "hardrock:201835",
-   "source": "19hz+edmtrain+venue",
+   "source": "19hz+venue",
    "title": "Luck Work",
-   "artists": [
-    "Chase & Status"
-   ],
+   "artists": [],
    "venue": "DAER Dayclub",
    "venue_slug": "daer",
    "date": "2026-10-09",
@@ -4455,18 +4495,14 @@
    "address": "1 Seminole Way, Hollywood, FL 33314",
    "ages": "21+",
    "price": "$30-40",
-   "genres": [
-    "drum and bass"
-   ],
+   "genres": [],
    "genres_inferred": false,
    "organizer": "",
    "description": "",
    "url": "https://tixr.com/e/201835",
    "generic_title": false,
    "alt_urls": [
-    "https://www.tixr.com/groups/daerdayclubsouthflorida/events/luck-work-daer-dayclub-201835",
-    "https://www.tixr.com/groups/daernightclubsouthflorida/events/chase-and-status-daer-nightclub-202030",
-    "https://edmtrain.com/fort-lauderdale-fl/chase-and-status-528506"
+    "https://www.tixr.com/groups/daerdayclubsouthflorida/events/luck-work-daer-dayclub-201835"
    ]
   },
   {
@@ -4616,6 +4652,74 @@
    "alt_urls": [
     "https://edmtrain.com/miami-fl/starjunk-95-511485"
    ]
+  },
+  {
+   "id": "edmtrain:528506",
+   "source": "edmtrain",
+   "title": "Chase & Status",
+   "artists": [
+    "Chase & Status"
+   ],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-10-09",
+   "start": "2026-10-10T02:00:00+00:00",
+   "end": "2026-10-10T08:00:00+00:00",
+   "time_estimated": true,
+   "address": "1 Lucky St, Davie, FL 33314, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://www.tixr.com/pr/edmtrain/202030",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/chase-and-status-528506"
+   ]
+  },
+  {
+   "id": "hardrock:208488",
+   "source": "venue",
+   "title": "Level Up",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-10-09",
+   "start": "2026-10-10T02:00:00+00:00",
+   "end": "2026-10-10T08:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/208488",
+   "generic_title": false
+  },
+  {
+   "id": "19hz:4445272-chaseandstatus",
+   "source": "19hz",
+   "title": "Chase and Status",
+   "artists": [],
+   "venue": "Daer Nightclub",
+   "venue_slug": "daer",
+   "date": "2026-10-09",
+   "start": "2026-10-10T02:00:00+00:00",
+   "end": "2026-10-10T08:00:00+00:00",
+   "time_estimated": false,
+   "address": "Hollywood",
+   "ages": "21+",
+   "price": "$49+",
+   "genres": [
+    "drum and bass"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://www.tixr.com/groups/daernightclubsouthflorida/events/chase-and-status-daer-nightclub-202030"
   },
   {
    "id": "19hz:4445272-yokoo",
@@ -4857,7 +4961,7 @@
    "title": "Solmates Season Opener Ft. Fahlberg, Orsay & More",
    "artists": [
     "Fahlberg",
-    "Axel Plays"
+    "Orsay"
    ],
    "venue": "ZeyZey Miami",
    "venue_slug": "zeyzey",
@@ -5644,19 +5748,19 @@
    ]
   },
   {
-   "id": "hardrock:202010",
-   "source": "19hz+edmtrain+venue",
+   "id": "19hz:4445424-levelup",
+   "source": "19hz+edmtrain",
    "title": "Level Up",
    "artists": [
     "LEVEL UP"
    ],
-   "venue": "DAER Dayclub",
+   "venue": "Daer Dayclub",
    "venue_slug": "daer",
    "date": "2026-10-11",
    "start": "2026-10-11T16:00:00+00:00",
-   "end": "2026-10-11T22:00:00+00:00",
+   "end": "2026-10-11T23:00:00+00:00",
    "time_estimated": false,
-   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "address": "Hollywood",
    "ages": "21+",
    "price": "$37+",
    "genres": [
@@ -5667,10 +5771,8 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://tixr.com/e/202010",
-   "generic_title": false,
+   "url": "https://www.tixr.com/groups/daerdayclubsouthflorida/events/level-up-daer-dayclub-202010",
    "alt_urls": [
-    "https://www.tixr.com/groups/daerdayclubsouthflorida/events/level-up-daer-dayclub-202010",
     "https://edmtrain.com/fort-lauderdale-fl/level-up-530444"
    ]
   },
@@ -8820,7 +8922,7 @@
    "venue": "ZeyZey Miami",
    "venue_slug": "zeyzey",
    "date": "2026-10-31",
-   "start": "2026-10-31T14:00:00+00:00",
+   "start": "2026-10-31T14:30:00+00:00",
    "end": "2026-11-01T05:00:00+00:00",
    "time_estimated": false,
    "address": "",
@@ -10379,6 +10481,30 @@
    ]
   },
   {
+   "id": "dice:6ab3fb9d80f9a500012b3792",
+   "source": "dice",
+   "title": "RABBIT IN THE MOON - LIVE",
+   "artists": [],
+   "venue": "Kemistry",
+   "venue_slug": "kemistry",
+   "date": "2026-11-13",
+   "start": "2026-11-14T03:00:00+00:00",
+   "end": "2026-11-14T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "307 Southwest 2nd Street, Fort Lauderdale, Florida 33312, United States",
+   "ages": "",
+   "price": "From $40",
+   "genres": [
+    "bass",
+    "dubstep"
+   ],
+   "genres_inferred": true,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/6ab3fb9d80f9a500012b3792",
+   "cancelled": false
+  },
+  {
    "id": "dice:6a9050c13e2dcd00013c2e7e",
    "source": "19hz+dice+edmtrain",
    "title": "NOTION",
@@ -11770,9 +11896,9 @@
    ]
   },
   {
-   "id": "dice:6a60e813170f000001bd0743",
-   "source": "19hz+dice+edmtrain",
-   "title": "SPACE WIZARD",
+   "id": "19hz:4450072-spacewizard",
+   "source": "19hz+edmtrain",
+   "title": "Space Wizard",
    "artists": [
     "Space Wizard",
     "XaeboR"
@@ -11783,9 +11909,9 @@
    "start": "2026-11-29T03:00:00+00:00",
    "end": "2026-11-29T09:00:00+00:00",
    "time_estimated": false,
-   "address": "307 Southwest 2nd Street, Fort Lauderdale, Florida 33312, United States",
+   "address": "Fort Lauderdale",
    "ages": "18+",
-   "price": "From $13",
+   "price": "$13.22",
    "genres": [
     "bass music",
     "dubstep"
@@ -11794,9 +11920,7 @@
    "organizer": "",
    "description": "",
    "url": "https://dice.fm/event/xe3wmk-space-wizard-28th-nov-kemistry-fort-lauderdale-tickets",
-   "cancelled": false,
    "alt_urls": [
-    "https://dice.fm/event/xe3wmk-space-wizard-28th-nov-kemistry-fort-lauderdale-tickets",
     "https://edmtrain.com/fort-lauderdale-fl/space-wizard-xaebor-526433"
    ]
   },
@@ -12008,6 +12132,30 @@
    ]
   },
   {
+   "id": "dice:6ab44b4b28d5d90001e98039",
+   "source": "dice",
+   "title": "Basel: Special Guest",
+   "artists": [],
+   "venue": "Jolene Sound Room Miami",
+   "venue_slug": "jolene",
+   "date": "2026-11-30",
+   "start": "2026-12-01T03:00:00+00:00",
+   "end": "2026-12-01T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "200 East Flagler Street, Miami, Florida 33131, United States",
+   "ages": "",
+   "price": "",
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "genres_inferred": true,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/6ab44b4b28d5d90001e98039",
+   "cancelled": false
+  },
+  {
    "id": "edmtrain:533949",
    "source": "edmtrain",
    "title": "Emkay",
@@ -12104,6 +12252,30 @@
    "organizer": "",
    "description": "",
    "url": "https://calendar.zeyzeymiami.com/shows/justin-nozuka-second-show-02-dec",
+   "cancelled": false
+  },
+  {
+   "id": "dice:6ab443f8697fd600018d79bd",
+   "source": "dice",
+   "title": "Basel: Benny Benassi",
+   "artists": [],
+   "venue": "Jolene Sound Room Miami",
+   "venue_slug": "jolene",
+   "date": "2026-12-02",
+   "start": "2026-12-03T03:15:00+00:00",
+   "end": "2026-12-03T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "200 East Flagler Street, Miami, Florida 33131, United States",
+   "ages": "",
+   "price": "",
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "genres_inferred": true,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/6ab443f8697fd600018d79bd",
    "cancelled": false
   },
   {
@@ -12215,6 +12387,30 @@
    "alt_urls": [
     "https://edmtrain.com/miami-fl/unkommon-art-week-bedouin-533698"
    ]
+  },
+  {
+   "id": "dice:6ab3a356f3be0b000115831c",
+   "source": "dice",
+   "title": "Basel: AFTERJAM",
+   "artists": [],
+   "venue": "Jolene Sound Room Miami",
+   "venue_slug": "jolene",
+   "date": "2026-12-03",
+   "start": "2026-12-04T03:00:00+00:00",
+   "end": "2026-12-04T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "200 East Flagler Street, Miami, Florida 33131, United States",
+   "ages": "",
+   "price": "",
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "genres_inferred": true,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/6ab3a356f3be0b000115831c",
+   "cancelled": false
   },
   {
    "id": "19hz:4450552-levelup",
@@ -12595,6 +12791,30 @@
    "generic_title": true
   },
   {
+   "id": "dice:6ab44533af1ad900014f7295",
+   "source": "dice",
+   "title": "Basel: SlapFunk",
+   "artists": [],
+   "venue": "Jolene Sound Room Miami",
+   "venue_slug": "jolene",
+   "date": "2026-12-04",
+   "start": "2026-12-05T03:00:00+00:00",
+   "end": "2026-12-05T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "200 East Flagler Street, Miami, Florida 33131, United States",
+   "ages": "",
+   "price": "",
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "genres_inferred": true,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/6ab44533af1ad900014f7295",
+   "cancelled": false
+  },
+  {
    "id": "dice:6aa19424a8735500017d3f72",
    "source": "dice+edmtrain",
    "title": "Music On (Space Basel)",
@@ -12817,6 +13037,30 @@
    ]
   },
   {
+   "id": "dice:6ab446f49e8bcf0001f96b29",
+   "source": "dice",
+   "title": "Basel: Francis Mercier",
+   "artists": [],
+   "venue": "Jolene Sound Room Miami",
+   "venue_slug": "jolene",
+   "date": "2026-12-05",
+   "start": "2026-12-06T03:00:00+00:00",
+   "end": "2026-12-06T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "200 East Flagler Street, Miami, Florida 33131, United States",
+   "ages": "",
+   "price": "",
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "genres_inferred": true,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/6ab446f49e8bcf0001f96b29",
+   "cancelled": false
+  },
+  {
    "id": "dice:6aa06694dcd56d0001733719",
    "source": "dice+edmtrain",
    "title": "Obskür Presents: The System (Floyd Basel 2026)",
@@ -12937,6 +13181,30 @@
    "organizer": "",
    "description": "",
    "url": "https://calendar.zeyzeymiami.com/shows/shintaro-sakamoto-06-dec",
+   "cancelled": false
+  },
+  {
+   "id": "dice:6ab448eab6c65c00012abd8a",
+   "source": "dice",
+   "title": "Basel: Special Guests",
+   "artists": [],
+   "venue": "Jolene Sound Room Miami",
+   "venue_slug": "jolene",
+   "date": "2026-12-06",
+   "start": "2026-12-07T03:00:00+00:00",
+   "end": "2026-12-07T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "200 East Flagler Street, Miami, Florida 33131, United States",
+   "ages": "",
+   "price": "",
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "genres_inferred": true,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/6ab448eab6c65c00012abd8a",
    "cancelled": false
   },
   {
@@ -13554,7 +13822,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "",
-   "price": "",
+   "price": "$12.00",
    "genres": [],
    "genres_inferred": false,
    "organizer": "",
@@ -13720,6 +13988,27 @@
    "url": "https://www.tixr.com/groups/dreamlandnye/events/dreamland-new-years-festival-170476"
   },
   {
+   "id": "hardrock:208377",
+   "source": "venue",
+   "title": "New Year's Day",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2027-01-01",
+   "start": "2027-01-01T17:00:00+00:00",
+   "end": "2027-01-01T23:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/208377",
+   "generic_title": false
+  },
+  {
    "id": "edmtrain:523792",
    "source": "edmtrain",
    "title": "Dreamland New Years Festival",
@@ -13766,6 +14055,27 @@
    "url": "https://www.tixr.com/groups/dreamlandnye/events/dreamland-new-years-festival-170476"
   },
   {
+   "id": "hardrock:208378",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2027-01-01",
+   "start": "2027-01-02T03:00:00+00:00",
+   "end": "2027-01-02T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/208378",
+   "generic_title": true
+  },
+  {
    "id": "edmtrain:523794",
    "source": "edmtrain",
    "title": "Dreamland New Years Festival",
@@ -13810,6 +14120,27 @@
    "organizer": "",
    "description": "",
    "url": "https://www.tixr.com/groups/dreamlandnye/events/dreamland-new-years-festival-170476"
+  },
+  {
+   "id": "hardrock:208379",
+   "source": "venue",
+   "title": "DAER Nightclub",
+   "artists": [],
+   "venue": "DAER Nightclub",
+   "venue_slug": "daer",
+   "date": "2027-01-02",
+   "start": "2027-01-03T03:00:00+00:00",
+   "end": "2027-01-03T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/208379",
+   "generic_title": true
   },
   {
    "id": "edmtrain:537703",

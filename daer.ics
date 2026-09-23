@@ -22,14 +22,14 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:hardrock-199438@daer.miami-calendars
-DTSTAMP:20260921T200729Z
-LAST-MODIFIED:20260921T200729Z
-SEQUENCE:1
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:2
 DTSTART:20260926T160000Z
 DTEND:20260926T220000Z
-SUMMARY:DAER Dayclub
+SUMMARY:Landis
 LOCATION:DAER Dayclub\, 1 Seminole Way\, Hollywood\, FL 33314
-DESCRIPTION:No headliner announced yet.\nhttps://tixr.com/e/199438
+DESCRIPTION:https://tixr.com/e/199438
 URL:https://tixr.com/e/199438
 STATUS:CONFIRMED
 END:VEVENT
@@ -105,32 +105,73 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:hardrock-202007@daer.miami-calendars
-DTSTAMP:20260921T200729Z
-LAST-MODIFIED:20260921T200729Z
-SEQUENCE:1
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:2
 DTSTART:20261004T160000Z
 DTEND:20261004T220000Z
-SUMMARY:DAER Dayclub
+SUMMARY:Viatando Por El Mundo
 LOCATION:DAER Dayclub\, 1 Seminole Way\, Hollywood\, FL 33314
-DESCRIPTION:No headliner announced yet.\nhttps://tixr.com/e/202007
+DESCRIPTION:https://tixr.com/e/202007
 URL:https://tixr.com/e/202007
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:hardrock-201835@daer.miami-calendars
-DTSTAMP:20260921T200554Z
-LAST-MODIFIED:20260921T200554Z
-SEQUENCE:0
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:1
 DTSTART:20261009T190000Z
 DTEND:20261009T220000Z
 SUMMARY:Luck Work
 LOCATION:DAER Dayclub\, 1 Seminole Way\, Hollywood\, FL 33314
-DESCRIPTION:Lineup: Chase & Status\nTags: drum and bass\nAges: 21+\nhttps:/
- /tixr.com/e/201835\nhttps://edmtrain.com/fort-lauderdale-fl/chase-and-stat
- us-528506\nhttps://www.tixr.com/groups/daerdayclubsouthflorida/events/luck
- -work-daer-dayclub-201835\nhttps://www.tixr.com/groups/daernightclubsouthf
- lorida/events/chase-and-status-daer-nightclub-202030
+DESCRIPTION:Ages: 21+\nhttps://tixr.com/e/201835\nhttps://www.tixr.com/grou
+ ps/daerdayclubsouthflorida/events/luck-work-daer-dayclub-201835
 URL:https://tixr.com/e/201835
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-528506@daer.miami-calendars
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:0
+DTSTART:20261010T020000Z
+DTEND:20261010T080000Z
+SUMMARY:Chase & Status
+LOCATION:DAER Nightclub\, 1 Lucky St\, Davie\, FL 33314\, USA
+DESCRIPTION:Lineup: Chase & Status\nTimes are an estimate from DAER (Hard R
+ ock Hollywood)'s usual hours - the listing has no start time yet. Check th
+ e link.\nhttps://www.tixr.com/pr/edmtrain/202030\nhttps://edmtrain.com/for
+ t-lauderdale-fl/chase-and-status-528506
+URL:https://www.tixr.com/pr/edmtrain/202030
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:hardrock-208488@daer.miami-calendars
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:0
+DTSTART:20261010T020000Z
+DTEND:20261010T080000Z
+SUMMARY:Level Up
+LOCATION:DAER Nightclub\, 1 Seminole Way\, Hollywood\, FL 33314
+DESCRIPTION:https://tixr.com/e/208488
+URL:https://tixr.com/e/208488
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:19hz-4445272-chaseandstatus@daer.miami-calendars
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:0
+DTSTART:20261010T020000Z
+DTEND:20261010T080000Z
+SUMMARY:Chase and Status
+LOCATION:Daer Nightclub\, Hollywood
+DESCRIPTION:Tags: drum and bass\nAges: 21+\nhttps://www.tixr.com/groups/dae
+ rnightclubsouthflorida/events/chase-and-status-daer-nightclub-202030
+URL:https://www.tixr.com/groups/daernightclubsouthflorida/events/chase-and-
+ status-daer-nightclub-202030
 STATUS:CONFIRMED
 CATEGORIES:drum and bass
 END:VEVENT
@@ -169,19 +210,19 @@ STATUS:CONFIRMED
 CATEGORIES:big room techno,tech house
 END:VEVENT
 BEGIN:VEVENT
-UID:hardrock-202010@daer.miami-calendars
-DTSTAMP:20260921T200554Z
-LAST-MODIFIED:20260921T200554Z
+UID:19hz-4445424-levelup@daer.miami-calendars
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
 SEQUENCE:0
 DTSTART:20261011T160000Z
-DTEND:20261011T220000Z
+DTEND:20261011T230000Z
 SUMMARY:Level Up
-LOCATION:DAER Dayclub\, 1 Seminole Way\, Hollywood\, FL 33314
+LOCATION:Daer Dayclub\, Hollywood
 DESCRIPTION:Lineup: LEVEL UP\nTags: bass music\, dubstep\, riddim\nAges: 21
- +\nhttps://tixr.com/e/202010\nhttps://edmtrain.com/fort-lauderdale-fl/leve
- l-up-530444\nhttps://www.tixr.com/groups/daerdayclubsouthflorida/events/le
- vel-up-daer-dayclub-202010
-URL:https://tixr.com/e/202010
+ +\nhttps://www.tixr.com/groups/daerdayclubsouthflorida/events/level-up-dae
+ r-dayclub-202010\nhttps://edmtrain.com/fort-lauderdale-fl/level-up-530444
+URL:https://www.tixr.com/groups/daerdayclubsouthflorida/events/level-up-dae
+ r-dayclub-202010
 STATUS:CONFIRMED
 CATEGORIES:bass music,dubstep,riddim
 END:VEVENT
@@ -799,6 +840,45 @@ SUMMARY:New Year's Eve
 LOCATION:DAER Nightclub\, 1 Seminole Way\, Hollywood\, FL 33314
 DESCRIPTION:https://tixr.com/e/207892
 URL:https://tixr.com/e/207892
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:hardrock-208377@daer.miami-calendars
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:0
+DTSTART:20270101T170000Z
+DTEND:20270101T230000Z
+SUMMARY:New Year's Day
+LOCATION:DAER Dayclub\, 1 Seminole Way\, Hollywood\, FL 33314
+DESCRIPTION:https://tixr.com/e/208377
+URL:https://tixr.com/e/208377
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:hardrock-208378@daer.miami-calendars
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:0
+DTSTART:20270102T030000Z
+DTEND:20270102T090000Z
+SUMMARY:DAER Nightclub
+LOCATION:DAER Nightclub\, 1 Seminole Way\, Hollywood\, FL 33314
+DESCRIPTION:No headliner announced yet.\nhttps://tixr.com/e/208378
+URL:https://tixr.com/e/208378
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:hardrock-208379@daer.miami-calendars
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:0
+DTSTART:20270103T030000Z
+DTEND:20270103T090000Z
+SUMMARY:DAER Nightclub
+LOCATION:DAER Nightclub\, 1 Seminole Way\, Hollywood\, FL 33314
+DESCRIPTION:No headliner announced yet.\nhttps://tixr.com/e/208379
+URL:https://tixr.com/e/208379
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

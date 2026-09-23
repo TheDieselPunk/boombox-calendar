@@ -283,6 +283,22 @@ STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT
 BEGIN:VEVENT
+UID:dice-6ab3fb9d80f9a500012b3792@kemistry.miami-calendars
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:0
+DTSTART:20261114T030000Z
+DTEND:20261114T090000Z
+SUMMARY:RABBIT IN THE MOON - LIVE
+LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
+ 312\, United States
+DESCRIPTION:Tags (guess): bass\, dubstep\nhttps://dice.fm/event/6ab3fb9d80f
+ 9a500012b3792
+URL:https://dice.fm/event/6ab3fb9d80f9a500012b3792
+STATUS:CONFIRMED
+CATEGORIES:bass,dubstep
+END:VEVENT
+BEGIN:VEVENT
 UID:dice-6a9c6f1a8e70340001656cb5@kemistry.miami-calendars
 DTSTAMP:20260922T004038Z
 LAST-MODIFIED:20260922T004038Z
@@ -370,15 +386,14 @@ STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT
 BEGIN:VEVENT
-UID:dice-6a60e813170f000001bd0743@kemistry.miami-calendars
-DTSTAMP:20260922T004154Z
-LAST-MODIFIED:20260922T004154Z
-SEQUENCE:3
+UID:19hz-4450072-spacewizard@kemistry.miami-calendars
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:0
 DTSTART:20261129T030000Z
 DTEND:20261129T090000Z
-SUMMARY:SPACE WIZARD
-LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
- 312\, United States
+SUMMARY:Space Wizard
+LOCATION:Kemistry\, Fort Lauderdale
 DESCRIPTION:Lineup: Space Wizard\, XaeboR\nTags: bass music\, dubstep\nAges
  : 18+\nhttps://dice.fm/event/xe3wmk-space-wizard-28th-nov-kemistry-fort-la
  uderdale-tickets\nhttps://edmtrain.com/fort-lauderdale-fl/space-wizard-xae

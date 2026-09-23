@@ -340,4 +340,100 @@ URL:https://dice.fm/event/l87pxx-helena-hauff-28th-nov-jolene-sound-room-mi
 STATUS:CONFIRMED
 CATEGORIES:electro,house,techno
 END:VEVENT
+BEGIN:VEVENT
+UID:dice-6ab44b4b28d5d90001e98039@jolene.miami-calendars
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:0
+DTSTART:20261201T030000Z
+DTEND:20261201T090000Z
+SUMMARY:Basel: Special Guest
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Tags (guess): house\, tech house\nhttps://dice.fm/event/6ab44b4
+ b28d5d90001e98039
+URL:https://dice.fm/event/6ab44b4b28d5d90001e98039
+STATUS:CONFIRMED
+CATEGORIES:house,tech house
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6ab443f8697fd600018d79bd@jolene.miami-calendars
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:0
+DTSTART:20261203T031500Z
+DTEND:20261203T090000Z
+SUMMARY:Basel: Benny Benassi
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Tags (guess): house\, tech house\nhttps://dice.fm/event/6ab443f
+ 8697fd600018d79bd
+URL:https://dice.fm/event/6ab443f8697fd600018d79bd
+STATUS:CONFIRMED
+CATEGORIES:house,tech house
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6ab3a356f3be0b000115831c@jolene.miami-calendars
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:0
+DTSTART:20261204T030000Z
+DTEND:20261204T090000Z
+SUMMARY:Basel: AFTERJAM
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Tags (guess): house\, tech house\nhttps://dice.fm/event/6ab3a35
+ 6f3be0b000115831c
+URL:https://dice.fm/event/6ab3a356f3be0b000115831c
+STATUS:CONFIRMED
+CATEGORIES:house,tech house
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6ab44533af1ad900014f7295@jolene.miami-calendars
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:0
+DTSTART:20261205T030000Z
+DTEND:20261205T090000Z
+SUMMARY:Basel: SlapFunk
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Tags (guess): house\, tech house\nhttps://dice.fm/event/6ab4453
+ 3af1ad900014f7295
+URL:https://dice.fm/event/6ab44533af1ad900014f7295
+STATUS:CONFIRMED
+CATEGORIES:house,tech house
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6ab446f49e8bcf0001f96b29@jolene.miami-calendars
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:0
+DTSTART:20261206T030000Z
+DTEND:20261206T090000Z
+SUMMARY:Basel: Francis Mercier
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Tags (guess): house\, tech house\nhttps://dice.fm/event/6ab446f
+ 49e8bcf0001f96b29
+URL:https://dice.fm/event/6ab446f49e8bcf0001f96b29
+STATUS:CONFIRMED
+CATEGORIES:house,tech house
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6ab448eab6c65c00012abd8a@jolene.miami-calendars
+DTSTAMP:20260923T221804Z
+LAST-MODIFIED:20260923T221804Z
+SEQUENCE:0
+DTSTART:20261207T030000Z
+DTEND:20261207T090000Z
+SUMMARY:Basel: Special Guests
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Tags (guess): house\, tech house\nhttps://dice.fm/event/6ab448e
+ ab6c65c00012abd8a
+URL:https://dice.fm/event/6ab448eab6c65c00012abd8a
+STATUS:CONFIRMED
+CATEGORIES:house,tech house
+END:VEVENT
 END:VCALENDAR

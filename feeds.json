@@ -72,7 +72,7 @@
   "slug": "kemistry",
   "name": "Kemistry (Fort Lauderdale)",
   "file": "kemistry.ics",
-  "events": 27,
+  "events": 28,
   "estimated_times": 2,
   "next": "2026-09-24",
   "sources": [
@@ -131,8 +131,8 @@
   "slug": "daer",
   "name": "DAER (Hard Rock Hollywood)",
   "file": "daer.ics",
-  "events": 58,
-  "estimated_times": 0,
+  "events": 64,
+  "estimated_times": 1,
   "next": "2026-09-25",
   "sources": [
    "19hz",
@@ -145,7 +145,7 @@
   "slug": "jolene",
   "name": "Jolene Sound Room",
   "file": "jolene.ics",
-  "events": 19,
+  "events": 25,
   "estimated_times": 0,
   "next": "2026-09-24",
   "sources": [
