@@ -1031,6 +1031,22 @@ STATUS:CONFIRMED
 CATEGORIES:indie/alternative
 END:VEVENT
 BEGIN:VEVENT
+UID:zeyzey-dayme-arocena-la-ultima-rumba-19-dec@zeyzey.miami-calendars
+DTSTAMP:20260923T161804Z
+LAST-MODIFIED:20260923T161804Z
+SEQUENCE:0
+DTSTART:20261220T000000Z
+DTEND:20261220T060000Z
+SUMMARY:Daymé Arocena - La Última Rumba
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: latin\nhttps://calendar.zeyzeymiami.com/shows/dayme-aroce
+ na-la-ultima-rumba-19-dec
+URL:https://calendar.zeyzeymiami.com/shows/dayme-arocena-la-ultima-rumba-19
+ -dec
+STATUS:CONFIRMED
+CATEGORIES:latin
+END:VEVENT
+BEGIN:VEVENT
 UID:zeyzey-the-unofficial-end-cruise-party-21-jan@zeyzey.miami-calendars
 DTSTAMP:20260921T200140Z
 LAST-MODIFIED:20260921T200140Z
@@ -1048,39 +1064,29 @@ CATEGORIES:emo
 END:VEVENT
 BEGIN:VEVENT
 UID:paloma-morphy-miami@shotgun.live
-DTSTAMP:20260921T191357Z
-LAST-MODIFIED:20260921T191357Z
-SEQUENCE:0
+DTSTAMP:20260923T161804Z
+LAST-MODIFIED:20260923T161804Z
+SEQUENCE:1
 DTSTART:20270512T230000Z
 DTEND:20270513T060000Z
 SUMMARY:Paloma Morphy
 LOCATION:ZeyZey Miami\, 353 Northeast 61st Street\, Miami\, FL 33137\, USA
-DESCRIPTION:Rescheduled Date / Refund Requests: Due to unforeseen circumsta
- nces\, unfortunately Paloma Morphy has had to postpone her upcoming tour a
- nd the originally-scheduled September 30\, 2026 tour date @ ZeyZey has bee
- n rescheduled to May 12\, 2027 @ ZeyZey. If you are unable to attend the r
- escheduled date\, current ticket holders have 7 days to request a refund v
- ia the form linked below. The refund request period closes Tues\, Sept 22
- \, 11:59pm. If you'd like to request a refund\, please fill out the below 
- form in full and refunds will be processed as they are received. Please al
- low a few business days for the refund to hit your account. https://forms.
- gle/nrUYem5EqBQ5QJeWA ---- Paloma Morphy With special guest(s) to be annou
- nced soon. Where: ZeyZey Miami 353 NE 61 Street Miami\, Florida\, 33137 Wh
- en: May 12\, 2027 <-- rescheduled date! Doors: 7:00 PM Age: 18+ An Escala 
- Sonora Event Powered by: Mishu --- Miami is set for a captivating night as
-  Paloma Morphy\, the rising singer-songwriter from Monterrey\, Mexico\, br
- ings her emotionally raw and genre-bending sound to ZeyZey on September 30
- . Fresh off a breakout year that saw her win the 2025 Latin GRAMMY for Bes
- t New Artist and earn recognition from Rolling Stone\, Apple Music\, Spoti
- fy\, and Billboard as one of the most exciting emerging voices in Latin mu
- sic\, Paloma is redefining modern pop through vulnerability\, minimalist p
- roduction\, and striking storytelling. With over 50 million streams on her
-  debut album 'Au' and sold-out shows across Mexico\, her live performances
-  feel intimate\, honest\, and deeply immersive. Don’t miss the chance to
-  experience one of Latin pop’s fastest-rising artists in Miami this fall
- \nLineup: Paloma Morphy\nTags: latin\, indie pop\, pop\nPresented by: Mish
- u\nTickets: GA - Tier 1 $20\nhttps://shotgun.live/en/events/paloma-morphy-
- miami
+DESCRIPTION:Paloma Morphy With special guest(s) to be announced soon. Where
+ : ZeyZey Miami 353 NE 61 Street Miami\, Florida\, 33137 When: May 12\, 202
+ 7 <-- rescheduled date! Doors: 7:00 PM Age: 18+ An Escala Sonora Event Pow
+ ered by: Mishu --- Miami is set for a captivating night as Paloma Morphy\,
+  the rising singer-songwriter from Monterrey\, Mexico\, brings her emotion
+ ally raw and genre-bending sound to ZeyZey on September 30. Fresh off a br
+ eakout year that saw her win the 2025 Latin GRAMMY for Best New Artist and
+  earn recognition from Rolling Stone\, Apple Music\, Spotify\, and Billboa
+ rd as one of the most exciting emerging voices in Latin music\, Paloma is 
+ redefining modern pop through vulnerability\, minimalist production\, and 
+ striking storytelling. With over 50 million streams on her debut album 'Au
+ ' and sold-out shows across Mexico\, her live performances feel intimate\,
+  honest\, and deeply immersive. Don’t miss the chance to experience one 
+ of Latin pop’s fastest-rising artists in Miami this fall\nLineup: Paloma
+  Morphy\nTags: latin\, indie pop\, pop\nPresented by: Mishu\nTickets: GA -
+  Tier 1 $20\nhttps://shotgun.live/en/events/paloma-morphy-miami
 URL:https://shotgun.live/en/events/paloma-morphy-miami
 STATUS:CONFIRMED
 CATEGORIES:latin,indie pop,pop

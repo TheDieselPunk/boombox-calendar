@@ -2,11 +2,9 @@
  "events": [
   {
    "id": "19hz:4443631-arielassault",
-   "source": "19hz+edmtrain",
+   "source": "19hz",
    "title": "Ariel Assault",
-   "artists": [
-    "Ariel Assault"
-   ],
+   "artists": [],
    "venue": "E11even",
    "venue_slug": null,
    "date": "2026-09-22",
@@ -22,35 +20,7 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://speakeasygo.com/e11even/ariel-assault-at-e11even",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/ariel-assault-513865"
-   ]
-  },
-  {
-   "id": "edmtrain:538487",
-   "source": "edmtrain",
-   "title": "Andy Martinez",
-   "artists": [
-    "Andy Martinez"
-   ],
-   "venue": "Sable Miami",
-   "venue_slug": null,
-   "date": "2026-09-22",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "2219 NW 2nd Ave, Miami, FL 33127, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://dice.fm/event/6dgaqq?pid=d6342b83",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/andy-martinez-538487"
-   ]
+   "url": "https://speakeasygo.com/e11even/ariel-assault-at-e11even"
   },
   {
    "id": "shotgun:stage777-20",
@@ -2841,26 +2811,30 @@
    ]
   },
   {
-   "id": "19hz:4444504-generousb",
-   "source": "19hz",
-   "title": "Generous B",
+   "id": "dice:6ab3eef6a713180001f76939",
+   "source": "19hz+dice",
+   "title": "BERRAKKA b2b v1fro & RARA",
    "artists": [],
-   "venue": "Jolene Downtown",
+   "venue": "Jolene Sound Room Miami",
    "venue_slug": "jolene",
    "date": "2026-10-01",
    "start": "2026-10-02T02:00:00+00:00",
    "end": "2026-10-02T08:00:00+00:00",
    "time_estimated": false,
-   "address": "",
+   "address": "200 East Flagler Street, Miami, Florida 33131, United States",
    "ages": "21+",
-   "price": "$7",
+   "price": "From $7",
    "genres": [
     "house"
    ],
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://dice.fm/event/6a8b4c2bfec44800018bccb4"
+   "url": "https://dice.fm/event/6a8b4c2bfec44800018bccb4",
+   "cancelled": false,
+   "alt_urls": [
+    "https://dice.fm/event/6a8b4c2bfec44800018bccb4"
+   ]
   },
   {
    "id": "edmtrain:534840",
@@ -9528,6 +9502,30 @@
    "cancelled": false
   },
   {
+   "id": "shotgun:11-04-peace-talks-pgh-at-churchills-pub",
+   "source": "shotgun",
+   "title": "11/04: Peace Talks (Pgh) At Churchills Pub",
+   "artists": [],
+   "venue": "Churchill's Pub",
+   "venue_slug": null,
+   "date": "2026-11-04",
+   "start": "2026-11-05T02:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$17.03",
+   "genres": [
+    "punk",
+    "hardcore",
+    "noise"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/11-04-peace-talks-pgh-at-churchills-pub"
+  },
+  {
    "id": "zeyzey:the-floozies-05-nov",
    "source": "19hz+edmtrain+venue",
    "title": "The Floozies",
@@ -10742,8 +10740,7 @@
    "url": "https://dice.fm/event/6aac10c51773540001e4c41f",
    "cancelled": false,
    "alt_urls": [
-    "https://edmtrain.com/miami-fl/carl-cox-carlita-537844",
-    "https://edmtrain.com/miami-fl/carl-cox-carlita-538068"
+    "https://edmtrain.com/miami-fl/carl-cox-carlita-537844"
    ]
   },
   {
@@ -13411,6 +13408,29 @@
    "generic_title": true
   },
   {
+   "id": "zeyzey:dayme-arocena-la-ultima-rumba-19-dec",
+   "source": "venue",
+   "title": "Daymé Arocena - La Última Rumba",
+   "artists": [],
+   "venue": "ZeyZey Miami",
+   "venue_slug": "zeyzey",
+   "date": "2026-12-19",
+   "start": "2026-12-20T00:00:00+00:00",
+   "end": "2026-12-20T06:00:00+00:00",
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "",
+   "genres": [
+    "latin"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://calendar.zeyzeymiami.com/shows/dayme-arocena-la-ultima-rumba-19-dec",
+   "cancelled": false
+  },
+  {
    "id": "hardrock:207838",
    "source": "venue",
    "title": "DAER Nightclub",
@@ -14299,7 +14319,7 @@
    ],
    "genres_inferred": false,
    "organizer": "Mishu",
-   "description": "Rescheduled Date / Refund Requests: Due to unforeseen circumstances, unfortunately Paloma Morphy has had to postpone her upcoming tour and the originally-scheduled September 30, 2026 tour date @ ZeyZey has been rescheduled to May 12, 2027 @ ZeyZey. If you are unable to attend the rescheduled date, current ticket holders have 7 days to request a refund via the form linked below. The refund request period closes Tues, Sept 22, 11:59pm. If you'd like to request a refund, please fill out the below form in full and refunds will be processed as they are received. Please allow a few business days for the refund to hit your account. https://forms.gle/nrUYem5EqBQ5QJeWA ---- Paloma Morphy With special guest(s) to be announced soon. Where: ZeyZey Miami 353 NE 61 Street Miami, Florida, 33137 When: May 12, 2027 <-- rescheduled date! Doors: 7:00 PM Age: 18+ An Escala Sonora Event Powered by: Mishu --- Miami is set for a captivating night as Paloma Morphy, the rising singer-songwriter from Monterrey, Mexico, brings her emotionally raw and genre-bending sound to ZeyZey on September 30. Fresh off a breakout year that saw her win the 2025 Latin GRAMMY for Best New Artist and earn recognition from Rolling Stone, Apple Music, Spotify, and Billboard as one of the most exciting emerging voices in Latin music, Paloma is redefining modern pop through vulnerability, minimalist production, and striking storytelling. With over 50 million streams on her debut album 'Au' and sold-out shows across Mexico, her live performances feel intimate, honest, and deeply immersive. Don’t miss the chance to experience one of Latin pop’s fastest-rising artists in Miami this fall",
+   "description": "Paloma Morphy With special guest(s) to be announced soon. Where: ZeyZey Miami 353 NE 61 Street Miami, Florida, 33137 When: May 12, 2027 <-- rescheduled date! Doors: 7:00 PM Age: 18+ An Escala Sonora Event Powered by: Mishu --- Miami is set for a captivating night as Paloma Morphy, the rising singer-songwriter from Monterrey, Mexico, brings her emotionally raw and genre-bending sound to ZeyZey on September 30. Fresh off a breakout year that saw her win the 2025 Latin GRAMMY for Best New Artist and earn recognition from Rolling Stone, Apple Music, Spotify, and Billboard as one of the most exciting emerging voices in Latin music, Paloma is redefining modern pop through vulnerability, minimalist production, and striking storytelling. With over 50 million streams on her debut album 'Au' and sold-out shows across Mexico, her live performances feel intimate, honest, and deeply immersive. Don’t miss the chance to experience one of Latin pop’s fastest-rising artists in Miami this fall",
    "url": "https://shotgun.live/en/events/paloma-morphy-miami",
    "tickets": "GA - Tier 1 $20",
    "cancelled": false,
