@@ -363,6 +363,10 @@
   "url": "https://dice.fm/event/dk72m6?pid=d6342b83",
   "checked": "2026-09-21"
  },
+ "538555": {
+  "url": "https://shotgun.live/events/stage777-20?utm_source=edmtrain",
+  "checked": "2026-09-24"
+ },
  "538674": {
   "url": "https://shotgun.live/events/boris-oct30?utm_source=edmtrain",
   "checked": "2026-09-21"
@@ -398,5 +402,21 @@
  "539314": {
   "url": "",
   "checked": "2026-09-23"
+ },
+ "539523": {
+  "url": "https://www.livnightclub.com/miami/event/EVE112156200020261231/adriatique/",
+  "checked": "2026-09-24"
+ },
+ "539525": {
+  "url": "https://shotgun.live/events/rendezvous1-9?utm_source=edmtrain",
+  "checked": "2026-09-24"
+ },
+ "539624": {
+  "url": "https://dice.fm/event/6dggo2?pid=d6342b83",
+  "checked": "2026-09-24"
+ },
+ "539639": {
+  "url": "https://dice.fm/event/bbggvv?pid=d6342b83",
+  "checked": "2026-09-24"
  }
 }

@@ -357,17 +357,35 @@ STATUS:CONFIRMED
 CATEGORIES:house,tech house
 END:VEVENT
 BEGIN:VEVENT
-UID:dice-6ab443f8697fd600018d79bd@jolene.miami-calendars
-DTSTAMP:20260923T221804Z
-LAST-MODIFIED:20260923T221804Z
+UID:dice-6ab442b0fb764f0001259171@jolene.miami-calendars
+DTSTAMP:20260924T041810Z
+LAST-MODIFIED:20260924T041810Z
 SEQUENCE:0
-DTSTART:20261203T031500Z
-DTEND:20261203T090000Z
-SUMMARY:Basel: Benny Benassi
+DTSTART:20261202T030000Z
+DTEND:20261202T090000Z
+SUMMARY:Basel: Paco Osuna
 LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
  a 33131\, United States
-DESCRIPTION:Tags (guess): house\, tech house\nhttps://dice.fm/event/6ab443f
- 8697fd600018d79bd
+DESCRIPTION:Lineup: Paco Osuna\nTags (guess): house\, tech house\nhttps://d
+ ice.fm/event/6ab442b0fb764f0001259171\nhttps://edmtrain.com/miami-fl/paco-
+ osuna-539603
+URL:https://dice.fm/event/6ab442b0fb764f0001259171
+STATUS:CONFIRMED
+CATEGORIES:house,tech house
+END:VEVENT
+BEGIN:VEVENT
+UID:dice-6ab443f8697fd600018d79bd@jolene.miami-calendars
+DTSTAMP:20260924T041810Z
+LAST-MODIFIED:20260924T041810Z
+SEQUENCE:1
+DTSTART:20261203T031500Z
+DTEND:20261203T090000Z
+SUMMARY:Basel: Benny Benassi (Italo Disco Set)
+LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
+ a 33131\, United States
+DESCRIPTION:Lineup: Benny Benassi\nTags (guess): house\, tech house\nhttps:
+ //dice.fm/event/6ab443f8697fd600018d79bd\nhttps://edmtrain.com/miami-fl/it
+ alo-disco-benny-benassi-539604
 URL:https://dice.fm/event/6ab443f8697fd600018d79bd
 STATUS:CONFIRMED
 CATEGORIES:house,tech house
@@ -406,16 +424,17 @@ CATEGORIES:house,tech house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6ab446f49e8bcf0001f96b29@jolene.miami-calendars
-DTSTAMP:20260923T221804Z
-LAST-MODIFIED:20260923T221804Z
-SEQUENCE:0
+DTSTAMP:20260924T041810Z
+LAST-MODIFIED:20260924T041810Z
+SEQUENCE:1
 DTSTART:20261206T030000Z
 DTEND:20261206T090000Z
 SUMMARY:Basel: Francis Mercier
 LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
  a 33131\, United States
-DESCRIPTION:Tags (guess): house\, tech house\nhttps://dice.fm/event/6ab446f
- 49e8bcf0001f96b29
+DESCRIPTION:Lineup: Francis Mercier\nTags (guess): house\, tech house\nhttp
+ s://dice.fm/event/6ab446f49e8bcf0001f96b29\nhttps://edmtrain.com/miami-fl/
+ francis-mercier-539605
 URL:https://dice.fm/event/6ab446f49e8bcf0001f96b29
 STATUS:CONFIRMED
 CATEGORIES:house,tech house

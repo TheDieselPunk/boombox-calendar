@@ -9,16 +9,16 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:dice-6a73973b35b6a8000123ce50@floyd.miami-calendars
-DTSTAMP:20260922T004038Z
-LAST-MODIFIED:20260922T004038Z
-SEQUENCE:1
+DTSTAMP:20260924T041810Z
+LAST-MODIFIED:20260924T041810Z
+SEQUENCE:2
 DTSTART:20260925T030000Z
 DTEND:20260925T090000Z
 SUMMARY:Beltran
 LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Beltran\nTags (guess): house\, techno\nhttps://dice.fm/
- event/6a73973b35b6a8000123ce50\nhttps://edmtrain.com/miami-fl/beltran-5380
- 86
+DESCRIPTION:Lineup: Beltran\, Bakke\, Alves\nTags (guess): house\, techno\n
+ https://dice.fm/event/6a73973b35b6a8000123ce50\nhttps://edmtrain.com/miami
+ -fl/beltran-bakke-538086
 URL:https://dice.fm/event/6a73973b35b6a8000123ce50
 STATUS:CONFIRMED
 CATEGORIES:house,techno

@@ -1,51 +1,6 @@
 {
  "events": [
   {
-   "id": "19hz:4443631-arielassault",
-   "source": "19hz",
-   "title": "Ariel Assault",
-   "artists": [],
-   "venue": "E11even",
-   "venue_slug": null,
-   "date": "2026-09-22",
-   "start": "2026-09-23T00:00:00+00:00",
-   "end": "2026-09-23T05:00:00+00:00",
-   "time_estimated": false,
-   "address": "",
-   "ages": "21+",
-   "price": "free w/rsvp / $12-23",
-   "genres": [
-    "pop edm"
-   ],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://speakeasygo.com/e11even/ariel-assault-at-e11even"
-  },
-  {
-   "id": "shotgun:stage777-20",
-   "source": "edmtrain+shotgun",
-   "title": "Stage 777: Miami Underground Showcase",
-   "artists": [],
-   "venue": "Miami",
-   "venue_slug": null,
-   "date": "2026-09-23",
-   "start": "2026-09-24T00:00:00+00:00",
-   "end": null,
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "Free",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/en/events/stage777-20",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/stage-777-miami-underground-showcase-538555"
-   ]
-  },
-  {
    "id": "shotgun:brian-presents-7-performances",
    "source": "shotgun",
    "title": "Brian Presents 7 Performances",
@@ -130,24 +85,27 @@
    ]
   },
   {
-   "id": "shotgun:comedy-show-tomorrowland-4",
-   "source": "shotgun",
-   "title": "Comedy Show @ Tomorrowland",
+   "id": "edmtrain:538555",
+   "source": "edmtrain",
+   "title": "Stage 777 - Miami Underground Showcase",
    "artists": [],
-   "venue": "Tomorrowland Miami",
+   "venue": "777 NE 79th St",
    "venue_slug": null,
    "date": "2026-09-23",
-   "start": "2026-09-24T01:00:00+00:00",
+   "start": null,
    "end": null,
    "time_estimated": false,
-   "address": "",
+   "address": "777 NE 79th St, Miami, FL 33138, USA",
    "ages": "",
-   "price": "$6.00",
+   "price": "",
    "genres": [],
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://shotgun.live/en/events/comedy-show-tomorrowland-4"
+   "url": "https://shotgun.live/events/stage777-20?utm_source=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/stage-777-miami-underground-showcase-538555"
+   ]
   },
   {
    "id": "edmtrain:538077",
@@ -587,7 +545,9 @@
    "source": "dice+edmtrain",
    "title": "Beltran",
    "artists": [
-    "Beltran"
+    "Beltran",
+    "Bakke",
+    "Alves"
    ],
    "venue": "Floyd Miami",
    "venue_slug": "floyd",
@@ -608,7 +568,7 @@
    "url": "https://dice.fm/event/6a73973b35b6a8000123ce50",
    "cancelled": false,
    "alt_urls": [
-    "https://edmtrain.com/miami-fl/beltran-538086"
+    "https://edmtrain.com/miami-fl/beltran-bakke-538086"
    ]
   },
   {
@@ -1519,6 +1479,31 @@
    ]
   },
   {
+   "id": "edmtrain:539639",
+   "source": "edmtrain",
+   "title": "Ninetoes",
+   "artists": [
+    "Ninetoes"
+   ],
+   "venue": "The Trip",
+   "venue_slug": null,
+   "date": "2026-09-25",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "28 NE 14th St, Miami, FL 33132, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/bbggvv?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/ninetoes-539639"
+   ]
+  },
+  {
    "id": "edmtrain:536201",
    "source": "edmtrain",
    "title": "Dub takeover: Reydel, the feds",
@@ -1569,9 +1554,11 @@
   },
   {
    "id": "hardrock:199438",
-   "source": "venue",
+   "source": "edmtrain+venue",
    "title": "Landis",
-   "artists": [],
+   "artists": [
+    "Landis"
+   ],
    "venue": "DAER Dayclub",
    "venue_slug": "daer",
    "date": "2026-09-26",
@@ -1586,7 +1573,10 @@
    "organizer": "",
    "description": "",
    "url": "https://tixr.com/e/199438",
-   "generic_title": false
+   "generic_title": false,
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/landis-539553"
+   ]
   },
   {
    "id": "shotgun:intriga-x-boho-house-day-1-new-location",
@@ -2459,9 +2449,11 @@
   },
   {
    "id": "19hz:4444099-breaksyo8bitbebe",
-   "source": "19hz",
+   "source": "19hz+edmtrain",
    "title": "Breaks Yo! 8-Bit: Bebe Breaks, Masinc, Kharma, Ray Rex, Cosmictronic, Dwhite",
-   "artists": [],
+   "artists": [
+    "Bebe Breaks"
+   ],
    "venue": "Tenth Level Tavern",
    "venue_slug": null,
    "date": "2026-09-27",
@@ -2477,7 +2469,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://www.facebook.com/events/2663571360725366/"
+   "url": "https://www.facebook.com/events/2663571360725366/",
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/bebe-breaks-539626"
+   ]
   },
   {
    "id": "shotgun:velora-sallywants-thesourdrops-drifting-at-boomboox-9-27",
@@ -2631,6 +2626,35 @@
    "alt_urls": [
     "https://dice.fm/event/nvp3oq-knight-club-27th-sep-floyd-miami-miami-tickets",
     "https://edmtrain.com/miami-fl/knight-club-524863"
+   ]
+  },
+  {
+   "id": "edmtrain:539525",
+   "source": "edmtrain",
+   "title": "ADI-J, RØYÉ, Dmeyer, 'bagdelan', Lerso",
+   "artists": [
+    "ADI-J",
+    "RØYÉ",
+    "Dmeyer",
+    "'bagdelan'",
+    "Lerso"
+   ],
+   "venue": "114 Northeast 20th Terrace",
+   "venue_slug": null,
+   "date": "2026-09-27",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "114 NE 20th St, Miami, FL 33137, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/events/rendezvous1-9?utm_source=edmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/adi-j-roye-539525"
    ]
   },
   {
@@ -5749,11 +5773,9 @@
   },
   {
    "id": "19hz:4445424-levelup",
-   "source": "19hz+edmtrain",
+   "source": "19hz",
    "title": "Level Up",
-   "artists": [
-    "LEVEL UP"
-   ],
+   "artists": [],
    "venue": "Daer Dayclub",
    "venue_slug": "daer",
    "date": "2026-10-11",
@@ -5771,10 +5793,7 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://www.tixr.com/groups/daerdayclubsouthflorida/events/level-up-daer-dayclub-202010",
-   "alt_urls": [
-    "https://edmtrain.com/fort-lauderdale-fl/level-up-530444"
-   ]
+   "url": "https://www.tixr.com/groups/daerdayclubsouthflorida/events/level-up-daer-dayclub-202010"
   },
   {
    "id": "zeyzey:lukas-frank-11-oct",
@@ -6821,6 +6840,26 @@
    "cancelled": false
   },
   {
+   "id": "shotgun:paint",
+   "source": "shotgun",
+   "title": "Ætizay Presents: Sip And Paint",
+   "artists": [],
+   "venue": "Miami",
+   "venue_slug": null,
+   "date": "2026-10-17",
+   "start": "2026-10-18T01:30:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$20.00",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/paint"
+  },
+  {
    "id": "hardrock:202033",
    "source": "19hz+edmtrain+venue",
    "title": "YDG",
@@ -7010,6 +7049,26 @@
     "https://dice.fm/event/yodwr2-satellite-marsolo-silvie-loto-17th-oct-floyd-miami-miami-tickets",
     "https://edmtrain.com/miami-fl/marsolo-silvie-loto-529532"
    ]
+  },
+  {
+   "id": "shotgun:kole-2",
+   "source": "shotgun",
+   "title": "Ætizay Presents: Kole (Koh-Lay)",
+   "artists": [],
+   "venue": "Miami",
+   "venue_slug": null,
+   "date": "2026-10-17",
+   "start": "2026-10-18T03:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$10.00",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/kole-2"
   },
   {
    "id": "dice:6a8380fbb132fb00010733cd",
@@ -7804,6 +7863,33 @@
    "url": "https://dice.fm/event/eonvo2?pid=d6342b83",
    "alt_urls": [
     "https://edmtrain.com/miami-fl/green-velvet-green-velvet-cajmere-set-534083"
+   ]
+  },
+  {
+   "id": "edmtrain:539624",
+   "source": "edmtrain",
+   "title": "Cera Khin, Myna, DomnRob",
+   "artists": [
+    "Cera Khin",
+    "Myna",
+    "DomnRob"
+   ],
+   "venue": "Studio 60",
+   "venue_slug": null,
+   "date": "2026-10-23",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "2300 NW 36th St, Miami, FL 33142, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/6dggo2?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/cera-khin-myna-539624"
    ]
   },
   {
@@ -10482,9 +10568,11 @@
   },
   {
    "id": "dice:6ab3fb9d80f9a500012b3792",
-   "source": "dice",
+   "source": "dice+edmtrain",
    "title": "RABBIT IN THE MOON - LIVE",
-   "artists": [],
+   "artists": [
+    "Rabbit in the Moon"
+   ],
    "venue": "Kemistry",
    "venue_slug": "kemistry",
    "date": "2026-11-13",
@@ -10502,7 +10590,10 @@
    "organizer": "",
    "description": "",
    "url": "https://dice.fm/event/6ab3fb9d80f9a500012b3792",
-   "cancelled": false
+   "cancelled": false,
+   "alt_urls": [
+    "https://edmtrain.com/fort-lauderdale-fl/rabbit-in-the-moon-539579"
+   ]
   },
   {
    "id": "dice:6a9050c13e2dcd00013c2e7e",
@@ -12204,6 +12295,35 @@
    "cancelled": false
   },
   {
+   "id": "dice:6ab442b0fb764f0001259171",
+   "source": "dice+edmtrain",
+   "title": "Basel: Paco Osuna",
+   "artists": [
+    "Paco Osuna"
+   ],
+   "venue": "Jolene Sound Room Miami",
+   "venue_slug": "jolene",
+   "date": "2026-12-01",
+   "start": "2026-12-02T03:00:00+00:00",
+   "end": "2026-12-02T09:00:00+00:00",
+   "time_estimated": false,
+   "address": "200 East Flagler Street, Miami, Florida 33131, United States",
+   "ages": "",
+   "price": "",
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "genres_inferred": true,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/6ab442b0fb764f0001259171",
+   "cancelled": false,
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/paco-osuna-539603"
+   ]
+  },
+  {
    "id": "dice:6a99cb73538ad500019a2ce3",
    "source": "dice+edmtrain",
    "title": "Prophecy (Space Basel 2026)",
@@ -12256,9 +12376,11 @@
   },
   {
    "id": "dice:6ab443f8697fd600018d79bd",
-   "source": "dice",
-   "title": "Basel: Benny Benassi",
-   "artists": [],
+   "source": "dice+edmtrain",
+   "title": "Basel: Benny Benassi (Italo Disco Set)",
+   "artists": [
+    "Benny Benassi"
+   ],
    "venue": "Jolene Sound Room Miami",
    "venue_slug": "jolene",
    "date": "2026-12-02",
@@ -12276,7 +12398,10 @@
    "organizer": "",
    "description": "",
    "url": "https://dice.fm/event/6ab443f8697fd600018d79bd",
-   "cancelled": false
+   "cancelled": false,
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/italo-disco-benny-benassi-539604"
+   ]
   },
   {
    "id": "dice:6a9b238f5dc5920001747583",
@@ -13038,9 +13163,11 @@
   },
   {
    "id": "dice:6ab446f49e8bcf0001f96b29",
-   "source": "dice",
+   "source": "dice+edmtrain",
    "title": "Basel: Francis Mercier",
-   "artists": [],
+   "artists": [
+    "Francis Mercier"
+   ],
    "venue": "Jolene Sound Room Miami",
    "venue_slug": "jolene",
    "date": "2026-12-05",
@@ -13058,7 +13185,10 @@
    "organizer": "",
    "description": "",
    "url": "https://dice.fm/event/6ab446f49e8bcf0001f96b29",
-   "cancelled": false
+   "cancelled": false,
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/francis-mercier-539605"
+   ]
   },
   {
    "id": "dice:6aa06694dcd56d0001733719",
@@ -13986,6 +14116,31 @@
    "organizer": "",
    "description": "",
    "url": "https://www.tixr.com/groups/dreamlandnye/events/dreamland-new-years-festival-170476"
+  },
+  {
+   "id": "edmtrain:539523",
+   "source": "edmtrain",
+   "title": "Adriatique",
+   "artists": [
+    "Adriatique"
+   ],
+   "venue": "LIV Miami",
+   "venue_slug": null,
+   "date": "2026-12-31",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "4441 Collins Ave, Miami Beach, FL 33140, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://www.livnightclub.com/miami/event/EVE112156200020261231/adriatique/",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/adriatique-539523"
+   ]
   },
   {
    "id": "hardrock:208377",
