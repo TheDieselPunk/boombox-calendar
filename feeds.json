@@ -3,7 +3,7 @@
   "slug": "club-space",
   "name": "Club Space",
   "file": "club-space.ics",
-  "events": 23,
+  "events": 24,
   "estimated_times": 0,
   "next": "2026-09-25",
   "sources": [
@@ -72,8 +72,8 @@
   "slug": "kemistry",
   "name": "Kemistry (Fort Lauderdale)",
   "file": "kemistry.ics",
-  "events": 28,
-  "estimated_times": 2,
+  "events": 29,
+  "estimated_times": 3,
   "next": "2026-09-24",
   "sources": [
    "19hz",
@@ -86,7 +86,7 @@
   "slug": "boombox",
   "name": "The Boombox Miami",
   "file": "boombox.ics",
-  "events": 8,
+  "events": 9,
   "estimated_times": 0,
   "next": "2026-09-25",
   "sources": [
@@ -117,7 +117,7 @@
   "slug": "mad-radio",
   "name": "Mad Radio Miami",
   "file": "mad-radio.ics",
-  "events": 6,
+  "events": 7,
   "estimated_times": 0,
   "next": "2026-09-23",
   "sources": [

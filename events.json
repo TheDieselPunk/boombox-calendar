@@ -820,7 +820,7 @@
    "time_estimated": false,
    "address": "4800 NW 37th Ave, Miami, FL 33142, USA",
    "ages": "18+",
-   "price": "From $50",
+   "price": "From $60",
    "genres": [
     "house",
     "techno"
@@ -1539,7 +1539,7 @@
    "time_estimated": false,
    "address": "34 NE 11th St, Miami, FL 33132, USA",
    "ages": "",
-   "price": "",
+   "price": " (sold out)",
    "genres": [
     "house",
     "techno"
@@ -2012,7 +2012,7 @@
    "time_estimated": false,
    "address": "307 Southwest 2nd Street, Fort Lauderdale, Florida 33312, United States",
    "ages": "",
-   "price": "From $26",
+   "price": "From $29",
    "genres": [
     "bass",
     "dubstep"
@@ -2700,6 +2700,30 @@
    "url": "https://shotgun.live/en/events/comedy-show-tomorrowland-5"
   },
   {
+   "id": "shotgun:ben-s-folk-hootenanny",
+   "source": "shotgun",
+   "title": "Ben's Folk Hootenanny",
+   "artists": [],
+   "venue": "Churchill's Pub",
+   "venue_slug": null,
+   "date": "2026-09-30",
+   "start": "2026-10-01T01:30:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "",
+   "genres": [
+    "blues",
+    "rock",
+    "folk"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/ben-s-folk-hootenanny"
+  },
+  {
    "id": "19hz:4444408-jessyfriendsrola",
    "source": "19hz+edmtrain",
    "title": "Jessy & Friends: Roland Clark, Louie Dager, Dall Ea, Elvi$ b2b Curly",
@@ -3170,6 +3194,26 @@
    ]
   },
   {
+   "id": "shotgun:tropitour",
+   "source": "shotgun",
+   "title": "Karol G Tropitour Afterparty",
+   "artists": [],
+   "venue": "Miami",
+   "venue_slug": null,
+   "date": "2026-10-02",
+   "start": "2026-10-03T02:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$10.00",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/tropitour"
+  },
+  {
    "id": "shotgun:joey-cash-the-boombox",
    "source": "19hz+shotgun",
    "title": "Joey Cash @Theboombox",
@@ -3491,6 +3535,37 @@
    "organizer": "",
    "description": "",
    "url": "https://shotgun.live/en/events/murder-mystery-night"
+  },
+  {
+   "id": "shotgun:gulp-by-sarah-tonin-mad-radio",
+   "source": "shotgun",
+   "title": "Gulp By Sarah Tonin @ Mad Radio",
+   "artists": [],
+   "venue": "Mad Radio Miami",
+   "venue_slug": "mad-radio",
+   "date": "2026-10-03",
+   "start": "2026-10-04T01:00:00+00:00",
+   "end": "2026-10-04T07:00:00+00:00",
+   "time_estimated": false,
+   "address": "7700 Biscayne Boulevard, Miami, FL 33138, USA",
+   "ages": "",
+   "price": "$22.00",
+   "genres": [
+    "deep house",
+    "house"
+   ],
+   "genres_inferred": true,
+   "organizer": "Sarah Tonin",
+   "description": "Born and raised in Buenos Aires, Gulp is a DJ, producer, and curator. After residing for 10 years in Berlin, he built his craft by digging deep into music — sourcing, mastering, and blending genres with a collector’s obsession. Residencies, podcasts, and features in Resident Advisor and XLR8R established him as a versatile and restless musical voice. His sets and productions draw from a wide but deliberate palette, stitching together surrealist fragments into something distinctly his own. That same sensibility drives People People, his cross-genre ensemble that keeps pushing genre boundaries. In 2021, he co-founded The Pressure Company — a label and platform built around electronic music in all its forms, reflecting the same boundless curiosity that",
+   "url": "https://shotgun.live/en/events/gulp-by-sarah-tonin-mad-radio",
+   "tickets": "FREE BEFORE 11PM Free, ANY TIME ENTRY TIER 1 $20",
+   "cancelled": false,
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.8462027,
+    "longitude": -80.1851332
+   },
+   "created": "2026-09-24T17:23:25.000Z"
   },
   {
    "id": "19hz:4444692-welkeressejkatz",
@@ -5705,6 +5780,30 @@
    "url": "https://www.tixr.com/groups/daerdayclubsouthflorida/events/level-up-daer-dayclub-202010"
   },
   {
+   "id": "dice:6ab5585537b4c00001c190f7",
+   "source": "dice",
+   "title": "GEOWEEN Halloween Party + Latin Rave",
+   "artists": [],
+   "venue": "Kemistry",
+   "venue_slug": "kemistry",
+   "date": "2026-10-11",
+   "start": "2026-10-11T20:00:00+00:00",
+   "end": "2026-10-12T01:00:00+00:00",
+   "time_estimated": false,
+   "address": "307 Southwest 2nd Street, Fort Lauderdale, Florida 33312, United States",
+   "ages": "",
+   "price": "From $13",
+   "genres": [
+    "bass",
+    "dubstep"
+   ],
+   "genres_inferred": true,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/6ab5585537b4c00001c190f7",
+   "cancelled": false
+  },
+  {
    "id": "zeyzey:lukas-frank-11-oct",
    "source": "19hz+edmtrain+venue",
    "title": "Lukas & Frank",
@@ -7464,6 +7563,34 @@
    ]
   },
   {
+   "id": "shotgun:rocky-horror-picture-show",
+   "source": "shotgun",
+   "title": "Rocky Horror Picture Show",
+   "artists": [],
+   "venue": "The Boombox Miami",
+   "venue_slug": "boombox",
+   "date": "2026-10-22",
+   "start": "2026-10-23T00:00:00+00:00",
+   "end": "2026-10-24T07:00:00+00:00",
+   "time_estimated": false,
+   "address": "4447 Southwest 75th Avenue, Miami, FL 33155, USA",
+   "ages": "",
+   "price": "$20.00",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "The Boombox Miami",
+   "description": "DON’T DREAM IT BE IT 💥 The Boombox (@theboomboxmiami) and the talent of Miami-Dade (@rockyhorrormiami) have teamed up to create THE ROCKY HORROR PARTY SHOW, a multi-medium performance piece that immerses the audience into the salacious world of this beloved queer cult classic 🪭💫 WHEN: THURSDAY Oct 22 8PM FRIDAY Oct 23 8PM/12AM WHERE: The Boombox #yatusabes WEAR: Slut or Suit no exceptions!! Checking drip and IDs (18+) at the the door 🫵 2 nights, 3 shows you can bring your co-worker with bangs to, and one wild final MIDNIGHT ride you’re not going to want to miss!! Expect live music, cabaret, cinematic projections, y más 💫 There will be flashing lights, sudden sounds, and other practical effects designed to heighten your senses. Please check the ticket info for how you can best enjoy this invento of party show 🥳 SEATS AND TICKETS LIMITED BOOTS LET UR FRIENDS KNOWW Give yourself over to absolute pleasure this October darlings when the mood takes us we’re known to be quite generous 💋 Follow @rockyhorrormiami for early tricks n’ treats and more behind the scenes looks at The Rocky Horror Party Show Project!! See you there, mon chers 💌",
+   "url": "https://shotgun.live/en/events/rocky-horror-picture-show",
+   "tickets": "11:45PM SHOWTIME $20 (sold out), 8PM SHOWTIME $20, 8PM SHOWTIME $20, 11:45PM SHOWTIME TIER 2 $30, 8PM SHOWTIME TIER 2 $30, 8PM SHOWTIME TIER 2 $20",
+   "cancelled": false,
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.7287781,
+    "longitude": -80.3169309
+   },
+   "created": "2026-09-24T18:00:03.000Z"
+  },
+  {
    "id": "zeyzey:black-chiney-sound-22-oct",
    "source": "venue",
    "title": "Black Chiney Sound (Free Entry)",
@@ -8014,6 +8141,30 @@
     "https://dice.fm/event/yodxp2-kasia-24th-oct-kemistry-fort-lauderdale-tickets",
     "https://edmtrain.com/fort-lauderdale-fl/kasia-535154"
    ]
+  },
+  {
+   "id": "shotgun:the-hall-360-differ-f-2-f-nico-moon",
+   "source": "shotgun",
+   "title": "The Hall 360 : Differ F2f Nico Moon",
+   "artists": [],
+   "venue": "Upside",
+   "venue_slug": null,
+   "date": "2026-10-24",
+   "start": "2026-10-25T02:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$22.69",
+   "genres": [
+    "house",
+    "deep house",
+    "melodic house & techno"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/the-hall-360-differ-f-2-f-nico-moon"
   },
   {
    "id": "dice:6a91f30f69be3b0001c698fc",
@@ -11302,6 +11453,37 @@
    ]
   },
   {
+   "id": "dice:6ab54b4737b4c00001654ff2",
+   "source": "dice+edmtrain",
+   "title": "Chris Lorenzo",
+   "artists": [
+    "Chris Lorenzo",
+    "Ms. Mada",
+    "Danyelino"
+   ],
+   "venue": "Club Space Miami",
+   "venue_slug": "club-space",
+   "date": "2026-11-20",
+   "start": "2026-11-21T04:00:00+00:00",
+   "end": "2026-11-21T19:00:00+00:00",
+   "time_estimated": false,
+   "address": "34 NE 11th St, Miami, FL 33132, USA",
+   "ages": "",
+   "price": "From $20",
+   "genres": [
+    "house",
+    "techno"
+   ],
+   "genres_inferred": true,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/6ab54b4737b4c00001654ff2",
+   "cancelled": false,
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/chris-lorenzo-ms-mada-539839"
+   ]
+  },
+  {
    "id": "edmtrain:537172",
    "source": "edmtrain",
    "title": "Rodriguez Jr.",
@@ -11662,6 +11844,31 @@
    "cancelled": false
   },
   {
+   "id": "edmtrain:539891",
+   "source": "edmtrain",
+   "title": "Budakid",
+   "artists": [
+    "Budakid"
+   ],
+   "venue": "UPSIDE",
+   "venue_slug": null,
+   "date": "2026-11-22",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "59 NW 28th St, Miami, FL 33127, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/8e7dm2?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/budakid-539891"
+   ]
+  },
+  {
    "id": "edmtrain:535422",
    "source": "edmtrain",
    "title": "Mister Gray",
@@ -11737,9 +11944,9 @@
    "generic_title": true
   },
   {
-   "id": "dice:6aaae809e78bd300017554b1",
-   "source": "dice+edmtrain",
-   "title": "SPACE 92",
+   "id": "edmtrain:538122",
+   "source": "edmtrain",
+   "title": "Space 92",
    "artists": [
     "Space 92"
    ],
@@ -11748,10 +11955,10 @@
    "date": "2026-11-27",
    "start": "2026-11-28T03:00:00+00:00",
    "end": "2026-11-28T09:00:00+00:00",
-   "time_estimated": false,
-   "address": "307 Southwest 2nd Street, Fort Lauderdale, Florida 33312, United States",
+   "time_estimated": true,
+   "address": "307 SW 2nd St, Fort Lauderdale, FL 33312, USA",
    "ages": "",
-   "price": "From $20",
+   "price": "",
    "genres": [
     "bass",
     "dubstep"
@@ -11759,8 +11966,7 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://dice.fm/event/6aaae809e78bd300017554b1",
-   "cancelled": false,
+   "url": "https://dice.fm/event/8e7g5w?pid=d6342b83",
    "alt_urls": [
     "https://edmtrain.com/fort-lauderdale-fl/space-92-538122"
    ]
@@ -11818,6 +12024,46 @@
    "url": "https://dice.fm/event/eonmqd?pid=d6342b83",
    "alt_urls": [
     "https://edmtrain.com/miami-fl/sander-kleinenberg-lucas-zarate-538079"
+   ]
+  },
+  {
+   "id": "edmtrain:539771",
+   "source": "edmtrain",
+   "title": "Urge Miami: ADHAM, Cesar Hernandz, DJ Deanne, Deep Cleansing, Eliad Cohen, GSP, Isis Muretech, Jace M, Juka, Jerac, Joey with the Mustache, Junyo, Naim Zarzour, Raul Mata, Robincal Fajardo, Sharon O Love",
+   "artists": [
+    "ADHAM",
+    "Cesar Hernandz",
+    "DJ Deanne",
+    "Deep Cleansing",
+    "Eliad Cohen",
+    "GSP",
+    "Isis Muretech",
+    "Jace M",
+    "Juka",
+    "Jerac",
+    "Joey with the Mustache",
+    "Junyo",
+    "Naim Zarzour",
+    "Raul Mata",
+    "Robincal Fajardo",
+    "Sharon O Love"
+   ],
+   "venue": "Miami (Multiple Venues)",
+   "venue_slug": null,
+   "date": "2026-11-27",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "Miami, FL, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://www.eventbrite.com/e/1987540335647?aff=ebdimtedmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/urge-miami-539771"
    ]
   },
   {
@@ -12066,6 +12312,29 @@
    ]
   },
   {
+   "id": "edmtrain:539772",
+   "source": "edmtrain",
+   "title": "Urge Miami",
+   "artists": [],
+   "venue": "Miami (Multiple Venues)",
+   "venue_slug": null,
+   "date": "2026-11-28",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "Miami, FL, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://www.eventbrite.com/e/1987540335647?aff=ebdimtedmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/urge-miami-539772"
+   ]
+  },
+  {
    "id": "shotgun:lunasol-pres-sunrise-lesson-8",
    "source": "shotgun",
    "title": "Lunasol Pres. Lesson 8",
@@ -12129,6 +12398,29 @@
    "url": "https://speakeasygo.com/event/EVE-29ZST3?t=edmtrain",
    "alt_urls": [
     "https://edmtrain.com/miami-fl/yissel-533948"
+   ]
+  },
+  {
+   "id": "edmtrain:539773",
+   "source": "edmtrain",
+   "title": "Urge Miami",
+   "artists": [],
+   "venue": "Miami (Multiple Venues)",
+   "venue_slug": null,
+   "date": "2026-11-29",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "Miami, FL, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://www.eventbrite.com/e/1987540335647?aff=ebdimtedmtrain",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/urge-miami-539773"
    ]
   },
   {
@@ -12435,7 +12727,7 @@
    "time_estimated": false,
    "address": "200 East Flagler Street, Miami, Florida 33131, United States",
    "ages": "",
-   "price": "",
+   "price": "From $10",
    "genres": [
     "house",
     "tech house"

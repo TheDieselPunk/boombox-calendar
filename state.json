@@ -699,11 +699,6 @@
   "seq": 1,
   "modified": "2026-09-22T00:40:38+00:00"
  },
- "dice-6aaae809e78bd300017554b1@kemistry.miami-calendars": {
-  "hash": "e8b144ea008c054f",
-  "seq": 1,
-  "modified": "2026-09-22T00:40:38+00:00"
- },
  "dice-6aac10c51773540001e4c41f@club-space.miami-calendars": {
   "hash": "2fa848967f6cc217",
   "seq": 2,
@@ -783,6 +778,16 @@
   "hash": "aaaed45c500faeec",
   "seq": 0,
   "modified": "2026-09-24T16:18:16+00:00"
+ },
+ "dice-6ab54b4737b4c00001654ff2@club-space.miami-calendars": {
+  "hash": "8265e36aa7b7ee9f",
+  "seq": 0,
+  "modified": "2026-09-24T22:18:18+00:00"
+ },
+ "dice-6ab5585537b4c00001c190f7@kemistry.miami-calendars": {
+  "hash": "83b93954787dce25",
+  "seq": 0,
+  "modified": "2026-09-24T22:18:18+00:00"
  },
  "edmtrain-434705@festivals.miami-calendars": {
   "hash": "e416a5823d96ff63",
@@ -919,6 +924,11 @@
   "seq": 1,
   "modified": "2026-09-22T00:50:09+00:00"
  },
+ "edmtrain-538122@kemistry.miami-calendars": {
+  "hash": "44937830661330d3",
+  "seq": 0,
+  "modified": "2026-09-24T22:18:18+00:00"
+ },
  "girl-of-glass-at-boombox-11-8@shotgun.live": {
   "hash": "9b03b4734e200b0c",
   "seq": 0,
@@ -928,6 +938,11 @@
   "hash": "babb5745169934c2",
   "seq": 2,
   "modified": "2026-09-24T10:18:05+00:00"
+ },
+ "gulp-by-sarah-tonin-mad-radio@shotgun.live": {
+  "hash": "463bb74da12955bd",
+  "seq": 0,
+  "modified": "2026-09-24T22:18:18+00:00"
  },
  "guy-j-art-basel-edition-by-apex-x-the-hall@shotgun.live": {
   "hash": "df94820341ad1d55",
@@ -1288,6 +1303,11 @@
   "hash": "b0c33bc13aa28b6d",
   "seq": 0,
   "modified": "2026-09-21T19:13:57+00:00"
+ },
+ "rocky-horror-picture-show@shotgun.live": {
+  "hash": "1a2256c35d3cfee7",
+  "seq": 0,
+  "modified": "2026-09-24T22:18:18+00:00"
  },
  "roots-of-bass-bear-grillz@shotgun.live": {
   "hash": "3ff069cce8134076",

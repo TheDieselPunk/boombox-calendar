@@ -304,6 +304,22 @@ STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
+UID:dice-6ab54b4737b4c00001654ff2@club-space.miami-calendars
+DTSTAMP:20260924T221818Z
+LAST-MODIFIED:20260924T221818Z
+SEQUENCE:0
+DTSTART:20261121T040000Z
+DTEND:20261121T190000Z
+SUMMARY:Chris Lorenzo
+LOCATION:Club Space Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Chris Lorenzo\, Ms. Mada\, Danyelino\nTags (guess): hou
+ se\, techno\nhttps://dice.fm/event/6ab54b4737b4c00001654ff2\nhttps://edmtr
+ ain.com/miami-fl/chris-lorenzo-ms-mada-539839
+URL:https://dice.fm/event/6ab54b4737b4c00001654ff2
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
 UID:dice-6ab17e0bf1fdd8000191620e@club-space.miami-calendars
 DTSTAMP:20260922T041759Z
 LAST-MODIFIED:20260922T041759Z

@@ -323,6 +323,10 @@
   "url": "https://dice.fm/event/mxy9bl?pid=d6342b83",
   "checked": "2026-09-21"
  },
+ "538122": {
+  "url": "https://dice.fm/event/8e7g5w?pid=d6342b83",
+  "checked": "2026-09-24"
+ },
  "538129": {
   "url": "https://ticketmaster.evyy.net/c/254533/264167/4272?u=https%3A%2F%2Fwww.ticketweb.com%2Fevent%2Fid%2F14328774",
   "checked": "2026-09-21"
@@ -401,6 +405,22 @@
  },
  "539639": {
   "url": "https://dice.fm/event/bbggvv?pid=d6342b83",
+  "checked": "2026-09-24"
+ },
+ "539771": {
+  "url": "https://www.eventbrite.com/e/1987540335647?aff=ebdimtedmtrain",
+  "checked": "2026-09-24"
+ },
+ "539772": {
+  "url": "https://www.eventbrite.com/e/1987540335647?aff=ebdimtedmtrain",
+  "checked": "2026-09-24"
+ },
+ "539773": {
+  "url": "https://www.eventbrite.com/e/1987540335647?aff=ebdimtedmtrain",
+  "checked": "2026-09-24"
+ },
+ "539891": {
+  "url": "https://dice.fm/event/8e7dm2?pid=d6342b83",
   "checked": "2026-09-24"
  }
 }
