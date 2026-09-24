@@ -9,9 +9,9 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:new-blood-transfusion@shotgun.live
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:2
+DTSTAMP:20260924T101805Z
+LAST-MODIFIED:20260924T101805Z
+SEQUENCE:3
 DTSTART:20260926T020000Z
 DTEND:20260926T080000Z
 SUMMARY:New Blood · Transfusion
@@ -21,11 +21,12 @@ DESCRIPTION:COUNTERCULTURE Miami presents... 🩸NEW BLOOD: TRANSFUSION🩸
   🩸BLOOD RAVE🩸 2 STAGES 9.25.26 10 PM - 4 AM THIS IS AN 18+ EVENT Phy
  sical ID’s only\, Photo ID’s will not be accepted RSVP prioritizes ent
  ry\, but does not guarantee it Rain or Shine Genres: Hard | Dark | Acid | 
- Industrial Techno Hard | Dark Wave Trance IDM Midtempo Schranz\nTags: dark
- wave\, hard techno\, idm\, industrial\, midtempo\, schranz\, trance\nTicke
- ts: Early Bird $15 (sold out)\, T1 $20\nAges: 18+\nhttps://shotgun.live/en
- /events/new-blood-transfusion\nhttps://edmtrain.com/miami-fl/new-blood-tra
- nsfusion-533680
+ Industrial Techno Hard | Dark Wave Trance IDM Midtempo Schranz\nLineup: Te
+ rminal Velocity\, HUNTER STEEL\, BL∆CKM∆TTR\, Natchii!\, chelz\, CH1CH
+ 1\nTags: darkwave\, hard techno\, idm\, industrial\, midtempo\, schranz\, 
+ trance\nTickets: Early Bird $15 (sold out)\, T1 $20\nAges: 18+\nhttps://sh
+ otgun.live/en/events/new-blood-transfusion\nhttps://edmtrain.com/miami-fl/
+ new-blood-transfusion-533680
 URL:https://shotgun.live/en/events/new-blood-transfusion
 STATUS:CONFIRMED
 CATEGORIES:darkwave,hard techno,idm,industrial,midtempo,schranz,trance
@@ -33,9 +34,9 @@ GEO:25.7287781;-80.3169309
 END:VEVENT
 BEGIN:VEVENT
 UID:gothstarmiami@shotgun.live
-DTSTAMP:20260921T200036Z
-LAST-MODIFIED:20260921T200036Z
-SEQUENCE:1
+DTSTAMP:20260924T101805Z
+LAST-MODIFIED:20260924T101805Z
+SEQUENCE:2
 DTSTART:20260927T000000Z
 DTEND:20260927T060000Z
 SUMMARY:Gothstar Tour X Gothic Cabaret / Johnny Based\, Kwasi Kao
@@ -46,14 +47,14 @@ DESCRIPTION:MIAMI\, GET READY FOR A NIGHT OF GOTHIC CHAOS. 🖤 GOTHIC COSP
  burlesque\, drag\, and theatrical performances - all in one place. 🖤 Go
  thStar Tour (Johnny Based & Kwasi Kao) 🖤 Local support Laboratory & His
   Panic 🖤 Burlesque + drag + fire + cirque 🖤 Gothic Cosplay 🖤 $100
-  Costume Contest 📅 September 26 📍 Miami 🎟️ $20 Last week to gra
- b your ticket before the night arrives. *Costume Contest $100 CASH PRIZE +
-  2 Tickets to next Black Moon Theater event Bring your favorite gothic lor
- e to life\, or put a gothic twist on your favorite characters to take home
-  the cash prize.\nLineup: Johnny Based\, His Panic\, Laboratory A.D.\nTags
- : alternative\, dark wave\, rock\nPresented by: Antiheroine Productions\nT
- ickets: General Admin - Tier 1 $20\nhttps://shotgun.live/en/events/gothsta
- rmiami\nhttps://edmtrain.com/miami-fl/kwasi-kao-516876
+  Costume Contest 📅 September 26 📍 Boombox 18+ Last week to grab your
+  ticket before the night arrives. *Costume Contest $100 CASH PRIZE + 2 Tic
+ kets to next Black Moon Theater event Bring your favorite gothic lore to l
+ ife\, or put a gothic twist on your favorite characters to take home the c
+ ash prize.\nLineup: Johnny Based\, His Panic\, Laboratory A.D.\nTags: alte
+ rnative\, dark wave\, rock\nPresented by: Antiheroine Productions\nTickets
+ : General Admin - Tier 1 $20\nhttps://shotgun.live/en/events/gothstarmiami
+ \nhttps://edmtrain.com/miami-fl/kwasi-kao-516876
 URL:https://shotgun.live/en/events/gothstarmiami
 STATUS:CONFIRMED
 CATEGORIES:alternative,dark wave,rock

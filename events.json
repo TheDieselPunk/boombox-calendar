@@ -1,86 +1,29 @@
 {
  "events": [
   {
-   "id": "shotgun:brian-presents-7-performances",
-   "source": "shotgun",
-   "title": "Brian Presents 7 Performances",
-   "artists": [],
-   "venue": "Churchill's Pub",
-   "venue_slug": null,
-   "date": "2026-09-23",
-   "start": "2026-09-24T01:00:00+00:00",
-   "end": null,
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "Free",
-   "genres": [
-    "indie",
-    "minimal synth",
-    "alternative"
-   ],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/en/events/brian-presents-7-performances"
-  },
-  {
-   "id": "shotgun:open-mic-at-churchill-s-pub-14",
-   "source": "shotgun",
-   "title": "Open Mic : Every Wednesday",
-   "artists": [],
-   "venue": "Churchill's Pub",
-   "venue_slug": null,
-   "date": "2026-09-23",
-   "start": "2026-09-24T01:00:00+00:00",
-   "end": null,
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "Free",
-   "genres": [
-    "rock",
-    "punk",
-    "post-punk"
-   ],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/en/events/open-mic-at-churchill-s-pub-14"
-  },
-  {
-   "id": "shotgun:madradiomiami092326",
-   "source": "19hz+edmtrain+shotgun",
-   "title": "Frecuencia: Volen / Milagros Espada / Larissa",
+   "id": "19hz:4443732-frecuenciamilagr",
+   "source": "19hz+edmtrain",
+   "title": "Frecuencia: Milagros Espada",
    "artists": [
     "Milagros Espada"
    ],
-   "venue": "Mad Radio Miami",
+   "venue": "Mad Radio",
    "venue_slug": "mad-radio",
    "date": "2026-09-23",
    "start": "2026-09-24T01:00:00+00:00",
    "end": "2026-09-24T07:00:00+00:00",
    "time_estimated": false,
-   "address": "7700 Biscayne Boulevard, Miami, FL 33138, USA",
+   "address": "",
    "ages": "21+",
-   "price": "Free",
+   "price": "free",
    "genres": [
     "house"
    ],
    "genres_inferred": false,
-   "organizer": "Mad Radio Miami",
-   "description": "\"The river venue sets the stage for a stylish yet chill night out. Whether you´re a party pro or just vibing, this is the spot. Tune in our slick radio show serving up the latest tracks. Save the date and cath the urban-chic experience at Mad Radio Miami. See you on the dance floor! Come early, stay late, and let the night unfold FREE ENTRY HAPPY HOUR 5 PM - 9 PM\"",
+   "organizer": "",
+   "description": "",
    "url": "https://shotgun.live/en/events/madradiomiami092326",
-   "tickets": "RSVP Free",
-   "cancelled": false,
-   "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 25.8462027,
-    "longitude": -80.1851332
-   },
-   "created": "2026-08-25T13:20:16.000Z",
    "alt_urls": [
-    "https://shotgun.live/en/events/madradiomiami092326",
     "https://edmtrain.com/miami-fl/frecuencia-milagros-espada-531844"
    ]
   },
@@ -209,7 +152,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "",
-   "price": "Free w/RSVP b4 midnight ladies / $23",
+   "price": "free w/rsvp b4 midnight ladies / $23",
    "genres": [
     "house"
    ],
@@ -233,7 +176,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "21+",
-   "price": "Free w/RSVP b4 midnight / $23-34",
+   "price": "free w/rsvp b4 midnight / $23-34",
    "genres": [
     "electro house",
     "hip-hop",
@@ -683,7 +626,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "",
-   "price": "Free w/RSVP b4 midnight ladies / $23",
+   "price": "free w/rsvp b4 midnight ladies / $23",
    "genres": [
     "progressive house",
     "tech house"
@@ -1186,7 +1129,14 @@
    "id": "shotgun:new-blood-transfusion",
    "source": "19hz+edmtrain+shotgun",
    "title": "New Blood · Transfusion",
-   "artists": [],
+   "artists": [
+    "Terminal Velocity",
+    "HUNTER STEEL",
+    "BL∆CKM∆TTR",
+    "Natchii!",
+    "chelz",
+    "CH1CH1"
+   ],
    "venue": "The Boombox Miami",
    "venue_slug": "boombox",
    "date": "2026-09-25",
@@ -1542,7 +1492,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "21+",
-   "price": "Free w/RSVP b4 midnight / $30",
+   "price": "free w/rsvp b4 midnight / $30",
    "genres": [
     "disco",
     "soulful house"
@@ -1554,7 +1504,7 @@
   },
   {
    "id": "hardrock:199438",
-   "source": "edmtrain+venue",
+   "source": "19hz+edmtrain+venue",
    "title": "Landis",
    "artists": [
     "Landis"
@@ -1566,8 +1516,8 @@
    "end": "2026-09-26T22:00:00+00:00",
    "time_estimated": false,
    "address": "1 Seminole Way, Hollywood, FL 33314",
-   "ages": "",
-   "price": "",
+   "ages": "21+",
+   "price": "free w/rsvp b4 2 / $37",
    "genres": [],
    "genres_inferred": false,
    "organizer": "",
@@ -1575,6 +1525,7 @@
    "url": "https://tixr.com/e/199438",
    "generic_title": false,
    "alt_urls": [
+    "https://www.tixr.com/groups/daerdayclubsouthflorida/events/saturday-september-26th-daer-dayclub-199438",
     "https://edmtrain.com/fort-lauderdale-fl/landis-539553"
    ]
   },
@@ -1610,6 +1561,30 @@
    "alt_urls": [
     "https://edmtrain.com/miami-fl/intriga-x-boho-house-day-1-new-location-santelises-537503"
    ]
+  },
+  {
+   "id": "19hz:4444000-intrigadaypartyf",
+   "source": "19hz",
+   "title": "Intriga Day Party Ft Santelises, Axatipe & More",
+   "artists": [],
+   "venue": "Boho House",
+   "venue_slug": null,
+   "date": "2026-09-26",
+   "start": "2026-09-26T20:00:00+00:00",
+   "end": "2026-09-27T03:00:00+00:00",
+   "time_estimated": false,
+   "address": "",
+   "ages": "21+",
+   "price": "free b4 7pm / $35",
+   "genres": [
+    "afro house",
+    "indie dance",
+    "progressive house"
+   ],
+   "genres_inferred": false,
+   "organizer": "Intriga Collective",
+   "description": "",
+   "url": "https://link.dice.fm/W5e44a3a81ef"
   },
   {
    "id": "19hz:4444000-loudluxury",
@@ -1654,7 +1629,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "",
-   "price": "Free w/RSVP b4 midnight ladies / $23",
+   "price": "free w/rsvp b4 midnight ladies / $23",
    "genres": [
     "deep house",
     "progressive house",
@@ -1718,7 +1693,7 @@
    ],
    "genres_inferred": false,
    "organizer": "Antiheroine Productions",
-   "description": "MIAMI, GET READY FOR A NIGHT OF GOTHIC CHAOS. 🖤 GOTHIC COSPLAY CABARET x GOTHSTAR TOUR A dark night of live music, gothic cosplay, burlesque, drag, and theatrical performances - all in one place. 🖤 GothStar Tour (Johnny Based & Kwasi Kao) 🖤 Local support Laboratory & His Panic 🖤 Burlesque + drag + fire + cirque 🖤 Gothic Cosplay 🖤 $100 Costume Contest 📅 September 26 📍 Miami 🎟️ $20 Last week to grab your ticket before the night arrives. *Costume Contest $100 CASH PRIZE + 2 Tickets to next Black Moon Theater event Bring your favorite gothic lore to life, or put a gothic twist on your favorite characters to take home the cash prize.",
+   "description": "MIAMI, GET READY FOR A NIGHT OF GOTHIC CHAOS. 🖤 GOTHIC COSPLAY CABARET x GOTHSTAR TOUR A dark night of live music, gothic cosplay, burlesque, drag, and theatrical performances - all in one place. 🖤 GothStar Tour (Johnny Based & Kwasi Kao) 🖤 Local support Laboratory & His Panic 🖤 Burlesque + drag + fire + cirque 🖤 Gothic Cosplay 🖤 $100 Costume Contest 📅 September 26 📍 Boombox 18+ Last week to grab your ticket before the night arrives. *Costume Contest $100 CASH PRIZE + 2 Tickets to next Black Moon Theater event Bring your favorite gothic lore to life, or put a gothic twist on your favorite characters to take home the cash prize.",
    "url": "https://shotgun.live/en/events/gothstarmiami",
    "tickets": "General Admin - Tier 1 $20",
    "cancelled": false,
@@ -2806,7 +2781,7 @@
    "time_estimated": false,
    "address": "Miami Beach",
    "ages": "21+",
-   "price": "Free w/RSVP b4 midnight ladies / $18-30",
+   "price": "free w/rsvp b4 midnight ladies / $18-30",
    "genres": [
     "house"
    ],
@@ -3799,7 +3774,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "21+",
-   "price": "Free w/RSVP b4 midnight / $24",
+   "price": "free w/rsvp b4 midnight / $24",
    "genres": [
     "house",
     "techno"
@@ -13663,6 +13638,34 @@
    "generic_title": true
   },
   {
+   "id": "19hz:4451496-eelkekleijn",
+   "source": "19hz+edmtrain",
+   "title": "Eelke Kleijn",
+   "artists": [
+    "Eelke Kleijn"
+   ],
+   "venue": "Upside",
+   "venue_slug": null,
+   "date": "2026-12-13",
+   "start": "2026-12-13T23:00:00+00:00",
+   "end": "2026-12-14T05:00:00+00:00",
+   "time_estimated": false,
+   "address": "",
+   "ages": "21+",
+   "price": "free b4 8pm / $20",
+   "genres": [
+    "deep house",
+    "progressive house"
+   ],
+   "genres_inferred": false,
+   "organizer": "Apex",
+   "description": "",
+   "url": "https://dice.fm/event/8e78rv-eelke-kliejn-live-13th-dec-upside-miami-tickets",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/eelke-kleijn-536967"
+   ]
+  },
+  {
    "id": "zeyzey:ax-and-the-hatchetmen-the-late-checkout-tour-2026-13-dec",
    "source": "venue",
    "title": "Ax and the Hatchetmen — The Late Checkout Tour 2026",
@@ -13684,31 +13687,6 @@
    "description": "",
    "url": "https://calendar.zeyzeymiami.com/shows/ax-and-the-hatchetmen-the-late-checkout-tour-2026-13-dec",
    "cancelled": false
-  },
-  {
-   "id": "edmtrain:536967",
-   "source": "edmtrain",
-   "title": "Eelke Kleijn",
-   "artists": [
-    "Eelke Kleijn"
-   ],
-   "venue": "UPSIDE",
-   "venue_slug": null,
-   "date": "2026-12-13",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "59 NW 28th St, Miami, FL 33127, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://dice.fm/event/8e78rv?pid=d6342b83",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/eelke-kleijn-536967"
-   ]
   },
   {
    "id": "hardrock:207837",

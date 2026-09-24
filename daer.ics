@@ -22,15 +22,16 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:hardrock-199438@daer.miami-calendars
-DTSTAMP:20260924T041810Z
-LAST-MODIFIED:20260924T041810Z
-SEQUENCE:3
+DTSTAMP:20260924T101805Z
+LAST-MODIFIED:20260924T101805Z
+SEQUENCE:4
 DTSTART:20260926T160000Z
 DTEND:20260926T220000Z
 SUMMARY:Landis
 LOCATION:DAER Dayclub\, 1 Seminole Way\, Hollywood\, FL 33314
-DESCRIPTION:Lineup: Landis\nhttps://tixr.com/e/199438\nhttps://edmtrain.com
- /fort-lauderdale-fl/landis-539553
+DESCRIPTION:Lineup: Landis\nAges: 21+\nhttps://tixr.com/e/199438\nhttps://e
+ dmtrain.com/fort-lauderdale-fl/landis-539553\nhttps://www.tixr.com/groups/
+ daerdayclubsouthflorida/events/saturday-september-26th-daer-dayclub-199438
 URL:https://tixr.com/e/199438
 STATUS:CONFIRMED
 END:VEVENT
