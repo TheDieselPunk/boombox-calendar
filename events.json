@@ -2,11 +2,9 @@
  "events": [
   {
    "id": "19hz:4443732-frecuenciamilagr",
-   "source": "19hz+edmtrain",
+   "source": "19hz",
    "title": "Frecuencia: Milagros Espada",
-   "artists": [
-    "Milagros Espada"
-   ],
+   "artists": [],
    "venue": "Mad Radio",
    "venue_slug": "mad-radio",
    "date": "2026-09-23",
@@ -22,96 +20,7 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://shotgun.live/en/events/madradiomiami092326",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/frecuencia-milagros-espada-531844"
-   ]
-  },
-  {
-   "id": "edmtrain:538555",
-   "source": "edmtrain",
-   "title": "Stage 777 - Miami Underground Showcase",
-   "artists": [],
-   "venue": "777 NE 79th St",
-   "venue_slug": null,
-   "date": "2026-09-23",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "777 NE 79th St, Miami, FL 33138, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/events/stage777-20?utm_source=edmtrain",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/stage-777-miami-underground-showcase-538555"
-   ]
-  },
-  {
-   "id": "edmtrain:538077",
-   "source": "edmtrain",
-   "title": "Jessy",
-   "artists": [
-    "Jessy"
-   ],
-   "venue": "Do Not Sit On The Furniture",
-   "venue_slug": null,
-   "date": "2026-09-23",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "423 16th St, Miami Beach, FL 33139, USA",
-   "ages": "",
-   "price": "",
-   "genres": [
-    "deep house"
-   ],
-   "genres_inferred": true,
-   "organizer": "",
-   "description": "",
-   "url": "https://dice.fm/event/6dgkd3?pid=d6342b83",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/jessy-538077"
-   ]
-  },
-  {
-   "id": "edmtrain:537840",
-   "source": "edmtrain",
-   "title": "Dubplates & Dragons Wednesdayz: Monoky, J-SIN, Relevent, Eleric, Spookie, ASPYR, Seraph The Traveler, Jack Rippa, Wolfee Wolfenstein, Empress Galaxy Sword, Luna Thunderstorm, Avalon Hechisarah Pendragon",
-   "artists": [
-    "Monoky",
-    "J-SIN",
-    "Relevent",
-    "Eleric",
-    "Spookie",
-    "ASPYR",
-    "Seraph The Traveler",
-    "Jack Rippa",
-    "Wolfee Wolfenstein",
-    "Empress Galaxy Sword",
-    "Luna Thunderstorm",
-    "Avalon Hechisarah Pendragon"
-   ],
-   "venue": "Hollywood Live",
-   "venue_slug": null,
-   "date": "2026-09-23",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "2333 Hollywood Blvd, Hollywood, FL 33020, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://app.hi.events/event/11199/dubplates-dragons-wednesdayz",
-   "alt_urls": [
-    "https://edmtrain.com/fort-lauderdale-fl/dubplates-and-dragons-wednesdayz-monoky-537840"
-   ]
+   "url": "https://shotgun.live/en/events/madradiomiami092326"
   },
   {
    "id": "edmtrain:535660",
@@ -1135,7 +1044,8 @@
     "BL∆CKM∆TTR",
     "Natchii!",
     "chelz",
-    "CH1CH1"
+    "CH1CH1",
+    "VERMIS"
    ],
    "venue": "The Boombox Miami",
    "venue_slug": "boombox",
@@ -1615,6 +1525,30 @@
    "alt_urls": [
     "https://edmtrain.com/miami-fl/loud-luxury-534050"
    ]
+  },
+  {
+   "id": "dice:6ab54080f14ac000013b87a3",
+   "source": "dice",
+   "title": "Space Yoga",
+   "artists": [],
+   "venue": "Club Space Miami",
+   "venue_slug": "club-space",
+   "date": "2026-09-26",
+   "start": "2026-09-26T20:20:00+00:00",
+   "end": "2026-09-26T21:45:00+00:00",
+   "time_estimated": false,
+   "address": "34 NE 11th St, Miami, FL 33132, USA",
+   "ages": "",
+   "price": "",
+   "genres": [
+    "house",
+    "techno"
+   ],
+   "genres_inferred": true,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/6ab54080f14ac000013b87a3",
+   "cancelled": false
   },
   {
    "id": "19hz:4444015-airemiamipendulu",
@@ -4044,27 +3978,6 @@
    ]
   },
   {
-   "id": "hardrock:202007",
-   "source": "venue",
-   "title": "Viatando Por El Mundo",
-   "artists": [],
-   "venue": "DAER Dayclub",
-   "venue_slug": "daer",
-   "date": "2026-10-04",
-   "start": "2026-10-04T16:00:00+00:00",
-   "end": "2026-10-04T22:00:00+00:00",
-   "time_estimated": false,
-   "address": "1 Seminole Way, Hollywood, FL 33314",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://tixr.com/e/202007",
-   "generic_title": false
-  },
-  {
    "id": "shotgun:once-upon-a-melody-a-disney-classic-piano-performance",
    "source": "shotgun",
    "title": "Once Upon A Melody - A Disney Classic Piano Performance",
@@ -4083,6 +3996,27 @@
    "organizer": "",
    "description": "",
    "url": "https://shotgun.live/en/events/once-upon-a-melody-a-disney-classic-piano-performance"
+  },
+  {
+   "id": "hardrock:202007",
+   "source": "venue",
+   "title": "Viatando Por El Mundo",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-10-04",
+   "start": "2026-10-04T20:00:00+00:00",
+   "end": "2026-10-04T22:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/202007",
+   "generic_title": false
   },
   {
    "id": "dice:6a6b9027ca1d730001823403",
@@ -4970,7 +4904,7 @@
    "time_estimated": false,
    "address": "353 Northeast 61st Street, Miami, FL 33137, USA",
    "ages": "21+",
-   "price": "$11.35",
+   "price": "$28.38",
    "genres": [
     "afro house",
     "house",
@@ -4982,7 +4916,7 @@
    "organizer": "Solmates Miami",
    "description": "Solmates brings together two European producers whose work meets at the intersection of melody, groove, and late-night dance music. Built around a shared appreciation for emotional, forward-thinking electronic music, Solmates creates a space where established sounds and new perspectives can meet on the dancefloor. Stockholm-born Fahlberg has built his sound around deep basslines, hypnotic textures, and what he describes as “Nordic Melodic” — a Scandinavian sense of atmosphere shaped through contemporary house and techno. His releases have appeared on labels including Diynamic, Watergate, Siamese, MoBlack, and When Stars Align, with support from Solomun, Keinemusik, Black Coffee, and Pete Tong. Tracks such as “Somebody” and “Chaka” have reached major Beatport chart positions, while recent work includes collaborations with Layer J, Argødes, and Jeremy Olander, alongside an official remix for RÜFÜS DU SOL. Joining him is Paris- and London-based Orsay, a producer whose melodic house sound is informed by an early classical background. Having studied piano from the age of six and trained at a music conservatory, Orsay brings that foundation into productions built around rhythm, emotion, and melody. His music has been released through Ninja Tune, Siamese, Universal Music, and Kitsuné, with tracks including “Mind Off,” “Amado,” and “Magik” receiving support from Adriatique, Solomun, WhoMadeWho, Carlita, and RÜFÜS DU SOL. In 2025, he took his sets across Europe, the UAE, and South America. Together, Fahlberg and Orsay represent the sound and spirit behind Solmates: a meeting point for artists and audiences drawn to melodic, groove-led electronic music, with a focus on connection, discovery, and the energy of the night. Rooted in Europe but looking outward, Solmates brings together different musical backgrounds and perspectives under one shared atmosphere — where melody meets movement and the right records create lasting moments. 21+ event",
    "url": "https://shotgun.live/en/events/solmates-season-opener-ft-fahlberg-orsay-more",
-   "tickets": "VIP (1st Release) $50, Entry before 11 PM $10, Entry Anytime (1st Release) $25",
+   "tickets": "VIP (1st Release) $50, Entry before 11 PM $10 (sold out), Entry Anytime (1st Release) $25",
    "cancelled": false,
    "geo": {
     "@type": "GeoCoordinates",

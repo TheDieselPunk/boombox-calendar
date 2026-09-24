@@ -9,16 +9,15 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:19hz-4443732-frecuenciamilagr@mad-radio.miami-calendars
-DTSTAMP:20260924T101805Z
-LAST-MODIFIED:20260924T101805Z
-SEQUENCE:0
+DTSTAMP:20260924T161816Z
+LAST-MODIFIED:20260924T161816Z
+SEQUENCE:1
 DTSTART:20260924T010000Z
 DTEND:20260924T070000Z
 SUMMARY:Frecuencia: Milagros Espada
 LOCATION:Mad Radio
-DESCRIPTION:Lineup: Milagros Espada\nTags: house\nAges: 21+\nhttps://shotgu
- n.live/en/events/madradiomiami092326\nhttps://edmtrain.com/miami-fl/frecue
- ncia-milagros-espada-531844
+DESCRIPTION:Tags: house\nAges: 21+\nhttps://shotgun.live/en/events/madradio
+ miami092326
 URL:https://shotgun.live/en/events/madradiomiami092326
 STATUS:CONFIRMED
 CATEGORIES:house
