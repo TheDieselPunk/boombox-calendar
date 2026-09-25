@@ -72,9 +72,9 @@
   "slug": "kemistry",
   "name": "Kemistry (Fort Lauderdale)",
   "file": "kemistry.ics",
-  "events": 29,
+  "events": 28,
   "estimated_times": 2,
-  "next": "2026-09-24",
+  "next": "2026-09-25",
   "sources": [
    "19hz",
    "dice",
@@ -101,8 +101,8 @@
   "name": "ZeyZey Miami",
   "file": "zeyzey.ics",
   "events": 65,
-  "estimated_times": 1,
-  "next": "2026-09-24",
+  "estimated_times": 0,
+  "next": "2026-09-25",
   "sources": [
    "19hz",
    "dice",

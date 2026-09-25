@@ -8,22 +8,6 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:edmtrain-535660@zeyzey.miami-calendars
-DTSTAMP:20260922T005009Z
-LAST-MODIFIED:20260922T005009Z
-SEQUENCE:1
-DTSTART:20260924T230000Z
-DTEND:20260925T050000Z
-SUMMARY:RAE SADA\, Ape Drums
-LOCATION:ZeyZey Miami\, 353 NE 61st St\, Miami\, FL 33137\, USA
-DESCRIPTION:Lineup: RAE SADA\, Ape Drums\nTimes are an estimate from ZeyZey
-  Miami's usual hours - the listing has no start time yet. Check the link.
- \nhttps://calendar.zeyzeymiami.com/shows/ape-drums-b2b-rae-sada-24-sep\nht
- tps://edmtrain.com/miami-fl/rae-sada-ape-drums-535660
-URL:https://calendar.zeyzeymiami.com/shows/ape-drums-b2b-rae-sada-24-sep
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:tablelist-ec27b34262de49d1@zeyzey.miami-calendars
 DTSTAMP:20260925T041815Z
 LAST-MODIFIED:20260925T041815Z
@@ -927,6 +911,21 @@ DESCRIPTION:Tags: rock\nhttps://calendar.zeyzeymiami.com/shows/arde-bogota-
 URL:https://calendar.zeyzeymiami.com/shows/arde-bogota-22-nov
 STATUS:CONFIRMED
 CATEGORIES:rock
+END:VEVENT
+BEGIN:VEVENT
+UID:zeyzey-oscar-g-anastazja-28-nov@zeyzey.miami-calendars
+DTSTAMP:20260925T161807Z
+LAST-MODIFIED:20260925T161807Z
+SEQUENCE:0
+DTSTART:20261129T030000Z
+DTEND:20261129T060000Z
+SUMMARY:Oscar G + Anastazja
+LOCATION:ZeyZey Miami
+DESCRIPTION:Tags: dance/electronic\nhttps://calendar.zeyzeymiami.com/shows/
+ oscar-g-anastazja-28-nov
+URL:https://calendar.zeyzeymiami.com/shows/oscar-g-anastazja-28-nov
+STATUS:CONFIRMED
+CATEGORIES:dance/electronic
 END:VEVENT
 BEGIN:VEVENT
 UID:zeyzey-justin-nozuka-01-dec@zeyzey.miami-calendars

@@ -26,32 +26,6 @@
    "url": "https://ra.co/events/2542548"
   },
   {
-   "id": "edmtrain:535660",
-   "source": "edmtrain",
-   "title": "RAE SADA, Ape Drums",
-   "artists": [
-    "RAE SADA",
-    "Ape Drums"
-   ],
-   "venue": "ZeyZey Miami",
-   "venue_slug": "zeyzey",
-   "date": "2026-09-24",
-   "start": "2026-09-24T23:00:00+00:00",
-   "end": "2026-09-25T05:00:00+00:00",
-   "time_estimated": true,
-   "address": "353 NE 61st St, Miami, FL 33137, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://calendar.zeyzeymiami.com/shows/ape-drums-b2b-rae-sada-24-sep",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/rae-sada-ape-drums-535660"
-   ]
-  },
-  {
    "id": "19hz:4443823-airemiamiopening",
    "source": "19hz",
    "title": "Aire (Miami): Opening Night w/ Siwell, Jude & Frank and Kanu",
@@ -75,11 +49,9 @@
   },
   {
    "id": "19hz:4443823-chizzle",
-   "source": "19hz+edmtrain",
+   "source": "19hz",
    "title": "Chizzle",
-   "artists": [
-    "Chizzle"
-   ],
+   "artists": [],
    "venue": "E11even",
    "venue_slug": null,
    "date": "2026-09-24",
@@ -98,18 +70,13 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://speakeasygo.com/e11even/chizzle-at-e11even",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/chizzle-524468"
-   ]
+   "url": "https://speakeasygo.com/e11even/chizzle-at-e11even"
   },
   {
    "id": "19hz:4443828-framelessanabele",
-   "source": "19hz+edmtrain",
+   "source": "19hz",
    "title": "Frameless: Anabelen",
-   "artists": [
-    "Anabelen"
-   ],
+   "artists": [],
    "venue": "Mad Radio",
    "venue_slug": "mad-radio",
    "date": "2026-09-24",
@@ -125,10 +92,7 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://shotgun.live/en/events/madradiomiami092426",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/frameless-anabelen-531845"
-   ]
+   "url": "https://shotgun.live/en/events/madradiomiami092426"
   },
   {
    "id": "19hz:4443832-airemiamiopening",
@@ -156,7 +120,7 @@
   },
   {
    "id": "19hz:4443832-secretthursdaysg",
-   "source": "19hz+edmtrain",
+   "source": "19hz",
    "title": "Secret Thursdays: George Vidal, Johnny Ramirez, Jovana Jovanovic, John Stewart, Victor Moraes",
    "artists": [],
    "venue": "Do Not Sit On The Furniture",
@@ -176,23 +140,20 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://dice.fm/event/6a8ec248c26b74000133b853",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/secret-thursdays-533711"
-   ]
+   "url": "https://dice.fm/event/6a8ec248c26b74000133b853"
   },
   {
-   "id": "dice:6a8b490e7b6a8a000143f719",
-   "source": "19hz+dice",
+   "id": "19hz:4443832-lisaskickback",
+   "source": "19hz",
    "title": "Lisa's Kickback",
    "artists": [],
-   "venue": "Jolene Sound Room Miami",
+   "venue": "Jolene Downtown",
    "venue_slug": "jolene",
    "date": "2026-09-24",
    "start": "2026-09-25T02:00:00+00:00",
    "end": "2026-09-25T08:00:00+00:00",
    "time_estimated": false,
-   "address": "200 East Flagler Street, Miami, Florida 33131, United States",
+   "address": "",
    "ages": "21+",
    "price": "$7+",
    "genres": [
@@ -202,43 +163,13 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://dice.fm/event/6a8b490e7b6a8a000143f719",
-   "cancelled": false,
-   "alt_urls": [
-    "https://dice.fm/event/6a8b490e7b6a8a000143f719"
-   ]
-  },
-  {
-   "id": "dice:6ab14c6dda43eb00017f4dfd",
-   "source": "dice",
-   "title": "WHITE OUT PARTY",
-   "artists": [],
-   "venue": "Kemistry",
-   "venue_slug": "kemistry",
-   "date": "2026-09-24",
-   "start": "2026-09-25T02:00:00+00:00",
-   "end": "2026-09-25T08:00:00+00:00",
-   "time_estimated": false,
-   "address": "307 Southwest 2nd Street, Fort Lauderdale, Florida 33312, United States",
-   "ages": "",
-   "price": " (sold out)",
-   "genres": [
-    "bass",
-    "dubstep"
-   ],
-   "genres_inferred": true,
-   "organizer": "",
-   "description": "",
-   "url": "https://dice.fm/event/6ab14c6dda43eb00017f4dfd",
-   "cancelled": false
+   "url": "https://dice.fm/event/6a8b490e7b6a8a000143f719"
   },
   {
    "id": "19hz:4443832-myfavdjpopupshow",
-   "source": "19hz+edmtrain",
+   "source": "19hz",
    "title": "My Fav DJ Pop Up Show",
-   "artists": [
-    "Mikey Barreneche"
-   ],
+   "artists": [],
    "venue": "Miami Mojito Company",
    "venue_slug": null,
    "date": "2026-09-24",
@@ -254,20 +185,13 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://posh.vip/e/my-fav-dj-pop-up-show",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/my-fav-dj-pop-up-mikey-barreneche-525597"
-   ]
+   "url": "https://posh.vip/e/my-fav-dj-pop-up-show"
   },
   {
    "id": "19hz:4443835-beltran",
-   "source": "19hz+edmtrain",
+   "source": "19hz",
    "title": "Beltran",
-   "artists": [
-    "Beltran",
-    "Bakke",
-    "Alves"
-   ],
+   "artists": [],
    "venue": "Floyd Miami",
    "venue_slug": "floyd",
    "date": "2026-09-24",
@@ -283,65 +207,7 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://dice.fm/event/yodgqx-beltran-24th-sep-floyd-miami-miami-tickets",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/beltran-bakke-538086"
-   ]
-  },
-  {
-   "id": "edmtrain:536466",
-   "source": "edmtrain",
-   "title": "Siwell, Jude & Frank, Kanu",
-   "artists": [
-    "Siwell",
-    "Jude & Frank",
-    "Kanu"
-   ],
-   "venue": "AIRE Miami",
-   "venue_slug": null,
-   "date": "2026-09-24",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "111 NE 20th St, Miami, FL 33137, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://posh.vip/e/aire-opening-night?t=edmtrain",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/siwell-jude-and-frank-536466"
-   ]
-  },
-  {
-   "id": "edmtrain:531200",
-   "source": "edmtrain",
-   "title": "Treehouse: FREEKA, Shakedown Beats, Acorns, crisptoazt",
-   "artists": [
-    "FREEKA",
-    "Shakedown Beats",
-    "Acorns",
-    "crisptoazt"
-   ],
-   "venue": "Treehouse Miami Beach",
-   "venue_slug": null,
-   "date": "2026-09-24",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "323 23rd St, Miami Beach, FL 33139, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://www.etix.com/ticket/p/31582830",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/treehouse-freeka-531200"
-   ]
+   "url": "https://dice.fm/event/yodgqx-beltran-24th-sep-floyd-miami-miami-tickets"
   },
   {
    "id": "shotgun:expansion",
@@ -5971,17 +5837,17 @@
    ]
   },
   {
-   "id": "19hz:4445424-levelup",
-   "source": "19hz",
-   "title": "Level Up",
+   "id": "hardrock:208792",
+   "source": "19hz+venue",
+   "title": "Gameday Watch Party 10/11",
    "artists": [],
-   "venue": "Daer Dayclub",
+   "venue": "DAER Dayclub",
    "venue_slug": "daer",
    "date": "2026-10-11",
    "start": "2026-10-11T16:00:00+00:00",
-   "end": "2026-10-11T23:00:00+00:00",
+   "end": "2026-10-11T22:00:00+00:00",
    "time_estimated": false,
-   "address": "Hollywood",
+   "address": "1 Seminole Way, Hollywood, FL 33314",
    "ages": "21+",
    "price": "$37+",
    "genres": [
@@ -5992,7 +5858,11 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://www.tixr.com/groups/daerdayclubsouthflorida/events/level-up-daer-dayclub-202010"
+   "url": "https://tixr.com/e/208792",
+   "generic_title": false,
+   "alt_urls": [
+    "https://www.tixr.com/groups/daerdayclubsouthflorida/events/level-up-daer-dayclub-202010"
+   ]
   },
   {
    "id": "dice:6ab5585537b4c00001c190f7",
@@ -7327,7 +7197,7 @@
   {
    "id": "hardrock:202012",
    "source": "venue",
-   "title": "DAER Dayclub",
+   "title": "Gameday Watch Party",
    "artists": [],
    "venue": "DAER Dayclub",
    "venue_slug": "daer",
@@ -7343,7 +7213,7 @@
    "organizer": "",
    "description": "",
    "url": "https://tixr.com/e/202012",
-   "generic_title": true
+   "generic_title": false
   },
   {
    "id": "dice:6a85fa6621cf7000019482af",
@@ -12360,9 +12230,9 @@
    ]
   },
   {
-   "id": "19hz:4450072-spacewizard",
-   "source": "19hz+edmtrain",
-   "title": "Space Wizard",
+   "id": "dice:6a60e813170f000001bd0743",
+   "source": "19hz+dice+edmtrain",
+   "title": "SPACE WIZARD",
    "artists": [
     "Space Wizard",
     "XaeboR"
@@ -12373,9 +12243,9 @@
    "start": "2026-11-29T03:00:00+00:00",
    "end": "2026-11-29T09:00:00+00:00",
    "time_estimated": false,
-   "address": "Fort Lauderdale",
+   "address": "307 Southwest 2nd Street, Fort Lauderdale, Florida 33312, United States",
    "ages": "18+",
-   "price": "$13.22",
+   "price": "From $13",
    "genres": [
     "bass music",
     "dubstep"
@@ -12384,7 +12254,9 @@
    "organizer": "",
    "description": "",
    "url": "https://dice.fm/event/xe3wmk-space-wizard-28th-nov-kemistry-fort-lauderdale-tickets",
+   "cancelled": false,
    "alt_urls": [
+    "https://dice.fm/event/xe3wmk-space-wizard-28th-nov-kemistry-fort-lauderdale-tickets",
     "https://edmtrain.com/fort-lauderdale-fl/space-wizard-xaebor-526433"
    ]
   },
@@ -12415,6 +12287,29 @@
    "alt_urls": [
     "https://edmtrain.com/miami-fl/wonkywilla-512230"
    ]
+  },
+  {
+   "id": "zeyzey:oscar-g-anastazja-28-nov",
+   "source": "venue",
+   "title": "Oscar G + Anastazja",
+   "artists": [],
+   "venue": "ZeyZey Miami",
+   "venue_slug": "zeyzey",
+   "date": "2026-11-28",
+   "start": "2026-11-29T03:00:00+00:00",
+   "end": "2026-11-29T06:00:00+00:00",
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "",
+   "genres": [
+    "dance/electronic"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://calendar.zeyzeymiami.com/shows/oscar-g-anastazja-28-nov",
+   "cancelled": false
   },
   {
    "id": "dice:6a8f2332f7d5af0001278253",
