@@ -73,7 +73,7 @@
   "name": "Kemistry (Fort Lauderdale)",
   "file": "kemistry.ics",
   "events": 29,
-  "estimated_times": 3,
+  "estimated_times": 2,
   "next": "2026-09-24",
   "sources": [
    "19hz",
@@ -117,9 +117,9 @@
   "slug": "mad-radio",
   "name": "Mad Radio Miami",
   "file": "mad-radio.ics",
-  "events": 7,
+  "events": 12,
   "estimated_times": 0,
-  "next": "2026-09-23",
+  "next": "2026-09-24",
   "sources": [
    "19hz",
    "edmtrain",
@@ -172,7 +172,7 @@
   "slug": "festivals",
   "name": "Festivals & one-offs",
   "file": "festivals.ics",
-  "events": 35,
+  "events": 36,
   "estimated_times": 20,
   "next": "2026-10-02",
   "sources": [

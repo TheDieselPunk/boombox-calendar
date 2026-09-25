@@ -78,20 +78,21 @@ CATEGORIES:house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a8b4c2bfec44800018bccb4@jolene.miami-calendars
-DTSTAMP:20260922T004038Z
-LAST-MODIFIED:20260922T004038Z
-SEQUENCE:1
+DTSTAMP:20260925T041815Z
+LAST-MODIFIED:20260925T041815Z
+SEQUENCE:2
 DTSTART:20261003T020000Z
 DTEND:20261003T080000Z
 SUMMARY:Generous B Presents
 LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
  a 33131\, United States
-DESCRIPTION:Tags (guess): house\, tech house\nhttps://dice.fm/event/6a8b4c2
- bfec44800018bccb4\nhttps://edmtrain.com/miami-fl/generous-b-presents-53811
- 9
-URL:https://dice.fm/event/6a8b4c2bfec44800018bccb4
+DESCRIPTION:Tags: progressive house\, tech house\nAges: 21+\nhttps://dice.f
+ m/event/bb9q7o-generous-b-presents-2nd-oct-jolene-sound-room-miami-miami-t
+ ickets\nhttps://edmtrain.com/miami-fl/generous-b-presents-538119
+URL:https://dice.fm/event/bb9q7o-generous-b-presents-2nd-oct-jolene-sound-r
+ oom-miami-miami-tickets
 STATUS:CONFIRMED
-CATEGORIES:house,tech house
+CATEGORIES:progressive house,tech house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a6cf7d798cdba0001582d19@jolene.miami-calendars

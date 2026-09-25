@@ -43,18 +43,19 @@ CATEGORIES:dubstep,trap
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a90c4acedf55c000191e6b7@kemistry.miami-calendars
-DTSTAMP:20260922T004038Z
-LAST-MODIFIED:20260922T004038Z
-SEQUENCE:1
+DTSTAMP:20260925T041815Z
+LAST-MODIFIED:20260925T041815Z
+SEQUENCE:2
 DTSTART:20260927T020000Z
 DTEND:20260927T080000Z
 SUMMARY:REWIND: 2000s RAVE
 LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
  312\, United States
-DESCRIPTION:Tags (guess): bass\, dubstep\nhttps://dice.fm/event/6a90c4acedf
- 55c000191e6b7\nhttps://edmtrain.com/fort-lauderdale-fl/rewind-2000s-rave-5
- 37514
-URL:https://dice.fm/event/6a90c4acedf55c000191e6b7
+DESCRIPTION:Tags (guess): bass\, dubstep\nAges: 18+\nhttps://dice.fm/event/
+ 3obkrv-rewind-2000s-rave-26th-sep-kemistry-fort-lauderdale-tickets\nhttps:
+ //edmtrain.com/fort-lauderdale-fl/rewind-2000s-rave-537514
+URL:https://dice.fm/event/3obkrv-rewind-2000s-rave-26th-sep-kemistry-fort-l
+ auderdale-tickets
 STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT
@@ -386,19 +387,19 @@ STATUS:CONFIRMED
 CATEGORIES:dubstep,trap
 END:VEVENT
 BEGIN:VEVENT
-UID:edmtrain-538122@kemistry.miami-calendars
-DTSTAMP:20260924T221818Z
-LAST-MODIFIED:20260924T221818Z
+UID:dice-6aaae809e78bd300017554b1@kemistry.miami-calendars
+DTSTAMP:20260925T041815Z
+LAST-MODIFIED:20260925T041815Z
 SEQUENCE:0
 DTSTART:20261128T030000Z
 DTEND:20261128T090000Z
-SUMMARY:Space 92
-LOCATION:Kemistry\, 307 SW 2nd St\, Fort Lauderdale\, FL 33312\, USA
-DESCRIPTION:Lineup: Space 92\nTags (guess): bass\, dubstep\nTimes are an es
- timate from Kemistry (Fort Lauderdale)'s usual hours - the listing has no 
- start time yet. Check the link.\nhttps://dice.fm/event/8e7g5w?pid=d6342b83
- \nhttps://edmtrain.com/fort-lauderdale-fl/space-92-538122
-URL:https://dice.fm/event/8e7g5w?pid=d6342b83
+SUMMARY:SPACE 92
+LOCATION:Kemistry\, 307 Southwest 2nd Street\, Fort Lauderdale\, Florida 33
+ 312\, United States
+DESCRIPTION:Lineup: Space 92\nTags (guess): bass\, dubstep\nhttps://dice.fm
+ /event/6aaae809e78bd300017554b1\nhttps://edmtrain.com/fort-lauderdale-fl/s
+ pace-92-538122
+URL:https://dice.fm/event/6aaae809e78bd300017554b1
 STATUS:CONFIRMED
 CATEGORIES:bass,dubstep
 END:VEVENT

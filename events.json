@@ -1,26 +1,29 @@
 {
  "events": [
   {
-   "id": "19hz:4443732-frecuenciamilagr",
+   "id": "19hz:4443820-danteshififiveye",
    "source": "19hz",
-   "title": "Frecuencia: Milagros Espada",
+   "title": "Dante's Hifi+ Five Year Anniversary: Walshy Fire, Alan Drummond, Rude Boy Sven, Dvize, Arturo, DJ Ynot, DJ Klassik, DJ FM",
    "artists": [],
-   "venue": "Mad Radio",
-   "venue_slug": "mad-radio",
-   "date": "2026-09-23",
-   "start": "2026-09-24T01:00:00+00:00",
-   "end": "2026-09-24T07:00:00+00:00",
+   "venue": "Dante's Hifi",
+   "venue_slug": null,
+   "date": "2026-09-24",
+   "start": "2026-09-24T23:00:00+00:00",
+   "end": "2026-09-25T07:00:00+00:00",
    "time_estimated": false,
    "address": "",
-   "ages": "21+",
-   "price": "free",
+   "ages": "",
+   "price": "",
    "genres": [
+    "afrobeats",
+    "dancehall",
+    "hip-hop",
     "house"
    ],
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://shotgun.live/en/events/madradiomiami092326"
+   "url": "https://ra.co/events/2542548"
   },
   {
    "id": "edmtrain:535660",
@@ -99,66 +102,6 @@
    "alt_urls": [
     "https://edmtrain.com/miami-fl/chizzle-524468"
    ]
-  },
-  {
-   "id": "shotgun:karaokiki1-36",
-   "source": "shotgun",
-   "title": "Karaokiki Happy Hour: Broadway + Showtunes Edition",
-   "artists": [],
-   "venue": "Miami",
-   "venue_slug": null,
-   "date": "2026-09-24",
-   "start": "2026-09-25T00:00:00+00:00",
-   "end": null,
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "Free",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/en/events/karaokiki1-36"
-  },
-  {
-   "id": "shotgun:the-redwood-revue-a-comedy-show-4",
-   "source": "shotgun",
-   "title": "The Redwood Revue: A Comedy Show",
-   "artists": [],
-   "venue": "RedWood Bar & Kitchen - Restaurant in Hollywood FL",
-   "venue_slug": null,
-   "date": "2026-09-24",
-   "start": "2026-09-25T00:00:00+00:00",
-   "end": null,
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "Free",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/en/events/the-redwood-revue-a-comedy-show-4"
-  },
-  {
-   "id": "shotgun:trivia-night-upper-eastside-hangout-4",
-   "source": "shotgun",
-   "title": "Trivia Night @ Upper Eastside Hangout",
-   "artists": [],
-   "venue": "Upper Eastside Hangout",
-   "venue_slug": null,
-   "date": "2026-09-24",
-   "start": "2026-09-25T00:00:00+00:00",
-   "end": null,
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "Free",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/en/events/trivia-night-upper-eastside-hangout-4"
   },
   {
    "id": "shotgun:churchill-s-pub-47th-anniversary-party",
@@ -244,6 +187,30 @@
    ]
   },
   {
+   "id": "19hz:4443832-airemiamiopening",
+   "source": "19hz",
+   "title": "Aire Miami: Opening Week w/ Oozzaa",
+   "artists": [],
+   "venue": "Aire Miami",
+   "venue_slug": null,
+   "date": "2026-09-24",
+   "start": "2026-09-25T02:00:00+00:00",
+   "end": "2026-09-25T08:00:00+00:00",
+   "time_estimated": false,
+   "address": "",
+   "ages": "21+",
+   "price": "$20+",
+   "genres": [
+    "afro house",
+    "progressive house",
+    "tech house"
+   ],
+   "genres_inferred": false,
+   "organizer": "Pitchpark Events",
+   "description": "",
+   "url": "https://ra.co/events/2542116"
+  },
+  {
    "id": "shotgun:vocal-jukebox-every-thursday-10",
    "source": "shotgun",
    "title": "Vocal Jukebox : Every Thursday",
@@ -307,7 +274,7 @@
    "time_estimated": false,
    "address": "200 East Flagler Street, Miami, Florida 33131, United States",
    "ages": "21+",
-   "price": "From $7",
+   "price": "$7+",
    "genres": [
     "minimal",
     "tech house"
@@ -334,7 +301,7 @@
    "time_estimated": false,
    "address": "307 Southwest 2nd Street, Fort Lauderdale, Florida 33312, United States",
    "ages": "",
-   "price": "",
+   "price": " (sold out)",
    "genres": [
     "bass",
     "dubstep"
@@ -393,8 +360,8 @@
    ]
   },
   {
-   "id": "dice:6a73973b35b6a8000123ce50",
-   "source": "dice+edmtrain",
+   "id": "19hz:4443835-beltran",
+   "source": "19hz+edmtrain",
    "title": "Beltran",
    "artists": [
     "Beltran",
@@ -407,18 +374,16 @@
    "start": "2026-09-25T03:00:00+00:00",
    "end": "2026-09-25T09:00:00+00:00",
    "time_estimated": false,
-   "address": "34 NE 11th St, Miami, FL 33132, USA",
-   "ages": "",
-   "price": "From $48 (sold out)",
+   "address": "",
+   "ages": "21+",
+   "price": "$48.01",
    "genres": [
-    "house",
-    "techno"
+    "tech house"
    ],
-   "genres_inferred": true,
+   "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://dice.fm/event/6a73973b35b6a8000123ce50",
-   "cancelled": false,
+   "url": "https://dice.fm/event/yodgqx-beltran-24th-sep-floyd-miami-miami-tickets",
    "alt_urls": [
     "https://edmtrain.com/miami-fl/beltran-bakke-538086"
    ]
@@ -480,14 +445,14 @@
   },
   {
    "id": "shotgun:expansion",
-   "source": "edmtrain+shotgun",
+   "source": "19hz+edmtrain+shotgun",
    "title": "Expansion: Ecstatic Dance Miami",
    "artists": [],
    "venue": "Miami",
    "venue_slug": null,
    "date": "2026-09-25",
    "start": "2026-09-25T23:00:00+00:00",
-   "end": null,
+   "end": "2026-09-26T02:00:00+00:00",
    "time_estimated": false,
    "address": "",
    "ages": "",
@@ -498,19 +463,20 @@
    "description": "",
    "url": "https://shotgun.live/en/events/expansion",
    "alt_urls": [
+    "https://shotgun.live/en/events/expansion",
     "https://edmtrain.com/miami-fl/expansion-ecstatic-dance-miami-538556"
    ]
   },
   {
-   "id": "zeyzey:salsa-z-25-sep",
-   "source": "venue",
+   "id": "tablelist:ec27b34262de49d1",
+   "source": "tablelist+venue",
    "title": "Salsa Z Presents: Merengue Z",
    "artists": [],
    "venue": "ZeyZey Miami",
    "venue_slug": "zeyzey",
    "date": "2026-09-25",
    "start": "2026-09-25T23:00:00+00:00",
-   "end": "2026-09-26T07:00:00+00:00",
+   "end": "2026-09-26T01:00:00+00:00",
    "time_estimated": false,
    "address": "",
    "ages": "",
@@ -519,8 +485,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://calendar.zeyzeymiami.com/shows/salsa-z-25-sep",
-   "cancelled": false
+   "url": "https://buy.tablelist.com/e/ec27b34262de49d1",
+   "alt_urls": [
+    "https://calendar.zeyzeymiami.com/shows/salsa-z-25-sep"
+   ]
   },
   {
    "id": "19hz:4443919-airemiamiopening",
@@ -572,6 +540,28 @@
    "alt_urls": [
     "https://edmtrain.com/miami-fl/afrojack-524469"
    ]
+  },
+  {
+   "id": "19hz:4443919-breaksyokendallb",
+   "source": "19hz",
+   "title": "Breaks Yo! Kendall - Bebe Breaks, Endy, Tempoe, Xcessive Hypnotism",
+   "artists": [],
+   "venue": "Tacos And Tattoos",
+   "venue_slug": null,
+   "date": "2026-09-25",
+   "start": "2026-09-26T00:00:00+00:00",
+   "end": "2026-09-26T07:00:00+00:00",
+   "time_estimated": false,
+   "address": "Kendall",
+   "ages": "",
+   "price": "",
+   "genres": [
+    "breaks"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://www.facebook.com/events/1036750246060792/"
   },
   {
    "id": "19hz:4443924-koncretejunglemi",
@@ -628,7 +618,7 @@
   },
   {
    "id": "shotgun:madradiomiami092526",
-   "source": "edmtrain+shotgun",
+   "source": "19hz+edmtrain+shotgun",
    "title": "Mary Zander / Thomas Sahs / Israel Sunshine",
    "artists": [
     "Israel Sunshine ARTISANO"
@@ -640,10 +630,13 @@
    "end": "2026-09-26T07:00:00+00:00",
    "time_estimated": false,
    "address": "7700 Biscayne Boulevard, Miami, FL 33138, USA",
-   "ages": "",
+   "ages": "21+",
    "price": "$21.80",
    "genres": [
-    "house"
+    "deep house",
+    "house",
+    "progressive house",
+    "tech house"
    ],
    "genres_inferred": false,
    "organizer": "Mad Radio Miami",
@@ -658,6 +651,7 @@
    },
    "created": "2026-09-18T22:48:24.000Z",
    "alt_urls": [
+    "https://shotgun.live/en/events/madradiomiami092526",
     "https://edmtrain.com/miami-fl/israel-sunshine-538221"
    ]
   },
@@ -684,15 +678,15 @@
    "url": "https://posh.vip/e/dub-x-mini-bar-13"
   },
   {
-   "id": "zeyzey:yasser-tejeda-free-entry-25-sep",
-   "source": "venue",
-   "title": "Yasser Tejeda (Free Entry)",
+   "id": "tablelist:1e61d5b845e3d418",
+   "source": "tablelist+venue",
+   "title": "Yasser Tejeda",
    "artists": [],
    "venue": "ZeyZey Miami",
    "venue_slug": "zeyzey",
    "date": "2026-09-25",
    "start": "2026-09-26T01:00:00+00:00",
-   "end": "2026-09-26T07:00:00+00:00",
+   "end": "2026-09-26T05:00:00+00:00",
    "time_estimated": false,
    "address": "",
    "ages": "",
@@ -703,8 +697,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://calendar.zeyzeymiami.com/shows/yasser-tejeda-free-entry-25-sep",
-   "cancelled": false
+   "url": "https://buy.tablelist.com/e/1e61d5b845e3d418",
+   "alt_urls": [
+    "https://calendar.zeyzeymiami.com/shows/yasser-tejeda-free-entry-25-sep"
+   ]
   },
   {
    "id": "shotgun:c3trlroom-4",
@@ -898,6 +894,30 @@
    ]
   },
   {
+   "id": "19hz:4443928-djsneakmattflesh",
+   "source": "19hz",
+   "title": "DJ Sneak, Matt Flesher, Bandito Chico",
+   "artists": [],
+   "venue": "Lion's Den at Fooqs",
+   "venue_slug": null,
+   "date": "2026-09-25",
+   "start": "2026-09-26T02:00:00+00:00",
+   "end": "2026-09-26T07:00:00+00:00",
+   "time_estimated": false,
+   "address": "",
+   "ages": "21+",
+   "price": "",
+   "genres": [
+    "deep house",
+    "funky house",
+    "jackin house"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://www.therumor.com/p/sneak"
+  },
+  {
    "id": "shotgun:lunasol-pres-misifu-6",
    "source": "19hz+edmtrain+shotgun",
    "title": "Lunasol Pres. Misifu",
@@ -931,23 +951,26 @@
   },
   {
    "id": "shotgun:zona",
-   "source": "shotgun",
+   "source": "19hz+shotgun",
    "title": "Zonaroza: Ft. Fantasia Royale Gaga",
    "artists": [],
    "venue": "Miami",
    "venue_slug": null,
    "date": "2026-09-25",
    "start": "2026-09-26T02:00:00+00:00",
-   "end": null,
+   "end": "2026-09-26T08:00:00+00:00",
    "time_estimated": false,
    "address": "",
-   "ages": "",
+   "ages": "18+",
    "price": "$11.35",
    "genres": [],
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://shotgun.live/en/events/zona"
+   "url": "https://shotgun.live/en/events/zona",
+   "alt_urls": [
+    "https://shotgun.live/en/events/zona"
+   ]
   },
   {
    "id": "19hz:4443928-somewhereundergr",
@@ -1083,15 +1106,15 @@
    ]
   },
   {
-   "id": "zeyzey:gasolina-reggaeton-party-25-sep",
-   "source": "venue",
+   "id": "tablelist:dddbca1ca2013358",
+   "source": "tablelist+venue",
    "title": "Gasolina: Reggaetón Party",
    "artists": [],
    "venue": "ZeyZey Miami",
    "venue_slug": "zeyzey",
    "date": "2026-09-25",
    "start": "2026-09-26T02:00:00+00:00",
-   "end": "2026-09-26T07:00:00+00:00",
+   "end": "2026-09-26T06:00:00+00:00",
    "time_estimated": false,
    "address": "",
    "ages": "",
@@ -1102,8 +1125,10 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://calendar.zeyzeymiami.com/shows/gasolina-reggaeton-party-25-sep",
-   "cancelled": false
+   "url": "https://buy.tablelist.com/e/dddbca1ca2013358",
+   "alt_urls": [
+    "https://calendar.zeyzeymiami.com/shows/gasolina-reggaeton-party-25-sep"
+   ]
   },
   {
    "id": "dice:6a591b4c493a000001fac474",
@@ -1237,6 +1262,33 @@
    ]
   },
   {
+   "id": "19hz:4443934-sistek",
+   "source": "19hz+edmtrain",
+   "title": "Sistek",
+   "artists": [
+    "Sistek"
+   ],
+   "venue": "Selva",
+   "venue_slug": null,
+   "date": "2026-09-25",
+   "start": "2026-09-26T03:30:00+00:00",
+   "end": "2026-09-26T08:00:00+00:00",
+   "time_estimated": false,
+   "address": "",
+   "ages": "21+",
+   "price": "$45+",
+   "genres": [
+    "afro house"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://posh.vip/e/sistek-selva",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/sistek-537672"
+   ]
+  },
+  {
    "id": "edmtrain:536467",
    "source": "edmtrain",
    "title": "Gab Rhome, Markem",
@@ -1312,31 +1364,6 @@
    "organizer": "",
    "description": "",
    "url": "https://edmtrain.com/miami-fl/dj-masda-539314"
-  },
-  {
-   "id": "edmtrain:537672",
-   "source": "edmtrain",
-   "title": "Sistek",
-   "artists": [
-    "Sistek"
-   ],
-   "venue": "Selva Miami",
-   "venue_slug": null,
-   "date": "2026-09-25",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "800 Brickell Ave, Miami, FL 33131, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://posh.vip/e/sistek-selva?t=edmtrain",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/sistek-537672"
-   ]
   },
   {
    "id": "edmtrain:539639",
@@ -1551,6 +1578,28 @@
    "cancelled": false
   },
   {
+   "id": "19hz:4444003-safesoundareturn",
+   "source": "19hz",
+   "title": "Safe Sound / A Return To Practice / Each Other: Diego Andres, Mutant Pete , Terence Tabeau, Extra Andrew, Artime, Lotusoph",
+   "artists": [],
+   "venue": "Zoko Collective",
+   "venue_slug": null,
+   "date": "2026-09-26",
+   "start": "2026-09-26T21:00:00+00:00",
+   "end": "2026-09-27T04:00:00+00:00",
+   "time_estimated": false,
+   "address": "",
+   "ages": "21+",
+   "price": "free",
+   "genres": [
+    "house"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://ra.co/events/2539103"
+  },
+  {
    "id": "19hz:4444015-airemiamipendulu",
    "source": "19hz",
    "title": "Aire (Miami): Pendulum By Steve Lawler, Ella Romand and Stefaina",
@@ -1694,9 +1743,9 @@
    ]
   },
   {
-   "id": "zeyzey:riva-starr-26-sep",
-   "source": "19hz+edmtrain+venue",
-   "title": "Riva Starr + Seamus Haji (Free Entry)",
+   "id": "tablelist:05c68f7fbdffbe06",
+   "source": "19hz+edmtrain+tablelist+venue",
+   "title": "Riva Starr + Seamus Haji",
    "artists": [
     "Riva Starr",
     "Seamus Haji"
@@ -1705,7 +1754,7 @@
    "venue_slug": "zeyzey",
    "date": "2026-09-26",
    "start": "2026-09-27T00:00:00+00:00",
-   "end": "2026-09-27T05:00:00+00:00",
+   "end": "2026-09-27T06:00:00+00:00",
    "time_estimated": false,
    "address": "",
    "ages": "21+",
@@ -1717,9 +1766,9 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://calendar.zeyzeymiami.com/shows/riva-starr-26-sep",
-   "cancelled": false,
+   "url": "https://buy.tablelist.com/e/05c68f7fbdffbe06",
    "alt_urls": [
+    "https://calendar.zeyzeymiami.com/shows/riva-starr-26-sep",
     "https://ra.co/events/2506139",
     "https://calendar.zeyzeymiami.com/shows/riva-starr-26-sep",
     "https://edmtrain.com/miami-fl/nervous-records-riva-starr-518461"
@@ -2001,7 +2050,7 @@
   },
   {
    "id": "dice:6a90c4acedf55c000191e6b7",
-   "source": "dice+edmtrain",
+   "source": "19hz+dice+edmtrain",
    "title": "REWIND: 2000s RAVE",
    "artists": [],
    "venue": "Kemistry",
@@ -2011,8 +2060,8 @@
    "end": "2026-09-27T08:00:00+00:00",
    "time_estimated": false,
    "address": "307 Southwest 2nd Street, Fort Lauderdale, Florida 33312, United States",
-   "ages": "",
-   "price": "From $29",
+   "ages": "18+",
+   "price": "From $33",
    "genres": [
     "bass",
     "dubstep"
@@ -2020,11 +2069,35 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://dice.fm/event/6a90c4acedf55c000191e6b7",
+   "url": "https://dice.fm/event/3obkrv-rewind-2000s-rave-26th-sep-kemistry-fort-lauderdale-tickets",
    "cancelled": false,
    "alt_urls": [
+    "https://dice.fm/event/3obkrv-rewind-2000s-rave-26th-sep-kemistry-fort-lauderdale-tickets",
     "https://edmtrain.com/fort-lauderdale-fl/rewind-2000s-rave-537514"
    ]
+  },
+  {
+   "id": "19hz:4444024-madotamanumat",
+   "source": "19hz",
+   "title": "Madota, Manumat",
+   "artists": [],
+   "venue": "Lion's Den at Fooqs",
+   "venue_slug": null,
+   "date": "2026-09-26",
+   "start": "2026-09-27T02:00:00+00:00",
+   "end": "2026-09-27T07:00:00+00:00",
+   "time_estimated": false,
+   "address": "",
+   "ages": "21+",
+   "price": "",
+   "genres": [
+    "playa tech",
+    "progressive house"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://www.therumor.com/p/madota"
   },
   {
    "id": "shotgun:lunasol-pres-sebastienleger-2",
@@ -2307,17 +2380,17 @@
   },
   {
    "id": "shotgun:aurora-two",
-   "source": "edmtrain+shotgun",
+   "source": "19hz+edmtrain+shotgun",
    "title": "Aurora Two",
    "artists": [],
    "venue": "Baoshi Food Hall + Bar",
    "venue_slug": null,
    "date": "2026-09-27",
    "start": "2026-09-27T16:00:00+00:00",
-   "end": null,
+   "end": "2026-09-27T21:00:00+00:00",
    "time_estimated": false,
    "address": "",
-   "ages": "",
+   "ages": "All ages",
    "price": "Free",
    "genres": [
     "afro house",
@@ -2329,6 +2402,7 @@
    "description": "",
    "url": "https://shotgun.live/en/events/aurora-two",
    "alt_urls": [
+    "https://shotgun.live/en/events/aurora-two",
     "https://edmtrain.com/fort-lauderdale-fl/aurora-two-538042"
    ]
   },
@@ -2355,6 +2429,29 @@
    "alt_urls": [
     "https://www.tixr.com/groups/daerdayclubsouthflorida/events/goodnight-johnboys-pool-party-daer-dayclub-199440"
    ]
+  },
+  {
+   "id": "19hz:4444096-chillinngrillinl",
+   "source": "19hz",
+   "title": "Chillin N Grillin: Lou Flores, Demenz",
+   "artists": [],
+   "venue": "Lion's Den at Fooqs",
+   "venue_slug": null,
+   "date": "2026-09-27",
+   "start": "2026-09-27T20:00:00+00:00",
+   "end": "2026-09-28T02:00:00+00:00",
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "",
+   "genres": [
+    "tech house",
+    "techno"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://www.therumor.com/p/louf"
   },
   {
    "id": "19hz:4444099-breaksyo8bitbebe",
@@ -2646,7 +2743,7 @@
   {
    "id": "shotgun:madradiomiami093026",
    "source": "19hz+edmtrain+shotgun",
-   "title": "Undertone: Joaquin Bohmer",
+   "title": "Undertone: Tombo / Hueso / Andre Bass & Asørey",
    "artists": [
     "Joaquin Bohmer"
    ],
@@ -2664,7 +2761,7 @@
    ],
    "genres_inferred": false,
    "organizer": "Mad Radio Miami",
-   "description": "\"The river venue sets the stage for a stylish yet chill night out. Whether you´re a party pro or just vibing, this is the spot. Tune in our slick radio show serving up the latest tracks. Save the date and cath the urban-chic experience at Mad Radio Miami. See you on the dance floor! Come early, stay late, and let the night unfold FREE ENTRY HAPPY HOUR 5 PM - 9 PM\"",
+   "description": "\"The river venue sets the stage for a stylish yet chill night out. Whether you´re a party pro or just vibing, this is the spot. Tune in our slick radio show serving up the latest tracks. Save the date and cath the urban-chic experience at Mad Radio Miami. See you on the dance floor! Come early, stay late, and let the night unfold FREE ENTRY 25+ YEARS OLD HAPPY HOUR 5 PM - 9 PM\"",
    "url": "https://shotgun.live/en/events/madradiomiami093026",
    "tickets": "RSVP Free",
    "cancelled": false,
@@ -2810,6 +2907,37 @@
    "url": "https://shotgun.live/en/events/riot-sessions"
   },
   {
+   "id": "shotgun:madradiomiami100126",
+   "source": "shotgun",
+   "title": "Trip Don't Sleep: Auphoria / Daizy / Nicole Gallamini",
+   "artists": [],
+   "venue": "Mad Radio Miami",
+   "venue_slug": "mad-radio",
+   "date": "2026-10-01",
+   "start": "2026-10-02T01:00:00+00:00",
+   "end": "2026-10-02T07:00:00+00:00",
+   "time_estimated": false,
+   "address": "7700 Biscayne Boulevard, Miami, FL 33138, USA",
+   "ages": "",
+   "price": "Free",
+   "genres": [
+    "deep house",
+    "house"
+   ],
+   "genres_inferred": true,
+   "organizer": "Mad Radio Miami",
+   "description": "\"The river venue sets the stage for a stylish yet chill night out. Whether you´re a party pro or just vibing, this is the spot. Tune in our slick radio show serving up the latest tracks. Save the date and cath the urban-chic experience at Mad Radio Miami. See you on the dance floor! Come early, stay late, and let the night unfold FREE ENTRY +25 YEARS OLD HAPPY HOUR 5 PM - 9 PM\"",
+   "url": "https://shotgun.live/en/events/madradiomiami100126",
+   "tickets": "RSVP Free",
+   "cancelled": false,
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.8462027,
+    "longitude": -80.1851332
+   },
+   "created": "2026-09-25T01:29:57.000Z"
+  },
+  {
    "id": "dice:6ab3eef6a713180001f76939",
    "source": "19hz+dice",
    "title": "BERRAKKA b2b v1fro & RARA",
@@ -2896,6 +3024,35 @@
    ]
   },
   {
+   "id": "19hz:4444591-timgreen",
+   "source": "19hz+edmtrain",
+   "title": "Tim Green",
+   "artists": [
+    "Tim Green"
+   ],
+   "venue": "Aire Miami",
+   "venue_slug": null,
+   "date": "2026-10-02",
+   "start": "2026-10-03T00:00:00+00:00",
+   "end": "2026-10-03T08:00:00+00:00",
+   "time_estimated": false,
+   "address": "",
+   "ages": "21+",
+   "price": "Free w/RSVP b4 midnight ladies / $23",
+   "genres": [
+    "melodic house",
+    "organic house",
+    "progressive house"
+   ],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://airemia.com/events/aire-presents-tim-green",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/tim-green-537556"
+   ]
+  },
+  {
    "id": "zeyzey:monsieur-perine-02-oct",
    "source": "venue",
    "title": "Monsieur Periné - Instrucciones Para Ser Feliz",
@@ -2941,6 +3098,37 @@
    "organizer": "",
    "description": "",
    "url": "https://shotgun.live/en/events/bobby-peru-inscribed-a-plague-of-angels-and-more"
+  },
+  {
+   "id": "shotgun:madradiomiami100226",
+   "source": "shotgun",
+   "title": "Hedonism: Narcisse / Curva Peligrosa / Doin' Us / Ricardito",
+   "artists": [],
+   "venue": "Mad Radio Miami",
+   "venue_slug": "mad-radio",
+   "date": "2026-10-02",
+   "start": "2026-10-03T01:00:00+00:00",
+   "end": "2026-10-03T07:00:00+00:00",
+   "time_estimated": false,
+   "address": "7700 Biscayne Boulevard, Miami, FL 33138, USA",
+   "ages": "",
+   "price": "$21.80",
+   "genres": [
+    "deep house",
+    "house"
+   ],
+   "genres_inferred": true,
+   "organizer": "Mad Radio Miami",
+   "description": "\"The river venue sets the stage for a stylish yet chill night out. Whether you´re a party pro or just vibing, this is the spot. Tune in our slick radio show serving up the latest tracks. Save the date and cath the urban-chic experience at Mad Radio Miami. See you on the dance floor! Come early, stay late, and let the night unfold FREE ENTRY BEFORE 10 PM / FREE ENTRY LADIES UNTIL MIDNIGHT +25 YEARS OLD HAPPY HOUR 5 PM - 9 PM\"",
+   "url": "https://shotgun.live/en/events/madradiomiami100226",
+   "tickets": "AFTER 10 PM $20, FREE LADIES RSVP BEFORE 12 AM Free",
+   "cancelled": false,
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.8462027,
+    "longitude": -80.1851332
+   },
+   "created": "2026-09-25T01:32:18.000Z"
   },
   {
    "id": "19hz:4444596-transcendentxt4t",
@@ -3136,7 +3324,7 @@
   },
   {
    "id": "dice:6a8b4c2bfec44800018bccb4",
-   "source": "dice+edmtrain",
+   "source": "19hz+dice+edmtrain",
    "title": "Generous B Presents",
    "artists": [],
    "venue": "Jolene Sound Room Miami",
@@ -3146,18 +3334,19 @@
    "end": "2026-10-03T08:00:00+00:00",
    "time_estimated": false,
    "address": "200 East Flagler Street, Miami, Florida 33131, United States",
-   "ages": "",
+   "ages": "21+",
    "price": "From $7",
    "genres": [
-    "house",
+    "progressive house",
     "tech house"
    ],
-   "genres_inferred": true,
+   "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://dice.fm/event/6a8b4c2bfec44800018bccb4",
+   "url": "https://dice.fm/event/bb9q7o-generous-b-presents-2nd-oct-jolene-sound-room-miami-miami-tickets",
    "cancelled": false,
    "alt_urls": [
+    "https://dice.fm/event/bb9q7o-generous-b-presents-2nd-oct-jolene-sound-room-miami-miami-tickets",
     "https://edmtrain.com/miami-fl/generous-b-presents-538119"
    ]
   },
@@ -3373,31 +3562,6 @@
    "cancelled": false
   },
   {
-   "id": "edmtrain:537556",
-   "source": "edmtrain",
-   "title": "Tim Green",
-   "artists": [
-    "Tim Green"
-   ],
-   "venue": "AIRE Miami",
-   "venue_slug": null,
-   "date": "2026-10-02",
-   "start": null,
-   "end": null,
-   "time_estimated": false,
-   "address": "111 NE 20th St, Miami, FL 33137, USA",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://posh.vip/e/aire-presents-tim-green?t=edmtrain",
-   "alt_urls": [
-    "https://edmtrain.com/miami-fl/tim-green-537556"
-   ]
-  },
-  {
    "id": "edmtrain:536353",
    "source": "edmtrain",
    "title": "Ava Blank, Eva Myra May",
@@ -3566,6 +3730,37 @@
     "longitude": -80.1851332
    },
    "created": "2026-09-24T17:23:25.000Z"
+  },
+  {
+   "id": "shotgun:madradiomiami100326",
+   "source": "shotgun",
+   "title": "Sarah Tonin: Ferny / Gulp / Emma",
+   "artists": [],
+   "venue": "Mad Radio Miami",
+   "venue_slug": "mad-radio",
+   "date": "2026-10-03",
+   "start": "2026-10-04T01:00:00+00:00",
+   "end": "2026-10-04T07:00:00+00:00",
+   "time_estimated": false,
+   "address": "7700 Biscayne Boulevard, Miami, FL 33138, USA",
+   "ages": "",
+   "price": "$21.80",
+   "genres": [
+    "deep house",
+    "house"
+   ],
+   "genres_inferred": true,
+   "organizer": "Mad Radio Miami",
+   "description": "\"The river venue sets the stage for a stylish yet chill night out. Whether you´re a party pro or just vibing, this is the spot. Tune in our slick radio show serving up the latest tracks. Save the date and cath the urban-chic experience at Mad Radio Miami. See you on the dance floor! Come early, stay late, and let the night unfold FREE ENTRY BEFORE 10 PM / FREE ENTRY LADIES UNTIL MIDNIGHT + 25 YEARS OLD HAPPY HOUR 5 PM - 9 PM\"",
+   "url": "https://shotgun.live/en/events/madradiomiami100326",
+   "tickets": "AFTER 10 PM $20, FREE LADIES RSVP BEFORE 12 AM Free",
+   "cancelled": false,
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.8462027,
+    "longitude": -80.1851332
+   },
+   "created": "2026-09-25T01:35:35.000Z"
   },
   {
    "id": "19hz:4444692-welkeressejkatz",
@@ -4336,6 +4531,37 @@
    ]
   },
   {
+   "id": "shotgun:madradiomiami100726",
+   "source": "shotgun",
+   "title": "Seb Coba / Rudy M & Fanchi / Face / Reydel / Alex Meadows",
+   "artists": [],
+   "venue": "Mad Radio Miami",
+   "venue_slug": "mad-radio",
+   "date": "2026-10-07",
+   "start": "2026-10-08T01:00:00+00:00",
+   "end": "2026-10-08T07:00:00+00:00",
+   "time_estimated": false,
+   "address": "7700 Biscayne Boulevard, Miami, FL 33138, USA",
+   "ages": "",
+   "price": "Free",
+   "genres": [
+    "deep house",
+    "house"
+   ],
+   "genres_inferred": true,
+   "organizer": "Mad Radio Miami",
+   "description": "\"The river venue sets the stage for a stylish yet chill night out. Whether you´re a party pro or just vibing, this is the spot. Tune in our slick radio show serving up the latest tracks. Save the date and cath the urban-chic experience at Mad Radio Miami. See you on the dance floor! Come early, stay late, and let the night unfold FREE ENTRY 25+ YEARS OLD HAPPY HOUR 5 PM - 9 PM\"",
+   "url": "https://shotgun.live/en/events/madradiomiami100726",
+   "tickets": "RSVP Free",
+   "cancelled": false,
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.8462027,
+    "longitude": -80.1851332
+   },
+   "created": "2026-09-25T01:37:54.000Z"
+  },
+  {
    "id": "edmtrain:538160",
    "source": "edmtrain",
    "title": "Dubplates & Dragons Wednesdayz: Medley, Sel. 6, Kharma, CeEmme, Empress Galaxy Sword, Flash, Franklin mint, Nois.net, 3 Frequenseas, Cruces, Luna Thunderstorm, Wolfee Wolfenstein, Avalon Hechisarah Pendragon",
@@ -4417,6 +4643,37 @@
    "description": "",
    "url": "https://calendar.zeyzeymiami.com/shows/degs-craze-shinobi-b2b-stereotype-08-oct",
    "cancelled": false
+  },
+  {
+   "id": "shotgun:madradiomiami100826",
+   "source": "shotgun",
+   "title": "Soirée: Will Buck & Dylan Schwartz",
+   "artists": [],
+   "venue": "Mad Radio Miami",
+   "venue_slug": "mad-radio",
+   "date": "2026-10-08",
+   "start": "2026-10-09T01:00:00+00:00",
+   "end": "2026-10-09T07:00:00+00:00",
+   "time_estimated": false,
+   "address": "7700 Biscayne Boulevard, Miami, FL 33138, USA",
+   "ages": "",
+   "price": "Free",
+   "genres": [
+    "deep house",
+    "house"
+   ],
+   "genres_inferred": true,
+   "organizer": "Mad Radio Miami",
+   "description": "\"The river venue sets the stage for a stylish yet chill night out. Whether you´re a party pro or just vibing, this is the spot. Tune in our slick radio show serving up the latest tracks. Save the date and cath the urban-chic experience at Mad Radio Miami. See you on the dance floor! Come early, stay late, and let the night unfold FREE ENTRY +25 YEARS OLD HAPPY HOUR 5 PM - 9 PM\"",
+   "url": "https://shotgun.live/en/events/madradiomiami100826",
+   "tickets": "RSVP Free",
+   "cancelled": false,
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.8462027,
+    "longitude": -80.1851332
+   },
+   "created": "2026-09-25T01:41:00.000Z"
   },
   {
    "id": "dice:6aad6a7f4e3af20001d7ad92",
@@ -4618,7 +4875,7 @@
    ],
    "genres_inferred": false,
    "organizer": "Mad Radio Miami",
-   "description": "\"The river venue sets the stage for a stylish yet chill night out. Whether you´re a party pro or just vibing, this is the spot. Tune in our slick radio show serving up the latest tracks. Save the date and cath the urban-chic experience at Mad Radio Miami. See you on the dance floor! Come early, stay late, and let the night unfold FREE ENTRY BEFORE 10 PM / FREE ENTRY LADIES UNTIL MIDNIGHT HAPPY HOUR 5 PM - 9 PM\"",
+   "description": "\"The river venue sets the stage for a stylish yet chill night out. Whether you´re a party pro or just vibing, this is the spot. Tune in our slick radio show serving up the latest tracks. Save the date and cath the urban-chic experience at Mad Radio Miami. See you on the dance floor! Come early, stay late, and let the night unfold FREE ENTRY BEFORE 10 PM / FREE ENTRY LADIES UNTIL MIDNIGHT +25 YEARS OLD HAPPY HOUR 5 PM - 9 PM\"",
    "url": "https://shotgun.live/en/events/madradiomiami100926",
    "tickets": "AFTER 10 PM $20, FREE LADIES RSVP BEFORE 12 AM Free",
    "cancelled": false,
@@ -5362,6 +5619,40 @@
    "description": "",
    "url": "https://calendar.zeyzeymiami.com/shows/cannons-10-oct",
    "cancelled": false
+  },
+  {
+   "id": "shotgun:madradiomiami101026",
+   "source": "shotgun",
+   "title": "III Points Satelitte: Tian / Israel Sunshine / Pino / Puma",
+   "artists": [],
+   "venue": "Mad Radio Miami",
+   "venue_slug": "mad-radio",
+   "date": "2026-10-10",
+   "start": "2026-10-11T01:00:00+00:00",
+   "end": "2026-10-11T07:00:00+00:00",
+   "time_estimated": false,
+   "address": "7700 Biscayne Boulevard, Miami, FL 33138, USA",
+   "ages": "",
+   "price": "$21.80",
+   "genres": [
+    "deep house",
+    "house"
+   ],
+   "genres_inferred": true,
+   "organizer": "Mad Radio Miami",
+   "description": "\"The river venue sets the stage for a stylish yet chill night out. Whether you´re a party pro or just vibing, this is the spot. Tune in our slick radio show serving up the latest tracks. Save the date and cath the urban-chic experience at Mad Radio Miami. See you on the dance floor! Come early, stay late, and let the night unfold FREE ENTRY BEFORE 10 PM / FREE ENTRY LADIES UNTIL MIDNIGHT + 25 YEARS OLD HAPPY HOUR 5 PM - 9 PM\"",
+   "url": "https://shotgun.live/en/events/madradiomiami101026",
+   "tickets": "AFTER 10 PM $20, FREE LADIES RSVP BEFORE 12 AM Free",
+   "cancelled": false,
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.8462027,
+    "longitude": -80.1851332
+   },
+   "created": "2026-09-25T01:44:11.000Z",
+   "also": [
+    "festivals"
+   ]
   },
   {
    "id": "19hz:4445364-slowlifeshowcase",
@@ -11281,7 +11572,9 @@
    "source": "19hz+edmtrain",
    "title": "John Summit",
    "artists": [
-    "John Summit"
+    "John Summit",
+    "Cassian",
+    "Devault"
    ],
    "venue": "Kaseya Center",
    "venue_slug": null,
@@ -11300,7 +11593,7 @@
    "description": "",
    "url": "https://www.ticketmaster.com/event/0D0064B2B883819E",
    "alt_urls": [
-    "https://edmtrain.com/miami-fl/john-summit-505497"
+    "https://edmtrain.com/miami-fl/ctrl-escape-arena-tour-john-summit-505497"
    ]
   },
   {
@@ -11944,9 +12237,9 @@
    "generic_title": true
   },
   {
-   "id": "edmtrain:538122",
-   "source": "edmtrain",
-   "title": "Space 92",
+   "id": "dice:6aaae809e78bd300017554b1",
+   "source": "dice+edmtrain",
+   "title": "SPACE 92",
    "artists": [
     "Space 92"
    ],
@@ -11955,10 +12248,10 @@
    "date": "2026-11-27",
    "start": "2026-11-28T03:00:00+00:00",
    "end": "2026-11-28T09:00:00+00:00",
-   "time_estimated": true,
-   "address": "307 SW 2nd St, Fort Lauderdale, FL 33312, USA",
+   "time_estimated": false,
+   "address": "307 Southwest 2nd Street, Fort Lauderdale, Florida 33312, United States",
    "ages": "",
-   "price": "",
+   "price": "From $20",
    "genres": [
     "bass",
     "dubstep"
@@ -11966,7 +12259,8 @@
    "genres_inferred": true,
    "organizer": "",
    "description": "",
-   "url": "https://dice.fm/event/8e7g5w?pid=d6342b83",
+   "url": "https://dice.fm/event/6aaae809e78bd300017554b1",
+   "cancelled": false,
    "alt_urls": [
     "https://edmtrain.com/fort-lauderdale-fl/space-92-538122"
    ]
@@ -14502,26 +14796,29 @@
    "generic_title": true
   },
   {
-   "id": "edmtrain:537703",
-   "source": "edmtrain",
+   "id": "19hz:4453512-jodywisternoff",
+   "source": "19hz+edmtrain",
    "title": "Jody Wisternoff",
    "artists": [
     "Jody Wisternoff"
    ],
-   "venue": "UPSIDE",
+   "venue": "Upside",
    "venue_slug": null,
    "date": "2027-01-03",
-   "start": null,
-   "end": null,
+   "start": "2027-01-03T23:00:00+00:00",
+   "end": "2027-01-04T05:00:00+00:00",
    "time_estimated": false,
-   "address": "59 NW 28th St, Miami, FL 33127, USA",
+   "address": "",
    "ages": "",
-   "price": "",
-   "genres": [],
+   "price": "free b4 8pm / $23",
+   "genres": [
+    "deep house",
+    "progressive house"
+   ],
    "genres_inferred": false,
-   "organizer": "",
+   "organizer": "Apex",
    "description": "",
-   "url": "https://posh.vip/e/jody-wisternoff-2?t=edmtrain",
+   "url": "https://posh.vip/e/jody-wisternoff-2",
    "alt_urls": [
     "https://edmtrain.com/miami-fl/jody-wisternoff-537703"
    ]

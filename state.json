@@ -1,8 +1,8 @@
 {
- "19hz-4443732-frecuenciamilagr@mad-radio.miami-calendars": {
-  "hash": "748797bc272c71da",
-  "seq": 1,
-  "modified": "2026-09-24T16:18:16+00:00"
+ "19hz-4443835-beltran@floyd.miami-calendars": {
+  "hash": "7fea3e1beb4c19ec",
+  "seq": 0,
+  "modified": "2026-09-25T04:18:15+00:00"
  },
  "19hz-4444024-vladimirdubyshki@domicile.miami-calendars": {
   "hash": "28825fd61280450a",
@@ -299,11 +299,6 @@
   "seq": 3,
   "modified": "2026-09-22T00:41:54+00:00"
  },
- "dice-6a73973b35b6a8000123ce50@floyd.miami-calendars": {
-  "hash": "507267726207845f",
-  "seq": 2,
-  "modified": "2026-09-24T04:18:10+00:00"
- },
  "dice-6a74ad89e04de600012d3783@floyd.miami-calendars": {
   "hash": "1e9e985158c7b352",
   "seq": 2,
@@ -445,9 +440,9 @@
   "modified": "2026-09-22T00:40:38+00:00"
  },
  "dice-6a8b4c2bfec44800018bccb4@jolene.miami-calendars": {
-  "hash": "7140d3864518fe07",
-  "seq": 1,
-  "modified": "2026-09-22T00:40:38+00:00"
+  "hash": "e3d5293a4dca7afb",
+  "seq": 2,
+  "modified": "2026-09-25T04:18:15+00:00"
  },
  "dice-6a8b4d68fec4480001a68ffe@jolene.miami-calendars": {
   "hash": "43ddd07e0b4a2bb0",
@@ -545,9 +540,9 @@
   "modified": "2026-09-22T00:40:38+00:00"
  },
  "dice-6a90c4acedf55c000191e6b7@kemistry.miami-calendars": {
-  "hash": "7950db27771deadd",
-  "seq": 1,
-  "modified": "2026-09-22T00:40:38+00:00"
+  "hash": "ad488b2c9cba6459",
+  "seq": 2,
+  "modified": "2026-09-25T04:18:15+00:00"
  },
  "dice-6a91e895ea5f22000128b2ee@club-space.miami-calendars": {
   "hash": "0a2ed78f3af212af",
@@ -698,6 +693,11 @@
   "hash": "1061a4f9dbd01442",
   "seq": 1,
   "modified": "2026-09-22T00:40:38+00:00"
+ },
+ "dice-6aaae809e78bd300017554b1@kemistry.miami-calendars": {
+  "hash": "e8b144ea008c054f",
+  "seq": 0,
+  "modified": "2026-09-25T04:18:15+00:00"
  },
  "dice-6aac10c51773540001e4c41f@club-space.miami-calendars": {
   "hash": "2fa848967f6cc217",
@@ -923,11 +923,6 @@
   "hash": "5266d1aac58475e1",
   "seq": 1,
   "modified": "2026-09-22T00:50:09+00:00"
- },
- "edmtrain-538122@kemistry.miami-calendars": {
-  "hash": "44937830661330d3",
-  "seq": 0,
-  "modified": "2026-09-24T22:18:18+00:00"
  },
  "girl-of-glass-at-boombox-11-8@shotgun.live": {
   "hash": "9b03b4734e200b0c",
@@ -1270,9 +1265,9 @@
   "modified": "2026-09-21T20:01:40+00:00"
  },
  "madradiomiami092526@shotgun.live": {
-  "hash": "5f661d4e3013293e",
-  "seq": 0,
-  "modified": "2026-09-21T19:13:57+00:00"
+  "hash": "d1fd7937855e172a",
+  "seq": 1,
+  "modified": "2026-09-25T04:18:15+00:00"
  },
  "madradiomiami092626@shotgun.live": {
   "hash": "0131c45a80e03618",
@@ -1280,14 +1275,44 @@
   "modified": "2026-09-21T20:01:40+00:00"
  },
  "madradiomiami093026@shotgun.live": {
-  "hash": "2187f21e794bbf58",
-  "seq": 1,
-  "modified": "2026-09-21T20:01:40+00:00"
+  "hash": "decc22f259f2c2ed",
+  "seq": 2,
+  "modified": "2026-09-25T04:18:15+00:00"
+ },
+ "madradiomiami100126@shotgun.live": {
+  "hash": "ead213979a069aaa",
+  "seq": 0,
+  "modified": "2026-09-25T04:18:15+00:00"
+ },
+ "madradiomiami100226@shotgun.live": {
+  "hash": "825b165aee4fad37",
+  "seq": 0,
+  "modified": "2026-09-25T04:18:15+00:00"
+ },
+ "madradiomiami100326@shotgun.live": {
+  "hash": "4c81dca8ce204add",
+  "seq": 0,
+  "modified": "2026-09-25T04:18:15+00:00"
+ },
+ "madradiomiami100726@shotgun.live": {
+  "hash": "6e2ee7a9e077311c",
+  "seq": 0,
+  "modified": "2026-09-25T04:18:15+00:00"
+ },
+ "madradiomiami100826@shotgun.live": {
+  "hash": "823040ba8fd5f863",
+  "seq": 0,
+  "modified": "2026-09-25T04:18:15+00:00"
  },
  "madradiomiami100926@shotgun.live": {
-  "hash": "c1224ae47ce1b773",
+  "hash": "1509f79f9661bbeb",
+  "seq": 2,
+  "modified": "2026-09-25T04:18:15+00:00"
+ },
+ "madradiomiami101026@shotgun.live": {
+  "hash": "759382fb5baa2494",
   "seq": 1,
-  "modified": "2026-09-23T04:18:11+00:00"
+  "modified": "2026-09-25T04:18:15+00:00"
  },
  "new-blood-transfusion@shotgun.live": {
   "hash": "b1907c117521a21b",
@@ -1328,6 +1353,26 @@
   "hash": "316ffee3a07cd1bc",
   "seq": 0,
   "modified": "2026-09-21T21:40:09+00:00"
+ },
+ "tablelist-05c68f7fbdffbe06@zeyzey.miami-calendars": {
+  "hash": "2c89659f01cad9e7",
+  "seq": 0,
+  "modified": "2026-09-25T04:18:15+00:00"
+ },
+ "tablelist-1e61d5b845e3d418@zeyzey.miami-calendars": {
+  "hash": "8c55d7e386d97e2f",
+  "seq": 0,
+  "modified": "2026-09-25T04:18:15+00:00"
+ },
+ "tablelist-dddbca1ca2013358@zeyzey.miami-calendars": {
+  "hash": "dfe244c51d9e6909",
+  "seq": 0,
+  "modified": "2026-09-25T04:18:15+00:00"
+ },
+ "tablelist-ec27b34262de49d1@zeyzey.miami-calendars": {
+  "hash": "6151be33e71d037c",
+  "seq": 0,
+  "modified": "2026-09-25T04:18:15+00:00"
  },
  "tablelist-ff19f2b25fe40779@zeyzey.miami-calendars": {
   "hash": "99a573b5c73c612b",
@@ -1444,11 +1489,6 @@
   "seq": 1,
   "modified": "2026-09-21T23:53:57+00:00"
  },
- "zeyzey-gasolina-reggaeton-party-25-sep@zeyzey.miami-calendars": {
-  "hash": "3efcd298b3b2dc9d",
-  "seq": 0,
-  "modified": "2026-09-21T20:01:40+00:00"
- },
  "zeyzey-golden-a-k-pop-kids-party-31-oct@zeyzey.miami-calendars": {
   "hash": "9a1c2bb688cf7431",
   "seq": 1,
@@ -1544,16 +1584,6 @@
   "seq": 0,
   "modified": "2026-09-21T20:01:40+00:00"
  },
- "zeyzey-riva-starr-26-sep@zeyzey.miami-calendars": {
-  "hash": "d03b96b4dfa37ac7",
-  "seq": 1,
-  "modified": "2026-09-21T23:53:57+00:00"
- },
- "zeyzey-salsa-z-25-sep@zeyzey.miami-calendars": {
-  "hash": "ffa879c92953fdab",
-  "seq": 1,
-  "modified": "2026-09-22T22:18:08+00:00"
- },
  "zeyzey-scattrbrain-03-nov@zeyzey.miami-calendars": {
   "hash": "476461007748ea9d",
   "seq": 0,
@@ -1613,10 +1643,5 @@
   "hash": "a2685f7411ba05cd",
   "seq": 1,
   "modified": "2026-09-21T23:53:57+00:00"
- },
- "zeyzey-yasser-tejeda-free-entry-25-sep@zeyzey.miami-calendars": {
-  "hash": "b521b7bff29154c8",
-  "seq": 0,
-  "modified": "2026-09-21T20:01:40+00:00"
  }
 }

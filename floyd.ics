@@ -8,20 +8,20 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:dice-6a73973b35b6a8000123ce50@floyd.miami-calendars
-DTSTAMP:20260924T041810Z
-LAST-MODIFIED:20260924T041810Z
-SEQUENCE:2
+UID:19hz-4443835-beltran@floyd.miami-calendars
+DTSTAMP:20260925T041815Z
+LAST-MODIFIED:20260925T041815Z
+SEQUENCE:0
 DTSTART:20260925T030000Z
 DTEND:20260925T090000Z
 SUMMARY:Beltran
-LOCATION:Floyd Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Beltran\, Bakke\, Alves\nTags (guess): house\, techno\n
- https://dice.fm/event/6a73973b35b6a8000123ce50\nhttps://edmtrain.com/miami
- -fl/beltran-bakke-538086
-URL:https://dice.fm/event/6a73973b35b6a8000123ce50
+LOCATION:Floyd Miami
+DESCRIPTION:Lineup: Beltran\, Bakke\, Alves\nTags: tech house\nAges: 21+\nh
+ ttps://dice.fm/event/yodgqx-beltran-24th-sep-floyd-miami-miami-tickets\nht
+ tps://edmtrain.com/miami-fl/beltran-bakke-538086
+URL:https://dice.fm/event/yodgqx-beltran-24th-sep-floyd-miami-miami-tickets
 STATUS:CONFIRMED
-CATEGORIES:house,techno
+CATEGORIES:tech house
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a60ffdef0b167000162f646@floyd.miami-calendars
