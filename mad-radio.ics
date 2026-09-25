@@ -8,26 +8,20 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:madradiomiami092426@shotgun.live
-DTSTAMP:20260921T200140Z
-LAST-MODIFIED:20260921T200140Z
-SEQUENCE:1
+UID:19hz-4443828-framelessanabele@mad-radio.miami-calendars
+DTSTAMP:20260925T101813Z
+LAST-MODIFIED:20260925T101813Z
+SEQUENCE:0
 DTSTART:20260925T010000Z
 DTEND:20260925T070000Z
-SUMMARY:Frameless: Francesco / Auphoria / Anabelen
-LOCATION:Mad Radio Miami\, 7700 Biscayne Boulevard\, Miami\, FL 33138\, USA
-DESCRIPTION:"The river venue sets the stage for a stylish yet chill night o
- ut. Whether you´re a party pro or just vibing\, this is the spot. Tune in
-  our slick radio show serving up the latest tracks. Save the date and cath
-  the urban-chic experience at Mad Radio Miami. See you on the dance floor!
-  Come early\, stay late\, and let the night unfold FREE ENTRY HAPPY HOUR 5
-  PM - 9 PM"\nLineup: Anabelen\nTags: house\nTickets: RSVP Free\nAges: 21+
- \nhttps://shotgun.live/en/events/madradiomiami092426\nhttps://edmtrain.com
- /miami-fl/frameless-anabelen-531845
+SUMMARY:Frameless: Anabelen
+LOCATION:Mad Radio
+DESCRIPTION:Lineup: Anabelen\nTags: house\nAges: 21+\nhttps://shotgun.live/
+ en/events/madradiomiami092426\nhttps://edmtrain.com/miami-fl/frameless-ana
+ belen-531845
 URL:https://shotgun.live/en/events/madradiomiami092426
 STATUS:CONFIRMED
 CATEGORIES:house
-GEO:25.8462027;-80.1851332
 END:VEVENT
 BEGIN:VEVENT
 UID:madradiomiami092526@shotgun.live
@@ -262,9 +256,9 @@ GEO:25.8462027;-80.1851332
 END:VEVENT
 BEGIN:VEVENT
 UID:madradiomiami101026@shotgun.live
-DTSTAMP:20260925T041815Z
-LAST-MODIFIED:20260925T041815Z
-SEQUENCE:0
+DTSTAMP:20260925T101813Z
+LAST-MODIFIED:20260925T101813Z
+SEQUENCE:2
 DTSTART:20261011T010000Z
 DTEND:20261011T070000Z
 SUMMARY:III Points Satelitte: Tian / Israel Sunshine / Pino / Puma
