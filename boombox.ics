@@ -168,9 +168,9 @@ GEO:25.7287781;-80.3169309
 END:VEVENT
 BEGIN:VEVENT
 UID:rocky-horror-picture-show@shotgun.live
-DTSTAMP:20260924T221818Z
-LAST-MODIFIED:20260924T221818Z
-SEQUENCE:0
+DTSTAMP:20260925T221819Z
+LAST-MODIFIED:20260925T221819Z
+SEQUENCE:1
 DTSTART:20261023T000000Z
 DTEND:20261024T070000Z
 SUMMARY:Rocky Horror Picture Show
@@ -193,10 +193,31 @@ DESCRIPTION:DON’T DREAM IT BE IT 💥 The Boombox (@theboomboxmiami) and
  erous 💋 Follow @rockyhorrormiami for early tricks n’ treats and more 
  behind the scenes looks at The Rocky Horror Party Show Project!! See you t
  here\, mon chers 💌\nTickets: 11:45PM SHOWTIME $20 (sold out)\, 8PM SHOW
- TIME $20\, 8PM SHOWTIME $20\, 11:45PM SHOWTIME TIER 2 $30\, 8PM SHOWTIME T
- IER 2 $30\, 8PM SHOWTIME TIER 2 $20\nhttps://shotgun.live/en/events/rocky-
- horror-picture-show
+ TIME $20 (sold out)\, 8PM SHOWTIME $20 (sold out)\, 11:45PM SHOWTIME TIER 
+ 2 $30\, 8PM SHOWTIME TIER 2 $30\, 8PM SHOWTIME TIER 2 $20\nhttps://shotgun
+ .live/en/events/rocky-horror-picture-show
 URL:https://shotgun.live/en/events/rocky-horror-picture-show
+STATUS:CONFIRMED
+GEO:25.7287781;-80.3169309
+END:VEVENT
+BEGIN:VEVENT
+UID:halloween-se-7-en@shotgun.live
+DTSTAMP:20260925T221819Z
+LAST-MODIFIED:20260925T221819Z
+SEQUENCE:0
+DTSTART:20261030T210000Z
+DTEND:20261101T100000Z
+SUMMARY:Halloween Se7en [ Oct 30 · 31 ]
+LOCATION:The Boombox Miami\, 4447 Southwest 75th Avenue\, Miami\, FL 33155
+ \, USA
+DESCRIPTION:BOOMBOX SE7EN YEAR ANNIVERSARY Two nights. Two stages. 30+ acts
+ . We’re celebrating 7 years of BOOMBOX with a massive Halloween weekend 
+ featuring some of Miami’s best underground sounds. With OMNI SOUND SPACE
+ \, EQUINOX BOOKING\, FLORIDA GLOSS\, and SAY TECH AND SMILE. OCTOBER 30 & 
+ 31 18+\nTickets: FRIDAY OCT 30TH (SINGLE DAY PASS) - EARLY BIRD $20\, 2-DA
+ Y PASS (EARLY BIRD) $30\, SATURDAY OCT 31TH (SINGLE DAY PASS) - EARLY BIRD
+  $20\nhttps://shotgun.live/en/events/halloween-se-7-en
+URL:https://shotgun.live/en/events/halloween-se-7-en
 STATUS:CONFIRMED
 GEO:25.7287781;-80.3169309
 END:VEVENT

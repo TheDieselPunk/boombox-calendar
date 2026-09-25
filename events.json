@@ -614,7 +614,7 @@
    "time_estimated": false,
    "address": "200 East Flagler Street, Miami, Florida 33131, United States",
    "ages": "21+",
-   "price": "From $10",
+   "price": "From $12",
    "genres": [
     "deep house",
     "techno"
@@ -2021,7 +2021,7 @@
    "time_estimated": false,
    "address": "34 NE 11th St, Miami, FL 33132, USA",
    "ages": "21+",
-   "price": "From $32 (sold out)",
+   "price": "From $30",
    "genres": [
     "deep house",
     "funky house",
@@ -2511,7 +2511,7 @@
    "source": "19hz+edmtrain+shotgun",
    "title": "Undertone: Tombo / Hueso / Andre Bass & Asørey",
    "artists": [
-    "Joaquin Bohmer"
+    "Tombo"
    ],
    "venue": "Mad Radio Miami",
    "venue_slug": "mad-radio",
@@ -2539,7 +2539,7 @@
    "created": "2026-08-25T13:28:37.000Z",
    "alt_urls": [
     "https://shotgun.live/en/events/madradiomiami093026",
-    "https://edmtrain.com/miami-fl/undertone-joaquin-bohmer-531847"
+    "https://edmtrain.com/miami-fl/undertone-tombo-531847"
    ]
   },
   {
@@ -2674,9 +2674,11 @@
   },
   {
    "id": "shotgun:madradiomiami100126",
-   "source": "shotgun",
+   "source": "edmtrain+shotgun",
    "title": "Trip Don't Sleep: Auphoria / Daizy / Nicole Gallamini",
-   "artists": [],
+   "artists": [
+    "Auphoria"
+   ],
    "venue": "Mad Radio Miami",
    "venue_slug": "mad-radio",
    "date": "2026-10-01",
@@ -2701,7 +2703,10 @@
     "latitude": 25.8462027,
     "longitude": -80.1851332
    },
-   "created": "2026-09-25T01:29:57.000Z"
+   "created": "2026-09-25T01:29:57.000Z",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/trip-dont-sleep-auphoria-540052"
+   ]
   },
   {
    "id": "dice:6ab3eef6a713180001f76939",
@@ -3523,9 +3528,13 @@
   },
   {
    "id": "shotgun:madradiomiami100326",
-   "source": "shotgun",
+   "source": "edmtrain+shotgun",
    "title": "Sarah Tonin: Ferny / Gulp / Emma",
-   "artists": [],
+   "artists": [
+    "Ferny",
+    "Gulp",
+    "Emma"
+   ],
    "venue": "Mad Radio Miami",
    "venue_slug": "mad-radio",
    "date": "2026-10-03",
@@ -3550,7 +3559,10 @@
     "latitude": 25.8462027,
     "longitude": -80.1851332
    },
-   "created": "2026-09-25T01:35:35.000Z"
+   "created": "2026-09-25T01:35:35.000Z",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/sarah-tonin-ferny-540053"
+   ]
   },
   {
    "id": "19hz:4444692-welkeressejkatz",
@@ -4038,6 +4050,27 @@
    ]
   },
   {
+   "id": "hardrock:202007",
+   "source": "venue",
+   "title": "Karol G Official Pool Party",
+   "artists": [],
+   "venue": "DAER Dayclub",
+   "venue_slug": "daer",
+   "date": "2026-10-04",
+   "start": "2026-10-04T16:00:00+00:00",
+   "end": "2026-10-04T22:00:00+00:00",
+   "time_estimated": false,
+   "address": "1 Seminole Way, Hollywood, FL 33314",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://tixr.com/e/202007",
+   "generic_title": false
+  },
+  {
    "id": "shotgun:once-upon-a-melody-a-disney-classic-piano-performance",
    "source": "shotgun",
    "title": "Once Upon A Melody - A Disney Classic Piano Performance",
@@ -4056,27 +4089,6 @@
    "organizer": "",
    "description": "",
    "url": "https://shotgun.live/en/events/once-upon-a-melody-a-disney-classic-piano-performance"
-  },
-  {
-   "id": "hardrock:202007",
-   "source": "venue",
-   "title": "Viatando Por El Mundo",
-   "artists": [],
-   "venue": "DAER Dayclub",
-   "venue_slug": "daer",
-   "date": "2026-10-04",
-   "start": "2026-10-04T20:00:00+00:00",
-   "end": "2026-10-04T22:00:00+00:00",
-   "time_estimated": false,
-   "address": "1 Seminole Way, Hollywood, FL 33314",
-   "ages": "",
-   "price": "",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://tixr.com/e/202007",
-   "generic_title": false
   },
   {
    "id": "dice:6a6b9027ca1d730001823403",
@@ -4322,9 +4334,12 @@
   },
   {
    "id": "shotgun:madradiomiami100726",
-   "source": "shotgun",
+   "source": "edmtrain+shotgun",
    "title": "Seb Coba / Rudy M & Fanchi / Face / Reydel / Alex Meadows",
-   "artists": [],
+   "artists": [
+    "Reydel",
+    "Alex Meadows"
+   ],
    "venue": "Mad Radio Miami",
    "venue_slug": "mad-radio",
    "date": "2026-10-07",
@@ -4349,7 +4364,30 @@
     "latitude": 25.8462027,
     "longitude": -80.1851332
    },
-   "created": "2026-09-25T01:37:54.000Z"
+   "created": "2026-09-25T01:37:54.000Z",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/reydel-alex-meadows-540055"
+   ]
+  },
+  {
+   "id": "shotgun:comedy-show-tomorrowland-6",
+   "source": "shotgun",
+   "title": "Comedy Show @ Tomorrowland",
+   "artists": [],
+   "venue": "Tomorrowland Miami",
+   "venue_slug": null,
+   "date": "2026-10-07",
+   "start": "2026-10-08T01:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$6.00",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/comedy-show-tomorrowland-6"
   },
   {
    "id": "edmtrain:538160",
@@ -4436,9 +4474,12 @@
   },
   {
    "id": "shotgun:madradiomiami100826",
-   "source": "shotgun",
+   "source": "edmtrain+shotgun",
    "title": "Soirée: Will Buck & Dylan Schwartz",
-   "artists": [],
+   "artists": [
+    "Will Buck",
+    "Dylan Schwartz"
+   ],
    "venue": "Mad Radio Miami",
    "venue_slug": "mad-radio",
    "date": "2026-10-08",
@@ -4463,7 +4504,10 @@
     "latitude": 25.8462027,
     "longitude": -80.1851332
    },
-   "created": "2026-09-25T01:41:00.000Z"
+   "created": "2026-09-25T01:41:00.000Z",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/will-buck-dylan-schwartz-540056"
+   ]
   },
   {
    "id": "dice:6aad6a7f4e3af20001d7ad92",
@@ -5412,9 +5456,13 @@
   },
   {
    "id": "shotgun:madradiomiami101026",
-   "source": "shotgun",
+   "source": "edmtrain+shotgun",
    "title": "III Points Satelitte: Tian / Israel Sunshine / Pino / Puma",
-   "artists": [],
+   "artists": [
+    "Tian",
+    "Israel Sunshine",
+    "Puma"
+   ],
    "venue": "Mad Radio Miami",
    "venue_slug": "mad-radio",
    "date": "2026-10-10",
@@ -5440,6 +5488,9 @@
     "longitude": -80.1851332
    },
    "created": "2026-09-25T01:44:11.000Z",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/tian-israel-sunshine-540057"
+   ],
    "also": [
     "festivals"
    ]
@@ -6054,6 +6105,26 @@
     "https://dice.fm/event/ww999v-satellite-neon-indian-dj-set-twin-shadow-washed-out-dj-set-14th-oct-zeyzey-miami-tickets",
     "https://edmtrain.com/miami-fl/neon-indian-532196"
    ]
+  },
+  {
+   "id": "shotgun:comedy-show-tomorrowland-7",
+   "source": "shotgun",
+   "title": "Comedy Show @ Tomorrowland",
+   "artists": [],
+   "venue": "Tomorrowland Miami",
+   "venue_slug": null,
+   "date": "2026-10-14",
+   "start": "2026-10-15T01:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$6.00",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/comedy-show-tomorrowland-7"
   },
   {
    "id": "dice:6a85fa446932660001a56c43",
@@ -7593,6 +7664,26 @@
    "url": "https://shotgun.live/en/events/folk-punk-night-at-the-beach"
   },
   {
+   "id": "shotgun:comedy-show-tomorrowland-8",
+   "source": "shotgun",
+   "title": "Comedy Show @ Tomorrowland",
+   "artists": [],
+   "venue": "Tomorrowland Miami",
+   "venue_slug": null,
+   "date": "2026-10-21",
+   "start": "2026-10-22T01:00:00+00:00",
+   "end": null,
+   "time_estimated": false,
+   "address": "",
+   "ages": "",
+   "price": "$6.00",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://shotgun.live/en/events/comedy-show-tomorrowland-8"
+  },
+  {
    "id": "edmtrain:537182",
    "source": "edmtrain",
    "title": "DJ EU",
@@ -7666,7 +7757,7 @@
    "organizer": "The Boombox Miami",
    "description": "DON’T DREAM IT BE IT 💥 The Boombox (@theboomboxmiami) and the talent of Miami-Dade (@rockyhorrormiami) have teamed up to create THE ROCKY HORROR PARTY SHOW, a multi-medium performance piece that immerses the audience into the salacious world of this beloved queer cult classic 🪭💫 WHEN: THURSDAY Oct 22 8PM FRIDAY Oct 23 8PM/12AM WHERE: The Boombox #yatusabes WEAR: Slut or Suit no exceptions!! Checking drip and IDs (18+) at the the door 🫵 2 nights, 3 shows you can bring your co-worker with bangs to, and one wild final MIDNIGHT ride you’re not going to want to miss!! Expect live music, cabaret, cinematic projections, y más 💫 There will be flashing lights, sudden sounds, and other practical effects designed to heighten your senses. Please check the ticket info for how you can best enjoy this invento of party show 🥳 SEATS AND TICKETS LIMITED BOOTS LET UR FRIENDS KNOWW Give yourself over to absolute pleasure this October darlings when the mood takes us we’re known to be quite generous 💋 Follow @rockyhorrormiami for early tricks n’ treats and more behind the scenes looks at The Rocky Horror Party Show Project!! See you there, mon chers 💌",
    "url": "https://shotgun.live/en/events/rocky-horror-picture-show",
-   "tickets": "11:45PM SHOWTIME $20 (sold out), 8PM SHOWTIME $20, 8PM SHOWTIME $20, 11:45PM SHOWTIME TIER 2 $30, 8PM SHOWTIME TIER 2 $30, 8PM SHOWTIME TIER 2 $20",
+   "tickets": "11:45PM SHOWTIME $20 (sold out), 8PM SHOWTIME $20 (sold out), 8PM SHOWTIME $20 (sold out), 11:45PM SHOWTIME TIER 2 $30, 8PM SHOWTIME TIER 2 $30, 8PM SHOWTIME TIER 2 $20",
    "cancelled": false,
    "geo": {
     "@type": "GeoCoordinates",
@@ -8455,6 +8546,31 @@
    ]
   },
   {
+   "id": "edmtrain:540075",
+   "source": "edmtrain",
+   "title": "Stavroz",
+   "artists": [
+    "Stavroz"
+   ],
+   "venue": "Sable Miami",
+   "venue_slug": null,
+   "date": "2026-10-24",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "2219 NW 2nd Ave, Miami, FL 33127, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://dice.fm/event/92vedn?pid=d6342b83",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/stavroz-540075"
+   ]
+  },
+  {
    "id": "edmtrain:539202",
    "source": "edmtrain",
    "title": "Dave Summer, Kelland",
@@ -8711,6 +8827,34 @@
     "https://dice.fm/event/6a86066921cf70000141b5a6",
     "https://edmtrain.com/miami-fl/hercules-and-love-affair-530459"
    ]
+  },
+  {
+   "id": "shotgun:halloween-se-7-en",
+   "source": "shotgun",
+   "title": "Halloween Se7en [ Oct 30 · 31 ]",
+   "artists": [],
+   "venue": "The Boombox Miami",
+   "venue_slug": "boombox",
+   "date": "2026-10-30",
+   "start": "2026-10-30T21:00:00+00:00",
+   "end": "2026-11-01T10:00:00+00:00",
+   "time_estimated": false,
+   "address": "4447 Southwest 75th Avenue, Miami, FL 33155, USA",
+   "ages": "",
+   "price": "$23.90",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "The Boombox Miami",
+   "description": "BOOMBOX SE7EN YEAR ANNIVERSARY Two nights. Two stages. 30+ acts. We’re celebrating 7 years of BOOMBOX with a massive Halloween weekend featuring some of Miami’s best underground sounds. With OMNI SOUND SPACE, EQUINOX BOOKING, FLORIDA GLOSS, and SAY TECH AND SMILE. OCTOBER 30 & 31 18+",
+   "url": "https://shotgun.live/en/events/halloween-se-7-en",
+   "tickets": "FRIDAY OCT 30TH (SINGLE DAY PASS) - EARLY BIRD $20, 2-DAY PASS (EARLY BIRD) $30, SATURDAY OCT 31TH (SINGLE DAY PASS) - EARLY BIRD $20",
+   "cancelled": false,
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.7287781,
+    "longitude": -80.3169309
+   },
+   "created": "2026-09-25T17:00:02.000Z"
   },
   {
    "id": "19hz:4447279-hallorave",
@@ -12549,7 +12693,7 @@
    "time_estimated": false,
    "address": "200 East Flagler Street, Miami, Florida 33131, United States",
    "ages": "",
-   "price": "",
+   "price": "From $12",
    "genres": [
     "house",
     "tech house"
@@ -12623,7 +12767,7 @@
    "time_estimated": false,
    "address": "200 East Flagler Street, Miami, Florida 33131, United States",
    "ages": "",
-   "price": "",
+   "price": "From $20",
    "genres": [
     "house",
     "tech house"
@@ -13016,6 +13160,31 @@
    "cancelled": false,
    "alt_urls": [
     "https://edmtrain.com/miami-fl/haai-bakke-536948"
+   ]
+  },
+  {
+   "id": "edmtrain:540040",
+   "source": "edmtrain",
+   "title": "HUGEL",
+   "artists": [
+    "HUGEL"
+   ],
+   "venue": "17th St. & Collins Ave",
+   "venue_slug": null,
+   "date": "2026-12-03",
+   "start": null,
+   "end": null,
+   "time_estimated": false,
+   "address": "17th St & Collins Ave, Miami Beach, FL 33139, USA",
+   "ages": "",
+   "price": "",
+   "genres": [],
+   "genres_inferred": false,
+   "organizer": "",
+   "description": "",
+   "url": "https://app.hive.co/contests/contest/37359/spotlight/",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/hugel-540040"
    ]
   },
   {
@@ -13640,7 +13809,7 @@
    "time_estimated": false,
    "address": "200 East Flagler Street, Miami, Florida 33131, United States",
    "ages": "",
-   "price": "",
+   "price": "From $10",
    "genres": [
     "house",
     "tech house"
