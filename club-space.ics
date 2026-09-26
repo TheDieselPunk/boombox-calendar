@@ -9,21 +9,23 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:dice-6a591b4c493a000001fac474@club-space.miami-calendars
-DTSTAMP:20260922T004154Z
-LAST-MODIFIED:20260922T004154Z
-SEQUENCE:3
+DTSTAMP:20260926T041822Z
+LAST-MODIFIED:20260926T041822Z
+SEQUENCE:4
 DTSTART:20260926T030000Z
 DTEND:20260926T180000Z
 SUMMARY:BLOND:ISH\, Yamagucci & Chinonegro
 LOCATION:Club Space Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
 DESCRIPTION:Lineup: Blond:ish\, Yamagucci\, Chinonegro\, Danyelino\, Nii Te
- i\nTags: minimal\, progressive house\, tech house\nAges: 21+\nhttps://dice
- .fm/event/3o78bl-blondish-yamagucci-chinonegro-25th-sep-club-space-miami-m
- iami-tickets\nhttps://edmtrain.com/miami-fl/blond-ish-yamagucci-521553
+ i\nTags: club music\, garage\, house\, minimal\, progressive house\, tech 
+ house\, techno\nAges: 21+\nhttps://dice.fm/event/3o78bl-blondish-yamagucci
+ -chinonegro-25th-sep-club-space-miami-miami-tickets\nhttps://edmtrain.com/
+ miami-fl/blond-ish-yamagucci-521553\nhttps://link.dice.fm/autonomyground
 URL:https://dice.fm/event/3o78bl-blondish-yamagucci-chinonegro-25th-sep-clu
  b-space-miami-miami-tickets
 STATUS:CONFIRMED
-CATEGORIES:minimal,progressive house,tech house
+CATEGORIES:club music,garage,house,minimal,progressive house,tech house,tec
+ hno
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6ab54080f14ac000013b87a3@club-space.miami-calendars

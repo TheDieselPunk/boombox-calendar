@@ -99,6 +99,10 @@
   "url": "https://dice.fm/event/7dxyd9?pid=d6342b83",
   "checked": "2026-09-21"
  },
+ "526702": {
+  "url": "https://dice.fm/event/g5b2dp?pid=d6342b83",
+  "checked": "2026-09-26"
+ },
  "527998": {
   "url": "https://dice.fm/event/6dolpq?pid=d6342b83",
   "checked": "2026-09-21"
@@ -402,5 +406,17 @@
  "540075": {
   "url": "https://dice.fm/event/92vedn?pid=d6342b83",
   "checked": "2026-09-25"
+ },
+ "540178": {
+  "url": "https://dice.fm/event/pyxo28?pid=d6342b83",
+  "checked": "2026-09-26"
+ },
+ "540233": {
+  "url": "https://www.etix.com/ticket/p/70431722",
+  "checked": "2026-09-26"
+ },
+ "540235": {
+  "url": "https://www.eventbrite.com/e/2002222484349?aff=ebdimtedmtrain",
+  "checked": "2026-09-26"
  }
 }

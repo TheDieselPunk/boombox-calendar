@@ -9,9 +9,9 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:new-blood-transfusion@shotgun.live
-DTSTAMP:20260924T161816Z
-LAST-MODIFIED:20260924T161816Z
-SEQUENCE:4
+DTSTAMP:20260926T041822Z
+LAST-MODIFIED:20260926T041822Z
+SEQUENCE:5
 DTSTART:20260926T020000Z
 DTEND:20260926T080000Z
 SUMMARY:New Blood · Transfusion
@@ -24,9 +24,9 @@ DESCRIPTION:COUNTERCULTURE Miami presents... 🩸NEW BLOOD: TRANSFUSION🩸
  Industrial Techno Hard | Dark Wave Trance IDM Midtempo Schranz\nLineup: Te
  rminal Velocity\, HUNTER STEEL\, BL∆CKM∆TTR\, Natchii!\, chelz\, CH1CH
  1\, VERMIS\nTags: darkwave\, hard techno\, idm\, industrial\, midtempo\, s
- chranz\, trance\nTickets: Early Bird $15 (sold out)\, T1 $20\nAges: 18+\nh
- ttps://shotgun.live/en/events/new-blood-transfusion\nhttps://edmtrain.com/
- miami-fl/new-blood-transfusion-533680
+ chranz\, trance\nTickets: Early Bird $15 (sold out)\, T1 $20 (sold out)\nA
+ ges: 18+\nhttps://shotgun.live/en/events/new-blood-transfusion\nhttps://ed
+ mtrain.com/miami-fl/new-blood-transfusion-533680
 URL:https://shotgun.live/en/events/new-blood-transfusion
 STATUS:CONFIRMED
 CATEGORIES:darkwave,hard techno,idm,industrial,midtempo,schranz,trance
@@ -34,9 +34,9 @@ GEO:25.7287781;-80.3169309
 END:VEVENT
 BEGIN:VEVENT
 UID:gothstarmiami@shotgun.live
-DTSTAMP:20260924T101805Z
-LAST-MODIFIED:20260924T101805Z
-SEQUENCE:2
+DTSTAMP:20260926T041822Z
+LAST-MODIFIED:20260926T041822Z
+SEQUENCE:3
 DTSTART:20260927T000000Z
 DTEND:20260927T060000Z
 SUMMARY:Gothstar Tour X Gothic Cabaret / Johnny Based\, Kwasi Kao
@@ -53,8 +53,9 @@ DESCRIPTION:MIAMI\, GET READY FOR A NIGHT OF GOTHIC CHAOS. 🖤 GOTHIC COSP
  ife\, or put a gothic twist on your favorite characters to take home the c
  ash prize.\nLineup: Johnny Based\, His Panic\, Laboratory A.D.\nTags: alte
  rnative\, dark wave\, rock\nPresented by: Antiheroine Productions\nTickets
- : General Admin - Tier 1 $20\nhttps://shotgun.live/en/events/gothstarmiami
- \nhttps://edmtrain.com/miami-fl/kwasi-kao-516876
+ : General Admin $20 (sold out)\, General Admin - Day of $25\nhttps://shotg
+ un.live/en/events/gothstarmiami\nhttps://edmtrain.com/miami-fl/kwasi-kao-5
+ 16876
 URL:https://shotgun.live/en/events/gothstarmiami
 STATUS:CONFIRMED
 CATEGORIES:alternative,dark wave,rock

@@ -8,21 +8,21 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:dice-6a6b7e4aca1d730001022be1@the-ground.miami-calendars
-DTSTAMP:20260922T004038Z
-LAST-MODIFIED:20260922T004038Z
-SEQUENCE:2
+UID:edmtrain-526702@the-ground.miami-calendars
+DTSTAMP:20260926T041822Z
+LAST-MODIFIED:20260926T041822Z
+SEQUENCE:0
 DTSTART:20260926T030000Z
-DTEND:20260926T110000Z
-SUMMARY:Autonomy: SHERELLE\, Bok Bok\, & Introspekt
-LOCATION:The Ground Miami\, 34 NE 11th St\, Miami\, FL 33132\, USA
-DESCRIPTION:Lineup: Sherelle\, Bok Bok\, Introspekt\nTags: club music\, gar
- age\, house\, techno\nAges: 21+\nhttps://dice.fm/event/6a6b7e4aca1d7300010
- 22be1\nhttps://edmtrain.com/miami-fl/sherelle-bok-bok-526702\nhttps://link
- .dice.fm/autonomyground
-URL:https://dice.fm/event/6a6b7e4aca1d730001022be1
+DTEND:20260926T080000Z
+SUMMARY:Sherelle\, Bok Bok\, Introspekt
+LOCATION:The Ground at Space\, 34 NE 11th St\, Miami\, FL 33132\, USA
+DESCRIPTION:Lineup: Sherelle\, Bok Bok\, Introspekt\nTags (guess): house\, 
+ techno\nTimes are an estimate from The Ground at Space's usual hours - the
+  listing has no start time yet. Check the link.\nhttps://dice.fm/event/g5b
+ 2dp?pid=d6342b83\nhttps://edmtrain.com/miami-fl/sherelle-bok-bok-526702
+URL:https://dice.fm/event/g5b2dp?pid=d6342b83
 STATUS:CONFIRMED
-CATEGORIES:club music,garage,house,techno
+CATEGORIES:house,techno
 END:VEVENT
 BEGIN:VEVENT
 UID:dice-6a8f403b417eef0001d29461@the-ground.miami-calendars
