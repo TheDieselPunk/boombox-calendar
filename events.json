@@ -170,41 +170,31 @@
    ]
   },
   {
-   "id": "shotgun:madradiomiami092526",
-   "source": "19hz+edmtrain+shotgun",
+   "id": "19hz:4443924-maryzanderthomas",
+   "source": "19hz+edmtrain",
    "title": "Mary Zander / Thomas Sahs / Israel Sunshine",
    "artists": [
-    "Israel Sunshine ARTISANO"
+    "Israel Sunshine"
    ],
-   "venue": "Mad Radio Miami",
+   "venue": "Mad Radio",
    "venue_slug": "mad-radio",
    "date": "2026-09-25",
    "start": "2026-09-26T01:00:00+00:00",
    "end": "2026-09-26T07:00:00+00:00",
    "time_estimated": false,
-   "address": "7700 Biscayne Boulevard, Miami, FL 33138, USA",
+   "address": "",
    "ages": "21+",
-   "price": "$21.80",
+   "price": "Free w/RSVP b4 midnight ladies / $22",
    "genres": [
     "deep house",
-    "house",
     "progressive house",
     "tech house"
    ],
    "genres_inferred": false,
-   "organizer": "Mad Radio Miami",
-   "description": "\"The river venue sets the stage for a stylish yet chill night out. Whether you´re a party pro or just vibing, this is the spot. Tune in our slick radio show serving up the latest tracks. Save the date and cath the urban-chic experience at Mad Radio Miami. See you on the dance floor! Come early, stay late, and let the night unfold FREE ENTRY BEFORE 10 PM / FREE ENTRY LADIES UNTIL MIDNIGHT HAPPY HOUR 5 PM - 9 PM\"",
+   "organizer": "",
+   "description": "",
    "url": "https://shotgun.live/en/events/madradiomiami092526",
-   "tickets": "AFTER 10 PM $20, FREE LADIES RSVP BEFORE 12 AM Free",
-   "cancelled": false,
-   "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 25.8462027,
-    "longitude": -80.1851332
-   },
-   "created": "2026-09-18T22:48:24.000Z",
    "alt_urls": [
-    "https://shotgun.live/en/events/madradiomiami092526",
     "https://edmtrain.com/miami-fl/israel-sunshine-538221"
    ]
   },
@@ -232,7 +222,7 @@
   },
   {
    "id": "tablelist:1e61d5b845e3d418",
-   "source": "tablelist+venue",
+   "source": "tablelist",
    "title": "Yasser Tejeda",
    "artists": [],
    "venue": "ZeyZey Miami",
@@ -243,42 +233,32 @@
    "time_estimated": false,
    "address": "",
    "ages": "",
-   "price": "Free",
-   "genres": [
-    "latin"
-   ],
+   "price": "",
+   "genres": [],
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://buy.tablelist.com/e/1e61d5b845e3d418",
-   "alt_urls": [
-    "https://calendar.zeyzeymiami.com/shows/yasser-tejeda-free-entry-25-sep"
-   ]
+   "url": "https://buy.tablelist.com/e/1e61d5b845e3d418"
   },
   {
-   "id": "shotgun:c3trlroom-4",
-   "source": "19hz+shotgun",
-   "title": "Ctrl Room: Leandro Da Silva, Kallil, Leo Oliver",
+   "id": "19hz:4443928-zonarozaftfantas",
+   "source": "19hz",
+   "title": "Zonaroza: Ft. Fantasia Royale Gaga w/DJ Cesar Romero",
    "artists": [],
-   "venue": "Club M2 Miami",
+   "venue": "777 Northeast 79th Street",
    "venue_slug": null,
    "date": "2026-09-25",
    "start": "2026-09-26T02:00:00+00:00",
-   "end": "2026-09-26T09:00:00+00:00",
+   "end": "2026-09-26T08:00:00+00:00",
    "time_estimated": false,
    "address": "",
-   "ages": "21+",
-   "price": "$20.00",
-   "genres": [
-    "tech house"
-   ],
+   "ages": "18+",
+   "price": "free-17.62",
+   "genres": [],
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://shotgun.live/en/events/c3trlroom-4",
-   "alt_urls": [
-    "https://ra.co/events/2530424"
-   ]
+   "url": "https://shotgun.live/en/events/zona"
   },
   {
    "id": "19hz:4443928-jimrider",
@@ -308,32 +288,9 @@
    ]
   },
   {
-   "id": "shotgun:house-of-huemans-sep-25",
-   "source": "shotgun",
-   "title": "House Of Huemans",
-   "artists": [],
-   "venue": "EDGE MIAMI",
-   "venue_slug": null,
-   "date": "2026-09-25",
-   "start": "2026-09-26T02:00:00+00:00",
-   "end": null,
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "$20.00",
-   "genres": [
-    "tech house",
-    "house"
-   ],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/en/events/house-of-huemans-sep-25"
-  },
-  {
-   "id": "dice:6a3f12f64ed8b10001b2bca7",
-   "source": "19hz+dice+edmtrain",
-   "title": "Eli Brown",
+   "id": "19hz:4443928-elibrownpanicatt",
+   "source": "19hz+edmtrain",
+   "title": "Eli Brown Panic Attack Tour",
    "artists": [
     "Eli Brown",
     "Massano",
@@ -346,9 +303,9 @@
    "start": "2026-09-26T02:00:00+00:00",
    "end": "2026-09-26T09:00:00+00:00",
    "time_estimated": false,
-   "address": "4800 NW 37th Ave, Miami, FL 33142, USA",
+   "address": "",
    "ages": "18+",
-   "price": "From $60",
+   "price": "$50+",
    "genres": [
     "house",
     "techno"
@@ -356,29 +313,27 @@
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://dice.fm/event/6a3f12f64ed8b10001b2bca7",
-   "cancelled": false,
+   "url": "https://fcty.tw/elibrown",
    "alt_urls": [
-    "https://fcty.tw/elibrown",
     "https://edmtrain.com/miami-fl/eli-brown-massano-527883"
    ]
   },
   {
-   "id": "dice:69ea11f11065f800016615b6",
-   "source": "19hz+dice+edmtrain",
-   "title": "Yoyaku: Satoshi Tomiie",
+   "id": "19hz:4443928-yoyakusatoshitom",
+   "source": "19hz+edmtrain",
+   "title": "Yoyaku: Satoshi Tomiie, Mari.Te",
    "artists": [
     "Satoshi Tomiie",
     "Mari.te",
     "Lis Sarroca"
    ],
-   "venue": "Jolene Sound Room Miami",
+   "venue": "Jolene Downtown",
    "venue_slug": "jolene",
    "date": "2026-09-25",
    "start": "2026-09-26T02:00:00+00:00",
    "end": "2026-09-26T08:00:00+00:00",
    "time_estimated": false,
-   "address": "200 East Flagler Street, Miami, Florida 33131, United States",
+   "address": "",
    "ages": "21+",
    "price": "$10",
    "genres": [
@@ -389,9 +344,7 @@
    "organizer": "",
    "description": "",
    "url": "https://dice.fm/event/927gy9-yoyaku-satoshi-tomiie-25th-sep-jolene-sound-room-miami-miami-tickets",
-   "cancelled": false,
    "alt_urls": [
-    "https://dice.fm/event/927gy9-yoyaku-satoshi-tomiie-25th-sep-jolene-sound-room-miami-miami-tickets",
     "https://edmtrain.com/miami-fl/satoshi-tomiie-mari-te-529998"
    ]
   },
@@ -450,9 +403,9 @@
    "url": "https://www.therumor.com/p/sneak"
   },
   {
-   "id": "shotgun:lunasol-pres-misifu-6",
-   "source": "19hz+edmtrain+shotgun",
-   "title": "Lunasol Pres. Misifu",
+   "id": "19hz:4443928-misifufiinunorpa",
+   "source": "19hz+edmtrain",
+   "title": "Misifu, Fiin, Unor, Palma",
    "artists": [
     "Fiin"
    ],
@@ -468,41 +421,38 @@
    "genres": [
     "afro house",
     "deep house",
-    "house",
     "indie dance",
     "tech house"
    ],
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://shotgun.live/en/events/lunasol-pres-misifu-6",
+   "url": "https://dice.fm/event/py3aey-lunasol-pres-misifu-25th-sep-lunasol-miami-tickets",
    "alt_urls": [
-    "https://dice.fm/event/py3aey-lunasol-pres-misifu-25th-sep-lunasol-miami-tickets",
     "https://edmtrain.com/miami-fl/lunasol-pres-fiin-535462"
    ]
   },
   {
-   "id": "shotgun:zona",
-   "source": "19hz+shotgun",
-   "title": "Zonaroza: Ft. Fantasia Royale Gaga",
+   "id": "19hz:4443928-ctrlroomleandrod",
+   "source": "19hz",
+   "title": "Ctrl Room: Leandro Da Silva, Kallil, Leo Oliver",
    "artists": [],
-   "venue": "Miami",
+   "venue": "M2",
    "venue_slug": null,
    "date": "2026-09-25",
    "start": "2026-09-26T02:00:00+00:00",
-   "end": "2026-09-26T08:00:00+00:00",
+   "end": "2026-09-26T09:00:00+00:00",
    "time_estimated": false,
    "address": "",
-   "ages": "18+",
-   "price": "Free",
-   "genres": [],
+   "ages": "21+",
+   "price": "free w/rsvp b4 midnight / $20",
+   "genres": [
+    "tech house"
+   ],
    "genres_inferred": false,
-   "organizer": "",
+   "organizer": "Pitchpark Events",
    "description": "",
-   "url": "https://shotgun.live/en/events/zona",
-   "alt_urls": [
-    "https://shotgun.live/en/events/zona"
-   ]
+   "url": "https://ra.co/events/2530424"
   },
   {
    "id": "19hz:4443928-somewhereundergr",
@@ -590,56 +540,38 @@
    ]
   },
   {
-   "id": "shotgun:new-blood-transfusion",
-   "source": "19hz+edmtrain+shotgun",
-   "title": "New Blood · Transfusion",
-   "artists": [
-    "Terminal Velocity",
-    "HUNTER STEEL",
-    "BL∆CKM∆TTR",
-    "Natchii!",
-    "chelz",
-    "CH1CH1",
-    "VERMIS"
-   ],
-   "venue": "The Boombox Miami",
+   "id": "19hz:4443928-newbloodtransfus",
+   "source": "19hz+edmtrain",
+   "title": "New Blood + Transfusion",
+   "artists": [],
+   "venue": "The Boombox",
    "venue_slug": "boombox",
    "date": "2026-09-25",
    "start": "2026-09-26T02:00:00+00:00",
    "end": "2026-09-26T08:00:00+00:00",
    "time_estimated": false,
-   "address": "4447 Southwest 75th Avenue, Miami, FL 33155, USA",
+   "address": "",
    "ages": "18+",
    "price": "$15",
    "genres": [
     "darkwave",
     "hard techno",
     "idm",
-    "industrial",
     "midtempo",
     "schranz",
     "trance"
    ],
    "genres_inferred": false,
-   "organizer": "The Boombox Miami",
-   "description": "COUNTERCULTURE Miami presents... 🩸NEW BLOOD: TRANSFUSION🩸 🩸BLOOD RAVE🩸 2 STAGES 9.25.26 10 PM - 4 AM THIS IS AN 18+ EVENT Physical ID’s only, Photo ID’s will not be accepted RSVP prioritizes entry, but does not guarantee it Rain or Shine Genres: Hard | Dark | Acid | Industrial Techno Hard | Dark Wave Trance IDM Midtempo Schranz",
+   "organizer": "",
+   "description": "",
    "url": "https://shotgun.live/en/events/new-blood-transfusion",
-   "tickets": "Early Bird $15 (sold out), T1 $20 (sold out)",
-   "cancelled": false,
-   "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 25.7287781,
-    "longitude": -80.3169309
-   },
-   "created": "2026-08-31T20:06:00.000Z",
    "alt_urls": [
-    "https://shotgun.live/en/events/new-blood-transfusion",
     "https://edmtrain.com/miami-fl/new-blood-transfusion-533680"
    ]
   },
   {
    "id": "tablelist:dddbca1ca2013358",
-   "source": "tablelist+venue",
+   "source": "tablelist",
    "title": "Gasolina: Reggaetón Party",
    "artists": [],
    "venue": "ZeyZey Miami",
@@ -651,16 +583,11 @@
    "address": "",
    "ages": "",
    "price": "",
-   "genres": [
-    "latin"
-   ],
+   "genres": [],
    "genres_inferred": false,
    "organizer": "",
    "description": "",
-   "url": "https://buy.tablelist.com/e/dddbca1ca2013358",
-   "alt_urls": [
-    "https://calendar.zeyzeymiami.com/shows/gasolina-reggaeton-party-25-sep"
-   ]
+   "url": "https://buy.tablelist.com/e/dddbca1ca2013358"
   },
   {
    "id": "dice:6a591b4c493a000001fac474",
@@ -1407,7 +1334,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "",
-   "price": "$24.99",
+   "price": "",
    "genres": [],
    "genres_inferred": false,
    "organizer": "",
@@ -2453,7 +2380,7 @@
    "time_estimated": false,
    "address": "",
    "ages": "",
-   "price": "$10.00",
+   "price": "$12.00",
    "genres": [
     "rock"
    ],
@@ -4181,26 +4108,6 @@
    "alt_urls": [
     "https://edmtrain.com/miami-fl/reydel-alex-meadows-540055"
    ]
-  },
-  {
-   "id": "shotgun:comedy-show-tomorrowland-6",
-   "source": "shotgun",
-   "title": "Comedy Show @ Tomorrowland",
-   "artists": [],
-   "venue": "Tomorrowland Miami",
-   "venue_slug": null,
-   "date": "2026-10-07",
-   "start": "2026-10-08T01:00:00+00:00",
-   "end": null,
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "$6.00",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/en/events/comedy-show-tomorrowland-6"
   },
   {
    "id": "edmtrain:538160",
@@ -5945,26 +5852,6 @@
    ]
   },
   {
-   "id": "shotgun:comedy-show-tomorrowland-7",
-   "source": "shotgun",
-   "title": "Comedy Show @ Tomorrowland",
-   "artists": [],
-   "venue": "Tomorrowland Miami",
-   "venue_slug": null,
-   "date": "2026-10-14",
-   "start": "2026-10-15T01:00:00+00:00",
-   "end": null,
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "$6.00",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/en/events/comedy-show-tomorrowland-7"
-  },
-  {
    "id": "dice:6a85fa446932660001a56c43",
    "source": "19hz+dice+edmtrain+venue",
    "title": "Satellite: Chasewest B2B Discip, Ragie Ban, Dan Molinari & Stixx",
@@ -7525,26 +7412,6 @@
    "organizer": "",
    "description": "",
    "url": "https://shotgun.live/en/events/folk-punk-night-at-the-beach"
-  },
-  {
-   "id": "shotgun:comedy-show-tomorrowland-8",
-   "source": "shotgun",
-   "title": "Comedy Show @ Tomorrowland",
-   "artists": [],
-   "venue": "Tomorrowland Miami",
-   "venue_slug": null,
-   "date": "2026-10-21",
-   "start": "2026-10-22T01:00:00+00:00",
-   "end": null,
-   "time_estimated": false,
-   "address": "",
-   "ages": "",
-   "price": "$6.00",
-   "genres": [],
-   "genres_inferred": false,
-   "organizer": "",
-   "description": "",
-   "url": "https://shotgun.live/en/events/comedy-show-tomorrowland-8"
   },
   {
    "id": "edmtrain:537182",
@@ -13660,6 +13527,32 @@
    "description": "",
    "url": "https://calendar.zeyzeymiami.com/shows/shintaro-sakamoto-06-dec",
    "cancelled": false
+  },
+  {
+   "id": "edmtrain:540242",
+   "source": "edmtrain",
+   "title": "Elrow",
+   "artists": [],
+   "venue": "Factory Town",
+   "venue_slug": "factory-town",
+   "date": "2026-12-06",
+   "start": "2026-12-07T02:00:00+00:00",
+   "end": "2026-12-07T10:00:00+00:00",
+   "time_estimated": true,
+   "address": "4800 NW 37th Ave, Miami, FL 33142, USA",
+   "ages": "",
+   "price": "",
+   "genres": [
+    "house",
+    "techno"
+   ],
+   "genres_inferred": true,
+   "organizer": "",
+   "description": "",
+   "url": "https://ra.co/events/2100903",
+   "alt_urls": [
+    "https://edmtrain.com/miami-fl/elrow-540242"
+   ]
   },
   {
    "id": "dice:6ab448eab6c65c00012abd8a",

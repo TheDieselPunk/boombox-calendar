@@ -8,19 +8,18 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:dice-6a3f12f64ed8b10001b2bca7@factory-town.miami-calendars
-DTSTAMP:20260922T004038Z
-LAST-MODIFIED:20260922T004038Z
-SEQUENCE:2
+UID:19hz-4443928-elibrownpanicatt@factory-town.miami-calendars
+DTSTAMP:20260926T101815Z
+LAST-MODIFIED:20260926T101815Z
+SEQUENCE:0
 DTSTART:20260926T020000Z
 DTEND:20260926T090000Z
-SUMMARY:Eli Brown
-LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
+SUMMARY:Eli Brown Panic Attack Tour
+LOCATION:Factory Town
 DESCRIPTION:Lineup: Eli Brown\, Massano\, Marie Vaunt\, Daizy\nTags: house
- \, techno\nAges: 18+\nhttps://dice.fm/event/6a3f12f64ed8b10001b2bca7\nhttp
- s://edmtrain.com/miami-fl/eli-brown-massano-527883\nhttps://fcty.tw/elibro
- wn
-URL:https://dice.fm/event/6a3f12f64ed8b10001b2bca7
+ \, techno\nAges: 18+\nhttps://fcty.tw/elibrown\nhttps://edmtrain.com/miami
+ -fl/eli-brown-massano-527883
+URL:https://fcty.tw/elibrown
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT
@@ -171,6 +170,22 @@ DESCRIPTION:Lineup: Aline Umber\, Beltran\, Carlita\, Chloé Caillet\, Dixo
   Troxler\nTags (guess): house\, techno\nhttps://dice.fm/event/6aa82e05fcb1
  030001a9cd65\nhttps://edmtrain.com/miami-fl/circoloco-miami-536726
 URL:https://dice.fm/event/6aa82e05fcb1030001a9cd65
+STATUS:CONFIRMED
+CATEGORIES:house,techno
+END:VEVENT
+BEGIN:VEVENT
+UID:edmtrain-540242@factory-town.miami-calendars
+DTSTAMP:20260926T101815Z
+LAST-MODIFIED:20260926T101815Z
+SEQUENCE:0
+DTSTART:20261207T020000Z
+DTEND:20261207T100000Z
+SUMMARY:Elrow
+LOCATION:Factory Town\, 4800 NW 37th Ave\, Miami\, FL 33142\, USA
+DESCRIPTION:Tags (guess): house\, techno\nTimes are an estimate from Factor
+ y Town's usual hours - the listing has no start time yet. Check the link.
+ \nhttps://ra.co/events/2100903\nhttps://edmtrain.com/miami-fl/elrow-540242
+URL:https://ra.co/events/2100903
 STATUS:CONFIRMED
 CATEGORIES:house,techno
 END:VEVENT

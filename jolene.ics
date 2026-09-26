@@ -8,15 +8,14 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:dice-69ea11f11065f800016615b6@jolene.miami-calendars
-DTSTAMP:20260922T004154Z
-LAST-MODIFIED:20260922T004154Z
-SEQUENCE:2
+UID:19hz-4443928-yoyakusatoshitom@jolene.miami-calendars
+DTSTAMP:20260926T101815Z
+LAST-MODIFIED:20260926T101815Z
+SEQUENCE:0
 DTSTART:20260926T020000Z
 DTEND:20260926T080000Z
-SUMMARY:Yoyaku: Satoshi Tomiie
-LOCATION:Jolene Sound Room Miami\, 200 East Flagler Street\, Miami\, Florid
- a 33131\, United States
+SUMMARY:Yoyaku: Satoshi Tomiie\, Mari.Te
+LOCATION:Jolene Downtown
 DESCRIPTION:Lineup: Satoshi Tomiie\, Mari.te\, Lis Sarroca\nTags: deep hous
  e\, techno\nAges: 21+\nhttps://dice.fm/event/927gy9-yoyaku-satoshi-tomiie-
  25th-sep-jolene-sound-room-miami-miami-tickets\nhttps://edmtrain.com/miami

@@ -22,33 +22,29 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:tablelist-1e61d5b845e3d418@zeyzey.miami-calendars
-DTSTAMP:20260925T041815Z
-LAST-MODIFIED:20260925T041815Z
-SEQUENCE:0
+DTSTAMP:20260926T101815Z
+LAST-MODIFIED:20260926T101815Z
+SEQUENCE:1
 DTSTART:20260926T010000Z
 DTEND:20260926T050000Z
 SUMMARY:Yasser Tejeda
 LOCATION:ZeyZey Miami
-DESCRIPTION:Tags: latin\nhttps://buy.tablelist.com/e/1e61d5b845e3d418\nhttp
- s://calendar.zeyzeymiami.com/shows/yasser-tejeda-free-entry-25-sep
+DESCRIPTION:https://buy.tablelist.com/e/1e61d5b845e3d418
 URL:https://buy.tablelist.com/e/1e61d5b845e3d418
 STATUS:CONFIRMED
-CATEGORIES:latin
 END:VEVENT
 BEGIN:VEVENT
 UID:tablelist-dddbca1ca2013358@zeyzey.miami-calendars
-DTSTAMP:20260925T041815Z
-LAST-MODIFIED:20260925T041815Z
-SEQUENCE:0
+DTSTAMP:20260926T101815Z
+LAST-MODIFIED:20260926T101815Z
+SEQUENCE:1
 DTSTART:20260926T020000Z
 DTEND:20260926T060000Z
 SUMMARY:Gasolina: Reggaetón Party
 LOCATION:ZeyZey Miami
-DESCRIPTION:Tags: latin\nhttps://buy.tablelist.com/e/dddbca1ca2013358\nhttp
- s://calendar.zeyzeymiami.com/shows/gasolina-reggaeton-party-25-sep
+DESCRIPTION:https://buy.tablelist.com/e/dddbca1ca2013358
 URL:https://buy.tablelist.com/e/dddbca1ca2013358
 STATUS:CONFIRMED
-CATEGORIES:latin
 END:VEVENT
 BEGIN:VEVENT
 UID:tablelist-05c68f7fbdffbe06@zeyzey.miami-calendars

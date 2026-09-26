@@ -58,8 +58,8 @@
   "slug": "factory-town",
   "name": "Factory Town",
   "file": "factory-town.ics",
-  "events": 10,
-  "estimated_times": 0,
+  "events": 11,
+  "estimated_times": 1,
   "next": "2026-09-25",
   "sources": [
    "19hz",

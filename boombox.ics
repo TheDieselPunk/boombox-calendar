@@ -8,29 +8,20 @@ X-WR-TIMEZONE:America/New_York
 X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:new-blood-transfusion@shotgun.live
-DTSTAMP:20260926T041822Z
-LAST-MODIFIED:20260926T041822Z
-SEQUENCE:5
+UID:19hz-4443928-newbloodtransfus@boombox.miami-calendars
+DTSTAMP:20260926T101815Z
+LAST-MODIFIED:20260926T101815Z
+SEQUENCE:0
 DTSTART:20260926T020000Z
 DTEND:20260926T080000Z
-SUMMARY:New Blood · Transfusion
-LOCATION:The Boombox Miami\, 4447 Southwest 75th Avenue\, Miami\, FL 33155
- \, USA
-DESCRIPTION:COUNTERCULTURE Miami presents... 🩸NEW BLOOD: TRANSFUSION🩸
-  🩸BLOOD RAVE🩸 2 STAGES 9.25.26 10 PM - 4 AM THIS IS AN 18+ EVENT Phy
- sical ID’s only\, Photo ID’s will not be accepted RSVP prioritizes ent
- ry\, but does not guarantee it Rain or Shine Genres: Hard | Dark | Acid | 
- Industrial Techno Hard | Dark Wave Trance IDM Midtempo Schranz\nLineup: Te
- rminal Velocity\, HUNTER STEEL\, BL∆CKM∆TTR\, Natchii!\, chelz\, CH1CH
- 1\, VERMIS\nTags: darkwave\, hard techno\, idm\, industrial\, midtempo\, s
- chranz\, trance\nTickets: Early Bird $15 (sold out)\, T1 $20 (sold out)\nA
- ges: 18+\nhttps://shotgun.live/en/events/new-blood-transfusion\nhttps://ed
- mtrain.com/miami-fl/new-blood-transfusion-533680
+SUMMARY:New Blood + Transfusion
+LOCATION:The Boombox
+DESCRIPTION:Tags: darkwave\, hard techno\, idm\, midtempo\, schranz\, tranc
+ e\nAges: 18+\nhttps://shotgun.live/en/events/new-blood-transfusion\nhttps:
+ //edmtrain.com/miami-fl/new-blood-transfusion-533680
 URL:https://shotgun.live/en/events/new-blood-transfusion
 STATUS:CONFIRMED
-CATEGORIES:darkwave,hard techno,idm,industrial,midtempo,schranz,trance
-GEO:25.7287781;-80.3169309
+CATEGORIES:darkwave,hard techno,idm,midtempo,schranz,trance
 END:VEVENT
 BEGIN:VEVENT
 UID:gothstarmiami@shotgun.live
