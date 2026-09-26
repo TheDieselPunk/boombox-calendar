@@ -3,7 +3,7 @@
   "slug": "club-space",
   "name": "Club Space",
   "file": "club-space.ics",
-  "events": 24,
+  "events": 25,
   "estimated_times": 0,
   "next": "2026-09-25",
   "sources": [
@@ -17,9 +17,9 @@
   "slug": "the-ground",
   "name": "The Ground at Space",
   "file": "the-ground.ics",
-  "events": 17,
-  "estimated_times": 1,
-  "next": "2026-09-25",
+  "events": 16,
+  "estimated_times": 0,
+  "next": "2026-10-02",
   "sources": [
    "19hz",
    "dice",
@@ -73,7 +73,7 @@
   "name": "Kemistry (Fort Lauderdale)",
   "file": "kemistry.ics",
   "events": 28,
-  "estimated_times": 2,
+  "estimated_times": 1,
   "next": "2026-09-25",
   "sources": [
    "19hz",

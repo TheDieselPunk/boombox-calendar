@@ -9,16 +9,15 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:19hz-4443928-newbloodtransfus@boombox.miami-calendars
-DTSTAMP:20260926T101815Z
-LAST-MODIFIED:20260926T101815Z
-SEQUENCE:0
+DTSTAMP:20260926T161813Z
+LAST-MODIFIED:20260926T161813Z
+SEQUENCE:1
 DTSTART:20260926T020000Z
 DTEND:20260926T080000Z
 SUMMARY:New Blood + Transfusion
 LOCATION:The Boombox
 DESCRIPTION:Tags: darkwave\, hard techno\, idm\, midtempo\, schranz\, tranc
- e\nAges: 18+\nhttps://shotgun.live/en/events/new-blood-transfusion\nhttps:
- //edmtrain.com/miami-fl/new-blood-transfusion-533680
+ e\nAges: 18+\nhttps://shotgun.live/en/events/new-blood-transfusion
 URL:https://shotgun.live/en/events/new-blood-transfusion
 STATUS:CONFIRMED
 CATEGORIES:darkwave,hard techno,idm,midtempo,schranz,trance

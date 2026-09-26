@@ -9,17 +9,15 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:19hz-4443931-shonkyjenniferlo@floyd.miami-calendars
-DTSTAMP:20260926T041822Z
-LAST-MODIFIED:20260926T041822Z
-SEQUENCE:0
+DTSTAMP:20260926T161813Z
+LAST-MODIFIED:20260926T161813Z
+SEQUENCE:1
 DTSTART:20260926T030000Z
 DTEND:20260926T090000Z
 SUMMARY:Shonky\, Jennifer Loveless
 LOCATION:Floyd Miami
-DESCRIPTION:Lineup: Shonky\, Jennifer Loveless\, Bort\, Gio Elia\nTags: tec
- h house\nAges: 21+\nhttps://dice.fm/event/yod8px-shonky-jennifer-loveless-
- 25th-sep-floyd-miami-miami-tickets\nhttps://edmtrain.com/miami-fl/shonky-j
- ennifer-loveless-523290
+DESCRIPTION:Tags: tech house\nAges: 21+\nhttps://dice.fm/event/yod8px-shonk
+ y-jennifer-loveless-25th-sep-floyd-miami-miami-tickets
 URL:https://dice.fm/event/yod8px-shonky-jennifer-loveless-25th-sep-floyd-mi
  ami-miami-tickets
 STATUS:CONFIRMED

@@ -9,16 +9,14 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:19hz-4443928-elibrownpanicatt@factory-town.miami-calendars
-DTSTAMP:20260926T101815Z
-LAST-MODIFIED:20260926T101815Z
-SEQUENCE:0
+DTSTAMP:20260926T161813Z
+LAST-MODIFIED:20260926T161813Z
+SEQUENCE:1
 DTSTART:20260926T020000Z
 DTEND:20260926T090000Z
 SUMMARY:Eli Brown Panic Attack Tour
 LOCATION:Factory Town
-DESCRIPTION:Lineup: Eli Brown\, Massano\, Marie Vaunt\, Daizy\nTags: house
- \, techno\nAges: 18+\nhttps://fcty.tw/elibrown\nhttps://edmtrain.com/miami
- -fl/eli-brown-massano-527883
+DESCRIPTION:Tags: house\, techno\nAges: 18+\nhttps://fcty.tw/elibrown
 URL:https://fcty.tw/elibrown
 STATUS:CONFIRMED
 CATEGORIES:house,techno

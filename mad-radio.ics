@@ -9,16 +9,15 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:19hz-4443924-maryzanderthomas@mad-radio.miami-calendars
-DTSTAMP:20260926T101815Z
-LAST-MODIFIED:20260926T101815Z
-SEQUENCE:0
+DTSTAMP:20260926T161813Z
+LAST-MODIFIED:20260926T161813Z
+SEQUENCE:1
 DTSTART:20260926T010000Z
 DTEND:20260926T070000Z
 SUMMARY:Mary Zander / Thomas Sahs / Israel Sunshine
 LOCATION:Mad Radio
-DESCRIPTION:Lineup: Israel Sunshine\nTags: deep house\, progressive house\,
-  tech house\nAges: 21+\nhttps://shotgun.live/en/events/madradiomiami092526
- \nhttps://edmtrain.com/miami-fl/israel-sunshine-538221
+DESCRIPTION:Tags: deep house\, progressive house\, tech house\nAges: 21+\nh
+ ttps://shotgun.live/en/events/madradiomiami092526
 URL:https://shotgun.live/en/events/madradiomiami092526
 STATUS:CONFIRMED
 CATEGORIES:deep house,progressive house,tech house
@@ -237,9 +236,9 @@ GEO:25.8462027;-80.1851332
 END:VEVENT
 BEGIN:VEVENT
 UID:madradiomiami101026@shotgun.live
-DTSTAMP:20260926T101815Z
-LAST-MODIFIED:20260926T101815Z
-SEQUENCE:10
+DTSTAMP:20260926T161813Z
+LAST-MODIFIED:20260926T161813Z
+SEQUENCE:12
 DTSTART:20261011T010000Z
 DTEND:20261011T070000Z
 SUMMARY:III Points Satelitte: Tian / Israel Sunshine / Pino / Puma
